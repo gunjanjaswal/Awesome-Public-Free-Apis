@@ -17,6 +17,10 @@ on:
         required: false
         default: 'false'
 
+# Add permissions to allow GitHub Actions to push changes
+permissions:
+  contents: write
+
 jobs:
   discover-apis:
     runs-on: ubuntu-latest

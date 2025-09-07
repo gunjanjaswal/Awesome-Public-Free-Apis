@@ -10,6 +10,11 @@ on:
   # Allow manual triggering
   workflow_dispatch:
 
+# Add permissions to allow GitHub Actions to push changes
+permissions:
+  contents: write
+  issues: write
+
 jobs:
   process-issues:
     runs-on: ubuntu-latest

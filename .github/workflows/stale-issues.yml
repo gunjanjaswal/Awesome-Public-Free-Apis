@@ -5,6 +5,10 @@ on:
     - cron: '30 1 * * *'  # Run daily at 1:30 UTC
   workflow_dispatch:  # Allow manual triggering
 
+# Add permissions to allow GitHub Actions to manage issues
+permissions:
+  issues: write
+
 jobs:
   stale:
     runs-on: ubuntu-latest
