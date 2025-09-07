@@ -2,10 +2,20 @@ name: Discover Trending APIs
 
 on:
   schedule:
-    # Run monthly on the 1st at 00:30 UTC (6:00 AM IST on the 1st of each month)
+    # Run weekly on Monday at 00:30 UTC for regular API discovery
+    - cron: '30 0 * * 1'
+    # Run monthly on the 1st at 00:30 UTC for comprehensive API discovery
     - cron: '30 0 1 * *'
+  # Run on repository creation and updates to main branch
+  push:
+    branches: [ main, master ]
   workflow_dispatch:
-    # Allow manual triggering
+    # Allow manual triggering with options
+    inputs:
+      comprehensive:
+        description: 'Run comprehensive discovery (all sources)'
+        required: false
+        default: 'false'
 
 jobs:
   discover-apis:
@@ -23,10 +33,33 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4 feedparser
+          pip install requests beautifulsoup4 feedparser markdown argparse python-dateutil lxml
           
-      - name: Run API discovery script
-        run: python scripts/discover_trending_apis.py
+      - name: Determine run type
+        id: run-type
+        run: |
+          if [[ "${{ github.event_name }}" == "schedule" && "${{ github.event.schedule }}" == "30 0 1 * *" ]]; then
+            echo "mode=comprehensive" >> $GITHUB_OUTPUT
+          elif [[ "${{ github.event_name }}" == "workflow_dispatch" && "${{ github.event.inputs.comprehensive }}" == "true" ]]; then
+            echo "mode=comprehensive" >> $GITHUB_OUTPUT
+          elif [[ "${{ github.event_name }}" == "push" ]]; then
+            # Run comprehensive discovery on push to populate all categories quickly
+            echo "mode=comprehensive" >> $GITHUB_OUTPUT
+          else
+            echo "mode=regular" >> $GITHUB_OUTPUT
+          fi
+          
+      - name: Run API discovery script (Regular)
+        if: steps.run-type.outputs.mode == 'regular'
+        run: |
+          echo "Running regular API discovery (weekly sources)"
+          python scripts/discover_trending_apis.py --mode=regular
+          
+      - name: Run API discovery script (Comprehensive)
+        if: steps.run-type.outputs.mode == 'comprehensive'
+        run: |
+          echo "Running comprehensive API discovery (all sources)"
+          python scripts/discover_trending_apis.py --mode=comprehensive
         
       - name: Check for changes
         id: git-check
