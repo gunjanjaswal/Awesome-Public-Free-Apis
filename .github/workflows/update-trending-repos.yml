@@ -4,6 +4,8 @@ on:
   schedule:
     # Run daily at 01:00 UTC (6:30 AM IST)
     - cron: '0 1 * * *'
+  push:
+    branches: [ main, master ]
   workflow_dispatch:
     # Allow manual triggering
 
@@ -36,8 +38,8 @@ jobs:
       - name: Commit and push if changed
         if: steps.git-check.outputs.changes == 'true'
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "gunjanjaswal@gmail.com"
+          git config --local user.name "Gunjan Jaswaal"
           git add -A
           git commit -m "Update trending repositories [skip ci]"
           git push

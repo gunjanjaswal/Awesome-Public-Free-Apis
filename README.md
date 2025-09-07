@@ -12,7 +12,7 @@
 
 The ultimate, self-updating collection of **free public REST APIs** for developers to integrate into web applications, mobile apps, and software projects. Automatically discovers and tracks the most popular and reliable free APIs across 40+ categories.
 
-[Browse APIs by Category](#-api-categories---find-the-perfect-api-for-your-project) • [How to Contribute](#-how-to-contribute-to-this-api-collection) • [Automation Details](#-how-our-automated-api-tracking-works) • [License](#-license)
+[Browse APIs by Category](#-api-categories---find-the-perfect-api-for-your-project) • [Trending GitHub Repositories](#-trending-github-repositories) • [How to Contribute](#-how-to-contribute-to-this-api-collection) • [Automation Details](#-how-our-automated-api-tracking-works) • [License](#-license)
 
 </div>
 
@@ -227,6 +227,25 @@ APIs for weather data and forecasts.
 | [WeatherAPI](https://www.weatherapi.com/) | Weather API with forecasts, history, and more | apiKey | Yes | Yes |
 | [Tomorrow.io](https://www.tomorrow.io/weather-api/) | Weather API powered by proprietary technology | apiKey | Yes | Yes |
 
+## 🔥 Trending GitHub Repositories
+
+This section is automatically updated daily with trending API-related repositories from GitHub. Discover what the community is building and using right now!
+
+| Repository | Description | Stars | Language |
+| --- | --- | --- | --- |
+| [facebookresearch/llama](https://github.com/facebookresearch/llama) | Inference code for LLaMA models with comprehensive API access | 47.2k | Python |
+| [Kong/insomnia](https://github.com/Kong/insomnia) | The open-source, cross-platform API client for GraphQL, REST, and gRPC | 31.5k | JavaScript |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs for use in software and web development | 269k | Python |
+| [postmanlabs/postman-app-support](https://github.com/postmanlabs/postman-app-support) | API development environment and testing platform | 4.8k | N/A |
+| [swagger-api/swagger-ui](https://github.com/swagger-api/swagger-ui) | API documentation and exploration UI based on OpenAPI | 24.6k | JavaScript |
+| [fastapi/fastapi](https://github.com/tiangolo/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 68.3k | Python |
+| [axios/axios](https://github.com/axios/axios) | Promise based HTTP client for the browser and node.js | 102k | JavaScript |
+| [graphql/graphql-js](https://github.com/graphql/graphql-js) | A reference implementation of GraphQL for JavaScript | 19.8k | TypeScript |
+| [go-resty/resty](https://github.com/go-resty/resty) | Simple HTTP and REST client library for Go | 8.5k | Go |
+| [microsoft/restler-fuzzer](https://github.com/microsoft/restler-fuzzer) | RESTler is the first stateful REST API fuzzing tool for automatically testing cloud services | 2.3k | C# |
+
+_Last updated: September 7, 2025_
+
 ## 🤝 How to Contribute to This API Collection
 
 This project thrives on community contributions! Whether you've discovered a new API or noticed changes in an existing one, your input helps keep this resource valuable for developers worldwide.
@@ -267,26 +286,6 @@ This automation ensures you always have access to the most current and reliable 
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
-
-
-## 🔥 Trending GitHub Repositories
-
-This section is automatically updated daily with trending API-related repositories from GitHub. Discover what the community is building and using right now!
-
-| Repository | Description | Stars | Language |
-| --- | --- | --- | --- |
-| [facebookresearch/llama](https://github.com/facebookresearch/llama) | Inference code for LLaMA models with comprehensive API access | 47.2k | Python |
-| [Kong/insomnia](https://github.com/Kong/insomnia) | The open-source, cross-platform API client for GraphQL, REST, and gRPC | 31.5k | JavaScript |
-| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs for use in software and web development | 269k | Python |
-| [postmanlabs/postman-app-support](https://github.com/postmanlabs/postman-app-support) | API development environment and testing platform | 4.8k | N/A |
-| [swagger-api/swagger-ui](https://github.com/swagger-api/swagger-ui) | API documentation and exploration UI based on OpenAPI | 24.6k | JavaScript |
-| [fastapi/fastapi](https://github.com/tiangolo/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 68.3k | Python |
-| [axios/axios](https://github.com/axios/axios) | Promise based HTTP client for the browser and node.js | 102k | JavaScript |
-| [graphql/graphql-js](https://github.com/graphql/graphql-js) | A reference implementation of GraphQL for JavaScript | 19.8k | TypeScript |
-| [go-resty/resty](https://github.com/go-resty/resty) | Simple HTTP and REST client library for Go | 8.5k | Go |
-| [microsoft/restler-fuzzer](https://github.com/microsoft/restler-fuzzer) | RESTler is the first stateful REST API fuzzing tool for automatically testing cloud services | 2.3k | C# |
-
-_Last updated: September 7, 2025_
 
 ## 🙏 Acknowledgments
 
