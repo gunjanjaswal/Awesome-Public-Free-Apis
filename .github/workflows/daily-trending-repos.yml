@@ -1,4 +1,4 @@
-name: Daily Trending Repos Update
+name: Daily Trending Repositories Update
 
 on:
   schedule:
@@ -27,19 +27,27 @@ jobs:
           cat > scripts/update_trending_repos.py << 'EOL'
           #!/usr/bin/env python3
           """
-          Script to update the trending API repositories section in the README.md file.
+          Script to update both trending repositories sections in the README.md file.
           """
           
           import re
           import requests
           from bs4 import BeautifulSoup
           
-          def get_trending_repos():
-              """Get trending API repositories from GitHub."""
+          def get_trending_repos(topic=None):
+              """Get trending repositories from GitHub.
+              
+              Args:
+                  topic: Optional topic to filter repositories by
+              """
               trending_repos = []
               try:
-                  # Get trending repositories with "api" topic
-                  url = "https://github.com/topics/api?o=desc&s=stars"
+                  # Set URL based on topic
+                  if topic:
+                      url = f"https://github.com/topics/{topic}?o=desc&s=stars"
+                  else:
+                      url = "https://github.com/trending?since=daily"
+                  
                   headers = {
                       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
                   }
@@ -47,17 +55,33 @@ jobs:
                   
                   if response.status_code == 200:
                       soup = BeautifulSoup(response.text, "html.parser")
-                      repo_items = soup.select("article.border")
                       
-                      for item in repo_items[:5]:  # Get top 5 repos
-                          name_elem = item.select_one("h3 a:last-child")
-                          desc_elem = item.select_one("div.px-3 > p")
-                          stars_elem = item.select_one("a.social-count")
-                          lang_elem = item.select_one("span[itemprop='programmingLanguage']")
+                      # Different selectors based on URL
+                      if topic:
+                          repo_items = soup.select("article.border")
+                      else:
+                          repo_items = soup.select(".Box-row")
+                      
+                      for item in repo_items[:7]:  # Get top 7 repos
+                          if topic:
+                              name_elem = item.select_one("h3 a:last-child")
+                              desc_elem = item.select_one("div.px-3 > p")
+                              stars_elem = item.select_one("a.social-count")
+                              lang_elem = item.select_one("span[itemprop='programmingLanguage']")
+                          else:
+                              name_elem = item.select_one("h2 a")
+                              desc_elem = item.select_one("p")
+                              stars_elem = item.select_one("a[href*='stargazers']")
+                              lang_elem = item.select_one("span[itemprop='programmingLanguage']")
                           
                           if name_elem and desc_elem:
-                              full_name = name_elem.text.strip()
-                              repo_url = "https://github.com" + name_elem["href"]
+                              if topic:
+                                  full_name = name_elem.text.strip()
+                                  repo_url = "https://github.com" + name_elem["href"]
+                              else:
+                                  full_name = name_elem.text.strip().replace("\n", "").replace(" ", "")
+                                  repo_url = "https://github.com" + name_elem["href"]
+                              
                               description = desc_elem.text.strip()
                               stars = stars_elem.text.strip() if stars_elem else "N/A"
                               language = lang_elem.text.strip() if lang_elem else "N/A"
@@ -75,20 +99,26 @@ jobs:
               
               return trending_repos
           
-          def update_readme_trending_section(trending_repos):
-              """Update the trending repositories section in the README."""
+          def update_readme_trending_section(trending_repos, section_title, emoji):
+              """Update a trending repositories section in the README.
+              
+              Args:
+                  trending_repos: List of trending repositories
+                  section_title: Title of the section to update
+                  emoji: Emoji to use in the section title
+              """
               try:
                   with open("README.md", "r", encoding="utf-8") as f:
                       content = f.read()
                   
                   # Find the trending repos section
-                  trending_section_pattern = r"## 🔥 Trending API Repositories\n\n.*?\n\n## "
+                  trending_section_pattern = f"## {emoji} {section_title}\\n\\n.*?\\n\\n## "
                   trending_section_match = re.search(trending_section_pattern, content, re.DOTALL)
                   
                   if trending_section_match:
                       # Create new trending section content
-                      new_section = "## 🔥 Trending API Repositories\n\n"
-                      new_section += "These are the most popular API repositories on GitHub right now:\n\n"
+                      new_section = f"## {emoji} {section_title}\n\n"
+                      new_section += f"These are the most popular {section_title.lower()} on GitHub right now:\n\n"
                       new_section += "| Repository | Description | Stars | Language |\n"
                       new_section += "| --- | --- | --- | --- |\n"
                       
@@ -103,23 +133,32 @@ jobs:
                       with open("README.md", "w", encoding="utf-8") as f:
                           f.write(updated_content)
                       
-                      print("Updated trending repositories section in README.md")
+                      print(f"Updated {section_title} section in README.md")
                   else:
-                      print("Could not find trending repositories section in README.md")
+                      print(f"Could not find {section_title} section in README.md")
               
               except Exception as e:
                   print(f"Error updating README: {e}")
           
           def main():
               """Main function to update trending repositories."""
-              print("Fetching trending API repositories...")
+              # Update general trending repositories
+              print("Fetching trending GitHub repositories...")
               trending_repos = get_trending_repos()
-              
               if trending_repos:
                   print(f"Found {len(trending_repos)} trending repositories")
-                  update_readme_trending_section(trending_repos)
+                  update_readme_trending_section(trending_repos, "Trending GitHub Repositories", "🔥")
               else:
                   print("No trending repositories found")
+              
+              # Update API trending repositories
+              print("Fetching trending GitHub API repositories...")
+              trending_api_repos = get_trending_repos("api")
+              if trending_api_repos:
+                  print(f"Found {len(trending_api_repos)} trending API repositories")
+                  update_readme_trending_section(trending_api_repos, "Trending GitHub API Repositories", "📈")
+              else:
+                  print("No trending API repositories found")
           
           if __name__ == "__main__":
               main()

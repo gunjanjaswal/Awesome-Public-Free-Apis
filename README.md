@@ -12,7 +12,7 @@
 
 The ultimate, self-updating collection of **free public REST APIs** for developers to integrate into web applications, mobile apps, and software projects. Automatically discovers and tracks the most popular and reliable free APIs across 40+ categories.
 
-[Browse APIs by Category](#-api-categories---find-the-perfect-api-for-your-project) • [Trending GitHub Repositories](#-trending-github-repositories) • [How to Contribute](#-how-to-contribute-to-this-api-collection) • [Automation Details](#-how-our-automated-api-tracking-works) • [License](#-license)
+[Browse APIs by Category](#-api-categories---find-the-perfect-api-for-your-project) • [Trending GitHub Repositories](#-trending-github-repositories) • [Trending GitHub API Repositories](#-trending-github-api-repositories) • [How to Contribute](#-how-to-contribute-to-this-api-collection) • [Automation Details](#-how-our-automated-api-tracking-works) • [License](#-license)
 
 </div>
 
@@ -176,6 +176,18 @@ APIs for social media and social networking
 
 ## 🔥 Trending GitHub Repositories
 
+These are the most popular repositories on GitHub right now:
+
+| Repository | Description | Stars | Language |
+| --- | --- | --- | --- |
+| [microsoft/vscode](https://github.com/microsoft/vscode) | Visual Studio Code | 150k+ | TypeScript |
+| [facebook/react](https://github.com/facebook/react) | A declarative, efficient, and flexible JavaScript library for building user interfaces | 200k+ | JavaScript |
+| [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | An open source machine learning framework | 175k+ | C++ |
+| [flutter/flutter](https://github.com/flutter/flutter) | Google's UI toolkit for building natively compiled applications | 150k+ | Dart |
+| [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | Production-Grade Container Orchestration | 100k+ | Go |
+
+## 📈 Trending GitHub API Repositories
+
 These are the most popular API repositories on GitHub right now:
 
 | Repository | Description | Stars | Language |
@@ -211,7 +223,7 @@ Automated Processes:
 - **Data Enrichment**: For each API, we automatically collect and verify information about authentication methods, HTTPS support, and CORS compatibility
 - **Trend Analysis**: APIs are ranked by popularity based on usage metrics and community adoption
 
-This automation ensures you always have access to the most current and reliable free API information for your development projects. Each category is guaranteed to have at least 10 high-quality APIs, with a maximum of 15 APIs per category to maintain quality and relevance.
+This automation ensures you always have access to the most current and reliable free API information for your development projects. Each category includes only high-quality, verified APIs without any artificial limits on the number of APIs per category.
 
 ## 📜 License
 
