@@ -1,0 +1,138 @@
+name: Daily Trending Repos Update
+
+on:
+  schedule:
+    - cron: '0 1 * * *'  # Run daily at 01:00 UTC
+  workflow_dispatch:      # Allow manual triggering
+
+jobs:
+  update-trending-repos:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+          
+      - name: Create trending repos script
+        run: |
+          cat > scripts/update_trending_repos.py << 'EOL'
+          #!/usr/bin/env python3
+          """
+          Script to update the trending API repositories section in the README.md file.
+          """
+          
+          import re
+          import requests
+          from bs4 import BeautifulSoup
+          
+          def get_trending_repos():
+              """Get trending API repositories from GitHub."""
+              trending_repos = []
+              try:
+                  # Get trending repositories with "api" topic
+                  url = "https://github.com/topics/api?o=desc&s=stars"
+                  headers = {
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+                  }
+                  response = requests.get(url, headers=headers, timeout=10)
+                  
+                  if response.status_code == 200:
+                      soup = BeautifulSoup(response.text, "html.parser")
+                      repo_items = soup.select("article.border")
+                      
+                      for item in repo_items[:5]:  # Get top 5 repos
+                          name_elem = item.select_one("h3 a:last-child")
+                          desc_elem = item.select_one("div.px-3 > p")
+                          stars_elem = item.select_one("a.social-count")
+                          lang_elem = item.select_one("span[itemprop='programmingLanguage']")
+                          
+                          if name_elem and desc_elem:
+                              full_name = name_elem.text.strip()
+                              repo_url = "https://github.com" + name_elem["href"]
+                              description = desc_elem.text.strip()
+                              stars = stars_elem.text.strip() if stars_elem else "N/A"
+                              language = lang_elem.text.strip() if lang_elem else "N/A"
+                              
+                              trending_repos.append({
+                                  "name": full_name,
+                                  "url": repo_url,
+                                  "description": description,
+                                  "stars": stars,
+                                  "language": language
+                              })
+                  
+              except Exception as e:
+                  print(f"Error fetching trending repos: {e}")
+              
+              return trending_repos
+          
+          def update_readme_trending_section(trending_repos):
+              """Update the trending repositories section in the README."""
+              try:
+                  with open("README.md", "r", encoding="utf-8") as f:
+                      content = f.read()
+                  
+                  # Find the trending repos section
+                  trending_section_pattern = r"## 🔥 Trending API Repositories\n\n.*?\n\n## "
+                  trending_section_match = re.search(trending_section_pattern, content, re.DOTALL)
+                  
+                  if trending_section_match:
+                      # Create new trending section content
+                      new_section = "## 🔥 Trending API Repositories\n\n"
+                      new_section += "These are the most popular API repositories on GitHub right now:\n\n"
+                      new_section += "| Repository | Description | Stars | Language |\n"
+                      new_section += "| --- | --- | --- | --- |\n"
+                      
+                      for repo in trending_repos:
+                          new_section += f"| [{repo['name']}]({repo['url']}) | {repo['description']} | {repo['stars']} | {repo['language']} |\n"
+                      
+                      new_section += "\n## "
+                      
+                      # Replace the old section with the new one
+                      updated_content = re.sub(trending_section_pattern, new_section, content, flags=re.DOTALL)
+                      
+                      with open("README.md", "w", encoding="utf-8") as f:
+                          f.write(updated_content)
+                      
+                      print("Updated trending repositories section in README.md")
+                  else:
+                      print("Could not find trending repositories section in README.md")
+              
+              except Exception as e:
+                  print(f"Error updating README: {e}")
+          
+          def main():
+              """Main function to update trending repositories."""
+              print("Fetching trending API repositories...")
+              trending_repos = get_trending_repos()
+              
+              if trending_repos:
+                  print(f"Found {len(trending_repos)} trending repositories")
+                  update_readme_trending_section(trending_repos)
+              else:
+                  print("No trending repositories found")
+          
+          if __name__ == "__main__":
+              main()
+          EOL
+          chmod +x scripts/update_trending_repos.py
+          
+      - name: Run trending repos script
+        run: python scripts/update_trending_repos.py
+        
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Daily trending repos update [automated] $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          git push
