@@ -54,21 +54,39 @@ def generate_api_table(apis: List[Dict[str, Any]]) -> str:
     if not apis:
         return "_No APIs in this category yet. They will be automatically added soon!_\n"
     
+    # Create a proper markdown table
     table = "| API | Description | Auth | HTTPS | CORS |\n"
     table += "| --- | --- | --- | --- | --- |\n"
     
     for api in sorted(apis, key=lambda x: x.get('popularity', 0), reverse=True):
-        name = api.get('name', '')
+        # Get API properties with proper escaping and defaults
+        name = api.get('name', '').replace('|', '\\|')
         url = api.get('url', '')
         description = api.get('description', '').replace('|', '\\|')  # Escape pipe characters
-        auth = api.get('auth', 'unknown')
+        
+        # Ensure auth, https, and cors have proper values
+        auth = api.get('auth', '')
+        if not auth or auth == 'unknown':
+            auth = ''
+            
         https = "Yes" if api.get('https', False) else "No"
-        cors = api.get('cors', 'unknown')
+        
+        cors = api.get('cors', '')
+        if cors == 'unknown':
+            cors = ''
         
         # Truncate description if too long
         if len(description) > 100:
             description = description[:97] + '...'
-            
+        
+        # Ensure there are no trailing spaces that could break markdown formatting
+        name = name.strip()
+        description = description.strip()
+        auth = auth.strip()
+        https = https.strip()
+        cors = cors.strip()
+        
+        # Create the table row with proper markdown formatting
         table += f"| [{name}]({url}) | {description} | {auth} | {https} | {cors} |\n"
     
     return table
