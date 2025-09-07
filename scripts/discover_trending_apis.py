@@ -498,52 +498,7 @@ def scrape_apilist_fun() -> List[Dict[str, Any]]:
     return apis
 
 
-def scrape_apis_guru() -> List[Dict[str, Any]]:
-    """Scrape APIs from APIs.guru."""
-    apis = []
-    try:
-        headers = {'User-Agent': get_random_user_agent()}
-        url = 'https://api.apis.guru/v2/list.json'
-        
-        response = requests.get(url, headers=headers, timeout=REQUEST_TIMEOUT)
-        if response.status_code != 200:
-            print(f"Failed to fetch APIs.guru: {response.status_code}")
-            return apis
-            
-        data = response.json()
-        
-        for api_name, api_versions in data.items():
-            try:
-                api_info = api_versions['versions'][list(api_versions['versions'].keys())[0]]
-                
-                name = api_info['info']['title']
-                description = api_info['info'].get('description', '')
-                api_url = api_info['info'].get('contact', {}).get('url', '')
-                
-                # Extract category from tags
-                category = 'Development'
-                if 'tags' in api_info['info'] and api_info['info']['tags']:
-                    category = map_category_name(api_info['info']['tags'][0])
-                
-                apis.append({
-                    'name': name,
-                    'description': description[:200] + '...' if len(description) > 200 else description,
-                    'url': api_url or f"https://apis.guru/#{api_name}",
-                    'category': category,
-                    'auth': 'unknown',
-                    'https': True,
-                    'cors': 'unknown',
-                    'popularity': 70,
-                    'status': 'active',
-                    'last_checked': datetime.datetime.now().isoformat()
-                })
-            except Exception as e:
-                print(f"Error parsing API entry: {e}")
-                
-    except Exception as e:
-        print(f"Error scraping APIs.guru: {e}")
-        
-    return apis
+# The scrape_apis_guru function has been removed as requested
 
 
 def scrape_any_api() -> List[Dict[str, Any]]:
@@ -1157,7 +1112,7 @@ def main():
             except Exception as e:
                 print(f"Error scraping APIList.fun: {e}")
             
-            # APIs.guru scraper has been removed as requested
+            # Additional API sources can be added here if needed
             
             try:
                 # Any-API
