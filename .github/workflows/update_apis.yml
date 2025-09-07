@@ -9,11 +9,17 @@ on:
 jobs:
   update-apis:
     runs-on: ubuntu-latest
+    # Add permission for GitHub token
+    permissions:
+      contents: write
     
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
-      
+      with:
+        # Use the built-in GITHUB_TOKEN for authentication
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
