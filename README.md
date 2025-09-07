@@ -104,11 +104,23 @@ APIs for validating various types of data.
 ### Development
 APIs for software development tools and services.
 
+| API | Description | Auth | HTTPS | CORS |
+| --- | --- | --- | --- | --- |
+| [GitHub](https://docs.github.com/en/rest) | Make use of GitHub's APIs to fetch repository information, user data, and more | OAuth | Yes | Yes |
+| [GitLab](https://docs.gitlab.com/ee/api/) | Access GitLab's API to interact with repositories, issues, and more | OAuth | Yes | Yes |
+| [Stack Exchange](https://api.stackexchange.com/) | Access to Stack Exchange API | OAuth | Yes | Yes |
+
 ### Email
 APIs for email services and functionality.
 
 ### Entertainment
 APIs for entertainment content and services.
+
+| API | Description | Auth | HTTPS | CORS |
+| --- | --- | --- | --- | --- |
+| [TMDB](https://developers.themoviedb.org/3/getting-started/introduction) | The Movie Database API with movie and TV show data | apiKey | Yes | Yes |
+| [Marvel](https://developer.marvel.com/) | Marvel Comics API | apiKey | Yes | Yes |
+| [Spotify](https://developer.spotify.com/documentation/web-api/) | Music search, playlist manipulation, and playback control | OAuth | Yes | Yes |
 
 ### Environment
 APIs for environmental data and services.
@@ -137,6 +149,12 @@ APIs for job listings and employment data.
 ### Machine Learning
 APIs for machine learning and AI services.
 
+| API | Description | Auth | HTTPS | CORS |
+| --- | --- | --- | --- | --- |
+| [OpenAI](https://platform.openai.com/docs/api-reference) | Create AI models and integrate AI capabilities into applications | apiKey | Yes | Yes |
+| [Hugging Face](https://huggingface.co/docs/api-inference/index) | Access to state-of-the-art machine learning models | apiKey | Yes | Yes |
+| [Google Cloud Vision](https://cloud.google.com/vision/docs) | Image recognition and classification | apiKey | Yes | Yes |
+
 ### Music
 APIs for music data and services.
 
@@ -160,6 +178,12 @@ APIs for phone and SMS related services.
 
 ### Photography
 APIs for photography and image related services.
+
+| API | Description | Auth | HTTPS | CORS |
+| --- | --- | --- | --- | --- |
+| [Unsplash](https://unsplash.com/developers) | Free high-resolution photos API | OAuth | Yes | Yes |
+| [Pexels](https://www.pexels.com/api/) | Free stock photos and videos API | apiKey | Yes | Yes |
+| [Pixabay](https://pixabay.com/api/docs/) | Free images and videos API | apiKey | Yes | Yes |
 
 ### Science & Math
 APIs for scientific and mathematical data and services.
@@ -196,6 +220,12 @@ APIs for video content and services.
 
 ### Weather
 APIs for weather data and forecasts.
+
+| API | Description | Auth | HTTPS | CORS |
+| --- | --- | --- | --- | --- |
+| [OpenWeatherMap](https://openweathermap.org/api) | Weather forecasts, nowcasts and history in a fast and elegant way | apiKey | Yes | Yes |
+| [WeatherAPI](https://www.weatherapi.com/) | Weather API with forecasts, history, and more | apiKey | Yes | Yes |
+| [Tomorrow.io](https://www.tomorrow.io/weather-api/) | Weather API powered by proprietary technology | apiKey | Yes | Yes |
 
 ## 🤝 How to Contribute to This API Collection
 
