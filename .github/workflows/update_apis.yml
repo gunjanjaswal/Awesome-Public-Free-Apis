@@ -30,6 +30,10 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests beautifulsoup4 feedparser
         
+    - name: Add sample API data
+      run: |
+        python -c "import json, os, datetime; data = {'categories': [{'name': 'Weather', 'description': 'APIs for weather data and forecasts', 'apis': [{'name': 'OpenWeatherMap', 'description': 'Current weather data, forecasts, and historical data for any location', 'url': 'https://openweathermap.org/api', 'auth': 'apiKey', 'https': True, 'cors': 'yes', 'popularity': 95, 'status': 'active', 'working': True, 'last_checked': datetime.datetime.now().isoformat()}]}, {'name': 'Development', 'description': 'APIs for software development tools and services', 'apis': [{'name': 'GitHub', 'description': 'Complete developer platform to build, scale, and deliver secure software', 'url': 'https://docs.github.com/en/rest', 'auth': 'OAuth', 'https': True, 'cors': 'yes', 'popularity': 98, 'status': 'active', 'working': True, 'last_checked': datetime.datetime.now().isoformat()}, {'name': 'JSON Placeholder', 'description': 'Fake data for testing and prototyping', 'url': 'https://jsonplaceholder.typicode.com/', 'auth': '', 'https': True, 'cors': 'yes', 'popularity': 90, 'status': 'active', 'working': True, 'last_checked': datetime.datetime.now().isoformat()}]}], 'metadata': {'total_apis': 3, 'last_updated': datetime.datetime.now().isoformat(), 'version': '1.0.0'}}; os.makedirs('data', exist_ok=True); json.dump(data, open('data/apis.json', 'w', encoding='utf-8'), indent=2)"
+        
     - name: Run API discovery script
       run: |
         python scripts/discover_trending_apis.py --mode comprehensive --readme
