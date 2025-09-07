@@ -3,11 +3,11 @@
 # 🌐 Awesome Public APIs | Free REST APIs Collection
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![GitHub stars](https://img.shields.io/github/stars/gunjanjaswal/awesome-public-apis?style=social)](https://github.com/gunjanjaswal/awesome-public-apis/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/gunjanjaswal/awesome-public-apis?style=social)](https://github.com/gunjanjaswal/awesome-public-apis/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/gunjanjaswal/awesome-public-apis)](https://github.com/gunjanjaswal/awesome-public-apis/issues)
-[![GitHub license](https://img.shields.io/github/license/gunjanjaswal/awesome-public-apis)](https://github.com/gunjanjaswal/awesome-public-apis/blob/main/LICENSE)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/gunjanjaswal/awesome-public-apis/graphs/commit-activity)
+[![GitHub stars](https://img.shields.io/github/stars/gunjanjaswal/awesome-public-free-apis?style=social)](https://github.com/gunjanjaswal/awesome-public-free-apis/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/gunjanjaswal/awesome-public-free-apis?style=social)](https://github.com/gunjanjaswal/awesome-public-free-apis/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/gunjanjaswal/awesome-public-free-apis)](https://github.com/gunjanjaswal/awesome-public-free-apis/issues)
+[![GitHub license](https://img.shields.io/github/license/gunjanjaswal/awesome-public-free-apis)](https://github.com/gunjanjaswal/awesome-public-free-apis/blob/main/LICENSE)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/gunjanjaswal/awesome-public-free-apis/graphs/commit-activity)
 
 
 The ultimate, self-updating collection of **free public REST APIs** for developers to integrate into web applications, mobile apps, and software projects. Automatically discovers and tracks the most popular and reliable free APIs across 40+ categories.
@@ -246,10 +246,21 @@ This repository leverages GitHub Actions to create a self-maintaining API direct
 
 ### Automated Processes:
 
-1. **Weekly API Status Checks**: Every Sunday, our automation verifies all APIs are operational and updates their status
-2. **Monthly API Discovery**: On the 1st of each month, our system scans sources like RapidAPI, GitHub trending repositories, and ProgrammableWeb to find new popular APIs
-3. **Data Enrichment**: For each API, we automatically collect and verify information about authentication methods, HTTPS support, and CORS compatibility
-4. **Trend Analysis**: APIs are ranked by popularity based on usage metrics and community adoption
+1. **Weekly API Status Checks**: Every Sunday at 00:00 UTC, our automation verifies all APIs are operational and updates their status
+2. **Monthly API Discovery**: On the 1st of each month at 00:30 UTC, our system scans sources like RapidAPI, GitHub trending repositories, and ProgrammableWeb to find new popular APIs
+3. **Daily Trending Repositories**: Every day at 01:00 UTC, we update the trending GitHub repositories section
+4. **Data Enrichment**: For each API, we automatically collect and verify information about authentication methods, HTTPS support, and CORS compatibility
+5. **Trend Analysis**: APIs are ranked by popularity based on usage metrics and community adoption
+
+### About Empty Categories
+
+Currently, only 5 categories have APIs listed (Development, Entertainment, Machine Learning, Photography, and Weather). The remaining categories will be automatically populated through:
+
+1. The monthly API discovery process that will find and add new APIs
+2. Community contributions as developers submit their favorite APIs
+3. Manual additions by maintainers
+
+After the first few automated runs and some community engagement, we expect most categories to have multiple high-quality API listings.
 
 This automation ensures you always have access to the most current and reliable free API information for your development projects.
 
@@ -257,6 +268,16 @@ This automation ensures you always have access to the most current and reliable 
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
+
+## 🔥 Trending GitHub Repositories
+
+This section is automatically updated daily with trending API-related repositories from GitHub. Discover what the community is building and using right now!
+
+| Repository | Description | Stars | Language |
+| --- | --- | --- | --- |
+| _Loading trending repositories..._ | _This section will be populated after the first daily update_ | | |
+
+_Last updated: September 7, 2025_
 
 ## 🙏 Acknowledgments
 
@@ -289,7 +310,7 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 <p align="center"><i>Keywords: free APIs, public APIs, REST APIs, API directory, developer tools, API collection, JSON APIs, web APIs, HTTP APIs, free web services, API documentation, API testing, API integration</i></p>
 
 <p align="center">
-  <a href="https://github.com/gunjanjaswal/awesome-public-apis/stargazers">
+  <a href="https://github.com/gunjanjaswal/awesome-public-free-apis/stargazers">
     <img src="https://img.shields.io/badge/-⭐%20Star%20this%20repo!-yellow" alt="Star this repo" height="30">
   </a>
 </p>

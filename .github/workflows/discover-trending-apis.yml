@@ -2,7 +2,7 @@ name: Discover Trending APIs
 
 on:
   schedule:
-    # Run monthly on the 1st at 00:30 UTC
+    # Run monthly on the 1st at 00:30 UTC (6:00 AM IST on the 1st of each month)
     - cron: '30 0 1 * *'
   workflow_dispatch:
     # Allow manual triggering

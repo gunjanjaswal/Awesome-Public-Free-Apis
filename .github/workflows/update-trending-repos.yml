@@ -1,14 +1,14 @@
-name: Update APIs
+name: Update Trending Repositories
 
 on:
   schedule:
-    # Run weekly on Sunday at midnight UTC (5:30 AM Sunday IST)
-    - cron: '0 0 * * 0'
+    # Run daily at 01:00 UTC (6:30 AM IST)
+    - cron: '0 1 * * *'
   workflow_dispatch:
     # Allow manual triggering
 
 jobs:
-  update-apis:
+  update-trending:
     runs-on: ubuntu-latest
     
     steps:
@@ -23,10 +23,10 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests
+          pip install requests beautifulsoup4 markdown
           
-      - name: Run API update script
-        run: python scripts/update_apis.py
+      - name: Run trending repositories update script
+        run: python scripts/update_trending_repos.py
         
       - name: Check for changes
         id: git-check
@@ -39,5 +39,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git commit -m "Auto-update APIs data [skip ci]"
+          git commit -m "Update trending repositories [skip ci]"
           git push
