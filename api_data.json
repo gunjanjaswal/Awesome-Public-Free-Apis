@@ -1,11 +1,16 @@
 {
   "metadata": {
-    "total_apis": 6,
-    "last_updated": "2025-09-07T22:15:53Z"
+    "total_apis": 18,
+    "last_updated": "2025-09-07T21:49:08.410605"
   },
   "categories": [
     {
-      "name": "Authentication",
+      "name": "\ud83c\udf1f About This Free API Collection",
+      "description": "",
+      "apis": []
+    },
+    {
+      "name": "\ud83d\udcc3 API Categories - Find the Perfect API for Your Project",
       "description": "APIs related to authentication, authorization, and identity management",
       "apis": [
         {
@@ -16,7 +21,7 @@
           "https": true,
           "cors": "yes",
           "status": "active",
-          "last_checked": "2025-09-07T22:15:53Z"
+          "last_checked": "2025-09-07T21:48:40.268720"
         },
         {
           "name": "Okta",
@@ -26,7 +31,7 @@
           "https": true,
           "cors": "yes",
           "status": "active",
-          "last_checked": "2025-09-07T22:15:53Z"
+          "last_checked": "2025-09-07T21:48:40.268732"
         },
         {
           "name": "Firebase Auth",
@@ -36,14 +41,8 @@
           "https": true,
           "cors": "yes",
           "status": "active",
-          "last_checked": "2025-09-07T22:15:53Z"
-        }
-      ]
-    },
-    {
-      "name": "Weather",
-      "description": "APIs for weather data and forecasts",
-      "apis": [
+          "last_checked": "2025-09-07T21:48:40.268738"
+        },
         {
           "name": "OpenWeatherMap",
           "description": "Weather forecasts and data",
@@ -52,7 +51,7 @@
           "https": true,
           "cors": "yes",
           "status": "active",
-          "last_checked": "2025-09-07T22:15:53Z"
+          "last_checked": "2025-09-07T21:48:40.268745"
         },
         {
           "name": "WeatherAPI",
@@ -62,7 +61,7 @@
           "https": true,
           "cors": "yes",
           "status": "active",
-          "last_checked": "2025-09-07T22:15:53Z"
+          "last_checked": "2025-09-07T21:48:40.268749"
         },
         {
           "name": "Tomorrow.io",
@@ -72,9 +71,156 @@
           "https": true,
           "cors": "yes",
           "status": "active",
-          "last_checked": "2025-09-07T22:15:53Z"
+          "last_checked": "2025-09-07T21:48:40.268753"
         }
       ]
+    },
+    {
+      "name": "\ud83d\udd25 Trending GitHub Repositories",
+      "description": "",
+      "apis": [
+        {
+          "name": "Repository",
+          "description": "Description",
+          "url": "",
+          "auth": "Stars",
+          "https": false,
+          "cors": "",
+          "status": "active",
+          "last_checked": "2025-09-07T21:48:40.268760"
+        },
+        {
+          "name": "microsoft/vscode",
+          "description": "Visual Studio Code",
+          "url": "https://github.com/microsoft/vscode",
+          "auth": "150k+",
+          "https": false,
+          "cors": "",
+          "status": "active",
+          "last_checked": "2025-09-07T21:48:40.268765"
+        },
+        {
+          "name": "facebook/react",
+          "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces",
+          "url": "https://github.com/facebook/react",
+          "auth": "200k+",
+          "https": false,
+          "cors": "",
+          "status": "active",
+          "last_checked": "2025-09-07T21:48:40.268769"
+        },
+        {
+          "name": "tensorflow/tensorflow",
+          "description": "An open source machine learning framework",
+          "url": "https://github.com/tensorflow/tensorflow",
+          "auth": "175k+",
+          "https": false,
+          "cors": "",
+          "status": "active",
+          "last_checked": "2025-09-07T21:48:40.268774"
+        },
+        {
+          "name": "flutter/flutter",
+          "description": "Google's UI toolkit for building natively compiled applications",
+          "url": "https://github.com/flutter/flutter",
+          "auth": "150k+",
+          "https": false,
+          "cors": "",
+          "status": "active",
+          "last_checked": "2025-09-07T21:48:40.268778"
+        },
+        {
+          "name": "kubernetes/kubernetes",
+          "description": "Production-Grade Container Orchestration",
+          "url": "https://github.com/kubernetes/kubernetes",
+          "auth": "100k+",
+          "https": false,
+          "cors": "",
+          "status": "active",
+          "last_checked": "2025-09-07T21:48:40.268783"
+        }
+      ]
+    },
+    {
+      "name": "\ud83d\udcc8 Trending GitHub API Repositories",
+      "description": "",
+      "apis": [
+        {
+          "name": "Repository",
+          "description": "Description",
+          "url": "",
+          "auth": "Stars",
+          "https": false,
+          "cors": "",
+          "status": "active",
+          "last_checked": "2025-09-07T21:48:40.268788"
+        },
+        {
+          "name": "public-apis/public-apis",
+          "description": "A collective list of free APIs",
+          "url": "https://github.com/public-apis/public-apis",
+          "auth": "250k+",
+          "https": false,
+          "cors": "",
+          "status": "active",
+          "last_checked": "2025-09-07T21:48:40.268793"
+        },
+        {
+          "name": "microsoft/api-guidelines",
+          "description": "Microsoft REST API Guidelines",
+          "url": "https://github.com/microsoft/api-guidelines",
+          "auth": "20k+",
+          "https": false,
+          "cors": "",
+          "status": "active",
+          "last_checked": "2025-09-07T21:48:40.268797"
+        },
+        {
+          "name": "n0shake/Public-APIs",
+          "description": "A public list of APIs from round the web",
+          "url": "https://github.com/n0shake/Public-APIs",
+          "auth": "13k+",
+          "https": false,
+          "cors": "",
+          "status": "active",
+          "last_checked": "2025-09-07T21:48:40.268801"
+        },
+        {
+          "name": "APIs-guru/openapi-directory",
+          "description": "OpenAPI 3.0 directory",
+          "url": "https://github.com/APIs-guru/openapi-directory",
+          "auth": "4k+",
+          "https": false,
+          "cors": "",
+          "status": "active",
+          "last_checked": "2025-09-07T21:48:40.268805"
+        },
+        {
+          "name": "postmanlabs/postman-docs",
+          "description": "Documentation for Postman",
+          "url": "https://github.com/postmanlabs/postman-docs",
+          "auth": "2k+",
+          "https": false,
+          "cors": "",
+          "status": "active",
+          "last_checked": "2025-09-07T21:48:40.268810"
+        }
+      ]
+    },
+    {
+      "name": "\ud83e\udd1d How to Contribute to This API Collection",
+      "description": "",
+      "apis": []
+    },
+    {
+      "name": "\ud83d\udd04 How Our Automated API Tracking Works",
+      "description": "",
+      "apis": []
+    },
+    {
+      "name": "\ud83d\udcdc License",
+      "description": "",
+      "apis": []
     }
   ]
 }
