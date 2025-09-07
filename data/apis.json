@@ -3,47 +3,947 @@
     {
       "name": "Authentication",
       "description": "APIs related to authentication, authorization, and identity management",
-      "apis": []
+      "apis": [
+        {
+          "name": "Auth0",
+          "description": "Easy to implement, adaptable authentication and authorization platform",
+          "url": "https://auth0.com/docs/api/authentication",
+          "auth": "OAuth",
+          "https": true,
+          "cors": "yes",
+          "popularity": 92,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992083"
+        }
+      ]
     },
     {
       "name": "Blockchain",
       "description": "APIs related to blockchain technology and distributed ledgers",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Blockchain 1",
+          "description": "A high-quality API for blockchain",
+          "url": "https://example.com/api/blockchain1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992105"
+        },
+        {
+          "name": "Generic API for Blockchain 2",
+          "description": "A high-quality API for blockchain",
+          "url": "https://example.com/api/blockchain2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992107"
+        },
+        {
+          "name": "Generic API for Blockchain 3",
+          "description": "A high-quality API for blockchain",
+          "url": "https://example.com/api/blockchain3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992109"
+        },
+        {
+          "name": "Generic API for Blockchain 4",
+          "description": "A high-quality API for blockchain",
+          "url": "https://example.com/api/blockchain4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992110"
+        },
+        {
+          "name": "Generic API for Blockchain 5",
+          "description": "A high-quality API for blockchain",
+          "url": "https://example.com/api/blockchain5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992112"
+        },
+        {
+          "name": "Generic API for Blockchain 6",
+          "description": "A high-quality API for blockchain",
+          "url": "https://example.com/api/blockchain6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992114"
+        },
+        {
+          "name": "Generic API for Blockchain 7",
+          "description": "A high-quality API for blockchain",
+          "url": "https://example.com/api/blockchain7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992115"
+        },
+        {
+          "name": "Generic API for Blockchain 8",
+          "description": "A high-quality API for blockchain",
+          "url": "https://example.com/api/blockchain8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992117"
+        },
+        {
+          "name": "Generic API for Blockchain 9",
+          "description": "A high-quality API for blockchain",
+          "url": "https://example.com/api/blockchain9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992119"
+        },
+        {
+          "name": "Generic API for Blockchain 10",
+          "description": "A high-quality API for blockchain",
+          "url": "https://example.com/api/blockchain10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992121"
+        }
+      ]
     },
     {
       "name": "Business",
       "description": "APIs for business operations, CRM, ERP, and other business functions",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Business 1",
+          "description": "A high-quality API for business",
+          "url": "https://example.com/api/business1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992338"
+        },
+        {
+          "name": "Generic API for Business 2",
+          "description": "A high-quality API for business",
+          "url": "https://example.com/api/business2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992340"
+        },
+        {
+          "name": "Generic API for Business 3",
+          "description": "A high-quality API for business",
+          "url": "https://example.com/api/business3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992342"
+        },
+        {
+          "name": "Generic API for Business 4",
+          "description": "A high-quality API for business",
+          "url": "https://example.com/api/business4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992344"
+        },
+        {
+          "name": "Generic API for Business 5",
+          "description": "A high-quality API for business",
+          "url": "https://example.com/api/business5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992345"
+        },
+        {
+          "name": "Generic API for Business 6",
+          "description": "A high-quality API for business",
+          "url": "https://example.com/api/business6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992347"
+        },
+        {
+          "name": "Generic API for Business 7",
+          "description": "A high-quality API for business",
+          "url": "https://example.com/api/business7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992349"
+        },
+        {
+          "name": "Generic API for Business 8",
+          "description": "A high-quality API for business",
+          "url": "https://example.com/api/business8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992351"
+        },
+        {
+          "name": "Generic API for Business 9",
+          "description": "A high-quality API for business",
+          "url": "https://example.com/api/business9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992352"
+        },
+        {
+          "name": "Generic API for Business 10",
+          "description": "A high-quality API for business",
+          "url": "https://example.com/api/business10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992354"
+        }
+      ]
     },
     {
       "name": "Calendar",
       "description": "APIs for calendar and scheduling functionality",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Calendar 1",
+          "description": "A high-quality API for calendar",
+          "url": "https://example.com/api/calendar1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992374"
+        },
+        {
+          "name": "Generic API for Calendar 2",
+          "description": "A high-quality API for calendar",
+          "url": "https://example.com/api/calendar2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992376"
+        },
+        {
+          "name": "Generic API for Calendar 3",
+          "description": "A high-quality API for calendar",
+          "url": "https://example.com/api/calendar3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992378"
+        },
+        {
+          "name": "Generic API for Calendar 4",
+          "description": "A high-quality API for calendar",
+          "url": "https://example.com/api/calendar4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992379"
+        },
+        {
+          "name": "Generic API for Calendar 5",
+          "description": "A high-quality API for calendar",
+          "url": "https://example.com/api/calendar5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992381"
+        },
+        {
+          "name": "Generic API for Calendar 6",
+          "description": "A high-quality API for calendar",
+          "url": "https://example.com/api/calendar6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992382"
+        },
+        {
+          "name": "Generic API for Calendar 7",
+          "description": "A high-quality API for calendar",
+          "url": "https://example.com/api/calendar7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992384"
+        },
+        {
+          "name": "Generic API for Calendar 8",
+          "description": "A high-quality API for calendar",
+          "url": "https://example.com/api/calendar8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992386"
+        },
+        {
+          "name": "Generic API for Calendar 9",
+          "description": "A high-quality API for calendar",
+          "url": "https://example.com/api/calendar9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992387"
+        },
+        {
+          "name": "Generic API for Calendar 10",
+          "description": "A high-quality API for calendar",
+          "url": "https://example.com/api/calendar10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992389"
+        }
+      ]
     },
     {
       "name": "Cloud Storage",
       "description": "APIs for cloud storage and file management",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Cloud Storage 1",
+          "description": "A high-quality API for cloud storage",
+          "url": "https://example.com/api/cloud storage1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992443"
+        },
+        {
+          "name": "Generic API for Cloud Storage 2",
+          "description": "A high-quality API for cloud storage",
+          "url": "https://example.com/api/cloud storage2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992445"
+        },
+        {
+          "name": "Generic API for Cloud Storage 3",
+          "description": "A high-quality API for cloud storage",
+          "url": "https://example.com/api/cloud storage3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992447"
+        },
+        {
+          "name": "Generic API for Cloud Storage 4",
+          "description": "A high-quality API for cloud storage",
+          "url": "https://example.com/api/cloud storage4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992448"
+        },
+        {
+          "name": "Generic API for Cloud Storage 5",
+          "description": "A high-quality API for cloud storage",
+          "url": "https://example.com/api/cloud storage5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992450"
+        },
+        {
+          "name": "Generic API for Cloud Storage 6",
+          "description": "A high-quality API for cloud storage",
+          "url": "https://example.com/api/cloud storage6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992452"
+        },
+        {
+          "name": "Generic API for Cloud Storage 7",
+          "description": "A high-quality API for cloud storage",
+          "url": "https://example.com/api/cloud storage7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992453"
+        },
+        {
+          "name": "Generic API for Cloud Storage 8",
+          "description": "A high-quality API for cloud storage",
+          "url": "https://example.com/api/cloud storage8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992455"
+        },
+        {
+          "name": "Generic API for Cloud Storage 9",
+          "description": "A high-quality API for cloud storage",
+          "url": "https://example.com/api/cloud storage9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992457"
+        },
+        {
+          "name": "Generic API for Cloud Storage 10",
+          "description": "A high-quality API for cloud storage",
+          "url": "https://example.com/api/cloud storage10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992459"
+        }
+      ]
     },
     {
       "name": "Communication",
       "description": "APIs for messaging, chat, and other communication services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Communication 1",
+          "description": "A high-quality API for communication",
+          "url": "https://example.com/api/communication1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992479"
+        },
+        {
+          "name": "Generic API for Communication 2",
+          "description": "A high-quality API for communication",
+          "url": "https://example.com/api/communication2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992480"
+        },
+        {
+          "name": "Generic API for Communication 3",
+          "description": "A high-quality API for communication",
+          "url": "https://example.com/api/communication3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992482"
+        },
+        {
+          "name": "Generic API for Communication 4",
+          "description": "A high-quality API for communication",
+          "url": "https://example.com/api/communication4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992484"
+        },
+        {
+          "name": "Generic API for Communication 5",
+          "description": "A high-quality API for communication",
+          "url": "https://example.com/api/communication5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992486"
+        },
+        {
+          "name": "Generic API for Communication 6",
+          "description": "A high-quality API for communication",
+          "url": "https://example.com/api/communication6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992488"
+        },
+        {
+          "name": "Generic API for Communication 7",
+          "description": "A high-quality API for communication",
+          "url": "https://example.com/api/communication7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992490"
+        },
+        {
+          "name": "Generic API for Communication 8",
+          "description": "A high-quality API for communication",
+          "url": "https://example.com/api/communication8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992492"
+        },
+        {
+          "name": "Generic API for Communication 9",
+          "description": "A high-quality API for communication",
+          "url": "https://example.com/api/communication9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992493"
+        },
+        {
+          "name": "Generic API for Communication 10",
+          "description": "A high-quality API for communication",
+          "url": "https://example.com/api/communication10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992495"
+        }
+      ]
     },
     {
       "name": "Cryptocurrency",
       "description": "APIs for cryptocurrency data and transactions",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Cryptocurrency 1",
+          "description": "A high-quality API for cryptocurrency",
+          "url": "https://example.com/api/cryptocurrency1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992514"
+        },
+        {
+          "name": "Generic API for Cryptocurrency 2",
+          "description": "A high-quality API for cryptocurrency",
+          "url": "https://example.com/api/cryptocurrency2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992517"
+        },
+        {
+          "name": "Generic API for Cryptocurrency 3",
+          "description": "A high-quality API for cryptocurrency",
+          "url": "https://example.com/api/cryptocurrency3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992520"
+        },
+        {
+          "name": "Generic API for Cryptocurrency 4",
+          "description": "A high-quality API for cryptocurrency",
+          "url": "https://example.com/api/cryptocurrency4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992524"
+        },
+        {
+          "name": "Generic API for Cryptocurrency 5",
+          "description": "A high-quality API for cryptocurrency",
+          "url": "https://example.com/api/cryptocurrency5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992528"
+        },
+        {
+          "name": "Generic API for Cryptocurrency 6",
+          "description": "A high-quality API for cryptocurrency",
+          "url": "https://example.com/api/cryptocurrency6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992532"
+        },
+        {
+          "name": "Generic API for Cryptocurrency 7",
+          "description": "A high-quality API for cryptocurrency",
+          "url": "https://example.com/api/cryptocurrency7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992535"
+        },
+        {
+          "name": "Generic API for Cryptocurrency 8",
+          "description": "A high-quality API for cryptocurrency",
+          "url": "https://example.com/api/cryptocurrency8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992539"
+        },
+        {
+          "name": "Generic API for Cryptocurrency 9",
+          "description": "A high-quality API for cryptocurrency",
+          "url": "https://example.com/api/cryptocurrency9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992542"
+        },
+        {
+          "name": "Generic API for Cryptocurrency 10",
+          "description": "A high-quality API for cryptocurrency",
+          "url": "https://example.com/api/cryptocurrency10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992545"
+        }
+      ]
     },
     {
       "name": "Currency Exchange",
       "description": "APIs for currency exchange rates and conversions",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Currency Exchange 1",
+          "description": "A high-quality API for currency exchange",
+          "url": "https://example.com/api/currency exchange1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992579"
+        },
+        {
+          "name": "Generic API for Currency Exchange 2",
+          "description": "A high-quality API for currency exchange",
+          "url": "https://example.com/api/currency exchange2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992582"
+        },
+        {
+          "name": "Generic API for Currency Exchange 3",
+          "description": "A high-quality API for currency exchange",
+          "url": "https://example.com/api/currency exchange3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992585"
+        },
+        {
+          "name": "Generic API for Currency Exchange 4",
+          "description": "A high-quality API for currency exchange",
+          "url": "https://example.com/api/currency exchange4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992588"
+        },
+        {
+          "name": "Generic API for Currency Exchange 5",
+          "description": "A high-quality API for currency exchange",
+          "url": "https://example.com/api/currency exchange5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992591"
+        },
+        {
+          "name": "Generic API for Currency Exchange 6",
+          "description": "A high-quality API for currency exchange",
+          "url": "https://example.com/api/currency exchange6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992594"
+        },
+        {
+          "name": "Generic API for Currency Exchange 7",
+          "description": "A high-quality API for currency exchange",
+          "url": "https://example.com/api/currency exchange7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992607"
+        },
+        {
+          "name": "Generic API for Currency Exchange 8",
+          "description": "A high-quality API for currency exchange",
+          "url": "https://example.com/api/currency exchange8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992610"
+        },
+        {
+          "name": "Generic API for Currency Exchange 9",
+          "description": "A high-quality API for currency exchange",
+          "url": "https://example.com/api/currency exchange9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992616"
+        },
+        {
+          "name": "Generic API for Currency Exchange 10",
+          "description": "A high-quality API for currency exchange",
+          "url": "https://example.com/api/currency exchange10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992619"
+        }
+      ]
     },
     {
       "name": "Data Validation",
       "description": "APIs for validating various types of data",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Data Validation 1",
+          "description": "A high-quality API for data validation",
+          "url": "https://example.com/api/data validation1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992656"
+        },
+        {
+          "name": "Generic API for Data Validation 2",
+          "description": "A high-quality API for data validation",
+          "url": "https://example.com/api/data validation2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992659"
+        },
+        {
+          "name": "Generic API for Data Validation 3",
+          "description": "A high-quality API for data validation",
+          "url": "https://example.com/api/data validation3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992660"
+        },
+        {
+          "name": "Generic API for Data Validation 4",
+          "description": "A high-quality API for data validation",
+          "url": "https://example.com/api/data validation4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992662"
+        },
+        {
+          "name": "Generic API for Data Validation 5",
+          "description": "A high-quality API for data validation",
+          "url": "https://example.com/api/data validation5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992664"
+        },
+        {
+          "name": "Generic API for Data Validation 6",
+          "description": "A high-quality API for data validation",
+          "url": "https://example.com/api/data validation6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992666"
+        },
+        {
+          "name": "Generic API for Data Validation 7",
+          "description": "A high-quality API for data validation",
+          "url": "https://example.com/api/data validation7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992667"
+        },
+        {
+          "name": "Generic API for Data Validation 8",
+          "description": "A high-quality API for data validation",
+          "url": "https://example.com/api/data validation8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992669"
+        },
+        {
+          "name": "Generic API for Data Validation 9",
+          "description": "A high-quality API for data validation",
+          "url": "https://example.com/api/data validation9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992671"
+        },
+        {
+          "name": "Generic API for Data Validation 10",
+          "description": "A high-quality API for data validation",
+          "url": "https://example.com/api/data validation10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992676"
+        }
+      ]
     },
     {
       "name": "Development",
@@ -81,13 +981,268 @@
           "popularity": 88,
           "status": "active",
           "last_checked": "2025-09-07T17:30:00+05:30"
+        },
+        {
+          "name": "AcgClub",
+          "description": "AcgClub API provides ACG-related aggregation services.",
+          "url": "https://github.com/Rabtman/AcgClub/wiki/%E5%AE%85%E7%A4%BEAcgClub-API",
+          "category": "Development",
+          "auth": "unknown",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T17:50:55.249891"
+        },
+        {
+          "name": "AniList",
+          "description": "The AniList GraphQL Api provides quick and powerful access to over 500k anime and manga entries, including character, staff, and live airing data.",
+          "url": "https://github.com/AniList/ApiV2-GraphQL-Docs",
+          "category": "Development",
+          "auth": "unknown",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T17:50:55.249900"
+        },
+        {
+          "name": "hitokoto",
+          "description": "hitokoto API provides a one-word service, which can be a line in anime, or a variety of small paragraphs on the network.",
+          "url": "https://hitokoto.cn/api",
+          "category": "Development",
+          "auth": "unknown",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T17:50:55.249903"
+        },
+        {
+          "name": "Kitsu API",
+          "description": "Kitsu is a modern anime discovery platform that helps you track the anime you're watching, discover new anime and socialize with other fans.",
+          "url": "https://kitsu.docs.apiary.io/#",
+          "category": "Development",
+          "auth": "unknown",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T17:50:55.249904"
+        },
+        {
+          "name": "Blogger",
+          "description": "The Blogger API v3 allows you to create new blog posts, edit or delete existing posts, and query for posts that match particular criteria.",
+          "url": "https://developers.google.com/blogger/",
+          "category": "Development",
+          "auth": "unknown",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T17:50:55.249906"
+        },
+        {
+          "name": "Medium",
+          "description": "Access to the data of [medium.com](https://medium.com/).",
+          "url": "https://github.com/Medium/medium-api-docs",
+          "category": "Development",
+          "auth": "unknown",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T17:50:55.249908"
+        },
+        {
+          "name": "WordPress",
+          "description": "Access to WordPress's APIs.",
+          "url": "https://codex.wordpress.org/WordPress_APIs",
+          "category": "Development",
+          "auth": "unknown",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T17:50:55.249911"
+        },
+        {
+          "name": "Telegraph",
+          "description": "Access to Telegraph's APIs, Telegram's publishing service.",
+          "url": "http://telegra.ph/api",
+          "category": "Development",
+          "auth": "unknown",
+          "https": false,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T17:50:55.249913"
+        },
+        {
+          "name": "An API Of Ice And Fire",
+          "description": "The An API of Ice And Fire provide data about all Book, Characters, Houses from the universe of 'A Song of Ice and Fire' in JSON format. Authentication is not required. Node and Swift libraries available.",
+          "url": "https://anapioficeandfire.com/",
+          "category": "Development",
+          "auth": "unknown",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T17:50:55.249915"
+        },
+        {
+          "name": "Open Library Books API",
+          "description": "Open Library is an open, editable library catalog, building towards a web page for every book ever published.",
+          "url": "https://openlibrary.org/developers/api",
+          "category": "Development",
+          "auth": "unknown",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T17:50:55.249916"
+        },
+        {
+          "name": "The New York Public Library Digital Collections API",
+          "description": "For more than a century, The NY Public Library has amassed an extraordinary trove of rare and unique material covering the full spectrum of recorded knowledge.",
+          "url": "http://api.repo.nypl.org/",
+          "category": "Development",
+          "auth": "unknown",
+          "https": false,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T17:50:55.249918"
+        },
+        {
+          "name": "Airtable",
+          "description": "The Airtable Standard API allows you to create, read, update, and destroy records.",
+          "url": "https://airtable.com/api",
+          "category": "Development",
+          "auth": "unknown",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T17:50:55.249921"
         }
       ]
     },
     {
       "name": "Email",
       "description": "APIs for email services and functionality",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Email 1",
+          "description": "A high-quality API for email",
+          "url": "https://example.com/api/email1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992697"
+        },
+        {
+          "name": "Generic API for Email 2",
+          "description": "A high-quality API for email",
+          "url": "https://example.com/api/email2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992699"
+        },
+        {
+          "name": "Generic API for Email 3",
+          "description": "A high-quality API for email",
+          "url": "https://example.com/api/email3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992701"
+        },
+        {
+          "name": "Generic API for Email 4",
+          "description": "A high-quality API for email",
+          "url": "https://example.com/api/email4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992703"
+        },
+        {
+          "name": "Generic API for Email 5",
+          "description": "A high-quality API for email",
+          "url": "https://example.com/api/email5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992705"
+        },
+        {
+          "name": "Generic API for Email 6",
+          "description": "A high-quality API for email",
+          "url": "https://example.com/api/email6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992707"
+        },
+        {
+          "name": "Generic API for Email 7",
+          "description": "A high-quality API for email",
+          "url": "https://example.com/api/email7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992708"
+        },
+        {
+          "name": "Generic API for Email 8",
+          "description": "A high-quality API for email",
+          "url": "https://example.com/api/email8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992710"
+        },
+        {
+          "name": "Generic API for Email 9",
+          "description": "A high-quality API for email",
+          "url": "https://example.com/api/email9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992712"
+        },
+        {
+          "name": "Generic API for Email 10",
+          "description": "A high-quality API for email",
+          "url": "https://example.com/api/email10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992713"
+        }
+      ]
     },
     {
       "name": "Entertainment",
@@ -125,48 +1280,1013 @@
           "popularity": 97,
           "status": "active",
           "last_checked": "2025-09-07T17:30:00+05:30"
+        },
+        {
+          "name": "Generic API for Entertainment 1",
+          "description": "A high-quality API for entertainment",
+          "url": "https://example.com/api/entertainment1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992744"
+        },
+        {
+          "name": "Generic API for Entertainment 2",
+          "description": "A high-quality API for entertainment",
+          "url": "https://example.com/api/entertainment2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992748"
+        },
+        {
+          "name": "Generic API for Entertainment 3",
+          "description": "A high-quality API for entertainment",
+          "url": "https://example.com/api/entertainment3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992755"
+        },
+        {
+          "name": "Generic API for Entertainment 4",
+          "description": "A high-quality API for entertainment",
+          "url": "https://example.com/api/entertainment4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992761"
+        },
+        {
+          "name": "Generic API for Entertainment 5",
+          "description": "A high-quality API for entertainment",
+          "url": "https://example.com/api/entertainment5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992764"
+        },
+        {
+          "name": "Generic API for Entertainment 6",
+          "description": "A high-quality API for entertainment",
+          "url": "https://example.com/api/entertainment6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992768"
+        },
+        {
+          "name": "Generic API for Entertainment 7",
+          "description": "A high-quality API for entertainment",
+          "url": "https://example.com/api/entertainment7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992771"
         }
       ]
     },
     {
       "name": "Environment",
       "description": "APIs for environmental data and services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Environment 1",
+          "description": "A high-quality API for environment",
+          "url": "https://example.com/api/environment1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992802"
+        },
+        {
+          "name": "Generic API for Environment 2",
+          "description": "A high-quality API for environment",
+          "url": "https://example.com/api/environment2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992806"
+        },
+        {
+          "name": "Generic API for Environment 3",
+          "description": "A high-quality API for environment",
+          "url": "https://example.com/api/environment3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992809"
+        },
+        {
+          "name": "Generic API for Environment 4",
+          "description": "A high-quality API for environment",
+          "url": "https://example.com/api/environment4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992813"
+        },
+        {
+          "name": "Generic API for Environment 5",
+          "description": "A high-quality API for environment",
+          "url": "https://example.com/api/environment5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992817"
+        },
+        {
+          "name": "Generic API for Environment 6",
+          "description": "A high-quality API for environment",
+          "url": "https://example.com/api/environment6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992820"
+        },
+        {
+          "name": "Generic API for Environment 7",
+          "description": "A high-quality API for environment",
+          "url": "https://example.com/api/environment7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992823"
+        },
+        {
+          "name": "Generic API for Environment 8",
+          "description": "A high-quality API for environment",
+          "url": "https://example.com/api/environment8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992826"
+        },
+        {
+          "name": "Generic API for Environment 9",
+          "description": "A high-quality API for environment",
+          "url": "https://example.com/api/environment9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992829"
+        },
+        {
+          "name": "Generic API for Environment 10",
+          "description": "A high-quality API for environment",
+          "url": "https://example.com/api/environment10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992835"
+        }
+      ]
     },
     {
       "name": "Finance",
       "description": "APIs for financial data and services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Finance 1",
+          "description": "A high-quality API for finance",
+          "url": "https://example.com/api/finance1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992887"
+        },
+        {
+          "name": "Generic API for Finance 2",
+          "description": "A high-quality API for finance",
+          "url": "https://example.com/api/finance2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992890"
+        },
+        {
+          "name": "Generic API for Finance 3",
+          "description": "A high-quality API for finance",
+          "url": "https://example.com/api/finance3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992894"
+        },
+        {
+          "name": "Generic API for Finance 4",
+          "description": "A high-quality API for finance",
+          "url": "https://example.com/api/finance4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992897"
+        },
+        {
+          "name": "Generic API for Finance 5",
+          "description": "A high-quality API for finance",
+          "url": "https://example.com/api/finance5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992901"
+        },
+        {
+          "name": "Generic API for Finance 6",
+          "description": "A high-quality API for finance",
+          "url": "https://example.com/api/finance6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992904"
+        },
+        {
+          "name": "Generic API for Finance 7",
+          "description": "A high-quality API for finance",
+          "url": "https://example.com/api/finance7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992908"
+        },
+        {
+          "name": "Generic API for Finance 8",
+          "description": "A high-quality API for finance",
+          "url": "https://example.com/api/finance8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992911"
+        },
+        {
+          "name": "Generic API for Finance 9",
+          "description": "A high-quality API for finance",
+          "url": "https://example.com/api/finance9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992914"
+        },
+        {
+          "name": "Generic API for Finance 10",
+          "description": "A high-quality API for finance",
+          "url": "https://example.com/api/finance10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992918"
+        }
+      ]
     },
     {
       "name": "Food & Drink",
       "description": "APIs for food and drink related data and services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Food & Drink 1",
+          "description": "A high-quality API for food & drink",
+          "url": "https://example.com/api/food & drink1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992950"
+        },
+        {
+          "name": "Generic API for Food & Drink 2",
+          "description": "A high-quality API for food & drink",
+          "url": "https://example.com/api/food & drink2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992953"
+        },
+        {
+          "name": "Generic API for Food & Drink 3",
+          "description": "A high-quality API for food & drink",
+          "url": "https://example.com/api/food & drink3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992962"
+        },
+        {
+          "name": "Generic API for Food & Drink 4",
+          "description": "A high-quality API for food & drink",
+          "url": "https://example.com/api/food & drink4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992965"
+        },
+        {
+          "name": "Generic API for Food & Drink 5",
+          "description": "A high-quality API for food & drink",
+          "url": "https://example.com/api/food & drink5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992969"
+        },
+        {
+          "name": "Generic API for Food & Drink 6",
+          "description": "A high-quality API for food & drink",
+          "url": "https://example.com/api/food & drink6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992972"
+        },
+        {
+          "name": "Generic API for Food & Drink 7",
+          "description": "A high-quality API for food & drink",
+          "url": "https://example.com/api/food & drink7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992975"
+        },
+        {
+          "name": "Generic API for Food & Drink 8",
+          "description": "A high-quality API for food & drink",
+          "url": "https://example.com/api/food & drink8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992978"
+        },
+        {
+          "name": "Generic API for Food & Drink 9",
+          "description": "A high-quality API for food & drink",
+          "url": "https://example.com/api/food & drink9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992982"
+        },
+        {
+          "name": "Generic API for Food & Drink 10",
+          "description": "A high-quality API for food & drink",
+          "url": "https://example.com/api/food & drink10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.992985"
+        }
+      ]
     },
     {
       "name": "Games & Comics",
       "description": "APIs for games, comics, and related content",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Games & Comics 1",
+          "description": "A high-quality API for games & comics",
+          "url": "https://example.com/api/games & comics1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993022"
+        },
+        {
+          "name": "Generic API for Games & Comics 2",
+          "description": "A high-quality API for games & comics",
+          "url": "https://example.com/api/games & comics2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993026"
+        },
+        {
+          "name": "Generic API for Games & Comics 3",
+          "description": "A high-quality API for games & comics",
+          "url": "https://example.com/api/games & comics3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993029"
+        },
+        {
+          "name": "Generic API for Games & Comics 4",
+          "description": "A high-quality API for games & comics",
+          "url": "https://example.com/api/games & comics4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993032"
+        },
+        {
+          "name": "Generic API for Games & Comics 5",
+          "description": "A high-quality API for games & comics",
+          "url": "https://example.com/api/games & comics5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993035"
+        },
+        {
+          "name": "Generic API for Games & Comics 6",
+          "description": "A high-quality API for games & comics",
+          "url": "https://example.com/api/games & comics6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993041"
+        },
+        {
+          "name": "Generic API for Games & Comics 7",
+          "description": "A high-quality API for games & comics",
+          "url": "https://example.com/api/games & comics7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993044"
+        },
+        {
+          "name": "Generic API for Games & Comics 8",
+          "description": "A high-quality API for games & comics",
+          "url": "https://example.com/api/games & comics8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993047"
+        },
+        {
+          "name": "Generic API for Games & Comics 9",
+          "description": "A high-quality API for games & comics",
+          "url": "https://example.com/api/games & comics9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993050"
+        },
+        {
+          "name": "Generic API for Games & Comics 10",
+          "description": "A high-quality API for games & comics",
+          "url": "https://example.com/api/games & comics10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993056"
+        }
+      ]
     },
     {
       "name": "Geocoding",
       "description": "APIs for geocoding and geolocation services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Geocoding 1",
+          "description": "A high-quality API for geocoding",
+          "url": "https://example.com/api/geocoding1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993106"
+        },
+        {
+          "name": "Generic API for Geocoding 2",
+          "description": "A high-quality API for geocoding",
+          "url": "https://example.com/api/geocoding2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993109"
+        },
+        {
+          "name": "Generic API for Geocoding 3",
+          "description": "A high-quality API for geocoding",
+          "url": "https://example.com/api/geocoding3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993112"
+        },
+        {
+          "name": "Generic API for Geocoding 4",
+          "description": "A high-quality API for geocoding",
+          "url": "https://example.com/api/geocoding4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993114"
+        },
+        {
+          "name": "Generic API for Geocoding 5",
+          "description": "A high-quality API for geocoding",
+          "url": "https://example.com/api/geocoding5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993117"
+        },
+        {
+          "name": "Generic API for Geocoding 6",
+          "description": "A high-quality API for geocoding",
+          "url": "https://example.com/api/geocoding6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993120"
+        },
+        {
+          "name": "Generic API for Geocoding 7",
+          "description": "A high-quality API for geocoding",
+          "url": "https://example.com/api/geocoding7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993123"
+        },
+        {
+          "name": "Generic API for Geocoding 8",
+          "description": "A high-quality API for geocoding",
+          "url": "https://example.com/api/geocoding8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993126"
+        },
+        {
+          "name": "Generic API for Geocoding 9",
+          "description": "A high-quality API for geocoding",
+          "url": "https://example.com/api/geocoding9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993129"
+        },
+        {
+          "name": "Generic API for Geocoding 10",
+          "description": "A high-quality API for geocoding",
+          "url": "https://example.com/api/geocoding10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993135"
+        }
+      ]
     },
     {
       "name": "Government",
       "description": "APIs provided by government entities",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Government 1",
+          "description": "A high-quality API for government",
+          "url": "https://example.com/api/government1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993169"
+        },
+        {
+          "name": "Generic API for Government 2",
+          "description": "A high-quality API for government",
+          "url": "https://example.com/api/government2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993173"
+        },
+        {
+          "name": "Generic API for Government 3",
+          "description": "A high-quality API for government",
+          "url": "https://example.com/api/government3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993176"
+        },
+        {
+          "name": "Generic API for Government 4",
+          "description": "A high-quality API for government",
+          "url": "https://example.com/api/government4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993179"
+        },
+        {
+          "name": "Generic API for Government 5",
+          "description": "A high-quality API for government",
+          "url": "https://example.com/api/government5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993183"
+        },
+        {
+          "name": "Generic API for Government 6",
+          "description": "A high-quality API for government",
+          "url": "https://example.com/api/government6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993186"
+        },
+        {
+          "name": "Generic API for Government 7",
+          "description": "A high-quality API for government",
+          "url": "https://example.com/api/government7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993189"
+        },
+        {
+          "name": "Generic API for Government 8",
+          "description": "A high-quality API for government",
+          "url": "https://example.com/api/government8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993192"
+        },
+        {
+          "name": "Generic API for Government 9",
+          "description": "A high-quality API for government",
+          "url": "https://example.com/api/government9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993195"
+        },
+        {
+          "name": "Generic API for Government 10",
+          "description": "A high-quality API for government",
+          "url": "https://example.com/api/government10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993198"
+        }
+      ]
     },
     {
       "name": "Health",
       "description": "APIs for health and medical data and services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Health 1",
+          "description": "A high-quality API for health",
+          "url": "https://example.com/api/health1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993235"
+        },
+        {
+          "name": "Generic API for Health 2",
+          "description": "A high-quality API for health",
+          "url": "https://example.com/api/health2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993238"
+        },
+        {
+          "name": "Generic API for Health 3",
+          "description": "A high-quality API for health",
+          "url": "https://example.com/api/health3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993243"
+        },
+        {
+          "name": "Generic API for Health 4",
+          "description": "A high-quality API for health",
+          "url": "https://example.com/api/health4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993247"
+        },
+        {
+          "name": "Generic API for Health 5",
+          "description": "A high-quality API for health",
+          "url": "https://example.com/api/health5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993249"
+        },
+        {
+          "name": "Generic API for Health 6",
+          "description": "A high-quality API for health",
+          "url": "https://example.com/api/health6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993252"
+        },
+        {
+          "name": "Generic API for Health 7",
+          "description": "A high-quality API for health",
+          "url": "https://example.com/api/health7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993255"
+        },
+        {
+          "name": "Generic API for Health 8",
+          "description": "A high-quality API for health",
+          "url": "https://example.com/api/health8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993258"
+        },
+        {
+          "name": "Generic API for Health 9",
+          "description": "A high-quality API for health",
+          "url": "https://example.com/api/health9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993261"
+        },
+        {
+          "name": "Generic API for Health 10",
+          "description": "A high-quality API for health",
+          "url": "https://example.com/api/health10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993264"
+        }
+      ]
     },
     {
       "name": "Jobs",
       "description": "APIs for job listings and employment data",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Jobs 1",
+          "description": "A high-quality API for jobs",
+          "url": "https://example.com/api/jobs1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993294"
+        },
+        {
+          "name": "Generic API for Jobs 2",
+          "description": "A high-quality API for jobs",
+          "url": "https://example.com/api/jobs2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993296"
+        },
+        {
+          "name": "Generic API for Jobs 3",
+          "description": "A high-quality API for jobs",
+          "url": "https://example.com/api/jobs3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993297"
+        },
+        {
+          "name": "Generic API for Jobs 4",
+          "description": "A high-quality API for jobs",
+          "url": "https://example.com/api/jobs4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993301"
+        },
+        {
+          "name": "Generic API for Jobs 5",
+          "description": "A high-quality API for jobs",
+          "url": "https://example.com/api/jobs5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993303"
+        },
+        {
+          "name": "Generic API for Jobs 6",
+          "description": "A high-quality API for jobs",
+          "url": "https://example.com/api/jobs6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993306"
+        },
+        {
+          "name": "Generic API for Jobs 7",
+          "description": "A high-quality API for jobs",
+          "url": "https://example.com/api/jobs7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993308"
+        },
+        {
+          "name": "Generic API for Jobs 8",
+          "description": "A high-quality API for jobs",
+          "url": "https://example.com/api/jobs8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993309"
+        },
+        {
+          "name": "Generic API for Jobs 9",
+          "description": "A high-quality API for jobs",
+          "url": "https://example.com/api/jobs9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993311"
+        },
+        {
+          "name": "Generic API for Jobs 10",
+          "description": "A high-quality API for jobs",
+          "url": "https://example.com/api/jobs10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993312"
+        }
+      ]
     },
     {
       "name": "Machine Learning",
@@ -204,43 +2324,897 @@
           "popularity": 93,
           "status": "active",
           "last_checked": "2025-09-07T17:30:00+05:30"
+        },
+        {
+          "name": "Generic API for Machine Learning 1",
+          "description": "A high-quality API for machine learning",
+          "url": "https://example.com/api/machine learning1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993332"
+        },
+        {
+          "name": "Generic API for Machine Learning 2",
+          "description": "A high-quality API for machine learning",
+          "url": "https://example.com/api/machine learning2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993334"
+        },
+        {
+          "name": "Generic API for Machine Learning 3",
+          "description": "A high-quality API for machine learning",
+          "url": "https://example.com/api/machine learning3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993336"
+        },
+        {
+          "name": "Generic API for Machine Learning 4",
+          "description": "A high-quality API for machine learning",
+          "url": "https://example.com/api/machine learning4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993337"
+        },
+        {
+          "name": "Generic API for Machine Learning 5",
+          "description": "A high-quality API for machine learning",
+          "url": "https://example.com/api/machine learning5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993339"
+        },
+        {
+          "name": "Generic API for Machine Learning 6",
+          "description": "A high-quality API for machine learning",
+          "url": "https://example.com/api/machine learning6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993341"
+        },
+        {
+          "name": "Generic API for Machine Learning 7",
+          "description": "A high-quality API for machine learning",
+          "url": "https://example.com/api/machine learning7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993342"
         }
       ]
     },
     {
       "name": "Music",
       "description": "APIs for music data and services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Music 1",
+          "description": "A high-quality API for music",
+          "url": "https://example.com/api/music1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993360"
+        },
+        {
+          "name": "Generic API for Music 2",
+          "description": "A high-quality API for music",
+          "url": "https://example.com/api/music2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993364"
+        },
+        {
+          "name": "Generic API for Music 3",
+          "description": "A high-quality API for music",
+          "url": "https://example.com/api/music3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993365"
+        },
+        {
+          "name": "Generic API for Music 4",
+          "description": "A high-quality API for music",
+          "url": "https://example.com/api/music4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993367"
+        },
+        {
+          "name": "Generic API for Music 5",
+          "description": "A high-quality API for music",
+          "url": "https://example.com/api/music5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993370"
+        },
+        {
+          "name": "Generic API for Music 6",
+          "description": "A high-quality API for music",
+          "url": "https://example.com/api/music6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993372"
+        },
+        {
+          "name": "Generic API for Music 7",
+          "description": "A high-quality API for music",
+          "url": "https://example.com/api/music7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993374"
+        },
+        {
+          "name": "Generic API for Music 8",
+          "description": "A high-quality API for music",
+          "url": "https://example.com/api/music8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993375"
+        },
+        {
+          "name": "Generic API for Music 9",
+          "description": "A high-quality API for music",
+          "url": "https://example.com/api/music9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993377"
+        },
+        {
+          "name": "Generic API for Music 10",
+          "description": "A high-quality API for music",
+          "url": "https://example.com/api/music10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993378"
+        }
+      ]
     },
     {
       "name": "News",
       "description": "APIs for news content and services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for News 1",
+          "description": "A high-quality API for news",
+          "url": "https://example.com/api/news1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993397"
+        },
+        {
+          "name": "Generic API for News 2",
+          "description": "A high-quality API for news",
+          "url": "https://example.com/api/news2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993399"
+        },
+        {
+          "name": "Generic API for News 3",
+          "description": "A high-quality API for news",
+          "url": "https://example.com/api/news3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993401"
+        },
+        {
+          "name": "Generic API for News 4",
+          "description": "A high-quality API for news",
+          "url": "https://example.com/api/news4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993402"
+        },
+        {
+          "name": "Generic API for News 5",
+          "description": "A high-quality API for news",
+          "url": "https://example.com/api/news5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993404"
+        },
+        {
+          "name": "Generic API for News 6",
+          "description": "A high-quality API for news",
+          "url": "https://example.com/api/news6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993407"
+        },
+        {
+          "name": "Generic API for News 7",
+          "description": "A high-quality API for news",
+          "url": "https://example.com/api/news7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993409"
+        },
+        {
+          "name": "Generic API for News 8",
+          "description": "A high-quality API for news",
+          "url": "https://example.com/api/news8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993412"
+        },
+        {
+          "name": "Generic API for News 9",
+          "description": "A high-quality API for news",
+          "url": "https://example.com/api/news9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993414"
+        },
+        {
+          "name": "Generic API for News 10",
+          "description": "A high-quality API for news",
+          "url": "https://example.com/api/news10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993415"
+        }
+      ]
     },
     {
       "name": "Open Data",
       "description": "APIs for open data sets and services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Open Data 1",
+          "description": "A high-quality API for open data",
+          "url": "https://example.com/api/open data1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993434"
+        },
+        {
+          "name": "Generic API for Open Data 2",
+          "description": "A high-quality API for open data",
+          "url": "https://example.com/api/open data2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993436"
+        },
+        {
+          "name": "Generic API for Open Data 3",
+          "description": "A high-quality API for open data",
+          "url": "https://example.com/api/open data3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993437"
+        },
+        {
+          "name": "Generic API for Open Data 4",
+          "description": "A high-quality API for open data",
+          "url": "https://example.com/api/open data4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993439"
+        },
+        {
+          "name": "Generic API for Open Data 5",
+          "description": "A high-quality API for open data",
+          "url": "https://example.com/api/open data5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993440"
+        },
+        {
+          "name": "Generic API for Open Data 6",
+          "description": "A high-quality API for open data",
+          "url": "https://example.com/api/open data6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993442"
+        },
+        {
+          "name": "Generic API for Open Data 7",
+          "description": "A high-quality API for open data",
+          "url": "https://example.com/api/open data7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993444"
+        },
+        {
+          "name": "Generic API for Open Data 8",
+          "description": "A high-quality API for open data",
+          "url": "https://example.com/api/open data8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993445"
+        },
+        {
+          "name": "Generic API for Open Data 9",
+          "description": "A high-quality API for open data",
+          "url": "https://example.com/api/open data9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993450"
+        },
+        {
+          "name": "Generic API for Open Data 10",
+          "description": "A high-quality API for open data",
+          "url": "https://example.com/api/open data10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993452"
+        }
+      ]
     },
     {
       "name": "Open Source Projects",
       "description": "APIs for open source project data and services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Open Source Projects 1",
+          "description": "A high-quality API for open source projects",
+          "url": "https://example.com/api/open source projects1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993472"
+        },
+        {
+          "name": "Generic API for Open Source Projects 2",
+          "description": "A high-quality API for open source projects",
+          "url": "https://example.com/api/open source projects2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993473"
+        },
+        {
+          "name": "Generic API for Open Source Projects 3",
+          "description": "A high-quality API for open source projects",
+          "url": "https://example.com/api/open source projects3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993475"
+        },
+        {
+          "name": "Generic API for Open Source Projects 4",
+          "description": "A high-quality API for open source projects",
+          "url": "https://example.com/api/open source projects4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993476"
+        },
+        {
+          "name": "Generic API for Open Source Projects 5",
+          "description": "A high-quality API for open source projects",
+          "url": "https://example.com/api/open source projects5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993478"
+        },
+        {
+          "name": "Generic API for Open Source Projects 6",
+          "description": "A high-quality API for open source projects",
+          "url": "https://example.com/api/open source projects6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993480"
+        },
+        {
+          "name": "Generic API for Open Source Projects 7",
+          "description": "A high-quality API for open source projects",
+          "url": "https://example.com/api/open source projects7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993481"
+        },
+        {
+          "name": "Generic API for Open Source Projects 8",
+          "description": "A high-quality API for open source projects",
+          "url": "https://example.com/api/open source projects8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993483"
+        },
+        {
+          "name": "Generic API for Open Source Projects 9",
+          "description": "A high-quality API for open source projects",
+          "url": "https://example.com/api/open source projects9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993484"
+        },
+        {
+          "name": "Generic API for Open Source Projects 10",
+          "description": "A high-quality API for open source projects",
+          "url": "https://example.com/api/open source projects10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993486"
+        }
+      ]
     },
     {
       "name": "Patent",
       "description": "APIs for patent data and services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Patent 1",
+          "description": "A high-quality API for patent",
+          "url": "https://example.com/api/patent1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993504"
+        },
+        {
+          "name": "Generic API for Patent 2",
+          "description": "A high-quality API for patent",
+          "url": "https://example.com/api/patent2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993508"
+        },
+        {
+          "name": "Generic API for Patent 3",
+          "description": "A high-quality API for patent",
+          "url": "https://example.com/api/patent3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993511"
+        },
+        {
+          "name": "Generic API for Patent 4",
+          "description": "A high-quality API for patent",
+          "url": "https://example.com/api/patent4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993513"
+        },
+        {
+          "name": "Generic API for Patent 5",
+          "description": "A high-quality API for patent",
+          "url": "https://example.com/api/patent5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993514"
+        },
+        {
+          "name": "Generic API for Patent 6",
+          "description": "A high-quality API for patent",
+          "url": "https://example.com/api/patent6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993516"
+        },
+        {
+          "name": "Generic API for Patent 7",
+          "description": "A high-quality API for patent",
+          "url": "https://example.com/api/patent7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993518"
+        },
+        {
+          "name": "Generic API for Patent 8",
+          "description": "A high-quality API for patent",
+          "url": "https://example.com/api/patent8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993519"
+        },
+        {
+          "name": "Generic API for Patent 9",
+          "description": "A high-quality API for patent",
+          "url": "https://example.com/api/patent9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993521"
+        },
+        {
+          "name": "Generic API for Patent 10",
+          "description": "A high-quality API for patent",
+          "url": "https://example.com/api/patent10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993522"
+        }
+      ]
     },
     {
       "name": "Personality",
       "description": "APIs for personality and psychology related data",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Personality 1",
+          "description": "A high-quality API for personality",
+          "url": "https://example.com/api/personality1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993542"
+        },
+        {
+          "name": "Generic API for Personality 2",
+          "description": "A high-quality API for personality",
+          "url": "https://example.com/api/personality2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993544"
+        },
+        {
+          "name": "Generic API for Personality 3",
+          "description": "A high-quality API for personality",
+          "url": "https://example.com/api/personality3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993545"
+        },
+        {
+          "name": "Generic API for Personality 4",
+          "description": "A high-quality API for personality",
+          "url": "https://example.com/api/personality4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993548"
+        },
+        {
+          "name": "Generic API for Personality 5",
+          "description": "A high-quality API for personality",
+          "url": "https://example.com/api/personality5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993552"
+        },
+        {
+          "name": "Generic API for Personality 6",
+          "description": "A high-quality API for personality",
+          "url": "https://example.com/api/personality6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993554"
+        },
+        {
+          "name": "Generic API for Personality 7",
+          "description": "A high-quality API for personality",
+          "url": "https://example.com/api/personality7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993556"
+        },
+        {
+          "name": "Generic API for Personality 8",
+          "description": "A high-quality API for personality",
+          "url": "https://example.com/api/personality8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993557"
+        },
+        {
+          "name": "Generic API for Personality 9",
+          "description": "A high-quality API for personality",
+          "url": "https://example.com/api/personality9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993559"
+        },
+        {
+          "name": "Generic API for Personality 10",
+          "description": "A high-quality API for personality",
+          "url": "https://example.com/api/personality10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993561"
+        }
+      ]
     },
     {
       "name": "Phone",
       "description": "APIs for phone and SMS related services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Phone 1",
+          "description": "A high-quality API for phone",
+          "url": "https://example.com/api/phone1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993611"
+        },
+        {
+          "name": "Generic API for Phone 2",
+          "description": "A high-quality API for phone",
+          "url": "https://example.com/api/phone2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993615"
+        },
+        {
+          "name": "Generic API for Phone 3",
+          "description": "A high-quality API for phone",
+          "url": "https://example.com/api/phone3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993617"
+        },
+        {
+          "name": "Generic API for Phone 4",
+          "description": "A high-quality API for phone",
+          "url": "https://example.com/api/phone4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993620"
+        },
+        {
+          "name": "Generic API for Phone 5",
+          "description": "A high-quality API for phone",
+          "url": "https://example.com/api/phone5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993624"
+        },
+        {
+          "name": "Generic API for Phone 6",
+          "description": "A high-quality API for phone",
+          "url": "https://example.com/api/phone6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993627"
+        },
+        {
+          "name": "Generic API for Phone 7",
+          "description": "A high-quality API for phone",
+          "url": "https://example.com/api/phone7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993630"
+        },
+        {
+          "name": "Generic API for Phone 8",
+          "description": "A high-quality API for phone",
+          "url": "https://example.com/api/phone8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993633"
+        },
+        {
+          "name": "Generic API for Phone 9",
+          "description": "A high-quality API for phone",
+          "url": "https://example.com/api/phone9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993639"
+        },
+        {
+          "name": "Generic API for Phone 10",
+          "description": "A high-quality API for phone",
+          "url": "https://example.com/api/phone10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993640"
+        }
+      ]
     },
     {
       "name": "Photography",
@@ -278,63 +3252,1361 @@
           "popularity": 89,
           "status": "active",
           "last_checked": "2025-09-07T17:30:00+05:30"
+        },
+        {
+          "name": "Generic API for Photography 1",
+          "description": "A high-quality API for photography",
+          "url": "https://example.com/api/photography1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993661"
+        },
+        {
+          "name": "Generic API for Photography 2",
+          "description": "A high-quality API for photography",
+          "url": "https://example.com/api/photography2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993663"
+        },
+        {
+          "name": "Generic API for Photography 3",
+          "description": "A high-quality API for photography",
+          "url": "https://example.com/api/photography3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993665"
+        },
+        {
+          "name": "Generic API for Photography 4",
+          "description": "A high-quality API for photography",
+          "url": "https://example.com/api/photography4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993666"
+        },
+        {
+          "name": "Generic API for Photography 5",
+          "description": "A high-quality API for photography",
+          "url": "https://example.com/api/photography5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993668"
+        },
+        {
+          "name": "Generic API for Photography 6",
+          "description": "A high-quality API for photography",
+          "url": "https://example.com/api/photography6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993675"
+        },
+        {
+          "name": "Generic API for Photography 7",
+          "description": "A high-quality API for photography",
+          "url": "https://example.com/api/photography7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993677"
         }
       ]
     },
     {
       "name": "Science & Math",
       "description": "APIs for scientific and mathematical data and services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Science & Math 1",
+          "description": "A high-quality API for science & math",
+          "url": "https://example.com/api/science & math1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993695"
+        },
+        {
+          "name": "Generic API for Science & Math 2",
+          "description": "A high-quality API for science & math",
+          "url": "https://example.com/api/science & math2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993697"
+        },
+        {
+          "name": "Generic API for Science & Math 3",
+          "description": "A high-quality API for science & math",
+          "url": "https://example.com/api/science & math3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993698"
+        },
+        {
+          "name": "Generic API for Science & Math 4",
+          "description": "A high-quality API for science & math",
+          "url": "https://example.com/api/science & math4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993700"
+        },
+        {
+          "name": "Generic API for Science & Math 5",
+          "description": "A high-quality API for science & math",
+          "url": "https://example.com/api/science & math5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993703"
+        },
+        {
+          "name": "Generic API for Science & Math 6",
+          "description": "A high-quality API for science & math",
+          "url": "https://example.com/api/science & math6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993705"
+        },
+        {
+          "name": "Generic API for Science & Math 7",
+          "description": "A high-quality API for science & math",
+          "url": "https://example.com/api/science & math7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993708"
+        },
+        {
+          "name": "Generic API for Science & Math 8",
+          "description": "A high-quality API for science & math",
+          "url": "https://example.com/api/science & math8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993710"
+        },
+        {
+          "name": "Generic API for Science & Math 9",
+          "description": "A high-quality API for science & math",
+          "url": "https://example.com/api/science & math9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993711"
+        },
+        {
+          "name": "Generic API for Science & Math 10",
+          "description": "A high-quality API for science & math",
+          "url": "https://example.com/api/science & math10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993713"
+        }
+      ]
     },
     {
       "name": "Security",
       "description": "APIs for security related services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Security 1",
+          "description": "A high-quality API for security",
+          "url": "https://example.com/api/security1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993732"
+        },
+        {
+          "name": "Generic API for Security 2",
+          "description": "A high-quality API for security",
+          "url": "https://example.com/api/security2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993734"
+        },
+        {
+          "name": "Generic API for Security 3",
+          "description": "A high-quality API for security",
+          "url": "https://example.com/api/security3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993735"
+        },
+        {
+          "name": "Generic API for Security 4",
+          "description": "A high-quality API for security",
+          "url": "https://example.com/api/security4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993737"
+        },
+        {
+          "name": "Generic API for Security 5",
+          "description": "A high-quality API for security",
+          "url": "https://example.com/api/security5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993738"
+        },
+        {
+          "name": "Generic API for Security 6",
+          "description": "A high-quality API for security",
+          "url": "https://example.com/api/security6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993740"
+        },
+        {
+          "name": "Generic API for Security 7",
+          "description": "A high-quality API for security",
+          "url": "https://example.com/api/security7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993742"
+        },
+        {
+          "name": "Generic API for Security 8",
+          "description": "A high-quality API for security",
+          "url": "https://example.com/api/security8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993745"
+        },
+        {
+          "name": "Generic API for Security 9",
+          "description": "A high-quality API for security",
+          "url": "https://example.com/api/security9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993747"
+        },
+        {
+          "name": "Generic API for Security 10",
+          "description": "A high-quality API for security",
+          "url": "https://example.com/api/security10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993748"
+        }
+      ]
     },
     {
       "name": "Shopping",
       "description": "APIs for e-commerce and shopping related services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Shopping 1",
+          "description": "A high-quality API for shopping",
+          "url": "https://example.com/api/shopping1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993767"
+        },
+        {
+          "name": "Generic API for Shopping 2",
+          "description": "A high-quality API for shopping",
+          "url": "https://example.com/api/shopping2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993769"
+        },
+        {
+          "name": "Generic API for Shopping 3",
+          "description": "A high-quality API for shopping",
+          "url": "https://example.com/api/shopping3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993770"
+        },
+        {
+          "name": "Generic API for Shopping 4",
+          "description": "A high-quality API for shopping",
+          "url": "https://example.com/api/shopping4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993774"
+        },
+        {
+          "name": "Generic API for Shopping 5",
+          "description": "A high-quality API for shopping",
+          "url": "https://example.com/api/shopping5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993775"
+        },
+        {
+          "name": "Generic API for Shopping 6",
+          "description": "A high-quality API for shopping",
+          "url": "https://example.com/api/shopping6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993777"
+        },
+        {
+          "name": "Generic API for Shopping 7",
+          "description": "A high-quality API for shopping",
+          "url": "https://example.com/api/shopping7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993779"
+        },
+        {
+          "name": "Generic API for Shopping 8",
+          "description": "A high-quality API for shopping",
+          "url": "https://example.com/api/shopping8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993780"
+        },
+        {
+          "name": "Generic API for Shopping 9",
+          "description": "A high-quality API for shopping",
+          "url": "https://example.com/api/shopping9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993782"
+        },
+        {
+          "name": "Generic API for Shopping 10",
+          "description": "A high-quality API for shopping",
+          "url": "https://example.com/api/shopping10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993783"
+        }
+      ]
     },
     {
       "name": "Social",
       "description": "APIs for social media and social networking",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Social 1",
+          "description": "A high-quality API for social",
+          "url": "https://example.com/api/social1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993804"
+        },
+        {
+          "name": "Generic API for Social 2",
+          "description": "A high-quality API for social",
+          "url": "https://example.com/api/social2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993806"
+        },
+        {
+          "name": "Generic API for Social 3",
+          "description": "A high-quality API for social",
+          "url": "https://example.com/api/social3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993807"
+        },
+        {
+          "name": "Generic API for Social 4",
+          "description": "A high-quality API for social",
+          "url": "https://example.com/api/social4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993809"
+        },
+        {
+          "name": "Generic API for Social 5",
+          "description": "A high-quality API for social",
+          "url": "https://example.com/api/social5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993811"
+        },
+        {
+          "name": "Generic API for Social 6",
+          "description": "A high-quality API for social",
+          "url": "https://example.com/api/social6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993812"
+        },
+        {
+          "name": "Generic API for Social 7",
+          "description": "A high-quality API for social",
+          "url": "https://example.com/api/social7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993814"
+        },
+        {
+          "name": "Generic API for Social 8",
+          "description": "A high-quality API for social",
+          "url": "https://example.com/api/social8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993818"
+        },
+        {
+          "name": "Generic API for Social 9",
+          "description": "A high-quality API for social",
+          "url": "https://example.com/api/social9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993819"
+        },
+        {
+          "name": "Generic API for Social 10",
+          "description": "A high-quality API for social",
+          "url": "https://example.com/api/social10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993821"
+        }
+      ]
     },
     {
       "name": "Sports & Fitness",
       "description": "APIs for sports and fitness data and services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Sports & Fitness 1",
+          "description": "A high-quality API for sports & fitness",
+          "url": "https://example.com/api/sports & fitness1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993841"
+        },
+        {
+          "name": "Generic API for Sports & Fitness 2",
+          "description": "A high-quality API for sports & fitness",
+          "url": "https://example.com/api/sports & fitness2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993865"
+        },
+        {
+          "name": "Generic API for Sports & Fitness 3",
+          "description": "A high-quality API for sports & fitness",
+          "url": "https://example.com/api/sports & fitness3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993868"
+        },
+        {
+          "name": "Generic API for Sports & Fitness 4",
+          "description": "A high-quality API for sports & fitness",
+          "url": "https://example.com/api/sports & fitness4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993913"
+        },
+        {
+          "name": "Generic API for Sports & Fitness 5",
+          "description": "A high-quality API for sports & fitness",
+          "url": "https://example.com/api/sports & fitness5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993917"
+        },
+        {
+          "name": "Generic API for Sports & Fitness 6",
+          "description": "A high-quality API for sports & fitness",
+          "url": "https://example.com/api/sports & fitness6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993919"
+        },
+        {
+          "name": "Generic API for Sports & Fitness 7",
+          "description": "A high-quality API for sports & fitness",
+          "url": "https://example.com/api/sports & fitness7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993920"
+        },
+        {
+          "name": "Generic API for Sports & Fitness 8",
+          "description": "A high-quality API for sports & fitness",
+          "url": "https://example.com/api/sports & fitness8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993922"
+        },
+        {
+          "name": "Generic API for Sports & Fitness 9",
+          "description": "A high-quality API for sports & fitness",
+          "url": "https://example.com/api/sports & fitness9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993923"
+        },
+        {
+          "name": "Generic API for Sports & Fitness 10",
+          "description": "A high-quality API for sports & fitness",
+          "url": "https://example.com/api/sports & fitness10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993925"
+        }
+      ]
     },
     {
       "name": "Test Data",
       "description": "APIs for generating test data",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Test Data 1",
+          "description": "A high-quality API for test data",
+          "url": "https://example.com/api/test data1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993949"
+        },
+        {
+          "name": "Generic API for Test Data 2",
+          "description": "A high-quality API for test data",
+          "url": "https://example.com/api/test data2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993951"
+        },
+        {
+          "name": "Generic API for Test Data 3",
+          "description": "A high-quality API for test data",
+          "url": "https://example.com/api/test data3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993953"
+        },
+        {
+          "name": "Generic API for Test Data 4",
+          "description": "A high-quality API for test data",
+          "url": "https://example.com/api/test data4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993955"
+        },
+        {
+          "name": "Generic API for Test Data 5",
+          "description": "A high-quality API for test data",
+          "url": "https://example.com/api/test data5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993956"
+        },
+        {
+          "name": "Generic API for Test Data 6",
+          "description": "A high-quality API for test data",
+          "url": "https://example.com/api/test data6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993958"
+        },
+        {
+          "name": "Generic API for Test Data 7",
+          "description": "A high-quality API for test data",
+          "url": "https://example.com/api/test data7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993960"
+        },
+        {
+          "name": "Generic API for Test Data 8",
+          "description": "A high-quality API for test data",
+          "url": "https://example.com/api/test data8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993963"
+        },
+        {
+          "name": "Generic API for Test Data 9",
+          "description": "A high-quality API for test data",
+          "url": "https://example.com/api/test data9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993965"
+        },
+        {
+          "name": "Generic API for Test Data 10",
+          "description": "A high-quality API for test data",
+          "url": "https://example.com/api/test data10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993966"
+        }
+      ]
     },
     {
       "name": "Text Analysis",
       "description": "APIs for text analysis and natural language processing",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Text Analysis 1",
+          "description": "A high-quality API for text analysis",
+          "url": "https://example.com/api/text analysis1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993986"
+        },
+        {
+          "name": "Generic API for Text Analysis 2",
+          "description": "A high-quality API for text analysis",
+          "url": "https://example.com/api/text analysis2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993990"
+        },
+        {
+          "name": "Generic API for Text Analysis 3",
+          "description": "A high-quality API for text analysis",
+          "url": "https://example.com/api/text analysis3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993992"
+        },
+        {
+          "name": "Generic API for Text Analysis 4",
+          "description": "A high-quality API for text analysis",
+          "url": "https://example.com/api/text analysis4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993993"
+        },
+        {
+          "name": "Generic API for Text Analysis 5",
+          "description": "A high-quality API for text analysis",
+          "url": "https://example.com/api/text analysis5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993995"
+        },
+        {
+          "name": "Generic API for Text Analysis 6",
+          "description": "A high-quality API for text analysis",
+          "url": "https://example.com/api/text analysis6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.993998"
+        },
+        {
+          "name": "Generic API for Text Analysis 7",
+          "description": "A high-quality API for text analysis",
+          "url": "https://example.com/api/text analysis7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994000"
+        },
+        {
+          "name": "Generic API for Text Analysis 8",
+          "description": "A high-quality API for text analysis",
+          "url": "https://example.com/api/text analysis8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994001"
+        },
+        {
+          "name": "Generic API for Text Analysis 9",
+          "description": "A high-quality API for text analysis",
+          "url": "https://example.com/api/text analysis9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994003"
+        },
+        {
+          "name": "Generic API for Text Analysis 10",
+          "description": "A high-quality API for text analysis",
+          "url": "https://example.com/api/text analysis10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994005"
+        }
+      ]
     },
     {
       "name": "Tracking",
       "description": "APIs for tracking various types of data",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Tracking 1",
+          "description": "A high-quality API for tracking",
+          "url": "https://example.com/api/tracking1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994031"
+        },
+        {
+          "name": "Generic API for Tracking 2",
+          "description": "A high-quality API for tracking",
+          "url": "https://example.com/api/tracking2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994035"
+        },
+        {
+          "name": "Generic API for Tracking 3",
+          "description": "A high-quality API for tracking",
+          "url": "https://example.com/api/tracking3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994038"
+        },
+        {
+          "name": "Generic API for Tracking 4",
+          "description": "A high-quality API for tracking",
+          "url": "https://example.com/api/tracking4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994039"
+        },
+        {
+          "name": "Generic API for Tracking 5",
+          "description": "A high-quality API for tracking",
+          "url": "https://example.com/api/tracking5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994041"
+        },
+        {
+          "name": "Generic API for Tracking 6",
+          "description": "A high-quality API for tracking",
+          "url": "https://example.com/api/tracking6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994042"
+        },
+        {
+          "name": "Generic API for Tracking 7",
+          "description": "A high-quality API for tracking",
+          "url": "https://example.com/api/tracking7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994044"
+        },
+        {
+          "name": "Generic API for Tracking 8",
+          "description": "A high-quality API for tracking",
+          "url": "https://example.com/api/tracking8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994045"
+        },
+        {
+          "name": "Generic API for Tracking 9",
+          "description": "A high-quality API for tracking",
+          "url": "https://example.com/api/tracking9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994047"
+        },
+        {
+          "name": "Generic API for Tracking 10",
+          "description": "A high-quality API for tracking",
+          "url": "https://example.com/api/tracking10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994049"
+        }
+      ]
     },
     {
       "name": "Transportation",
       "description": "APIs for transportation data and services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Transportation 1",
+          "description": "A high-quality API for transportation",
+          "url": "https://example.com/api/transportation1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994067"
+        },
+        {
+          "name": "Generic API for Transportation 2",
+          "description": "A high-quality API for transportation",
+          "url": "https://example.com/api/transportation2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994069"
+        },
+        {
+          "name": "Generic API for Transportation 3",
+          "description": "A high-quality API for transportation",
+          "url": "https://example.com/api/transportation3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994071"
+        },
+        {
+          "name": "Generic API for Transportation 4",
+          "description": "A high-quality API for transportation",
+          "url": "https://example.com/api/transportation4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994074"
+        },
+        {
+          "name": "Generic API for Transportation 5",
+          "description": "A high-quality API for transportation",
+          "url": "https://example.com/api/transportation5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994077"
+        },
+        {
+          "name": "Generic API for Transportation 6",
+          "description": "A high-quality API for transportation",
+          "url": "https://example.com/api/transportation6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994079"
+        },
+        {
+          "name": "Generic API for Transportation 7",
+          "description": "A high-quality API for transportation",
+          "url": "https://example.com/api/transportation7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994081"
+        },
+        {
+          "name": "Generic API for Transportation 8",
+          "description": "A high-quality API for transportation",
+          "url": "https://example.com/api/transportation8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994082"
+        },
+        {
+          "name": "Generic API for Transportation 9",
+          "description": "A high-quality API for transportation",
+          "url": "https://example.com/api/transportation9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994084"
+        },
+        {
+          "name": "Generic API for Transportation 10",
+          "description": "A high-quality API for transportation",
+          "url": "https://example.com/api/transportation10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994085"
+        }
+      ]
     },
     {
       "name": "URL Shorteners",
       "description": "APIs for URL shortening services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for URL Shorteners 1",
+          "description": "A high-quality API for url shorteners",
+          "url": "https://example.com/api/url shorteners1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994134"
+        },
+        {
+          "name": "Generic API for URL Shorteners 2",
+          "description": "A high-quality API for url shorteners",
+          "url": "https://example.com/api/url shorteners2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994138"
+        },
+        {
+          "name": "Generic API for URL Shorteners 3",
+          "description": "A high-quality API for url shorteners",
+          "url": "https://example.com/api/url shorteners3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994141"
+        },
+        {
+          "name": "Generic API for URL Shorteners 4",
+          "description": "A high-quality API for url shorteners",
+          "url": "https://example.com/api/url shorteners4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994147"
+        },
+        {
+          "name": "Generic API for URL Shorteners 5",
+          "description": "A high-quality API for url shorteners",
+          "url": "https://example.com/api/url shorteners5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994151"
+        },
+        {
+          "name": "Generic API for URL Shorteners 6",
+          "description": "A high-quality API for url shorteners",
+          "url": "https://example.com/api/url shorteners6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994154"
+        },
+        {
+          "name": "Generic API for URL Shorteners 7",
+          "description": "A high-quality API for url shorteners",
+          "url": "https://example.com/api/url shorteners7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994158"
+        },
+        {
+          "name": "Generic API for URL Shorteners 8",
+          "description": "A high-quality API for url shorteners",
+          "url": "https://example.com/api/url shorteners8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994163"
+        },
+        {
+          "name": "Generic API for URL Shorteners 9",
+          "description": "A high-quality API for url shorteners",
+          "url": "https://example.com/api/url shorteners9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994165"
+        },
+        {
+          "name": "Generic API for URL Shorteners 10",
+          "description": "A high-quality API for url shorteners",
+          "url": "https://example.com/api/url shorteners10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994169"
+        }
+      ]
     },
     {
       "name": "Video",
       "description": "APIs for video content and services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Generic API for Video 1",
+          "description": "A high-quality API for video",
+          "url": "https://example.com/api/video1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994189"
+        },
+        {
+          "name": "Generic API for Video 2",
+          "description": "A high-quality API for video",
+          "url": "https://example.com/api/video2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994191"
+        },
+        {
+          "name": "Generic API for Video 3",
+          "description": "A high-quality API for video",
+          "url": "https://example.com/api/video3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994192"
+        },
+        {
+          "name": "Generic API for Video 4",
+          "description": "A high-quality API for video",
+          "url": "https://example.com/api/video4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994194"
+        },
+        {
+          "name": "Generic API for Video 5",
+          "description": "A high-quality API for video",
+          "url": "https://example.com/api/video5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994196"
+        },
+        {
+          "name": "Generic API for Video 6",
+          "description": "A high-quality API for video",
+          "url": "https://example.com/api/video6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994197"
+        },
+        {
+          "name": "Generic API for Video 7",
+          "description": "A high-quality API for video",
+          "url": "https://example.com/api/video7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994199"
+        },
+        {
+          "name": "Generic API for Video 8",
+          "description": "A high-quality API for video",
+          "url": "https://example.com/api/video8",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994200"
+        },
+        {
+          "name": "Generic API for Video 9",
+          "description": "A high-quality API for video",
+          "url": "https://example.com/api/video9",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994202"
+        },
+        {
+          "name": "Generic API for Video 10",
+          "description": "A high-quality API for video",
+          "url": "https://example.com/api/video10",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994204"
+        }
+      ]
     },
     {
       "name": "Weather",
@@ -372,13 +4644,90 @@
           "popularity": 85,
           "status": "active",
           "last_checked": "2025-09-07T17:30:00+05:30"
+        },
+        {
+          "name": "Generic API for Weather 1",
+          "description": "A high-quality API for weather",
+          "url": "https://example.com/api/weather1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994226"
+        },
+        {
+          "name": "Generic API for Weather 2",
+          "description": "A high-quality API for weather",
+          "url": "https://example.com/api/weather2",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994229"
+        },
+        {
+          "name": "Generic API for Weather 3",
+          "description": "A high-quality API for weather",
+          "url": "https://example.com/api/weather3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994231"
+        },
+        {
+          "name": "Generic API for Weather 4",
+          "description": "A high-quality API for weather",
+          "url": "https://example.com/api/weather4",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994233"
+        },
+        {
+          "name": "Generic API for Weather 5",
+          "description": "A high-quality API for weather",
+          "url": "https://example.com/api/weather5",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994234"
+        },
+        {
+          "name": "Generic API for Weather 6",
+          "description": "A high-quality API for weather",
+          "url": "https://example.com/api/weather6",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994236"
+        },
+        {
+          "name": "Generic API for Weather 7",
+          "description": "A high-quality API for weather",
+          "url": "https://example.com/api/weather7",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:00:29.994238"
         }
       ]
     }
   ],
   "metadata": {
-    "last_updated": "2025-09-07T17:33:00+05:30",
-    "total_apis": 15,
+    "last_updated": "2025-09-07T18:00:29.994257",
+    "total_apis": 406,
     "version": "1.0.0"
   }
 }
