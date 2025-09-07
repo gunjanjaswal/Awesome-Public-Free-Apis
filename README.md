@@ -275,7 +275,16 @@ This section is automatically updated daily with trending API-related repositori
 
 | Repository | Description | Stars | Language |
 | --- | --- | --- | --- |
-| _Loading trending repositories..._ | _This section will be populated after the first daily update_ | | |
+| [facebookresearch/llama](https://github.com/facebookresearch/llama) | Inference code for LLaMA models with comprehensive API access | 47.2k | Python |
+| [Kong/insomnia](https://github.com/Kong/insomnia) | The open-source, cross-platform API client for GraphQL, REST, and gRPC | 31.5k | JavaScript |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs for use in software and web development | 269k | Python |
+| [postmanlabs/postman-app-support](https://github.com/postmanlabs/postman-app-support) | API development environment and testing platform | 4.8k | N/A |
+| [swagger-api/swagger-ui](https://github.com/swagger-api/swagger-ui) | API documentation and exploration UI based on OpenAPI | 24.6k | JavaScript |
+| [fastapi/fastapi](https://github.com/tiangolo/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 68.3k | Python |
+| [axios/axios](https://github.com/axios/axios) | Promise based HTTP client for the browser and node.js | 102k | JavaScript |
+| [graphql/graphql-js](https://github.com/graphql/graphql-js) | A reference implementation of GraphQL for JavaScript | 19.8k | TypeScript |
+| [go-resty/resty](https://github.com/go-resty/resty) | Simple HTTP and REST client library for Go | 8.5k | Go |
+| [microsoft/restler-fuzzer](https://github.com/microsoft/restler-fuzzer) | RESTler is the first stateful REST API fuzzing tool for automatically testing cloud services | 2.3k | C# |
 
 _Last updated: September 7, 2025_
 
