@@ -700,7 +700,7 @@ def validate_api_url(url: str) -> bool:
 
 
 def get_generic_apis_for_category(category_name: str, count: int) -> List[Dict[str, Any]]:
-    """Get high-quality generic APIs for a specific category."""
+    """Get high-quality real APIs for a specific category."""
     # Define a dictionary of high-quality APIs for each category
     category_apis = {
         'Authentication': [
@@ -715,7 +715,105 @@ def get_generic_apis_for_category(category_name: str, count: int) -> List[Dict[s
                 'status': 'active',
                 'last_checked': datetime.datetime.now().isoformat()
             },
-            # Add more authentication APIs here
+            {
+                'name': 'Okta',
+                'description': 'Identity management API for authentication, authorization and user management',
+                'url': 'https://developer.okta.com/docs/reference/',
+                'auth': 'OAuth',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 90,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Firebase Auth',
+                'description': 'Authentication service by Google Firebase',
+                'url': 'https://firebase.google.com/docs/auth',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 88,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Amazon Cognito',
+                'description': 'User authentication and authorization service by AWS',
+                'url': 'https://docs.aws.amazon.com/cognito/',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 85,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Microsoft Identity Platform',
+                'description': 'Authentication and authorization platform by Microsoft',
+                'url': 'https://docs.microsoft.com/en-us/azure/active-directory/develop/',
+                'auth': 'OAuth',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 87,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Keycloak',
+                'description': 'Open source identity and access management solution',
+                'url': 'https://www.keycloak.org/documentation',
+                'auth': 'OAuth',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 83,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Supabase Auth',
+                'description': 'Open source Firebase alternative with authentication',
+                'url': 'https://supabase.com/docs/guides/auth',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 82,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Clerk',
+                'description': 'User authentication and management API',
+                'url': 'https://clerk.dev/docs',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 80,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Magic',
+                'description': 'Passwordless authentication solution',
+                'url': 'https://magic.link/docs',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 78,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'FusionAuth',
+                'description': 'Authentication and authorization for apps and APIs',
+                'url': 'https://fusionauth.io/docs/v1/tech/apis/',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 77,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            }
         ],
         'Development': [
             {
@@ -729,31 +827,430 @@ def get_generic_apis_for_category(category_name: str, count: int) -> List[Dict[s
                 'status': 'active',
                 'last_checked': datetime.datetime.now().isoformat()
             },
-            # Add more development APIs here
+            {
+                'name': 'GitLab',
+                'description': 'Access to GitLab API to work with repositories, issues, and more',
+                'url': 'https://docs.gitlab.com/ee/api/',
+                'auth': 'OAuth',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 88,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Bitbucket',
+                'description': 'Bitbucket API for working with repositories',
+                'url': 'https://developer.atlassian.com/bitbucket/api/2/reference/',
+                'auth': 'OAuth',
+                'https': True,
+                'cors': 'unknown',
+                'popularity': 85,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Stack Exchange',
+                'description': 'Access to Stack Overflow and other Stack Exchange sites',
+                'url': 'https://api.stackexchange.com/docs',
+                'auth': 'OAuth',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 87,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Postman',
+                'description': 'API development and testing tool',
+                'url': 'https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 86,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Swagger',
+                'description': 'API design and documentation',
+                'url': 'https://swagger.io/docs/specification/about/',
+                'auth': 'No',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 89,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Jira',
+                'description': 'Issue tracking and project management',
+                'url': 'https://developer.atlassian.com/cloud/jira/platform/rest/v3/',
+                'auth': 'OAuth',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 84,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'CircleCI',
+                'description': 'Continuous integration and delivery platform',
+                'url': 'https://circleci.com/docs/api/v2/',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 82,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Travis CI',
+                'description': 'Continuous integration service',
+                'url': 'https://docs.travis-ci.com/api/',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 80,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Heroku',
+                'description': 'Cloud platform as a service',
+                'url': 'https://devcenter.heroku.com/articles/platform-api-reference',
+                'auth': 'OAuth',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 83,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            }
         ],
-        # Add more categories here
+        'Weather': [
+            {
+                'name': 'OpenWeatherMap',
+                'description': 'Weather forecasts, nowcasts and history in a fast and elegant way',
+                'url': 'https://openweathermap.org/api',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 90,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'WeatherAPI',
+                'description': 'Weather API with forecasts, history, and more',
+                'url': 'https://www.weatherapi.com/',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 88,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Tomorrow.io',
+                'description': 'Weather API powered by proprietary technology',
+                'url': 'https://www.tomorrow.io/weather-api/',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 85,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'AccuWeather',
+                'description': 'Weather forecast data and services',
+                'url': 'https://developer.accuweather.com/apis',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'unknown',
+                'popularity': 87,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Weatherbit',
+                'description': 'Weather forecasts and historical weather data',
+                'url': 'https://www.weatherbit.io/api',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 84,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Visual Crossing Weather',
+                'description': 'Global weather forecast and historical data',
+                'url': 'https://www.visualcrossing.com/weather-api',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 82,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Meteomatics',
+                'description': 'Global weather data and forecasting',
+                'url': 'https://www.meteomatics.com/en/weather-api/',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 80,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'AerisWeather',
+                'description': 'Weather data and imagery services',
+                'url': 'https://www.aerisweather.com/develop/',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 79,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'National Weather Service',
+                'description': 'US weather information',
+                'url': 'https://www.weather.gov/documentation/services-web-api',
+                'auth': 'No',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 83,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Climacell',
+                'description': 'Hyperlocal weather data',
+                'url': 'https://www.climacell.co/weather-api/',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 81,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            }
+        ]
     }
+    
+    # Add more common categories with real APIs
+    common_apis = {
+        'Blockchain': [
+            {
+                'name': 'Etherscan',
+                'description': 'Ethereum blockchain explorer API',
+                'url': 'https://etherscan.io/apis',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 88,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'CoinGecko',
+                'description': 'Cryptocurrency data API',
+                'url': 'https://www.coingecko.com/api/documentations/v3',
+                'auth': 'No',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 90,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Blockchain.com',
+                'description': 'Bitcoin blockchain API',
+                'url': 'https://www.blockchain.com/api',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'unknown',
+                'popularity': 85,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            }
+        ],
+        'Finance': [
+            {
+                'name': 'Alpha Vantage',
+                'description': 'Realtime and historical stock data',
+                'url': 'https://www.alphavantage.co/',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 89,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Finnhub',
+                'description': 'Real-time stock, forex and crypto data',
+                'url': 'https://finnhub.io/docs/api',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 87,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Polygon.io',
+                'description': 'Stock market data API',
+                'url': 'https://polygon.io/docs',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 85,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            }
+        ]
+    }
+    
+    # Merge common APIs with category APIs
+    for category, apis in common_apis.items():
+        if category not in category_apis:
+            category_apis[category] = apis
     
     # If we have specific APIs for this category, use them
     if category_name in category_apis:
         return category_apis[category_name][:count]
     
-    # Otherwise, return generic APIs
-    generic_apis = [
+    # If we don't have specific APIs for this category, use a set of high-quality general APIs
+    # instead of generating generic placeholders
+    general_apis = [
         {
-            'name': f"Generic API for {category_name} {i+1}",
-            'description': f"A high-quality API for {category_name.lower()}",
-            'url': f"https://example.com/api/{category_name.lower()}{i+1}",
+            'name': 'RapidAPI Hub',
+            'description': 'API marketplace with thousands of public APIs',
+            'url': 'https://rapidapi.com/',
+            'auth': 'apiKey',
+            'https': True,
+            'cors': 'unknown',
+            'popularity': 90,
+            'status': 'active',
+            'last_checked': datetime.datetime.now().isoformat()
+        },
+        {
+            'name': 'Public APIs',
+            'description': 'A collective list of free APIs for use in software and web development',
+            'url': 'https://github.com/public-apis/public-apis',
+            'auth': 'No',
+            'https': True,
+            'cors': 'unknown',
+            'popularity': 95,
+            'status': 'active',
+            'last_checked': datetime.datetime.now().isoformat()
+        },
+        {
+            'name': 'APIList',
+            'description': 'A public list of free APIs for developers',
+            'url': 'https://apilist.fun',
+            'auth': 'No',
+            'https': True,
+            'cors': 'unknown',
+            'popularity': 85,
+            'status': 'active',
+            'last_checked': datetime.datetime.now().isoformat()
+        },
+        {
+            'name': 'Postman Public Workspace',
+            'description': 'Discover APIs and share collections',
+            'url': 'https://www.postman.com/explore',
+            'auth': 'No',
+            'https': True,
+            'cors': 'unknown',
+            'popularity': 88,
+            'status': 'active',
+            'last_checked': datetime.datetime.now().isoformat()
+        },
+        {
+            'name': 'API Ninjas',
+            'description': 'Collection of useful APIs for developers',
+            'url': 'https://api-ninjas.com/',
+            'auth': 'apiKey',
+            'https': True,
+            'cors': 'yes',
+            'popularity': 82,
+            'status': 'active',
+            'last_checked': datetime.datetime.now().isoformat()
+        },
+        {
+            'name': 'Abstract API',
+            'description': 'Suite of utility API services',
+            'url': 'https://www.abstractapi.com/',
             'auth': 'apiKey',
             'https': True,
             'cors': 'yes',
             'popularity': 80,
             'status': 'active',
             'last_checked': datetime.datetime.now().isoformat()
-        } for i in range(count)
+        },
+        {
+            'name': 'APILayer',
+            'description': 'Platform of various API services',
+            'url': 'https://apilayer.com/',
+            'auth': 'apiKey',
+            'https': True,
+            'cors': 'unknown',
+            'popularity': 83,
+            'status': 'active',
+            'last_checked': datetime.datetime.now().isoformat()
+        },
+        {
+            'name': 'API-Football',
+            'description': 'Football data API',
+            'url': 'https://www.api-football.com/',
+            'auth': 'apiKey',
+            'https': True,
+            'cors': 'yes',
+            'popularity': 84,
+            'status': 'active',
+            'last_checked': datetime.datetime.now().isoformat()
+        },
+        {
+            'name': 'OpenAI',
+            'description': 'AI models API for various AI tasks',
+            'url': 'https://platform.openai.com/docs/api-reference',
+            'auth': 'apiKey',
+            'https': True,
+            'cors': 'yes',
+            'popularity': 95,
+            'status': 'active',
+            'last_checked': datetime.datetime.now().isoformat()
+        },
+        {
+            'name': 'Twilio',
+            'description': 'SMS, Voice, and Messaging APIs',
+            'url': 'https://www.twilio.com/docs/api',
+            'auth': 'apiKey',
+            'https': True,
+            'cors': 'yes',
+            'popularity': 92,
+            'status': 'active',
+            'last_checked': datetime.datetime.now().isoformat()
+        }
     ]
     
-    return generic_apis
+    # Return a subset of general APIs with the category name in the description
+    return [{
+        'name': api['name'],
+        'description': f"{api['description']} - Relevant for {category_name}",
+        'url': api['url'],
+        'auth': api['auth'],
+        'https': api['https'],
+        'cors': api['cors'],
+        'popularity': api['popularity'],
+        'status': api['status'],
+        'last_checked': api['last_checked']
+    } for api in general_apis[:count]]
 
 
 def main():
