@@ -366,31 +366,6 @@ def is_api_duplicate(api: Dict[str, Any], existing_apis: List[Dict[str, Any]]) -
                 return True
     
     return False
-
-
-def add_new_apis(data: Dict[str, Any], new_apis: List[Dict[str, Any]]) -> Dict[str, Any]:
-    """Add new APIs to the appropriate categories."""
-    updated_data = data.copy()
-    added_count = 0
-    
-    for new_api in new_apis:
-        category_name = new_api.get('category', 'Development')
-        
-        # Find the appropriate category
-        for category in updated_data['categories']:
-            if category['name'] == category_name:
-                # Check if API already exists
-                if not is_api_duplicate(new_api, category['apis']):
-                    # Add required fields if missing
-                    if 'status' not in new_api:
-                        new_api['status'] = 'active'
-                    if 'last_checked' not in new_api:
-                        new_api['last_checked'] = datetime.datetime.now().isoformat()
-                    
-                    category['apis'].append(new_api)
-                    added_count += 1
-                    print(f"Added new API: {new_api['name']} to category {category_name}")
-                break
     
     # Update metadata
     total_apis = sum(len(category['apis']) for category in updated_data['categories'])
@@ -402,7 +377,8 @@ def add_new_apis(data: Dict[str, Any], new_apis: List[Dict[str, Any]]) -> Dict[s
 
 
 def scrape_public_apis_repository() -> List[Dict[str, Any]]:
-    """Scrape APIs from the public-apis/public-apis repository."""
+    """Scrape APIs from the public-apis/public-apis repository.
+    Only includes APIs that link to actual API websites, not to API directories."""
     apis = []
     try:
         headers = {'User-Agent': get_random_user_agent()}
@@ -419,12 +395,41 @@ def scrape_public_apis_repository() -> List[Dict[str, Any]]:
         category_pattern = r'### (.+?)\n\n(.+?)(?=\n\n### |$)'
         category_matches = re.findall(category_pattern, content, re.DOTALL)
         
+        # Domains to exclude (API directories, not actual API websites)
+        excluded_domains = [
+            'apis.guru',
+            'rapidapi.com',
+            'apilayer.com',
+            'api-ninjas.com',
+            'programmableweb.com',
+            'apilist.fun',
+            'any-api.com',
+            'apihouse.vercel.app'
+        ]
+        
         for category_name, category_content in category_matches:
             # Parse table rows
             api_pattern = r'\[(.*?)\]\((.*?)\) \| (.*?) \| (.*?) \| (.*?) \| (.*?)\n'
             api_matches = re.findall(api_pattern, category_content)
             
             for api_name, api_url, api_desc, auth, https, cors in api_matches:
+                # Skip APIs that link to excluded domains (API directories)
+                should_exclude = False
+                for domain in excluded_domains:
+                    if domain in api_url.lower():
+                        should_exclude = True
+                        print(f"Skipping {api_name} as it links to {domain}")
+                        break
+                
+                if should_exclude:
+                    continue
+                
+                # Skip APIs with generic names that likely aren't direct API links
+                generic_terms = ['directory', 'catalog', 'list', 'collection', 'hub', 'marketplace']
+                if any(term in api_name.lower() for term in generic_terms):
+                    print(f"Skipping {api_name} as it appears to be a directory, not a direct API")
+                    continue
+                
                 apis.append({
                     'name': api_name,
                     'description': api_desc,
@@ -599,7 +604,8 @@ def scrape_any_api() -> List[Dict[str, Any]]:
 
 
 def verify_api(api: Dict[str, Any]) -> Dict[str, Any]:
-    """Verify if an API is working and update its information."""
+    """Verify if an API is working and update its information.
+    Performs thorough checks to ensure the website is accessible."""
     # Make a copy of the API to avoid modifying the original
     verified_api = api.copy()
     
@@ -608,18 +614,44 @@ def verify_api(api: Dict[str, Any]) -> Dict[str, Any]:
         verified_api['status'] = 'unknown'
         verified_api['https'] = False
         verified_api['cors'] = 'unknown'
+        verified_api['working'] = False  # Mark as not working
         return verified_api
     
     try:
         headers = {'User-Agent': get_random_user_agent()}
-        # Use a short timeout to avoid hanging
-        response = requests.head(verified_api['url'], headers=headers, timeout=5, allow_redirects=True)
+        
+        # First try HEAD request with a short timeout
+        try:
+            head_response = requests.head(
+                verified_api['url'], 
+                headers=headers, 
+                timeout=5, 
+                allow_redirects=True
+            )
+            
+            # If HEAD request succeeds, use that response
+            response = head_response
+            
+        except requests.RequestException:
+            # If HEAD fails, try GET request as some servers don't support HEAD
+            response = requests.get(
+                verified_api['url'], 
+                headers=headers, 
+                timeout=8,  # Slightly longer timeout for GET
+                allow_redirects=True,
+                stream=True  # Don't download the entire content
+            )
+            # Just read a small part to verify connection
+            response.raw.read(1024)
+            response.close()
         
         # Update API status based on response
         if response.status_code < 400:
             verified_api['status'] = 'active'
+            verified_api['working'] = True
         else:
             verified_api['status'] = 'inactive'
+            verified_api['working'] = False
             
         # Try to detect CORS support
         if 'Access-Control-Allow-Origin' in response.headers:
@@ -629,37 +661,70 @@ def verify_api(api: Dict[str, Any]) -> Dict[str, Any]:
         verified_api['https'] = verified_api['url'].startswith('https')
         
     except requests.RequestException as e:
-        # Don't mark as inactive on first check, but log the error
+        # Mark as not working if we can't connect
         print(f"Warning: Could not verify API {verified_api.get('name', 'unknown')}: {e}")
-        # Don't change status if it already exists
-        if 'status' not in verified_api:
-            verified_api['status'] = 'unknown'
+        verified_api['status'] = 'error'
+        verified_api['working'] = False
     except Exception as e:
         print(f"Error verifying API {verified_api.get('name', 'unknown')}: {e}")
-        if 'status' not in verified_api:
-            verified_api['status'] = 'unknown'
+        verified_api['status'] = 'unknown'
+        verified_api['working'] = False
         
     return verified_api
 
 
 def add_new_apis(data: Dict[str, Any], new_apis: List[Dict[str, Any]]) -> Dict[str, Any]:
-    """Add new APIs to the appropriate categories with priority to empty categories."""
+    """Add new APIs to the appropriate categories with priority to empty categories.
+    Ensures each category has between 10-15 high-quality APIs."""
     updated_data = data.copy()
     added_count = 0
     
-    # First, identify empty categories
-    empty_categories = []
-    for category in updated_data['categories']:
-        if len(category['apis']) == 0:
-            empty_categories.append(category['name'])
+    # First, identify categories that need more APIs (have less than MIN_APIS_PER_CATEGORY)
+    MIN_APIS_PER_CATEGORY = 10
+    MAX_APIS_PER_CATEGORY = 15
     
-    # Sort APIs by category, prioritizing those that would fill empty categories
+    categories_needing_apis = []
+    for category in updated_data['categories']:
+        if len(category['apis']) < MIN_APIS_PER_CATEGORY:
+            categories_needing_apis.append(category['name'])
+    
+    # Filter APIs by quality criteria
+    quality_apis = []
+    for api in new_apis:
+        # Quality filtering criteria
+        if not api.get('name') or not api.get('url') or not api.get('description'):
+            continue
+            
+        # Ensure description is meaningful (at least 20 characters)
+        if len(api.get('description', '')) < 20:
+            continue
+            
+        # Prefer APIs with known auth method
+        if api.get('auth') == 'unknown':
+            api['quality_score'] = 70
+        else:
+            api['quality_score'] = 90
+            
+        # Prefer APIs with HTTPS
+        if api.get('https'):
+            api['quality_score'] += 10
+            
+        # Prefer APIs with known CORS status
+        if api.get('cors') != 'unknown':
+            api['quality_score'] += 5
+            
+        quality_apis.append(api)
+    
+    # Sort APIs by quality score and then by category priority
     prioritized_apis = sorted(
-        new_apis,
-        key=lambda api: 0 if api.get('category') in empty_categories else 1
+        quality_apis,
+        key=lambda api: (
+            0 if api.get('category') in categories_needing_apis else 1,
+            -api.get('quality_score', 0)  # Higher quality score first
+        )
     )
     
-    # Process APIs with priority given to empty categories
+    # Process APIs with priority given to categories needing APIs and quality
     for new_api in prioritized_apis:
         category_name = new_api.get('category', 'Development')
         category_found = False
@@ -668,30 +733,19 @@ def add_new_apis(data: Dict[str, Any], new_apis: List[Dict[str, Any]]) -> Dict[s
         for category in updated_data['categories']:
             if category['name'] == category_name:
                 category_found = True
+                
+                # Skip if category already has maximum number of APIs
+                if len(category['apis']) >= MAX_APIS_PER_CATEGORY:
+                    break
+                    
                 # Check if API already exists
                 if not is_api_duplicate(new_api, category['apis']):
                     # Verify API before adding
                     new_api = verify_api(new_api)
                     
-                    # Add required fields if missing
-                    if 'status' not in new_api:
-                        new_api['status'] = 'active'
-                    if 'last_checked' not in new_api:
-                        new_api['last_checked'] = datetime.datetime.now().isoformat()
-                    
-                    category['apis'].append(new_api)
-                    added_count += 1
-                    print(f"Added new API: {new_api['name']} to category {category_name}")
-                break
-        
-        # If category not found, add to Development category
-        if not category_found:
-            for category in updated_data['categories']:
-                if category['name'] == 'Development':
-                    if not is_api_duplicate(new_api, category['apis']):
-                        new_api['category'] = 'Development'
-                        new_api = verify_api(new_api)
-                        
+                    # Only add if the API is working
+                    if new_api.get('working', False):
+                        # Add required fields if missing
                         if 'status' not in new_api:
                             new_api['status'] = 'active'
                         if 'last_checked' not in new_api:
@@ -699,7 +753,35 @@ def add_new_apis(data: Dict[str, Any], new_apis: List[Dict[str, Any]]) -> Dict[s
                         
                         category['apis'].append(new_api)
                         added_count += 1
-                        print(f"Added new API: {new_api['name']} to Development category (original category not found)")
+                        print(f"Added new API: {new_api['name']} to category {category_name}")
+                    else:
+                        print(f"Skipping non-working API: {new_api['name']} (status: {new_api.get('status', 'unknown')})")
+                break
+        
+        # If category not found, add to Development category
+        if not category_found:
+            for category in updated_data['categories']:
+                if category['name'] == 'Development':
+                    # Skip if Development category already has maximum number of APIs
+                    if len(category['apis']) >= MAX_APIS_PER_CATEGORY:
+                        break
+                        
+                    if not is_api_duplicate(new_api, category['apis']):
+                        new_api['category'] = 'Development'
+                        new_api = verify_api(new_api)
+                        
+                        # Only add if the API is working
+                        if new_api.get('working', False):
+                            if 'status' not in new_api:
+                                new_api['status'] = 'active'
+                            if 'last_checked' not in new_api:
+                                new_api['last_checked'] = datetime.datetime.now().isoformat()
+                            
+                            category['apis'].append(new_api)
+                            added_count += 1
+                            print(f"Added new API: {new_api['name']} to Development category (original category not found)")
+                        else:
+                            print(f"Skipping non-working API: {new_api['name']} (status: {new_api.get('status', 'unknown')})")
                     break
     
     # Update metadata
@@ -953,6 +1035,43 @@ def scrape_apihouse() -> List[Dict[str, Any]]:
     return apis
 
 
+def filter_apis_for_readme(data: Dict[str, Any]) -> Dict[str, Any]:
+    """Filter APIs for inclusion in the README file.
+    Only includes working APIs and ensures category limits are respected."""
+    filtered_data = data.copy()
+    
+    # Define limits
+    MIN_APIS_PER_CATEGORY = 10
+    MAX_APIS_PER_CATEGORY = 15
+    
+    for category in filtered_data['categories']:
+        # Filter out non-working APIs
+        working_apis = [api for api in category['apis'] if api.get('working', False) and api.get('status') == 'active']
+        
+        # Sort by quality score if available, otherwise by name
+        sorted_apis = sorted(
+            working_apis,
+            key=lambda api: (-api.get('quality_score', 0), api.get('name', ''))
+        )
+        
+        # Limit to maximum number of APIs
+        limited_apis = sorted_apis[:MAX_APIS_PER_CATEGORY]
+        
+        # Update the category with filtered APIs
+        category['apis'] = limited_apis
+        
+        # Log warning if category has fewer than minimum APIs
+        if len(limited_apis) < MIN_APIS_PER_CATEGORY:
+            print(f"Warning: Category {category['name']} has only {len(limited_apis)} working APIs (minimum is {MIN_APIS_PER_CATEGORY})")
+    
+    # Update metadata
+    total_apis = sum(len(category['apis']) for category in filtered_data['categories'])
+    filtered_data['metadata']['total_apis'] = total_apis
+    filtered_data['metadata']['last_updated'] = datetime.datetime.now().isoformat()
+    
+    return filtered_data
+
+
 def main():
     """Main function to discover trending APIs."""
     try:
@@ -962,6 +1081,8 @@ def main():
                             help='Discovery mode: regular (weekly sources), comprehensive (all sources), or all (force all sources)')
         parser.add_argument('--category', type=str, default=None,
                             help='Target specific category to populate')
+        parser.add_argument('--readme', action='store_true',
+                            help='Filter APIs for README inclusion')
         args = parser.parse_args()
         
         print(f"Starting API discovery process in {args.mode} mode...")
@@ -997,7 +1118,7 @@ def main():
             print(f"Error scraping GitHub Trending: {e}")
         
         try:
-            # Public APIs Repository (always included as it's very reliable)
+            # Public APIs Repository (with filtering for direct API links)
             print("Scraping public-apis repository...")
             public_apis = scrape_public_apis_repository()
             new_apis.extend(public_apis)
@@ -1036,14 +1157,7 @@ def main():
             except Exception as e:
                 print(f"Error scraping APIList.fun: {e}")
             
-            try:
-                # APIs.guru
-                print("Scraping APIs.guru...")
-                apis_guru_apis = scrape_apis_guru()
-                new_apis.extend(apis_guru_apis)
-                print(f"Found {len(apis_guru_apis)} APIs from APIs.guru")
-            except Exception as e:
-                print(f"Error scraping APIs.guru: {e}")
+            # APIs.guru scraper has been removed as requested
             
             try:
                 # Any-API
@@ -1094,6 +1208,12 @@ def main():
         if new_apis:
             print(f"\nProcessing {len(new_apis)} discovered APIs...")
             updated_data = add_new_apis(data, new_apis)
+            
+            # Filter APIs for README if requested
+            if args.readme:
+                print("Filtering APIs for README inclusion...")
+                updated_data = filter_apis_for_readme(updated_data)
+                print(f"Filtered data to include only working APIs with limits of 10-15 per category")
             
             # Save updated data
             save_api_data(updated_data)
