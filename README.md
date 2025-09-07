@@ -75,6 +75,7 @@ This repository aims to be the most comprehensive and up-to-date collection of *
 - [Weather](#weather)
 
 
+
 ### Authentication
 APIs related to authentication, authorization, and identity management
 
