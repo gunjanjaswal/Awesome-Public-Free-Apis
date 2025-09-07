@@ -4,6 +4,8 @@ on:
   schedule:
     # Run monthly on the 1st at 00:30 UTC (6:00 AM IST on the 1st of each month)
     - cron: '30 0 1 * *'
+  push:
+    branches: [ main, master ]
   workflow_dispatch:
     # Allow manual triggering
 
@@ -36,8 +38,14 @@ jobs:
       - name: Commit and push if changed
         if: steps.git-check.outputs.changes == 'true'
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "gunjanjaswal@gmail.com"
+          git config --local user.name "Gunjan Jaswaal"
           git add -A
           git commit -m "Discover new trending APIs [skip ci]"
-          git push
+        
+      - name: Push changes
+        if: steps.git-check.outputs.changes == 'true'
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
