@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "total_apis": 9,
+    "last_updated": "2025-09-07T22:03:04Z"
+  },
+  "categories": [
+    {
+      "name": "Authentication",
+      "description": "APIs related to authentication, authorization, and identity management",
+      "apis": [
+        {
+          "name": "Auth0",
+          "description": "Authentication platform",
+          "url": "https://auth0.com/docs/api/authentication",
+          "auth": "OAuth",
+          "https": true,
+          "cors": "yes",
+          "status": "active",
+          "last_checked": "2025-09-07T22:03:04Z"
+        },
+        {
+          "name": "Okta",
+          "description": "Identity management API",
+          "url": "https://developer.okta.com/docs/reference/",
+          "auth": "OAuth",
+          "https": true,
+          "cors": "yes",
+          "status": "active",
+          "last_checked": "2025-09-07T22:03:04Z"
+        },
+        {
+          "name": "Firebase Auth",
+          "description": "Authentication service by Google Firebase",
+          "url": "https://firebase.google.com/docs/auth",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "status": "active",
+          "last_checked": "2025-09-07T22:03:04Z"
+        }
+      ]
+    },
+    {
+      "name": "Weather",
+      "description": "APIs for weather data and forecasts",
+      "apis": [
+        {
+          "name": "OpenWeatherMap",
+          "description": "Weather forecasts and data",
+          "url": "https://openweathermap.org/api",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "status": "active",
+          "last_checked": "2025-09-07T22:03:04Z"
+        },
+        {
+          "name": "WeatherAPI",
+          "description": "Weather API with forecasts",
+          "url": "https://www.weatherapi.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "status": "active",
+          "last_checked": "2025-09-07T22:03:04Z"
+        },
+        {
+          "name": "Tomorrow.io",
+          "description": "Weather API powered by proprietary technology",
+          "url": "https://www.tomorrow.io/weather-api/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "status": "active",
+          "last_checked": "2025-09-07T22:03:04Z"
+        }
+      ]
+    },
+    {
+      "name": "Testing",
+      "description": "APIs for testing purposes",
+      "apis": [
+        {
+          "name": "Test API 1",
+          "description": "A test API for demonstration",
+          "url": "https://example.com/api/test1",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "status": "active",
+          "last_checked": "2025-09-07T22:03:04Z"
+        },
+        {
+          "name": "Test API 2",
+          "description": "Another test API for demonstration",
+          "url": "https://example.com/api/test2",
+          "auth": "OAuth",
+          "https": true,
+          "cors": "unknown",
+          "status": "active",
+          "last_checked": "2025-09-07T22:03:04Z"
+        },
+        {
+          "name": "Test API 3",
+          "description": "A third test API for demonstration",
+          "url": "https://example.com/api/test3",
+          "auth": "No",
+          "https": true,
+          "cors": "no",
+          "status": "active",
+          "last_checked": "2025-09-07T22:03:04Z"
+        }
+      ]
+    }
+  ]
+}

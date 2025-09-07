@@ -1,0 +1,103 @@
+name: Weekly API Status Check
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # Run weekly on Sundays at 00:00 UTC
+  workflow_dispatch:      # Allow manual triggering
+
+jobs:
+  update-apis:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+          
+      - name: Create API status check script
+        run: |
+          cat > scripts/check_api_status.py << 'EOL'
+          #!/usr/bin/env python3
+          """
+          Script to check the status of APIs and update the README.md file while preserving structure.
+          """
+          
+          import json
+          import os
+          import requests
+          from typing import Dict, List, Any
+          
+          def check_api_status(api_data: Dict[str, Any]) -> Dict[str, Any]:
+              """Check the status of APIs and update their status."""
+              updated_data = api_data.copy()
+              
+              for category in updated_data["categories"]:
+                  for api in category["apis"]:
+                      if "url" in api and api["url"]:
+                          try:
+                              # Set a timeout to avoid hanging
+                              response = requests.head(api["url"], timeout=10, allow_redirects=True)
+                              if response.status_code < 400:
+                                  api["status"] = "active"
+                              else:
+                                  api["status"] = "inactive"
+                          except Exception:
+                              api["status"] = "error"
+              
+              return updated_data
+          
+          def save_api_data(api_data: Dict[str, Any], output_file: str) -> None:
+              """Save API data to a JSON file."""
+              with open(output_file, "w", encoding="utf-8") as f:
+                  json.dump(api_data, f, indent=2)
+          
+          def main():
+              """Main function to check API status."""
+              # Path to the API data file
+              api_data_file = "api_data.json"
+              
+              # Check if the API data file exists
+              if not os.path.exists(api_data_file):
+                  print(f"API data file {api_data_file} not found")
+                  return
+              
+              # Load API data
+              with open(api_data_file, "r", encoding="utf-8") as f:
+                  api_data = json.load(f)
+              
+              # Check API status
+              updated_data = check_api_status(api_data)
+              
+              # Save updated API data
+              save_api_data(updated_data, api_data_file)
+              
+              print("Successfully checked API status and updated api_data.json")
+          
+          if __name__ == "__main__":
+              main()
+          EOL
+          chmod +x scripts/check_api_status.py
+          
+      - name: Run API status check
+        run: |
+          # Run the API status check script
+          python scripts/check_api_status.py
+          
+          # Update the README while preserving its structure
+          python scripts/update_api_categories.py
+        
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Weekly API update [automated] $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          git push
