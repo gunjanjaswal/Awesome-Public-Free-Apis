@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "total_apis": 9,
-    "last_updated": "2025-09-07T22:03:04Z"
+    "total_apis": 6,
+    "last_updated": "2025-09-07T22:15:53Z"
   },
   "categories": [
     {
@@ -16,7 +16,7 @@
           "https": true,
           "cors": "yes",
           "status": "active",
-          "last_checked": "2025-09-07T22:03:04Z"
+          "last_checked": "2025-09-07T22:15:53Z"
         },
         {
           "name": "Okta",
@@ -26,7 +26,7 @@
           "https": true,
           "cors": "yes",
           "status": "active",
-          "last_checked": "2025-09-07T22:03:04Z"
+          "last_checked": "2025-09-07T22:15:53Z"
         },
         {
           "name": "Firebase Auth",
@@ -36,7 +36,7 @@
           "https": true,
           "cors": "yes",
           "status": "active",
-          "last_checked": "2025-09-07T22:03:04Z"
+          "last_checked": "2025-09-07T22:15:53Z"
         }
       ]
     },
@@ -52,7 +52,7 @@
           "https": true,
           "cors": "yes",
           "status": "active",
-          "last_checked": "2025-09-07T22:03:04Z"
+          "last_checked": "2025-09-07T22:15:53Z"
         },
         {
           "name": "WeatherAPI",
@@ -62,7 +62,7 @@
           "https": true,
           "cors": "yes",
           "status": "active",
-          "last_checked": "2025-09-07T22:03:04Z"
+          "last_checked": "2025-09-07T22:15:53Z"
         },
         {
           "name": "Tomorrow.io",
@@ -72,43 +72,7 @@
           "https": true,
           "cors": "yes",
           "status": "active",
-          "last_checked": "2025-09-07T22:03:04Z"
-        }
-      ]
-    },
-    {
-      "name": "Testing",
-      "description": "APIs for testing purposes",
-      "apis": [
-        {
-          "name": "Test API 1",
-          "description": "A test API for demonstration",
-          "url": "https://example.com/api/test1",
-          "auth": "apiKey",
-          "https": true,
-          "cors": "yes",
-          "status": "active",
-          "last_checked": "2025-09-07T22:03:04Z"
-        },
-        {
-          "name": "Test API 2",
-          "description": "Another test API for demonstration",
-          "url": "https://example.com/api/test2",
-          "auth": "OAuth",
-          "https": true,
-          "cors": "unknown",
-          "status": "active",
-          "last_checked": "2025-09-07T22:03:04Z"
-        },
-        {
-          "name": "Test API 3",
-          "description": "A third test API for demonstration",
-          "url": "https://example.com/api/test3",
-          "auth": "No",
-          "https": true,
-          "cors": "no",
-          "status": "active",
-          "last_checked": "2025-09-07T22:03:04Z"
+          "last_checked": "2025-09-07T22:15:53Z"
         }
       ]
     }
