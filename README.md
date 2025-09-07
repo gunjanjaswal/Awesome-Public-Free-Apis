@@ -9,13 +9,10 @@
 [![GitHub license](https://img.shields.io/github/license/gunjanjaswal/awesome-public-apis)](https://github.com/gunjanjaswal/awesome-public-apis/blob/main/LICENSE)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/gunjanjaswal/awesome-public-apis/graphs/commit-activity)
 
-<p align="center">
-  <img src="https://i.imgur.com/rEXcoMn.png" alt="Free Public APIs Collection for Developers" width="300">
-</p>
 
 The ultimate, self-updating collection of **free public REST APIs** for developers to integrate into web applications, mobile apps, and software projects. Automatically discovers and tracks the most popular and reliable free APIs across 40+ categories.
 
-[Browse APIs by Category](#-categories) • [How to Contribute](#-how-to-contribute) • [Automation Details](#-how-it-works) • [License](#-license)
+[Browse APIs by Category](#-api-categories---find-the-perfect-api-for-your-project) • [How to Contribute](#-how-to-contribute-to-this-api-collection) • [Automation Details](#-how-our-automated-api-tracking-works) • [License](#-license)
 
 </div>
 
@@ -107,9 +104,6 @@ This automation ensures you always have access to the most current and reliable 
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
-## ⭐ Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=gunjanjaswal/awesome-public-apis&type=Date)](https://star-history.com/#gunjanjaswal/awesome-public-apis&Date)
 
 ## 🙏 Acknowledgments
 
