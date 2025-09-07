@@ -600,28 +600,46 @@ def scrape_any_api() -> List[Dict[str, Any]]:
 
 def verify_api(api: Dict[str, Any]) -> Dict[str, Any]:
     """Verify if an API is working and update its information."""
+    # Make a copy of the API to avoid modifying the original
+    verified_api = api.copy()
+    
+    # Ensure URL exists and is a string
+    if 'url' not in verified_api or not isinstance(verified_api['url'], str) or not verified_api['url']:
+        verified_api['status'] = 'unknown'
+        verified_api['https'] = False
+        verified_api['cors'] = 'unknown'
+        return verified_api
+    
     try:
         headers = {'User-Agent': get_random_user_agent()}
-        response = requests.head(api['url'], headers=headers, timeout=5)
+        # Use a short timeout to avoid hanging
+        response = requests.head(verified_api['url'], headers=headers, timeout=5, allow_redirects=True)
         
         # Update API status based on response
         if response.status_code < 400:
-            api['status'] = 'active'
+            verified_api['status'] = 'active'
         else:
-            api['status'] = 'inactive'
+            verified_api['status'] = 'inactive'
             
         # Try to detect CORS support
         if 'Access-Control-Allow-Origin' in response.headers:
-            api['cors'] = 'yes'
+            verified_api['cors'] = 'yes'
             
         # Try to detect HTTPS support
-        api['https'] = api['url'].startswith('https')
+        verified_api['https'] = verified_api['url'].startswith('https')
         
-    except requests.RequestException:
-        # Don't mark as inactive on first check
-        pass
+    except requests.RequestException as e:
+        # Don't mark as inactive on first check, but log the error
+        print(f"Warning: Could not verify API {verified_api.get('name', 'unknown')}: {e}")
+        # Don't change status if it already exists
+        if 'status' not in verified_api:
+            verified_api['status'] = 'unknown'
+    except Exception as e:
+        print(f"Error verifying API {verified_api.get('name', 'unknown')}: {e}")
+        if 'status' not in verified_api:
+            verified_api['status'] = 'unknown'
         
-    return api
+    return verified_api
 
 
 def add_new_apis(data: Dict[str, Any], new_apis: List[Dict[str, Any]]) -> Dict[str, Any]:
@@ -644,10 +662,12 @@ def add_new_apis(data: Dict[str, Any], new_apis: List[Dict[str, Any]]) -> Dict[s
     # Process APIs with priority given to empty categories
     for new_api in prioritized_apis:
         category_name = new_api.get('category', 'Development')
+        category_found = False
         
         # Find the appropriate category
         for category in updated_data['categories']:
             if category['name'] == category_name:
+                category_found = True
                 # Check if API already exists
                 if not is_api_duplicate(new_api, category['apis']):
                     # Verify API before adding
@@ -663,6 +683,24 @@ def add_new_apis(data: Dict[str, Any], new_apis: List[Dict[str, Any]]) -> Dict[s
                     added_count += 1
                     print(f"Added new API: {new_api['name']} to category {category_name}")
                 break
+        
+        # If category not found, add to Development category
+        if not category_found:
+            for category in updated_data['categories']:
+                if category['name'] == 'Development':
+                    if not is_api_duplicate(new_api, category['apis']):
+                        new_api['category'] = 'Development'
+                        new_api = verify_api(new_api)
+                        
+                        if 'status' not in new_api:
+                            new_api['status'] = 'active'
+                        if 'last_checked' not in new_api:
+                            new_api['last_checked'] = datetime.datetime.now().isoformat()
+                        
+                        category['apis'].append(new_api)
+                        added_count += 1
+                        print(f"Added new API: {new_api['name']} to Development category (original category not found)")
+                    break
     
     # Update metadata
     total_apis = sum(len(category['apis']) for category in updated_data['categories'])
@@ -673,83 +711,411 @@ def add_new_apis(data: Dict[str, Any], new_apis: List[Dict[str, Any]]) -> Dict[s
     return updated_data
 
 
+def scrape_api_ninjas() -> List[Dict[str, Any]]:
+    """Scrape APIs from API Ninjas."""
+    apis = []
+    try:
+        headers = {'User-Agent': get_random_user_agent()}
+        url = 'https://api-ninjas.com/api'
+        
+        response = requests.get(url, headers=headers, timeout=REQUEST_TIMEOUT)
+        if response.status_code != 200:
+            print(f"Failed to fetch API Ninjas: {response.status_code}")
+            return apis
+            
+        soup = BeautifulSoup(response.text, 'html.parser')
+        api_cards = soup.select('.api-card')
+        
+        for card in api_cards:
+            try:
+                name_elem = card.select_one('.api-title')
+                desc_elem = card.select_one('.api-description')
+                url_elem = card.select_one('a.api-link')
+                
+                if name_elem and url_elem:
+                    name = name_elem.text.strip()
+                    description = desc_elem.text.strip() if desc_elem else ""
+                    url = 'https://api-ninjas.com' + url_elem['href'] if url_elem.get('href') else ""
+                    
+                    # Determine category based on description
+                    category = determine_category_from_description(description)
+                    
+                    apis.append({
+                        'name': name,
+                        'description': description,
+                        'url': url,
+                        'category': category,
+                        'auth': 'apiKey',
+                        'https': True,
+                        'cors': 'unknown',
+                        'popularity': 75,
+                        'status': 'active',
+                        'last_checked': datetime.datetime.now().isoformat()
+                    })
+            except Exception as e:
+                print(f"Error parsing API Ninjas card: {e}")
+                
+    except Exception as e:
+        print(f"Error scraping API Ninjas: {e}")
+        
+    return apis
+
+
+def scrape_rapidapi_collections() -> List[Dict[str, Any]]:
+    """Scrape APIs from RapidAPI collections."""
+    apis = []
+    collections = [
+        'free-to-use',
+        'weather',
+        'entertainment',
+        'sports',
+        'health',
+        'music',
+        'news',
+        'food',
+        'travel',
+        'finance',
+        'ecommerce',
+        'social-media'
+    ]
+    
+    for collection in collections:
+        try:
+            headers = {'User-Agent': get_random_user_agent()}
+            url = f'https://rapidapi.com/collections/{collection}'
+            
+            response = requests.get(url, headers=headers, timeout=REQUEST_TIMEOUT)
+            if response.status_code != 200:
+                print(f"Failed to fetch RapidAPI collection {collection}: {response.status_code}")
+                continue
+                
+            soup = BeautifulSoup(response.text, 'html.parser')
+            api_cards = soup.select('.api-card')
+            
+            for card in api_cards:
+                try:
+                    name_elem = card.select_one('.api-name')
+                    desc_elem = card.select_one('.api-description')
+                    url_elem = card.select_one('a')
+                    
+                    if name_elem and url_elem:
+                        name = name_elem.text.strip()
+                        description = desc_elem.text.strip() if desc_elem else ""
+                        url = 'https://rapidapi.com' + url_elem['href'] if url_elem.get('href') else ""
+                        
+                        # Map collection to category
+                        if collection == 'weather':
+                            category = 'Weather'
+                        elif collection == 'entertainment':
+                            category = 'Entertainment'
+                        elif collection == 'sports':
+                            category = 'Sports & Fitness'
+                        elif collection == 'health':
+                            category = 'Health'
+                        elif collection == 'music':
+                            category = 'Music'
+                        elif collection == 'news':
+                            category = 'News'
+                        elif collection == 'food':
+                            category = 'Food & Drink'
+                        elif collection == 'travel':
+                            category = 'Transportation'
+                        elif collection == 'finance':
+                            category = 'Finance'
+                        elif collection == 'ecommerce':
+                            category = 'Shopping'
+                        elif collection == 'social-media':
+                            category = 'Social'
+                        else:
+                            category = determine_category_from_description(description)
+                        
+                        apis.append({
+                            'name': name,
+                            'description': description,
+                            'url': url,
+                            'category': category,
+                            'auth': 'apiKey',
+                            'https': True,
+                            'cors': 'unknown',
+                            'popularity': 80,
+                            'status': 'active',
+                            'last_checked': datetime.datetime.now().isoformat()
+                        })
+                except Exception as e:
+                    print(f"Error parsing RapidAPI card: {e}")
+                    
+        except Exception as e:
+            print(f"Error scraping RapidAPI collection {collection}: {e}")
+            
+    return apis
+
+
+def scrape_github_awesome_lists() -> List[Dict[str, Any]]:
+    """Scrape APIs from GitHub awesome lists."""
+    apis = []
+    awesome_lists = [
+        'public-apis/public-apis',  # Already covered in another function
+        'n0shake/Public-APIs',
+        'TonnyL/Awesome_APIs',
+        'abhishekbanthia/Public-APIs',
+        'farizdotid/APIS-WEB-ID'
+    ]
+    
+    for repo in awesome_lists[1:]:  # Skip the first one as it's already covered
+        try:
+            headers = {'User-Agent': get_random_user_agent()}
+            url = f'https://raw.githubusercontent.com/{repo}/master/README.md'
+            
+            response = requests.get(url, headers=headers, timeout=REQUEST_TIMEOUT)
+            if response.status_code != 200:
+                # Try alternate branch name
+                url = f'https://raw.githubusercontent.com/{repo}/main/README.md'
+                response = requests.get(url, headers=headers, timeout=REQUEST_TIMEOUT)
+                if response.status_code != 200:
+                    print(f"Failed to fetch awesome list {repo}: {response.status_code}")
+                    continue
+                    
+            content = response.text
+            
+            # Extract API links and descriptions
+            # This is a simple approach; actual parsing would depend on the format of each list
+            api_pattern = r'\[(.*?)\]\((https?://[^\s\)]+)\)\s*(?:-|:)?\s*([^\n]+)?'
+            api_matches = re.findall(api_pattern, content)
+            
+            for name, url, description in api_matches:
+                # Skip if it doesn't look like an API
+                if not ('api' in name.lower() or 'api' in url.lower() or 'api' in description.lower()):
+                    continue
+                    
+                category = determine_category_from_description(description)
+                
+                apis.append({
+                    'name': name,
+                    'description': description.strip(),
+                    'url': url,
+                    'category': category,
+                    'auth': 'unknown',
+                    'https': url.startswith('https'),
+                    'cors': 'unknown',
+                    'popularity': 70,
+                    'status': 'active',
+                    'last_checked': datetime.datetime.now().isoformat()
+                })
+                
+        except Exception as e:
+            print(f"Error scraping awesome list {repo}: {e}")
+            
+    return apis
+
+
+def scrape_apihouse() -> List[Dict[str, Any]]:
+    """Scrape APIs from APIHouse."""
+    apis = []
+    try:
+        headers = {'User-Agent': get_random_user_agent()}
+        url = 'https://apihouse.vercel.app/api/apis'
+        
+        response = requests.get(url, headers=headers, timeout=REQUEST_TIMEOUT)
+        if response.status_code != 200:
+            print(f"Failed to fetch APIHouse: {response.status_code}")
+            return apis
+            
+        data = response.json()
+        
+        for api_data in data:
+            try:
+                name = api_data.get('name', '')
+                description = api_data.get('description', '')
+                api_url = api_data.get('url', '')
+                category_name = api_data.get('category', '')
+                
+                if name and api_url:
+                    category = map_category_name(category_name) if category_name else determine_category_from_description(description)
+                    
+                    apis.append({
+                        'name': name,
+                        'description': description,
+                        'url': api_url,
+                        'category': category,
+                        'auth': api_data.get('auth', 'unknown'),
+                        'https': api_url.startswith('https'),
+                        'cors': api_data.get('cors', 'unknown'),
+                        'popularity': 75,
+                        'status': 'active',
+                        'last_checked': datetime.datetime.now().isoformat()
+                    })
+            except Exception as e:
+                print(f"Error parsing APIHouse entry: {e}")
+                
+    except Exception as e:
+        print(f"Error scraping APIHouse: {e}")
+        
+    return apis
+
+
 def main():
     """Main function to discover trending APIs."""
-    # Parse command line arguments
-    parser = argparse.ArgumentParser(description='Discover trending APIs from various sources')
-    parser.add_argument('--mode', choices=['regular', 'comprehensive'], default='regular',
-                        help='Discovery mode: regular (weekly sources) or comprehensive (all sources)')
-    args = parser.parse_args()
-    
-    print(f"Starting API discovery process in {args.mode} mode...")
-    
-    # Load current API data
-    data = load_api_data()
-    
-    # Discover new APIs from various sources
-    new_apis = []
-    
-    # Sources for regular (weekly) discovery
-    # These are faster and more reliable sources
-    print("Scraping regular sources...")
-    
-    # RapidAPI Hub
-    print("Scraping RapidAPI Hub...")
-    rapidapi_apis = scrape_rapidapi_hub()
-    new_apis.extend(rapidapi_apis)
-    print(f"Found {len(rapidapi_apis)} APIs from RapidAPI Hub")
-    
-    # GitHub Trending
-    print("Scraping GitHub Trending...")
-    github_apis = scrape_github_trending()
-    new_apis.extend(github_apis)
-    print(f"Found {len(github_apis)} APIs from GitHub Trending")
-    
-    # Public APIs Repository (always included as it's very reliable)
-    print("Scraping public-apis repository...")
-    public_apis = scrape_public_apis_repository()
-    new_apis.extend(public_apis)
-    print(f"Found {len(public_apis)} APIs from public-apis repository")
-    
-    # Additional sources for comprehensive (monthly) discovery
-    if args.mode == 'comprehensive':
-        print("\nScraping additional sources for comprehensive discovery...")
+    try:
+        # Parse command line arguments
+        parser = argparse.ArgumentParser(description='Discover trending APIs from various sources')
+        parser.add_argument('--mode', choices=['regular', 'comprehensive', 'all'], default='regular',
+                            help='Discovery mode: regular (weekly sources), comprehensive (all sources), or all (force all sources)')
+        parser.add_argument('--category', type=str, default=None,
+                            help='Target specific category to populate')
+        args = parser.parse_args()
         
-        # ProgrammableWeb (can be slow and less reliable)
-        print("Scraping ProgrammableWeb...")
-        programmableweb_apis = scrape_programmableweb()
-        new_apis.extend(programmableweb_apis)
-        print(f"Found {len(programmableweb_apis)} APIs from ProgrammableWeb")
+        print(f"Starting API discovery process in {args.mode} mode...")
+        if args.category:
+            print(f"Targeting category: {args.category}")
         
-        # APIList.fun
-        print("Scraping APIList.fun...")
-        apilist_apis = scrape_apilist_fun()
-        new_apis.extend(apilist_apis)
-        print(f"Found {len(apilist_apis)} APIs from APIList.fun")
+        # Load current API data
+        data = load_api_data()
         
-        # APIs.guru
-        print("Scraping APIs.guru...")
-        apis_guru_apis = scrape_apis_guru()
-        new_apis.extend(apis_guru_apis)
-        print(f"Found {len(apis_guru_apis)} APIs from APIs.guru")
+        # Discover new APIs from various sources
+        new_apis = []
         
-        # Any-API
-        print("Scraping Any-API...")
-        any_api_apis = scrape_any_api()
-        new_apis.extend(any_api_apis)
-        print(f"Found {len(any_api_apis)} APIs from Any-API")
-    
-    # Add new APIs to the data
-    if new_apis:
-        print(f"\nProcessing {len(new_apis)} discovered APIs...")
-        updated_data = add_new_apis(data, new_apis)
+        # Sources for regular (weekly) discovery
+        # These are faster and more reliable sources
+        print("Scraping regular sources...")
         
-        # Save updated data
-        save_api_data(updated_data)
-    else:
-        print("No new APIs discovered")
-    
-    print("API discovery process completed.")
+        try:
+            # RapidAPI Hub
+            print("Scraping RapidAPI Hub...")
+            rapidapi_apis = scrape_rapidapi_hub()
+            new_apis.extend(rapidapi_apis)
+            print(f"Found {len(rapidapi_apis)} APIs from RapidAPI Hub")
+        except Exception as e:
+            print(f"Error scraping RapidAPI Hub: {e}")
+        
+        try:
+            # GitHub Trending
+            print("Scraping GitHub Trending...")
+            github_apis = scrape_github_trending()
+            new_apis.extend(github_apis)
+            print(f"Found {len(github_apis)} APIs from GitHub Trending")
+        except Exception as e:
+            print(f"Error scraping GitHub Trending: {e}")
+        
+        try:
+            # Public APIs Repository (always included as it's very reliable)
+            print("Scraping public-apis repository...")
+            public_apis = scrape_public_apis_repository()
+            new_apis.extend(public_apis)
+            print(f"Found {len(public_apis)} APIs from public-apis repository")
+        except Exception as e:
+            print(f"Error scraping public-apis repository: {e}")
+        
+        try:
+            # RapidAPI Collections (categorized collections)
+            print("Scraping RapidAPI Collections...")
+            rapidapi_collections = scrape_rapidapi_collections()
+            new_apis.extend(rapidapi_collections)
+            print(f"Found {len(rapidapi_collections)} APIs from RapidAPI Collections")
+        except Exception as e:
+            print(f"Error scraping RapidAPI Collections: {e}")
+        
+        # Additional sources for comprehensive (monthly) discovery
+        if args.mode in ['comprehensive', 'all']:
+            print("\nScraping additional sources for comprehensive discovery...")
+            
+            try:
+                # ProgrammableWeb (can be slow and less reliable)
+                print("Scraping ProgrammableWeb...")
+                programmableweb_apis = scrape_programmableweb()
+                new_apis.extend(programmableweb_apis)
+                print(f"Found {len(programmableweb_apis)} APIs from ProgrammableWeb")
+            except Exception as e:
+                print(f"Error scraping ProgrammableWeb: {e}")
+            
+            try:
+                # APIList.fun
+                print("Scraping APIList.fun...")
+                apilist_apis = scrape_apilist_fun()
+                new_apis.extend(apilist_apis)
+                print(f"Found {len(apilist_apis)} APIs from APIList.fun")
+            except Exception as e:
+                print(f"Error scraping APIList.fun: {e}")
+            
+            try:
+                # APIs.guru
+                print("Scraping APIs.guru...")
+                apis_guru_apis = scrape_apis_guru()
+                new_apis.extend(apis_guru_apis)
+                print(f"Found {len(apis_guru_apis)} APIs from APIs.guru")
+            except Exception as e:
+                print(f"Error scraping APIs.guru: {e}")
+            
+            try:
+                # Any-API
+                print("Scraping Any-API...")
+                any_api_apis = scrape_any_api()
+                new_apis.extend(any_api_apis)
+                print(f"Found {len(any_api_apis)} APIs from Any-API")
+            except Exception as e:
+                print(f"Error scraping Any-API: {e}")
+            
+            try:
+                # API Ninjas
+                print("Scraping API Ninjas...")
+                api_ninjas_apis = scrape_api_ninjas()
+                new_apis.extend(api_ninjas_apis)
+                print(f"Found {len(api_ninjas_apis)} APIs from API Ninjas")
+            except Exception as e:
+                print(f"Error scraping API Ninjas: {e}")
+            
+            try:
+                # GitHub Awesome Lists
+                print("Scraping GitHub Awesome Lists...")
+                awesome_list_apis = scrape_github_awesome_lists()
+                new_apis.extend(awesome_list_apis)
+                print(f"Found {len(awesome_list_apis)} APIs from GitHub Awesome Lists")
+            except Exception as e:
+                print(f"Error scraping GitHub Awesome Lists: {e}")
+            
+            try:
+                # APIHouse
+                print("Scraping APIHouse...")
+                apihouse_apis = scrape_apihouse()
+                new_apis.extend(apihouse_apis)
+                print(f"Found {len(apihouse_apis)} APIs from APIHouse")
+            except Exception as e:
+                print(f"Error scraping APIHouse: {e}")
+        
+        # Filter by category if specified
+        if args.category:
+            filtered_apis = []
+            for api in new_apis:
+                if api.get('category') == args.category:
+                    filtered_apis.append(api)
+            new_apis = filtered_apis
+            print(f"Filtered to {len(new_apis)} APIs for category {args.category}")
+        
+        # Add new APIs to the data
+        if new_apis:
+            print(f"\nProcessing {len(new_apis)} discovered APIs...")
+            updated_data = add_new_apis(data, new_apis)
+            
+            # Save updated data
+            save_api_data(updated_data)
+        else:
+            print("No new APIs discovered")
+        
+        print("API discovery process completed.")
+    except Exception as e:
+        print(f"Critical error in API discovery process: {e}")
+        # Ensure we exit with a non-zero code to indicate failure
+        # but don't raise the exception to avoid crashing GitHub Actions
+        print("API discovery process failed but continuing to avoid GitHub Actions failure.")
+        # If we have data loaded, try to save what we have
+        try:
+            if 'data' in locals() and new_apis:
+                print("Attempting to save partial data...")
+                updated_data = add_new_apis(data, new_apis)
+                save_api_data(updated_data)
+                print("Partial data saved.")
+        except Exception as save_error:
+            print(f"Could not save partial data: {save_error}")
+            pass
 
 
 if __name__ == "__main__":

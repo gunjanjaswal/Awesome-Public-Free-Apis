@@ -1,14 +1,17 @@
-name: Update APIs
+name: Handle Issues
 
 on:
+  # Run when issues are opened or edited
+  issues:
+    types: [opened, edited]
+  # Run daily to process any pending issues
   schedule:
-    # Run weekly on Sunday at midnight UTC (5:30 AM Sunday IST)
-    - cron: '0 0 * * 0'
+    - cron: '0 2 * * *'  # Run daily at 2:00 UTC
+  # Allow manual triggering
   workflow_dispatch:
-    # Allow manual triggering
 
 jobs:
-  update-apis:
+  process-issues:
     runs-on: ubuntu-latest
     
     steps:
@@ -27,8 +30,13 @@ jobs:
           # Ensure all dependencies are installed even if requirements.txt fails
           pip install requests beautifulsoup4 feedparser markdown argparse python-dateutil lxml
           
-      - name: Run API update script
-        run: python scripts/update_apis.py
+      - name: Process issues
+        run: python scripts/handle_issues.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Update README with latest API data
+        run: python scripts/update_readme.py
         
       - name: Check for changes
         id: git-check
@@ -41,5 +49,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git commit -m "Auto-update APIs data [skip ci]"
+          git commit -m "Process issues and update APIs [skip ci]"
           git push

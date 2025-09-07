@@ -3,47 +3,254 @@
     {
       "name": "Authentication",
       "description": "APIs related to authentication, authorization, and identity management",
-      "apis": []
+      "apis": [
+        {
+          "name": "Auth0",
+          "description": "Easy to implement, adaptable authentication and authorization platform",
+          "url": "https://auth0.com/docs/api/authentication",
+          "auth": "OAuth",
+          "https": true,
+          "cors": "yes",
+          "popularity": 92,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.145028"
+        },
+        {
+          "name": "Firebase Auth",
+          "description": "Authentication service by Firebase",
+          "url": "https://firebase.google.com/docs/auth",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 90,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.145028"
+        }
+      ]
     },
     {
       "name": "Blockchain",
       "description": "APIs related to blockchain technology and distributed ledgers",
-      "apis": []
+      "apis": [
+        {
+          "name": "Etherscan",
+          "description": "Ethereum explorer API",
+          "url": "https://etherscan.io/apis",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 88,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.145609"
+        },
+        {
+          "name": "CoinGecko",
+          "description": "Cryptocurrency data API",
+          "url": "https://www.coingecko.com/api/documentations/v3",
+          "auth": "No",
+          "https": true,
+          "cors": "yes",
+          "popularity": 95,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.145609"
+        }
+      ]
     },
     {
       "name": "Business",
       "description": "APIs for business operations, CRM, ERP, and other business functions",
-      "apis": []
+      "apis": [
+        {
+          "name": "Clearbit",
+          "description": "Company data enrichment API",
+          "url": "https://clearbit.com/docs",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.145609"
+        },
+        {
+          "name": "Hunter",
+          "description": "Email verification API",
+          "url": "https://hunter.io/api",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.145609"
+        }
+      ]
     },
     {
       "name": "Calendar",
       "description": "APIs for calendar and scheduling functionality",
-      "apis": []
+      "apis": [
+        {
+          "name": "Google Calendar",
+          "description": "Calendar API by Google",
+          "url": "https://developers.google.com/calendar",
+          "auth": "OAuth",
+          "https": true,
+          "cors": "yes",
+          "popularity": 90,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.145609"
+        },
+        {
+          "name": "Nager.Date",
+          "description": "Public holidays for more than 90 countries",
+          "url": "https://date.nager.at/Api",
+          "auth": "No",
+          "https": true,
+          "cors": "yes",
+          "popularity": 75,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.145609"
+        }
+      ]
     },
     {
       "name": "Cloud Storage",
       "description": "APIs for cloud storage and file management",
-      "apis": []
+      "apis": [
+        {
+          "name": "Dropbox",
+          "description": "File storage and sharing API",
+          "url": "https://www.dropbox.com/developers",
+          "auth": "OAuth",
+          "https": true,
+          "cors": "yes",
+          "popularity": 88,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.145609"
+        },
+        {
+          "name": "Google Drive",
+          "description": "File storage and sharing API by Google",
+          "url": "https://developers.google.com/drive",
+          "auth": "OAuth",
+          "https": true,
+          "cors": "yes",
+          "popularity": 92,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.145609"
+        }
+      ]
     },
     {
       "name": "Communication",
       "description": "APIs for messaging, chat, and other communication services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Twilio",
+          "description": "SMS, Voice and Video API",
+          "url": "https://www.twilio.com/docs/api",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 95,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.145609"
+        },
+        {
+          "name": "MessageBird",
+          "description": "SMS, Voice and Chat API",
+          "url": "https://developers.messagebird.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.145609"
+        }
+      ]
     },
     {
       "name": "Cryptocurrency",
       "description": "APIs for cryptocurrency data and transactions",
-      "apis": []
+      "apis": [
+        {
+          "name": "Binance",
+          "description": "Exchange for trading cryptocurrencies",
+          "url": "https://binance-docs.github.io/apidocs/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 95,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146132"
+        },
+        {
+          "name": "CoinAPI",
+          "description": "All cryptocurrency exchanges integrated under a single API",
+          "url": "https://docs.coinapi.io/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146132"
+        }
+      ]
     },
     {
       "name": "Currency Exchange",
       "description": "APIs for currency exchange rates and conversions",
-      "apis": []
+      "apis": [
+        {
+          "name": "ExchangeRate-API",
+          "description": "Free currency exchange rates API",
+          "url": "https://www.exchangerate-api.com",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 88,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146132"
+        },
+        {
+          "name": "Fixer.io",
+          "description": "Foreign exchange rates and currency conversion API",
+          "url": "https://fixer.io",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146132"
+        }
+      ]
     },
     {
       "name": "Data Validation",
       "description": "APIs for validating various types of data",
-      "apis": []
+      "apis": [
+        {
+          "name": "Abstract Email Validation",
+          "description": "Validate email addresses",
+          "url": "https://www.abstractapi.com/email-verification-validation-api",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146132"
+        },
+        {
+          "name": "Vatlayer",
+          "description": "VAT number validation",
+          "url": "https://vatlayer.com/documentation",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 75,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146132"
+        }
+      ]
     },
     {
       "name": "Development",
@@ -87,7 +294,30 @@
     {
       "name": "Email",
       "description": "APIs for email services and functionality",
-      "apis": []
+      "apis": [
+        {
+          "name": "Mailgun",
+          "description": "Email API service",
+          "url": "https://www.mailgun.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 90,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146132"
+        },
+        {
+          "name": "SendGrid",
+          "description": "Email API",
+          "url": "https://sendgrid.com/docs/API_Reference/api_v3.html",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 92,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146132"
+        }
+      ]
     },
     {
       "name": "Entertainment",
@@ -131,42 +361,226 @@
     {
       "name": "Environment",
       "description": "APIs for environmental data and services",
-      "apis": []
+      "apis": [
+        {
+          "name": "AirVisual",
+          "description": "Air quality and weather data",
+          "url": "https://www.iqair.com/air-pollution-data-api",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146132"
+        },
+        {
+          "name": "OpenAQ",
+          "description": "Open air quality data",
+          "url": "https://docs.openaq.org/",
+          "auth": "No",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146132"
+        }
+      ]
     },
     {
       "name": "Finance",
       "description": "APIs for financial data and services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Alpha Vantage",
+          "description": "Realtime and historical stock data",
+          "url": "https://www.alphavantage.co/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 92,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146132"
+        },
+        {
+          "name": "IEX Cloud",
+          "description": "Realtime and historical stock data",
+          "url": "https://iexcloud.io/docs/api/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 88,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146132"
+        }
+      ]
     },
     {
       "name": "Food & Drink",
       "description": "APIs for food and drink related data and services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Spoonacular",
+          "description": "Recipe, food, and nutrition API",
+          "url": "https://spoonacular.com/food-api",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 88,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Open Food Facts",
+          "description": "Food products database",
+          "url": "https://world.openfoodfacts.org/data",
+          "auth": "No",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        }
+      ]
     },
     {
       "name": "Games & Comics",
       "description": "APIs for games, comics, and related content",
-      "apis": []
+      "apis": [
+        {
+          "name": "Fortnite",
+          "description": "Fortnite stats API",
+          "url": "https://fortnitetracker.com/site-api",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Marvel",
+          "description": "Marvel Comics API",
+          "url": "https://developer.marvel.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 87,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        }
+      ]
     },
     {
       "name": "Geocoding",
       "description": "APIs for geocoding and geolocation services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Google Maps",
+          "description": "Maps, geolocation and places data",
+          "url": "https://developers.google.com/maps/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 95,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Mapbox",
+          "description": "Maps, geolocation and places data",
+          "url": "https://docs.mapbox.com/api/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 92,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        }
+      ]
     },
     {
       "name": "Government",
       "description": "APIs provided by government entities",
-      "apis": []
+      "apis": [
+        {
+          "name": "Data.gov",
+          "description": "US Government data",
+          "url": "https://api.data.gov/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "NASA",
+          "description": "NASA data, including imagery",
+          "url": "https://api.nasa.gov",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 90,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        }
+      ]
     },
     {
       "name": "Health",
       "description": "APIs for health and medical data and services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Nutritionix",
+          "description": "Nutrition database API",
+          "url": "https://developer.nutritionix.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "COVID-19",
+          "description": "COVID 19 spread, infection and recovery",
+          "url": "https://covid19api.com/",
+          "auth": "No",
+          "https": true,
+          "cors": "yes",
+          "popularity": 90,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        }
+      ]
     },
     {
       "name": "Jobs",
       "description": "APIs for job listings and employment data",
-      "apis": []
+      "apis": [
+        {
+          "name": "Indeed",
+          "description": "Job board aggregator",
+          "url": "https://developer.indeed.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 88,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "LinkedIn",
+          "description": "Professional networking platform",
+          "url": "https://developer.linkedin.com/",
+          "auth": "OAuth",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 90,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        }
+      ]
     },
     {
       "name": "Machine Learning",
@@ -210,37 +624,198 @@
     {
       "name": "Music",
       "description": "APIs for music data and services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Deezer",
+          "description": "Music streaming service",
+          "url": "https://developers.deezer.com/api",
+          "auth": "OAuth",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Genius",
+          "description": "Song lyrics and knowledge",
+          "url": "https://docs.genius.com/",
+          "auth": "OAuth",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        }
+      ]
     },
     {
       "name": "News",
       "description": "APIs for news content and services",
-      "apis": []
+      "apis": [
+        {
+          "name": "NewsAPI",
+          "description": "Headlines currently published on various news sources and blogs",
+          "url": "https://newsapi.org/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 90,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "New York Times",
+          "description": "News articles and metadata from NYT",
+          "url": "https://developer.nytimes.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 88,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        }
+      ]
     },
     {
       "name": "Open Data",
       "description": "APIs for open data sets and services",
-      "apis": []
+      "apis": [
+        {
+          "name": "OpenDataSoft",
+          "description": "Cloud-based data publishing platform",
+          "url": "https://www.opendatasoft.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Kaggle",
+          "description": "Data science and machine learning platform",
+          "url": "https://www.kaggle.com/docs/api",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 88,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        }
+      ]
     },
     {
       "name": "Open Source Projects",
       "description": "APIs for open source project data and services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Libraries.io",
+          "description": "Open source software libraries",
+          "url": "https://libraries.io/api",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Open Collective",
+          "description": "Open Collective API",
+          "url": "https://docs.opencollective.com/help/developers/api",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 75,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        }
+      ]
     },
     {
       "name": "Patent",
       "description": "APIs for patent data and services",
-      "apis": []
+      "apis": [
+        {
+          "name": "EPO",
+          "description": "European Patent Office",
+          "url": "https://developers.epo.org/",
+          "auth": "OAuth",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "USPTO",
+          "description": "US Patent and Trademark Office API",
+          "url": "https://www.uspto.gov/learning-and-resources/open-data-and-mobility",
+          "auth": "No",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        }
+      ]
     },
     {
       "name": "Personality",
       "description": "APIs for personality and psychology related data",
-      "apis": []
+      "apis": [
+        {
+          "name": "Advice Slip",
+          "description": "Generate random advice slips",
+          "url": "https://api.adviceslip.com/",
+          "auth": "No",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 75,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Affirmations",
+          "description": "Daily affirmations",
+          "url": "https://affirmations.dev/",
+          "auth": "No",
+          "https": true,
+          "cors": "yes",
+          "popularity": 70,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        }
+      ]
     },
     {
       "name": "Phone",
       "description": "APIs for phone and SMS related services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Twilio Lookup",
+          "description": "Phone number verification and information",
+          "url": "https://www.twilio.com/docs/lookup/api",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 88,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "NumVerify",
+          "description": "Phone number validation",
+          "url": "https://numverify.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        }
+      ]
     },
     {
       "name": "Photography",
@@ -284,57 +859,310 @@
     {
       "name": "Science & Math",
       "description": "APIs for scientific and mathematical data and services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Numbers API",
+          "description": "Facts about numbers",
+          "url": "http://numbersapi.com/",
+          "auth": "No",
+          "https": false,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "ISRO",
+          "description": "ISRO Space Crafts Information",
+          "url": "https://isro.vercel.app",
+          "auth": "No",
+          "https": true,
+          "cors": "yes",
+          "popularity": 75,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        }
+      ]
     },
     {
       "name": "Security",
       "description": "APIs for security related services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Have I Been Pwned",
+          "description": "Check if email or password has been compromised",
+          "url": "https://haveibeenpwned.com/API/v3",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 92,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Virushee",
+          "description": "Virushee file reputation service and malware lookup",
+          "url": "https://api.virushee.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 75,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        }
+      ]
     },
     {
       "name": "Shopping",
       "description": "APIs for e-commerce and shopping related services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Shopify",
+          "description": "E-commerce platform",
+          "url": "https://shopify.dev/docs/admin-api",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 92,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Best Buy",
+          "description": "Products, categories, stores and availability",
+          "url": "https://bestbuyapis.github.io/api-documentation/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        }
+      ]
     },
     {
       "name": "Social",
       "description": "APIs for social media and social networking",
-      "apis": []
+      "apis": [
+        {
+          "name": "Twitter",
+          "description": "Twitter API",
+          "url": "https://developer.twitter.com/en/docs",
+          "auth": "OAuth",
+          "https": true,
+          "cors": "yes",
+          "popularity": 95,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Reddit",
+          "description": "Reddit API",
+          "url": "https://www.reddit.com/dev/api",
+          "auth": "OAuth",
+          "https": true,
+          "cors": "yes",
+          "popularity": 92,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        }
+      ]
     },
     {
       "name": "Sports & Fitness",
       "description": "APIs for sports and fitness data and services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Football-Data.org",
+          "description": "Football data and statistics",
+          "url": "https://www.football-data.org/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "TheSportsDB",
+          "description": "Sports data",
+          "url": "https://www.thesportsdb.com/api.php",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        }
+      ]
     },
     {
       "name": "Test Data",
       "description": "APIs for generating test data",
-      "apis": []
+      "apis": [
+        {
+          "name": "JSONPlaceholder",
+          "description": "Fake data for testing",
+          "url": "https://jsonplaceholder.typicode.com/",
+          "auth": "No",
+          "https": true,
+          "cors": "yes",
+          "popularity": 90,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Mockaroo",
+          "description": "Generate realistic test data",
+          "url": "https://www.mockaroo.com/docs",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        }
+      ]
     },
     {
       "name": "Text Analysis",
       "description": "APIs for text analysis and natural language processing",
-      "apis": []
+      "apis": [
+        {
+          "name": "Sentiment Analysis",
+          "description": "Analyze text for sentiment",
+          "url": "https://www.meaningcloud.com/developer/sentiment-analysis",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Wordnik",
+          "description": "Dictionary data",
+          "url": "https://developer.wordnik.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        }
+      ]
     },
     {
       "name": "Tracking",
       "description": "APIs for tracking various types of data",
-      "apis": []
+      "apis": [
+        {
+          "name": "Postmon",
+          "description": "Brazilian zip code API",
+          "url": "https://postmon.com.br/",
+          "auth": "No",
+          "https": true,
+          "cors": "yes",
+          "popularity": 75,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Aftership",
+          "description": "Shipping tracking API",
+          "url": "https://developers.aftership.com/reference/quick-start",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        }
+      ]
     },
     {
       "name": "Transportation",
       "description": "APIs for transportation data and services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Uber",
+          "description": "Uber ride requests and price estimation",
+          "url": "https://developer.uber.com/",
+          "auth": "OAuth",
+          "https": true,
+          "cors": "yes",
+          "popularity": 90,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Amadeus",
+          "description": "Travel search - flights, hotels, cars",
+          "url": "https://developers.amadeus.com/",
+          "auth": "OAuth",
+          "https": true,
+          "cors": "yes",
+          "popularity": 88,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        }
+      ]
     },
     {
       "name": "URL Shorteners",
       "description": "APIs for URL shortening services",
-      "apis": []
+      "apis": [
+        {
+          "name": "Bitly",
+          "description": "URL shortener and link management",
+          "url": "https://dev.bitly.com/",
+          "auth": "OAuth",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 90,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "TinyURL",
+          "description": "URL shortener",
+          "url": "https://tinyurl.com/app/dev",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        }
+      ]
     },
     {
       "name": "Video",
       "description": "APIs for video content and services",
-      "apis": []
+      "apis": [
+        {
+          "name": "YouTube",
+          "description": "YouTube data API",
+          "url": "https://developers.google.com/youtube/",
+          "auth": "OAuth",
+          "https": true,
+          "cors": "yes",
+          "popularity": 95,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Vimeo",
+          "description": "Vimeo API",
+          "url": "https://developer.vimeo.com/",
+          "auth": "OAuth",
+          "https": true,
+          "cors": "yes",
+          "popularity": 88,
+          "status": "active",
+          "last_checked": "2025-09-07T18:25:01.146642"
+        }
+      ]
     },
     {
       "name": "Weather",
@@ -377,8 +1205,8 @@
     }
   ],
   "metadata": {
-    "last_updated": "2025-09-07T17:33:00+05:30",
-    "total_apis": 15,
+    "last_updated": "2025-09-07T18:25:01.146642",
+    "total_apis": 87,
     "version": "1.0.0"
   }
 }
