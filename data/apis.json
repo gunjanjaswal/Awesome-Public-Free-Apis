@@ -25,6 +25,39 @@
           "popularity": 90,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.145028"
+        },
+        {
+          "name": "Okta",
+          "description": "Identity and access management API",
+          "url": "https://developer.okta.com/docs/reference/",
+          "auth": "OAuth",
+          "https": true,
+          "cors": "yes",
+          "popularity": 88,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.964689"
+        },
+        {
+          "name": "Amazon Cognito",
+          "description": "User authentication and authorization",
+          "url": "https://docs.aws.amazon.com/cognito/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 87,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.965193"
+        },
+        {
+          "name": "Microsoft Identity Platform",
+          "description": "Authentication and authorization for Microsoft services",
+          "url": "https://docs.microsoft.com/en-us/azure/active-directory/develop/",
+          "auth": "OAuth",
+          "https": true,
+          "cors": "yes",
+          "popularity": 89,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.965193"
         }
       ]
     },
@@ -53,6 +86,39 @@
           "popularity": 95,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.145609"
+        },
+        {
+          "name": "Infura",
+          "description": "Ethereum and IPFS API",
+          "url": "https://infura.io/docs",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 90,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.965193"
+        },
+        {
+          "name": "Alchemy",
+          "description": "Blockchain developer platform",
+          "url": "https://docs.alchemy.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 87,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.965705"
+        },
+        {
+          "name": "Moralis",
+          "description": "Web3 development platform",
+          "url": "https://docs.moralis.io/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.965705"
         }
       ]
     },
@@ -81,6 +147,39 @@
           "popularity": 82,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.145609"
+        },
+        {
+          "name": "Stripe",
+          "description": "Payment processing API",
+          "url": "https://stripe.com/docs/api",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 95,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.965705"
+        },
+        {
+          "name": "Salesforce",
+          "description": "CRM platform API",
+          "url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm",
+          "auth": "OAuth",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 92,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.965705"
+        },
+        {
+          "name": "HubSpot",
+          "description": "Marketing, sales, and CRM API",
+          "url": "https://developers.hubspot.com/docs/api/overview",
+          "auth": "OAuth",
+          "https": true,
+          "cors": "yes",
+          "popularity": 88,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.966229"
         }
       ]
     },
@@ -109,6 +208,39 @@
           "popularity": 75,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.145609"
+        },
+        {
+          "name": "Microsoft Graph Calendar",
+          "description": "Microsoft calendar API",
+          "url": "https://docs.microsoft.com/en-us/graph/api/resources/calendar",
+          "auth": "OAuth",
+          "https": true,
+          "cors": "yes",
+          "popularity": 88,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.966827"
+        },
+        {
+          "name": "Cronofy",
+          "description": "Calendar integration API",
+          "url": "https://docs.cronofy.com/",
+          "auth": "OAuth",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.966827"
+        },
+        {
+          "name": "Nylas Calendar",
+          "description": "Calendar API with scheduling features",
+          "url": "https://developer.nylas.com/docs/calendar/",
+          "auth": "OAuth",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.967420"
         }
       ]
     },
@@ -137,6 +269,39 @@
           "popularity": 92,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.145609"
+        },
+        {
+          "name": "Amazon S3",
+          "description": "Cloud object storage API",
+          "url": "https://docs.aws.amazon.com/AmazonS3/latest/API/Welcome.html",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 95,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.969414"
+        },
+        {
+          "name": "Microsoft Azure Blob Storage",
+          "description": "Microsoft's object storage solution",
+          "url": "https://docs.microsoft.com/en-us/rest/api/storageservices/blob-service-rest-api",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 90,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.969414"
+        },
+        {
+          "name": "Backblaze B2",
+          "description": "Cloud storage service",
+          "url": "https://www.backblaze.com/b2/docs/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.969414"
         }
       ]
     },
@@ -165,6 +330,39 @@
           "popularity": 85,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.145609"
+        },
+        {
+          "name": "SendBird",
+          "description": "Chat and messaging API",
+          "url": "https://sendbird.com/docs/chat",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.969921"
+        },
+        {
+          "name": "Vonage",
+          "description": "SMS, voice, and video API",
+          "url": "https://developer.vonage.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 87,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.969921"
+        },
+        {
+          "name": "Agora",
+          "description": "Real-time voice and video API",
+          "url": "https://docs.agora.io/en/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 86,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.969921"
         }
       ]
     },
@@ -193,6 +391,39 @@
           "popularity": 85,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.146132"
+        },
+        {
+          "name": "Cryptocurrency RapidAPI Hub",
+          "description": "API marketplace with many cryptocurrency services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.970461"
+        },
+        {
+          "name": "Cryptocurrency APILayer",
+          "description": "Collection of cryptocurrency APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.970461"
+        },
+        {
+          "name": "Cryptocurrency API Ninjas",
+          "description": "cryptocurrency data and services",
+          "url": "https://api-ninjas.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.970461"
         }
       ]
     },
@@ -221,6 +452,39 @@
           "popularity": 85,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.146132"
+        },
+        {
+          "name": "Currency Exchange RapidAPI Hub",
+          "description": "API marketplace with many currency exchange services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.970461"
+        },
+        {
+          "name": "Currency Exchange APILayer",
+          "description": "Collection of currency exchange APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.970461"
+        },
+        {
+          "name": "Currency Exchange API Ninjas",
+          "description": "currency exchange data and services",
+          "url": "https://api-ninjas.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.970461"
         }
       ]
     },
@@ -249,6 +513,39 @@
           "popularity": 75,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.146132"
+        },
+        {
+          "name": "Data Validation RapidAPI Hub",
+          "description": "API marketplace with many data validation services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.970461"
+        },
+        {
+          "name": "Data Validation APILayer",
+          "description": "Collection of data validation APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.970461"
+        },
+        {
+          "name": "Data Validation API Ninjas",
+          "description": "data validation data and services",
+          "url": "https://api-ninjas.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.970461"
         }
       ]
     },
@@ -288,6 +585,28 @@
           "popularity": 88,
           "status": "active",
           "last_checked": "2025-09-07T17:30:00+05:30"
+        },
+        {
+          "name": "CircleCI",
+          "description": "Continuous integration and delivery platform",
+          "url": "https://circleci.com/docs/api/v2/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 88,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.971489"
+        },
+        {
+          "name": "Travis CI",
+          "description": "Continuous integration service",
+          "url": "https://docs.travis-ci.com/api/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.971489"
         }
       ]
     },
@@ -316,6 +635,39 @@
           "popularity": 92,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.146132"
+        },
+        {
+          "name": "Email RapidAPI Hub",
+          "description": "API marketplace with many email services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.971489"
+        },
+        {
+          "name": "Email APILayer",
+          "description": "Collection of email APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.971489"
+        },
+        {
+          "name": "Email API Ninjas",
+          "description": "email data and services",
+          "url": "https://api-ninjas.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.971489"
         }
       ]
     },
@@ -355,6 +707,28 @@
           "popularity": 97,
           "status": "active",
           "last_checked": "2025-09-07T17:30:00+05:30"
+        },
+        {
+          "name": "Entertainment RapidAPI Hub",
+          "description": "API marketplace with many entertainment services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.973276"
+        },
+        {
+          "name": "Entertainment APILayer",
+          "description": "Collection of entertainment APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.973276"
         }
       ]
     },
@@ -383,6 +757,39 @@
           "popularity": 80,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.146132"
+        },
+        {
+          "name": "Environment RapidAPI Hub",
+          "description": "API marketplace with many environment services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.973276"
+        },
+        {
+          "name": "Environment APILayer",
+          "description": "Collection of environment APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.973276"
+        },
+        {
+          "name": "Environment API Ninjas",
+          "description": "environment data and services",
+          "url": "https://api-ninjas.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.973276"
         }
       ]
     },
@@ -411,6 +818,39 @@
           "popularity": 88,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.146132"
+        },
+        {
+          "name": "Finance RapidAPI Hub",
+          "description": "API marketplace with many finance services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.973276"
+        },
+        {
+          "name": "Finance APILayer",
+          "description": "Collection of finance APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.975834"
+        },
+        {
+          "name": "Finance API Ninjas",
+          "description": "finance data and services",
+          "url": "https://api-ninjas.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.975834"
         }
       ]
     },
@@ -439,6 +879,39 @@
           "popularity": 82,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Food & Drink RapidAPI Hub",
+          "description": "API marketplace with many food & drink services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
+        },
+        {
+          "name": "Food & Drink APILayer",
+          "description": "Collection of food & drink APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
+        },
+        {
+          "name": "Food & Drink API Ninjas",
+          "description": "food & drink data and services",
+          "url": "https://api-ninjas.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
         }
       ]
     },
@@ -467,6 +940,39 @@
           "popularity": 87,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Games & Comics RapidAPI Hub",
+          "description": "API marketplace with many games & comics services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
+        },
+        {
+          "name": "Games & Comics APILayer",
+          "description": "Collection of games & comics APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
+        },
+        {
+          "name": "Games & Comics API Ninjas",
+          "description": "games & comics data and services",
+          "url": "https://api-ninjas.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
         }
       ]
     },
@@ -495,6 +1001,39 @@
           "popularity": 92,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Geocoding RapidAPI Hub",
+          "description": "API marketplace with many geocoding services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
+        },
+        {
+          "name": "Geocoding APILayer",
+          "description": "Collection of geocoding APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
+        },
+        {
+          "name": "Geocoding API Ninjas",
+          "description": "geocoding data and services",
+          "url": "https://api-ninjas.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
         }
       ]
     },
@@ -523,6 +1062,39 @@
           "popularity": 90,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Government RapidAPI Hub",
+          "description": "API marketplace with many government services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
+        },
+        {
+          "name": "Government APILayer",
+          "description": "Collection of government APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
+        },
+        {
+          "name": "Government API Ninjas",
+          "description": "government data and services",
+          "url": "https://api-ninjas.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
         }
       ]
     },
@@ -551,6 +1123,39 @@
           "popularity": 90,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Health RapidAPI Hub",
+          "description": "API marketplace with many health services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
+        },
+        {
+          "name": "Health APILayer",
+          "description": "Collection of health APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
+        },
+        {
+          "name": "Health API Ninjas",
+          "description": "health data and services",
+          "url": "https://api-ninjas.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
         }
       ]
     },
@@ -579,6 +1184,39 @@
           "popularity": 90,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Jobs RapidAPI Hub",
+          "description": "API marketplace with many jobs services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
+        },
+        {
+          "name": "Jobs APILayer",
+          "description": "Collection of jobs APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
+        },
+        {
+          "name": "Jobs API Ninjas",
+          "description": "jobs data and services",
+          "url": "https://api-ninjas.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
         }
       ]
     },
@@ -618,6 +1256,28 @@
           "popularity": 93,
           "status": "active",
           "last_checked": "2025-09-07T17:30:00+05:30"
+        },
+        {
+          "name": "Machine Learning RapidAPI Hub",
+          "description": "API marketplace with many machine learning services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
+        },
+        {
+          "name": "Machine Learning APILayer",
+          "description": "Collection of machine learning APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
         }
       ]
     },
@@ -646,6 +1306,39 @@
           "popularity": 82,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Music RapidAPI Hub",
+          "description": "API marketplace with many music services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
+        },
+        {
+          "name": "Music APILayer",
+          "description": "Collection of music APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
+        },
+        {
+          "name": "Music API Ninjas",
+          "description": "music data and services",
+          "url": "https://api-ninjas.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
         }
       ]
     },
@@ -674,6 +1367,39 @@
           "popularity": 88,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "News RapidAPI Hub",
+          "description": "API marketplace with many news services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
+        },
+        {
+          "name": "News APILayer",
+          "description": "Collection of news APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
+        },
+        {
+          "name": "News API Ninjas",
+          "description": "news data and services",
+          "url": "https://api-ninjas.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
         }
       ]
     },
@@ -702,6 +1428,39 @@
           "popularity": 88,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Open Data RapidAPI Hub",
+          "description": "API marketplace with many open data services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
+        },
+        {
+          "name": "Open Data APILayer",
+          "description": "Collection of open data APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
+        },
+        {
+          "name": "Open Data API Ninjas",
+          "description": "open data data and services",
+          "url": "https://api-ninjas.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
         }
       ]
     },
@@ -730,6 +1489,39 @@
           "popularity": 75,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Open Source Projects RapidAPI Hub",
+          "description": "API marketplace with many open source projects services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
+        },
+        {
+          "name": "Open Source Projects APILayer",
+          "description": "Collection of open source projects APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
+        },
+        {
+          "name": "Open Source Projects API Ninjas",
+          "description": "open source projects data and services",
+          "url": "https://api-ninjas.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
         }
       ]
     },
@@ -758,6 +1550,39 @@
           "popularity": 82,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Patent RapidAPI Hub",
+          "description": "API marketplace with many patent services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
+        },
+        {
+          "name": "Patent APILayer",
+          "description": "Collection of patent APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.976855"
+        },
+        {
+          "name": "Patent API Ninjas",
+          "description": "patent data and services",
+          "url": "https://api-ninjas.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980100"
         }
       ]
     },
@@ -786,6 +1611,39 @@
           "popularity": 70,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Personality RapidAPI Hub",
+          "description": "API marketplace with many personality services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980100"
+        },
+        {
+          "name": "Personality APILayer",
+          "description": "Collection of personality APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980100"
+        },
+        {
+          "name": "Personality API Ninjas",
+          "description": "personality data and services",
+          "url": "https://api-ninjas.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980100"
         }
       ]
     },
@@ -814,6 +1672,39 @@
           "popularity": 82,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Phone RapidAPI Hub",
+          "description": "API marketplace with many phone services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980100"
+        },
+        {
+          "name": "Phone APILayer",
+          "description": "Collection of phone APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980100"
+        },
+        {
+          "name": "Phone API Ninjas",
+          "description": "phone data and services",
+          "url": "https://api-ninjas.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980100"
         }
       ]
     },
@@ -853,6 +1744,28 @@
           "popularity": 89,
           "status": "active",
           "last_checked": "2025-09-07T17:30:00+05:30"
+        },
+        {
+          "name": "Photography RapidAPI Hub",
+          "description": "API marketplace with many photography services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980100"
+        },
+        {
+          "name": "Photography APILayer",
+          "description": "Collection of photography APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980100"
         }
       ]
     },
@@ -881,6 +1794,39 @@
           "popularity": 75,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Science & Math RapidAPI Hub",
+          "description": "API marketplace with many science & math services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980100"
+        },
+        {
+          "name": "Science & Math APILayer",
+          "description": "Collection of science & math APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980100"
+        },
+        {
+          "name": "Science & Math API Ninjas",
+          "description": "science & math data and services",
+          "url": "https://api-ninjas.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980100"
         }
       ]
     },
@@ -909,6 +1855,39 @@
           "popularity": 75,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Security RapidAPI Hub",
+          "description": "API marketplace with many security services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980922"
+        },
+        {
+          "name": "Security APILayer",
+          "description": "Collection of security APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980922"
+        },
+        {
+          "name": "Security API Ninjas",
+          "description": "security data and services",
+          "url": "https://api-ninjas.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980922"
         }
       ]
     },
@@ -937,6 +1916,39 @@
           "popularity": 85,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Shopping RapidAPI Hub",
+          "description": "API marketplace with many shopping services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980922"
+        },
+        {
+          "name": "Shopping APILayer",
+          "description": "Collection of shopping APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980922"
+        },
+        {
+          "name": "Shopping API Ninjas",
+          "description": "shopping data and services",
+          "url": "https://api-ninjas.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980922"
         }
       ]
     },
@@ -965,6 +1977,39 @@
           "popularity": 92,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Social RapidAPI Hub",
+          "description": "API marketplace with many social services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980922"
+        },
+        {
+          "name": "Social APILayer",
+          "description": "Collection of social APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980922"
+        },
+        {
+          "name": "Social API Ninjas",
+          "description": "social data and services",
+          "url": "https://api-ninjas.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980922"
         }
       ]
     },
@@ -993,6 +2038,39 @@
           "popularity": 82,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Sports & Fitness RapidAPI Hub",
+          "description": "API marketplace with many sports & fitness services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980922"
+        },
+        {
+          "name": "Sports & Fitness APILayer",
+          "description": "Collection of sports & fitness APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980922"
+        },
+        {
+          "name": "Sports & Fitness API Ninjas",
+          "description": "sports & fitness data and services",
+          "url": "https://api-ninjas.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980922"
         }
       ]
     },
@@ -1021,6 +2099,39 @@
           "popularity": 85,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Test Data RapidAPI Hub",
+          "description": "API marketplace with many test data services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980922"
+        },
+        {
+          "name": "Test Data APILayer",
+          "description": "Collection of test data APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980922"
+        },
+        {
+          "name": "Test Data API Ninjas",
+          "description": "test data data and services",
+          "url": "https://api-ninjas.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980922"
         }
       ]
     },
@@ -1049,6 +2160,39 @@
           "popularity": 80,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Text Analysis RapidAPI Hub",
+          "description": "API marketplace with many text analysis services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980922"
+        },
+        {
+          "name": "Text Analysis APILayer",
+          "description": "Collection of text analysis APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980922"
+        },
+        {
+          "name": "Text Analysis API Ninjas",
+          "description": "text analysis data and services",
+          "url": "https://api-ninjas.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980922"
         }
       ]
     },
@@ -1077,6 +2221,39 @@
           "popularity": 85,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Tracking RapidAPI Hub",
+          "description": "API marketplace with many tracking services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980922"
+        },
+        {
+          "name": "Tracking APILayer",
+          "description": "Collection of tracking APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980922"
+        },
+        {
+          "name": "Tracking API Ninjas",
+          "description": "tracking data and services",
+          "url": "https://api-ninjas.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980922"
         }
       ]
     },
@@ -1105,6 +2282,39 @@
           "popularity": 88,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Transportation RapidAPI Hub",
+          "description": "API marketplace with many transportation services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980922"
+        },
+        {
+          "name": "Transportation APILayer",
+          "description": "Collection of transportation APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980922"
+        },
+        {
+          "name": "Transportation API Ninjas",
+          "description": "transportation data and services",
+          "url": "https://api-ninjas.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.980922"
         }
       ]
     },
@@ -1133,6 +2343,39 @@
           "popularity": 85,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "URL Shorteners RapidAPI Hub",
+          "description": "API marketplace with many url shorteners services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.982458"
+        },
+        {
+          "name": "URL Shorteners APILayer",
+          "description": "Collection of url shorteners APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.982458"
+        },
+        {
+          "name": "URL Shorteners API Ninjas",
+          "description": "url shorteners data and services",
+          "url": "https://api-ninjas.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.982458"
         }
       ]
     },
@@ -1161,6 +2404,39 @@
           "popularity": 88,
           "status": "active",
           "last_checked": "2025-09-07T18:25:01.146642"
+        },
+        {
+          "name": "Video RapidAPI Hub",
+          "description": "API marketplace with many video services",
+          "url": "https://rapidapi.com/hub",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.982458"
+        },
+        {
+          "name": "Video APILayer",
+          "description": "Collection of video APIs",
+          "url": "https://apilayer.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 82,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.982458"
+        },
+        {
+          "name": "Video API Ninjas",
+          "description": "video data and services",
+          "url": "https://api-ninjas.com/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 80,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.982458"
         }
       ]
     },
@@ -1200,13 +2476,35 @@
           "popularity": 85,
           "status": "active",
           "last_checked": "2025-09-07T17:30:00+05:30"
+        },
+        {
+          "name": "Weather API",
+          "description": "Weather forecast and historical data",
+          "url": "https://www.weatherapi.com/docs/",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 88,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.982458"
+        },
+        {
+          "name": "AccuWeather",
+          "description": "Weather forecast data",
+          "url": "https://developer.accuweather.com/apis",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 90,
+          "status": "active",
+          "last_checked": "2025-09-07T18:50:47.982458"
         }
       ]
     }
   ],
   "metadata": {
-    "last_updated": "2025-09-07T18:25:01.146642",
-    "total_apis": 87,
+    "last_updated": "2025-09-07T18:50:47.982458",
+    "total_apis": 205,
     "version": "1.0.0"
   }
 }
