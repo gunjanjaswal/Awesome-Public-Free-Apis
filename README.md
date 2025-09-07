@@ -75,21 +75,12 @@ This repository aims to be the most comprehensive and up-to-date collection of *
 - [Weather](#weather)
 
 
-
 ### Authentication
 APIs related to authentication, authorization, and identity management
 
 | API | Description | Auth | HTTPS | CORS |
 | --- | --- | --- | --- | --- |
 | [Auth0](https://auth0.com/docs/api/authentication) | Easy to implement, adaptable authentication and authorization platform | OAuth | Yes | yes |
-| [Okta](https://developer.okta.com/docs/reference/) | Identity management API for authentication, authorization and user management | OAuth | Yes | yes |
-| [Firebase Auth](https://firebase.google.com/docs/auth) | Authentication service by Google Firebase | apiKey | Yes | yes |
-| [Microsoft Identity Platform](https://docs.microsoft.com/en-us/azure/active-directory/develop/) | Authentication and authorization platform by Microsoft | OAuth | Yes | yes |
-| [Amazon Cognito](https://docs.aws.amazon.com/cognito/) | User authentication and authorization service by AWS | apiKey | Yes | yes |
-| [Keycloak](https://www.keycloak.org/documentation) | Open source identity and access management solution | OAuth | Yes | yes |
-| [Supabase Auth](https://supabase.com/docs/guides/auth) | Open source Firebase alternative with authentication | apiKey | Yes | yes |
-| [Clerk](https://clerk.dev/docs) | User authentication and management API | apiKey | Yes | yes |
-| [Magic](https://magic.link/docs) | Passwordless authentication solution | apiKey | Yes | yes |
 
 ### Blockchain
 APIs related to blockchain technology and distributed ledgers

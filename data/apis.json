@@ -14,94 +14,6 @@
           "popularity": 92,
           "status": "active",
           "last_checked": "2025-09-07T18:00:29.992083"
-        },
-        {
-          "name": "Okta",
-          "description": "Identity management API for authentication, authorization and user management",
-          "url": "https://developer.okta.com/docs/reference/",
-          "auth": "OAuth",
-          "https": true,
-          "cors": "yes",
-          "popularity": 90,
-          "status": "active",
-          "last_checked": "2025-09-07T18:53:30.394289"
-        },
-        {
-          "name": "Firebase Auth",
-          "description": "Authentication service by Google Firebase",
-          "url": "https://firebase.google.com/docs/auth",
-          "auth": "apiKey",
-          "https": true,
-          "cors": "yes",
-          "popularity": 88,
-          "status": "active",
-          "last_checked": "2025-09-07T18:53:30.394290"
-        },
-        {
-          "name": "Amazon Cognito",
-          "description": "User authentication and authorization service by AWS",
-          "url": "https://docs.aws.amazon.com/cognito/",
-          "auth": "apiKey",
-          "https": true,
-          "cors": "yes",
-          "popularity": 85,
-          "status": "active",
-          "last_checked": "2025-09-07T18:53:30.394292"
-        },
-        {
-          "name": "Microsoft Identity Platform",
-          "description": "Authentication and authorization platform by Microsoft",
-          "url": "https://docs.microsoft.com/en-us/azure/active-directory/develop/",
-          "auth": "OAuth",
-          "https": true,
-          "cors": "yes",
-          "popularity": 87,
-          "status": "active",
-          "last_checked": "2025-09-07T18:53:30.394293"
-        },
-        {
-          "name": "Keycloak",
-          "description": "Open source identity and access management solution",
-          "url": "https://www.keycloak.org/documentation",
-          "auth": "OAuth",
-          "https": true,
-          "cors": "yes",
-          "popularity": 83,
-          "status": "active",
-          "last_checked": "2025-09-07T18:53:30.394294"
-        },
-        {
-          "name": "Supabase Auth",
-          "description": "Open source Firebase alternative with authentication",
-          "url": "https://supabase.com/docs/guides/auth",
-          "auth": "apiKey",
-          "https": true,
-          "cors": "yes",
-          "popularity": 82,
-          "status": "active",
-          "last_checked": "2025-09-07T18:53:30.394295"
-        },
-        {
-          "name": "Clerk",
-          "description": "User authentication and management API",
-          "url": "https://clerk.dev/docs",
-          "auth": "apiKey",
-          "https": true,
-          "cors": "yes",
-          "popularity": 80,
-          "status": "active",
-          "last_checked": "2025-09-07T18:53:30.394297"
-        },
-        {
-          "name": "Magic",
-          "description": "Passwordless authentication solution",
-          "url": "https://magic.link/docs",
-          "auth": "apiKey",
-          "https": true,
-          "cors": "yes",
-          "popularity": 78,
-          "status": "active",
-          "last_checked": "2025-09-07T18:53:30.394298"
         }
       ]
     },
@@ -4814,8 +4726,8 @@
     }
   ],
   "metadata": {
-    "last_updated": "2025-09-07T18:53:30.394376",
-    "total_apis": 414,
+    "last_updated": "2025-09-07T18:00:29.994257",
+    "total_apis": 406,
     "version": "1.0.0"
   }
 }

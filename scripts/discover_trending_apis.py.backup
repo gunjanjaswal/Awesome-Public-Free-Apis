@@ -770,6 +770,753 @@ def get_generic_apis_for_category(category_name: str, count: int) -> List[Dict[s
     # Return empty list for categories not in our map - no generic placeholders
     print(f"No high-quality APIs available for category '{category_name}'. Keeping category empty to maintain quality.")
     return []
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Postman',
+                'description': 'API development and testing tool',
+                'url': 'https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 86,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Swagger',
+                'description': 'API design and documentation',
+                'url': 'https://swagger.io/docs/specification/about/',
+                'auth': 'No',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 89,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Jira',
+                'description': 'Issue tracking and project management',
+                'url': 'https://developer.atlassian.com/cloud/jira/platform/rest/v3/',
+                'auth': 'OAuth',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 84,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'CircleCI',
+                'description': 'Continuous integration and delivery platform',
+                'url': 'https://circleci.com/docs/api/v2/',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 82,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Travis CI',
+                'description': 'Continuous integration service',
+                'url': 'https://docs.travis-ci.com/api/',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 80,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Heroku',
+                'description': 'Cloud platform as a service',
+                'url': 'https://devcenter.heroku.com/articles/platform-api-reference',
+                'auth': 'OAuth',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 83,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            }
+        ],
+        'Weather': [
+            {
+                'name': 'OpenWeatherMap',
+                'description': 'Weather forecasts, nowcasts and history in a fast and elegant way',
+                'url': 'https://openweathermap.org/api',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 90,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'WeatherAPI',
+                'description': 'Weather API with forecasts, history, and more',
+                'url': 'https://www.weatherapi.com/',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 88,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Tomorrow.io',
+                'description': 'Weather API powered by proprietary technology',
+                'url': 'https://www.tomorrow.io/weather-api/',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 85,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'AccuWeather',
+                'description': 'Weather forecast data and services',
+                'url': 'https://developer.accuweather.com/apis',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'unknown',
+                'popularity': 87,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Weatherbit',
+                'description': 'Weather forecasts and historical weather data',
+                'url': 'https://www.weatherbit.io/api',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 84,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Visual Crossing Weather',
+                'description': 'Global weather forecast and historical data',
+                'url': 'https://www.visualcrossing.com/weather-api',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 82,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Meteomatics',
+                'description': 'Global weather data and forecasting',
+                'url': 'https://www.meteomatics.com/en/weather-api/',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 80,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'AerisWeather',
+                'description': 'Weather data and imagery services',
+                'url': 'https://www.aerisweather.com/develop/',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 79,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'National Weather Service',
+                'description': 'US weather information',
+                'url': 'https://www.weather.gov/documentation/services-web-api',
+                'auth': 'No',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 83,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Climacell',
+                'description': 'Hyperlocal weather data',
+                'url': 'https://www.climacell.co/weather-api/',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 81,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            }
+        ]
+    }
+    
+    # Add more common categories with real APIs
+    common_apis = {
+        'Blockchain': [
+            {
+                'name': 'Etherscan',
+                'description': 'Ethereum blockchain explorer API',
+                'url': 'https://etherscan.io/apis',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 88,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'CoinGecko',
+                'description': 'Cryptocurrency data API',
+                'url': 'https://www.coingecko.com/api/documentations/v3',
+                'auth': 'No',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 90,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Blockchain.com',
+                'description': 'Bitcoin blockchain API',
+                'url': 'https://www.blockchain.com/api',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'unknown',
+                'popularity': 85,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Binance',
+                'description': 'Cryptocurrency exchange API',
+                'url': 'https://binance-docs.github.io/apidocs/',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 92,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Coinbase',
+                'description': 'Cryptocurrency trading platform API',
+                'url': 'https://developers.coinbase.com/',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 89,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'BitcoinChain',
+                'description': 'Bitcoin blockchain API',
+                'url': 'https://bitcoinchain.com/api',
+                'auth': 'No',
+                'https': True,
+                'cors': 'unknown',
+                'popularity': 80,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Solana',
+                'description': 'Solana blockchain API',
+                'url': 'https://docs.solana.com/developing/clients/jsonrpc-api',
+                'auth': 'No',
+                'https': True,
+                'cors': 'unknown',
+                'popularity': 85,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Alchemy',
+                'description': 'Blockchain development platform',
+                'url': 'https://docs.alchemy.com/reference/',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 87,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Moralis',
+                'description': 'Web3 development platform',
+                'url': 'https://docs.moralis.io/web3-data-api/evm',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 86,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Infura',
+                'description': 'Ethereum and IPFS API',
+                'url': 'https://docs.infura.io/',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 88,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            }
+        ],
+        'Finance': [
+            {
+                'name': 'Alpha Vantage',
+                'description': 'Realtime and historical stock data',
+                'url': 'https://www.alphavantage.co/',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 89,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Finnhub',
+                'description': 'Real-time stock, forex and crypto data',
+                'url': 'https://finnhub.io/docs/api',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 87,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Polygon.io',
+                'description': 'Stock market data API',
+                'url': 'https://polygon.io/docs',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 85,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Yahoo Finance',
+                'description': 'Financial data API',
+                'url': 'https://www.yahoofinanceapi.com/',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 90,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'IEX Cloud',
+                'description': 'Financial data platform',
+                'url': 'https://iexcloud.io/docs/api/',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 86,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Marketstack',
+                'description': 'Real-time, intraday & historical stock market data API',
+                'url': 'https://marketstack.com/documentation',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'unknown',
+                'popularity': 83,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Financial Modeling Prep',
+                'description': 'Stock market data API',
+                'url': 'https://site.financialmodelingprep.com/developer/docs',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 84,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Twelve Data',
+                'description': 'Market and financial data API',
+                'url': 'https://twelvedata.com/docs',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'unknown',
+                'popularity': 82,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Plaid',
+                'description': 'Connect with users' bank accounts',
+                'url': 'https://plaid.com/docs/',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'unknown',
+                'popularity': 88,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Stripe',
+                'description': 'Online payment processing API',
+                'url': 'https://stripe.com/docs/api',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 95,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            }
+        ],
+        'Social': [
+            {
+                'name': 'Twitter',
+                'description': 'Twitter API for accessing tweets and user data',
+                'url': 'https://developer.twitter.com/en/docs',
+                'auth': 'OAuth',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 92,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Facebook Graph',
+                'description': 'Facebook social graph API',
+                'url': 'https://developers.facebook.com/docs/graph-api',
+                'auth': 'OAuth',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 94,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Instagram',
+                'description': 'Instagram API for photos and social features',
+                'url': 'https://developers.facebook.com/docs/instagram-api',
+                'auth': 'OAuth',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 90,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'LinkedIn',
+                'description': 'LinkedIn API for professional network data',
+                'url': 'https://docs.microsoft.com/en-us/linkedin/',
+                'auth': 'OAuth',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 88,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Reddit',
+                'description': 'Reddit API for posts, comments and subreddits',
+                'url': 'https://www.reddit.com/dev/api',
+                'auth': 'OAuth',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 89,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Discord',
+                'description': 'Discord chat and voice API',
+                'url': 'https://discord.com/developers/docs/intro',
+                'auth': 'OAuth',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 87,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Slack',
+                'description': 'Team collaboration and messaging API',
+                'url': 'https://api.slack.com/',
+                'auth': 'OAuth',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 86,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Telegram',
+                'description': 'Telegram messaging API',
+                'url': 'https://core.telegram.org/bots/api',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 85,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Pinterest',
+                'description': 'Pinterest API for pins and boards',
+                'url': 'https://developers.pinterest.com/docs/api/overview/',
+                'auth': 'OAuth',
+                'https': True,
+                'cors': 'unknown',
+                'popularity': 83,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'TikTok',
+                'description': 'TikTok content and user data API',
+                'url': 'https://developers.tiktok.com/',
+                'auth': 'OAuth',
+                'https': True,
+                'cors': 'unknown',
+                'popularity': 89,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            }
+        ],
+        'Email': [
+            {
+                'name': 'SendGrid',
+                'description': 'Email delivery and management service',
+                'url': 'https://docs.sendgrid.com/api-reference',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 90,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Mailchimp',
+                'description': 'Email marketing platform API',
+                'url': 'https://mailchimp.com/developer/',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 88,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Mailgun',
+                'description': 'Email sending API service',
+                'url': 'https://documentation.mailgun.com/en/latest/api_reference.html',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'unknown',
+                'popularity': 87,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Gmail',
+                'description': 'Google Gmail API',
+                'url': 'https://developers.google.com/gmail/api/guides',
+                'auth': 'OAuth',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 89,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Postmark',
+                'description': 'Email delivery service',
+                'url': 'https://postmarkapp.com/developer',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 85,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'SparkPost',
+                'description': 'Email delivery and analytics service',
+                'url': 'https://developers.sparkpost.com/',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'unknown',
+                'popularity': 84,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Elastic Email',
+                'description': 'Email delivery service',
+                'url': 'https://elasticemail.com/developers',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 82,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Hunter',
+                'description': 'Email verification and finder API',
+                'url': 'https://hunter.io/api',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'unknown',
+                'popularity': 83,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Mailtrap',
+                'description': 'Email testing service',
+                'url': 'https://mailtrap.io/docs/api-reference',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 81,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Sendinblue',
+                'description': 'Email marketing service',
+                'url': 'https://developers.sendinblue.com/',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 84,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            }
+        ],
+        'Music': [
+            {
+                'name': 'Spotify',
+                'description': 'Music streaming platform API',
+                'url': 'https://developer.spotify.com/documentation/web-api/',
+                'auth': 'OAuth',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 95,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Apple Music',
+                'description': 'Apple Music API',
+                'url': 'https://developer.apple.com/documentation/applemusicapi/',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 90,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Deezer',
+                'description': 'Music streaming platform API',
+                'url': 'https://developers.deezer.com/api',
+                'auth': 'OAuth',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 87,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Soundcloud',
+                'description': 'Music sharing platform API',
+                'url': 'https://developers.soundcloud.com/',
+                'auth': 'OAuth',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 88,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Musixmatch',
+                'description': 'Music lyrics API',
+                'url': 'https://developer.musixmatch.com/',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'unknown',
+                'popularity': 85,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Genius',
+                'description': 'Song lyrics and music knowledge API',
+                'url': 'https://docs.genius.com/',
+                'auth': 'OAuth',
+                'https': True,
+                'cors': 'unknown',
+                'popularity': 86,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Last.fm',
+                'description': 'Music data API',
+                'url': 'https://www.last.fm/api',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'unknown',
+                'popularity': 84,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Napster',
+                'description': 'Music streaming API',
+                'url': 'https://developer.napster.com/api/v2.2',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 80,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'MusicBrainz',
+                'description': 'Music metadata API',
+                'url': 'https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2',
+                'auth': 'No',
+                'https': True,
+                'cors': 'unknown',
+                'popularity': 83,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Bandsintown',
+                'description': 'Music events API',
+                'url': 'https://app.swaggerhub.com/apis/Bandsintown/PublicAPI/3.0.0',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'unknown',
+                'popularity': 82,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            }
+        ]
+    }
     
     # Merge common APIs with category APIs
     for category, apis in common_apis.items():
