@@ -10,7 +10,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/gunjanjaswal/Awesome-Public-Free-Apis/graphs/commit-activity)
 
 
-The ultimate, self-updating collection of **free public REST APIs** for developers to integrate into web applications, mobile apps, and software projects. Automatically discovers and tracks the most popular and reliable free APIs across 87+ APIs across 3460+ APIs across 3460+ APIs across 0+ APIs across 27+ APIs across 40+ categories.
+The ultimate, self-updating collection of **free public REST APIs** for developers to integrate into web applications, mobile apps, and software projects. Automatically discovers and tracks the most popular and reliable free APIs across 87+ APIs across 3460+ APIs across 3460+ APIs across 0+ APIs across 27+ APIs across 27+ APIs across 40+ categories.
 
 [Browse APIs by Category](#-api-categories---find-the-perfect-api-for-your-project) • [How to Contribute](#-how-to-contribute-to-this-api-collection) • [Automation Details](#-how-our-automated-api-tracking-works) • [License](#-license)
 
@@ -24,7 +24,7 @@ This repository aims to be the most comprehensive and up-to-date collection of *
 
 - 🔄 **Self-updating API directory**: Automatically checks API status weekly and discovers trending APIs monthly
 - ✅ **Verified working endpoints**: All APIs are regularly tested to ensure they're functional
-- 🏷️ **Comprehensive categorization**: 87+ APIs across 3460+ APIs across 3460+ APIs across 0+ APIs across 27+ APIs across 40+ categories covering everything from weather data to machine learning
+- 🏷️ **Comprehensive categorization**: 87+ APIs across 3460+ APIs across 3460+ APIs across 0+ APIs across 27+ APIs across 27+ APIs across 40+ categories covering everything from weather data to machine learning
 - 🔒 **Authentication details**: Clear information about API keys, OAuth requirements, and more
 - 📊 **Popularity metrics**: See which APIs are most widely used by the developer community
 - 👥 **Community-maintained**: Contributions from developers worldwide keep this resource current
@@ -135,19 +135,19 @@ APIs for software development tools and services.
 | --- | --- | --- | --- | --- |
 | [GitHub](https://docs.github.com/en/rest) | Complete developer platform to build, scale, and deliver secure software | OAuth | Yes | yes |
 | [JSON Placeholder](https://jsonplaceholder.typicode.com/) | Fake data for testing and prototyping |  | Yes | yes |
-| [**CalendarIndex**](https://www.calendarindex.com) | \| Worldwide Holidays and Working Days API.                    \| **N/A** \| | unknown | Yes | unknown |
-| [**Clicky**](https://clicky.com/help/api) | \| Allows you to extract your website's traffic data into several formats, making it easy to inte... | unknown | Yes | unknown |
-| [**Commerce Layer**](https://docs.commercelayer.io/api/) | \| Commerce Layer is a headless commerce platform that lets you add global ecommerce capabilities... | unknown | Yes | unknown |
-| [**Companies taking action**](https://ditchcarbon.com/free-sbti-api-access/) | \| API access to the "companies taking action" list from SBTI.\|**N/A**\| | unknown | Yes | unknown |
-| [**Dynamic QR Code**](https://rapidapi.com/updeploy-tools/api/qr-code-dynamic-and-static1/details) | \| Generate dynamic and static QR Codes. \| 💸 \| | unknown | Yes | unknown |
-| [**EAN-Search**](https://www.ean-search.org/ean-database-api.html) | \| The EAN-Search API allows you to lookup products by EAN, UPC or GTIN barcode. \| 💸 \| | unknown | Yes | unknown |
-| [**Google Barcode**](https://developers.google.com/vision/barcodes-overview?hl=en) | \| The Barcode API detects barcodes in real-time, on device, in any orientation. It can also dete... | unknown | Yes | unknown |
-| [**Google Places**](https://developers.google.com/places/?hl=en) | \| Access to Google Places’ API. \| **N/A** \| | unknown | Yes | unknown |
-| [**Kevel Ad APIs**](https://dev.kevel.co) | \| Build your own ad server with Kevel's ad APIs.\| **N/A** \| | unknown | Yes | unknown |
-| [**Microsoft Advertising Platform - Bing Ads API**](https://msdn.microsoft.com/en-us/library/bing-ads-api.aspx) | \| Provides programmatic access to various advertising technologies. \| **N/A** \| | unknown | Yes | unknown |
-| [**Open Web Analytics**](https://github.com/padams/Open-Web-Analytics/wiki/Data-Access-API) | \| Provides a way to request and work with your data outside of the OWA reporting interface. \| *... | unknown | Yes | unknown |
-| [**QR Code Generator API**](https://docs.openqr.io/) | \| Static and Dynamic QR code generator API \| `💸` \| | unknown | Yes | yes |
-| [**Woopra**](https://www.woopra.com/docs/developer/analytics-api/) | \| Real-time website analysis tool that targets customer engagement. \| **N/A** \| | unknown | Yes | unknown |
+| [**CalendarIndex**](https://www.calendarindex.com) | \| Worldwide Holidays and Working Days API.                    \| **N/A** \| |  | Yes |  |
+| [**Clicky**](https://clicky.com/help/api) | \| Allows you to extract your website's traffic data into several formats, making it easy to inte... |  | Yes |  |
+| [**Commerce Layer**](https://docs.commercelayer.io/api/) | \| Commerce Layer is a headless commerce platform that lets you add global ecommerce capabilities... |  | Yes |  |
+| [**Companies taking action**](https://ditchcarbon.com/free-sbti-api-access/) | \| API access to the "companies taking action" list from SBTI.\|**N/A**\| |  | Yes |  |
+| [**Dynamic QR Code**](https://rapidapi.com/updeploy-tools/api/qr-code-dynamic-and-static1/details) | \| Generate dynamic and static QR Codes. \| 💸 \| |  | Yes |  |
+| [**EAN-Search**](https://www.ean-search.org/ean-database-api.html) | \| The EAN-Search API allows you to lookup products by EAN, UPC or GTIN barcode. \| 💸 \| |  | Yes |  |
+| [**Google Barcode**](https://developers.google.com/vision/barcodes-overview?hl=en) | \| The Barcode API detects barcodes in real-time, on device, in any orientation. It can also dete... |  | Yes |  |
+| [**Google Places**](https://developers.google.com/places/?hl=en) | \| Access to Google Places’ API. \| **N/A** \| |  | Yes |  |
+| [**Kevel Ad APIs**](https://dev.kevel.co) | \| Build your own ad server with Kevel's ad APIs.\| **N/A** \| |  | Yes |  |
+| [**Microsoft Advertising Platform - Bing Ads API**](https://msdn.microsoft.com/en-us/library/bing-ads-api.aspx) | \| Provides programmatic access to various advertising technologies. \| **N/A** \| |  | Yes |  |
+| [**Open Web Analytics**](https://github.com/padams/Open-Web-Analytics/wiki/Data-Access-API) | \| Provides a way to request and work with your data outside of the OWA reporting interface. \| *... |  | Yes |  |
+| [**QR Code Generator API**](https://docs.openqr.io/) | \| Static and Dynamic QR code generator API \| `💸` \| |  | Yes | yes |
+| [**Woopra**](https://www.woopra.com/docs/developer/analytics-api/) | \| Real-time website analysis tool that targets customer engagement. \| **N/A** \| |  | Yes |  |
 
 
 ### Authenticat... | unknown | Yes | unknown |
@@ -2800,17 +2800,17 @@ APIs for weather data and forecasts.
 | API | Description | Auth | HTTPS | CORS |
 | --- | --- | --- | --- | --- |
 | [OpenWeatherMap](https://openweathermap.org/api) | Current weather data, forecasts, and historical data for any location | apiKey | Yes | yes |
-| [**AerisWeather**](https://www.aerisweather.com) | \| Global weather data and imagery APIs, with a free developer subscription tier, boasting detail... | unknown | Yes | yes |
-| [**BlueSky API**](https://blueskyapi.io/docs/api) | \| Global weather data, both live forecasts and forecast history, free tier available. \| **N/A** \| | unknown | Yes | unknown |
-| [**Open-Meteo**](https://open-meteo.com/en/docs) | \| Global weather forecast API. Free for non-commercial use. **No API key required**. [CORS](http... | unknown | Yes | yes |
-| [**Storm Glass Marine Weather API**](https://stormglass.io) | \| Global marine weather data from multiple sources in one single API! \| **N/A** \| | unknown | Yes | unknown |
-| [**Weather-API**](https://github.com/robertoduessmann/weather-api) | \| A free RESTful API to check the weather. \| **N/A** \| | unknown | Yes | unknown |
-| [**Weatherbit**](https://www.weatherbit.io/api) | \| Access forecasts, current weather, and historical weather data for any point on the Earth! \| ... | unknown | Yes | unknown |
-| [**Weatherstack**](https://weatherstack.com/documentation) | \| Real-Time & Historical World Weather Data API. \| **N/A** \| | unknown | Yes | unknown |
-| [Caiyun Weather](https://caiyunapp.com/index.html#api) | Weather information of China.(**Missing English Docs**) | unknown | Yes | unknown |
-| [**Weather Source**](http://weathersource.com/weather-api) | \| Powerful Weather API built for systems that demand speed, reliability and heavy load. \| **N/A... | unknown | No | unknown |
-| [AccuWeather](http://apidev.accuweather.com/developers/) | The AccuWeather API provides subscribers access to location based weather data via a simple RESTf... | unknown | No | yes |
-| [Aeris Weather](http://www.aerisweather.com/develop/) | An advanced weather API to power all of your custom applications, offering a breath of fresh air ... | unknown | No | yes |
+| [**AerisWeather**](https://www.aerisweather.com) | \| Global weather data and imagery APIs, with a free developer subscription tier, boasting detail... |  | Yes | yes |
+| [**BlueSky API**](https://blueskyapi.io/docs/api) | \| Global weather data, both live forecasts and forecast history, free tier available. \| **N/A** \| |  | Yes |  |
+| [**Open-Meteo**](https://open-meteo.com/en/docs) | \| Global weather forecast API. Free for non-commercial use. **No API key required**. [CORS](http... |  | Yes | yes |
+| [**Storm Glass Marine Weather API**](https://stormglass.io) | \| Global marine weather data from multiple sources in one single API! \| **N/A** \| |  | Yes |  |
+| [**Weather-API**](https://github.com/robertoduessmann/weather-api) | \| A free RESTful API to check the weather. \| **N/A** \| |  | Yes |  |
+| [**Weatherbit**](https://www.weatherbit.io/api) | \| Access forecasts, current weather, and historical weather data for any point on the Earth! \| ... |  | Yes |  |
+| [**Weatherstack**](https://weatherstack.com/documentation) | \| Real-Time & Historical World Weather Data API. \| **N/A** \| |  | Yes |  |
+| [Caiyun Weather](https://caiyunapp.com/index.html#api) | Weather information of China.(**Missing English Docs**) |  | Yes |  |
+| [**Weather Source**](http://weathersource.com/weather-api) | \| Powerful Weather API built for systems that demand speed, reliability and heavy load. \| **N/A... |  | No |  |
+| [AccuWeather](http://apidev.accuweather.com/developers/) | The AccuWeather API provides subscribers access to location based weather data via a simple RESTf... |  | No | yes |
+| [Aeris Weather](http://www.aerisweather.com/develop/) | An advanced weather API to power all of your custom applications, offering a breath of fresh air ... |  | No | yes |
 
 
 ### Ways to Contribute:
