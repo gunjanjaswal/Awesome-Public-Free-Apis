@@ -1,0 +1,41 @@
+name: Update APIs
+
+on:
+  push:
+    branches: [ main, master ]
+  schedule:
+    - cron: '0 0 * * 0'  # Run weekly at midnight on Sunday
+
+jobs:
+  update-apis:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests beautifulsoup4 feedparser
+        
+    - name: Run API discovery script
+      run: |
+        python scripts/discover_trending_apis.py --mode comprehensive --readme
+        
+    - name: Update README
+      run: |
+        python scripts/update_readme.py
+        
+    - name: Commit and push if changes
+      run: |
+        git config --global user.name 'Gunjan Jaswaal'
+        git config --global user.email 'gunjanjaswal@gmail.com'
+        git add data/apis.json README.md
+        git diff --quiet && git diff --staged --quiet || git commit -m "Update APIs and README [automated]"
+        git push
