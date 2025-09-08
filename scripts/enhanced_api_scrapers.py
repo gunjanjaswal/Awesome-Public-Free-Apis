@@ -29,9 +29,74 @@ USER_AGENTS = [
 def load_api_data() -> Dict[str, Any]:
     """Load API data from the JSON file."""
     try:
-        with open(DATA_FILE, 'r', encoding='utf-8') as file:
-            return json.load(file)
-    except (json.JSONDecodeError, FileNotFoundError) as e:
+        # Ensure the data directory exists
+        data_dir = os.path.dirname(DATA_FILE)
+        if not os.path.exists(data_dir):
+            os.makedirs(data_dir)
+            print(f"Created data directory: {data_dir}")
+            
+        # Try to load existing data
+        if os.path.exists(DATA_FILE):
+            with open(DATA_FILE, 'r', encoding='utf-8') as file:
+                return json.load(file)
+        else:
+            # Create a new data structure with all categories
+            categories = [
+                {"name": "Authentication", "description": "APIs related to authentication, authorization, and identity management", "apis": []},
+                {"name": "Blockchain", "description": "APIs related to blockchain technology and distributed ledgers", "apis": []},
+                {"name": "Business", "description": "APIs for business operations, CRM, ERP, and other business functions", "apis": []},
+                {"name": "Calendar", "description": "APIs for calendar and scheduling functionality", "apis": []},
+                {"name": "Cloud Storage", "description": "APIs for cloud storage and file management", "apis": []},
+                {"name": "Communication", "description": "APIs for messaging, chat, and other communication services", "apis": []},
+                {"name": "Cryptocurrency", "description": "APIs for cryptocurrency data and transactions", "apis": []},
+                {"name": "Currency Exchange", "description": "APIs for currency exchange rates and conversions", "apis": []},
+                {"name": "Data Validation", "description": "APIs for validating various types of data", "apis": []},
+                {"name": "Development", "description": "APIs for software development tools and services", "apis": []},
+                {"name": "Email", "description": "APIs for email services and functionality", "apis": []},
+                {"name": "Entertainment", "description": "APIs for entertainment content and services", "apis": []},
+                {"name": "Environment", "description": "APIs for environmental data and services", "apis": []},
+                {"name": "Finance", "description": "APIs for financial data and services", "apis": []},
+                {"name": "Food & Drink", "description": "APIs for food and drink related data and services", "apis": []},
+                {"name": "Games & Comics", "description": "APIs for games, comics, and related content", "apis": []},
+                {"name": "Geocoding", "description": "APIs for geocoding and geolocation services", "apis": []},
+                {"name": "Government", "description": "APIs provided by government entities", "apis": []},
+                {"name": "Health", "description": "APIs for health and medical data and services", "apis": []},
+                {"name": "Jobs", "description": "APIs for job listings and employment data", "apis": []},
+                {"name": "Machine Learning", "description": "APIs for machine learning and AI services", "apis": []},
+                {"name": "Music", "description": "APIs for music data and services", "apis": []},
+                {"name": "News", "description": "APIs for news content and services", "apis": []},
+                {"name": "Open Data", "description": "APIs for open data sets and services", "apis": []},
+                {"name": "Open Source Projects", "description": "APIs for open source project data and services", "apis": []},
+                {"name": "Patent", "description": "APIs for patent data and services", "apis": []},
+                {"name": "Personality", "description": "APIs for personality and psychology related data", "apis": []},
+                {"name": "Phone", "description": "APIs for phone and SMS related services", "apis": []},
+                {"name": "Photography", "description": "APIs for photography and image related services", "apis": []},
+                {"name": "Science & Math", "description": "APIs for scientific and mathematical data and services", "apis": []},
+                {"name": "Security", "description": "APIs for security related services", "apis": []},
+                {"name": "Shopping", "description": "APIs for e-commerce and shopping related services", "apis": []},
+                {"name": "Social", "description": "APIs for social media and social networking", "apis": []},
+                {"name": "Sports & Fitness", "description": "APIs for sports and fitness data and services", "apis": []},
+                {"name": "Test Data", "description": "APIs for generating test data", "apis": []},
+                {"name": "Text Analysis", "description": "APIs for text analysis and natural language processing", "apis": []},
+                {"name": "Tracking", "description": "APIs for tracking various types of data", "apis": []},
+                {"name": "Transportation", "description": "APIs for transportation data and services", "apis": []},
+                {"name": "URL Shorteners", "description": "APIs for URL shortening services", "apis": []},
+                {"name": "Video", "description": "APIs for video content and services", "apis": []},
+                {"name": "Weather", "description": "APIs for weather data and forecasts", "apis": []}
+            ]
+            
+            data = {
+                "categories": categories,
+                "metadata": {
+                    "total_apis": 0,
+                    "last_updated": datetime.datetime.now().isoformat(),
+                    "version": "1.0.0"
+                }
+            }
+            
+            print("Created new API data structure with all categories")
+            return data
+    except Exception as e:
         print(f"Error loading API data: {e}")
         return {"categories": [], "metadata": {"total_apis": 0}}
 
@@ -539,35 +604,80 @@ def main():
     # Discover new APIs from various sources
     new_apis = []
     
-    # Public APIs GitHub Repository
+    # Public APIs GitHub Repository - This is the most reliable source
     print("Scraping public-apis GitHub repository...")
     public_apis = scrape_public_apis_github()
     new_apis.extend(public_apis)
     print(f"Found {len(public_apis)} APIs from public-apis GitHub repository")
     
-    # APIList.fun
-    print("Scraping apilist.fun...")
-    apilist_apis = scrape_apilist_fun()
-    new_apis.extend(apilist_apis)
-    print(f"Found {len(apilist_apis)} APIs from apilist.fun")
+    # If we don't have enough APIs yet, try other sources
+    if len(public_apis) < 50:
+        # APIList.fun
+        print("Scraping apilist.fun...")
+        apilist_apis = scrape_apilist_fun()
+        new_apis.extend(apilist_apis)
+        print(f"Found {len(apilist_apis)} APIs from apilist.fun")
+        
+        # RapidAPI Collections
+        print("Scraping RapidAPI collections...")
+        rapidapi_apis = scrape_rapidapi_collections()
+        new_apis.extend(rapidapi_apis)
+        print(f"Found {len(rapidapi_apis)} APIs from RapidAPI collections")
+        
+        # Any-API
+        print("Scraping any-api.com...")
+        any_api_apis = scrape_any_api()
+        new_apis.extend(any_api_apis)
+        print(f"Found {len(any_api_apis)} APIs from any-api.com")
+        
+        # APIs.guru
+        print("Scraping APIs.guru...")
+        apis_guru_apis = scrape_apis_guru()
+        new_apis.extend(apis_guru_apis)
+        print(f"Found {len(apis_guru_apis)} APIs from APIs.guru")
     
-    # RapidAPI Collections
-    print("Scraping RapidAPI collections...")
-    rapidapi_apis = scrape_rapidapi_collections()
-    new_apis.extend(rapidapi_apis)
-    print(f"Found {len(rapidapi_apis)} APIs from RapidAPI collections")
-    
-    # Any-API
-    print("Scraping any-api.com...")
-    any_api_apis = scrape_any_api()
-    new_apis.extend(any_api_apis)
-    print(f"Found {len(any_api_apis)} APIs from any-api.com")
-    
-    # APIs.guru
-    print("Scraping APIs.guru...")
-    apis_guru_apis = scrape_apis_guru()
-    new_apis.extend(apis_guru_apis)
-    print(f"Found {len(apis_guru_apis)} APIs from APIs.guru")
+    # Add sample APIs if we don't have any APIs yet
+    if len(new_apis) == 0:
+        print("No APIs found from scrapers, adding sample APIs...")
+        sample_apis = [
+            {
+                'name': 'GitHub',
+                'description': 'Make use of GitHub\'s APIs to fetch repository information, user data, and more',
+                'url': 'https://docs.github.com/en/rest',
+                'category': 'Development',
+                'auth': 'OAuth',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 99,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'OpenWeatherMap',
+                'description': 'Weather forecasts, nowcasts and history in a fast and elegant way',
+                'url': 'https://openweathermap.org/api',
+                'category': 'Weather',
+                'auth': 'apiKey',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 98,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            },
+            {
+                'name': 'Unsplash',
+                'description': 'Free high-resolution photos API',
+                'url': 'https://unsplash.com/developers',
+                'category': 'Photography',
+                'auth': 'OAuth',
+                'https': True,
+                'cors': 'yes',
+                'popularity': 94,
+                'status': 'active',
+                'last_checked': datetime.datetime.now().isoformat()
+            }
+        ]
+        new_apis.extend(sample_apis)
     
     # Add new APIs to the data
     if new_apis:
@@ -575,6 +685,7 @@ def main():
         
         # Save updated data
         save_api_data(updated_data)
+        print(f"Added {len(new_apis)} APIs to the database")
     else:
         print("No new APIs discovered")
     

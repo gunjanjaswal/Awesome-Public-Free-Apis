@@ -227,6 +227,25 @@ APIs for weather data and forecasts.
 | [WeatherAPI](https://www.weatherapi.com/) | Weather API with forecasts, history, and more | apiKey | Yes | Yes |
 | [Tomorrow.io](https://www.tomorrow.io/weather-api/) | Weather API powered by proprietary technology | apiKey | Yes | Yes |
 
+## 🚀 Trending GitHub API Repositories
+
+This section is automatically updated daily with trending API-specific repositories from GitHub. These repositories focus specifically on API development, documentation, and tooling.
+
+| Repository | Description | Stars | Language |
+| --- | --- | --- | --- |
+| [swagger-api/swagger-ui](https://github.com/swagger-api/swagger-ui) | API documentation and exploration UI based on OpenAPI | 24.6k | JavaScript |
+| [fastapi/fastapi](https://github.com/tiangolo/fastapi) | FastAPI framework, high performance API framework ready for production | 68.3k | Python |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs for use in software and web development | 269k | Python |
+| [Kong/insomnia](https://github.com/Kong/insomnia) | The open-source, cross-platform API client for GraphQL, REST, and gRPC | 31.5k | JavaScript |
+| [postmanlabs/postman-app-support](https://github.com/postmanlabs/postman-app-support) | API development environment and testing platform | 4.8k | N/A |
+| [OpenAPITools/openapi-generator](https://github.com/OpenAPITools/openapi-generator) | OpenAPI Generator allows generation of API client libraries, server stubs, and documentation | 17.2k | Java |
+| [slatedocs/slate](https://github.com/slatedocs/slate) | Beautiful static documentation for your API | 34.8k | Ruby |
+| [typicode/json-server](https://github.com/typicode/json-server) | Get a full fake REST API with zero coding in less than 30 seconds | 67.9k | JavaScript |
+| [stoplightio/prism](https://github.com/stoplightio/prism) | Turn your API descriptions into mock servers | 3.5k | TypeScript |
+| [graphql/graphql-spec](https://github.com/graphql/graphql-spec) | GraphQL is a query language and execution engine for APIs | 14.2k | N/A |
+
+_Last updated: September 08, 2025_
+
 ## 🔥 Trending GitHub Repositories
 
 This section is automatically updated daily with trending API-related repositories from GitHub. Discover what the community is building and using right now!
