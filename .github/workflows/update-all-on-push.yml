@@ -17,6 +17,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
         
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -50,6 +52,7 @@ jobs:
         run: |
           git config --local user.email "gunjanjaswal@gmail.com"
           git config --local user.name "Gunjan Jaswaal"
+          git pull --rebase origin main
           git add -A
           git commit -m "Update all content on push [skip ci]"
         

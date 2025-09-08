@@ -108,6 +108,18 @@ def update_readme_with_apis() -> None:
             updated_categories_content += f"### {category_name}\n{category.get('description', f'APIs for {category_name.lower()} related services.')}\n\n{api_table}\n\n"
             print(f"Added category section for {category_name} with {len(category['apis'])} APIs")
         
+        # Add a 'Last updated' date and update schedules after the API categories section
+        today = datetime.datetime.now().strftime('%B %d, %Y')
+        update_info = f"""_API Categories last updated: {today}_
+
+**API Update Schedule:**
+- Weekly API Status Checks (Sundays)
+- Enhanced API Discovery (Mondays)
+- Monthly API Discovery (1st of each month)
+
+"""        
+        updated_categories_content += update_info
+        
         # Combine all parts to create the updated README content
         updated_readme_content = content_before + updated_categories_content + content_after
         

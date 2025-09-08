@@ -1755,6 +1755,13 @@ APIs for weather data and forecasts
 | <a href="https://yandex.com/dev/weather/" target="_blank">Yandex.Weather</a> | Assesses weather condition in specific locations | `apiKey` | Yes | no |
 
 
+_API Categories last updated: September 08, 2025_
+
+**API Update Schedule:**
+- Weekly API Status Checks (Sundays)
+- Enhanced API Discovery (Mondays)
+- Monthly API Discovery (1st of each month)
+
 ## 🚀 Trending GitHub API Repositories
 
 This section is automatically updated daily with trending API-specific repositories from GitHub. These repositories focus specifically on API development, documentation, and tooling.
