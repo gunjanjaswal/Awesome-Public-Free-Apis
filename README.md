@@ -12,7 +12,7 @@
 
 The ultimate, self-updating collection of **free public REST APIs** for developers to integrate into web applications, mobile apps, and software projects. Automatically discovers and tracks the most popular and reliable free APIs across 40+ categories.
 
-[Browse APIs by Category](#card_index-api-categories---find-the-perfect-api-for-your-project) • [Trending GitHub Repositories](#rocket-trending-github-repositories) • [How to Contribute](#handshake-how-to-contribute-to-this-api-collection) • [Automation Details](#gear-how-our-automated-api-tracking-works) • [License](#page_with_curl-license) • [<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="20" width="70">](https://buymeacoffee.com/gunjanjaswal)
+[Browse APIs by Category](#-api-categories---find-the-perfect-api-for-your-project) • [Trending GitHub Repositories](#-trending-github-repositories) • [How to Contribute](#-how-to-contribute-to-this-api-collection) • [Automation Details](#-how-our-automated-api-tracking-works) • [License](#-license)
 
 </div>
 
@@ -1706,7 +1706,12 @@ This section is automatically updated daily with trending API-related repositori
 | [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) | 30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programmi... | 45.1k | JavaScript |
 
 _Last updated: September 08, 2025_
+<<<<<<< Updated upstream
 ## :handshake: How to Contribute to This API Collection
+=======
+
+## :handshake: How to Contribute to this API Collection
+>>>>>>> Stashed changes
 
 We welcome contributions from the community! Here's how you can help:
 
