@@ -42,6 +42,10 @@ jobs:
       - name: Preserve README sections
         run: |
           python .github/scripts/preserve-readme-sections.py
+          
+      - name: Fix navigation links
+        run: |
+          python .github/scripts/fix-navigation-links.py
 
       - name: Commit and push changes
         run: |
