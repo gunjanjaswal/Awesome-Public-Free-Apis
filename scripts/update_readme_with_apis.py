@@ -251,10 +251,10 @@ def update_readme_with_apis() -> None:
             # Add a note about API limit when there are more than 100 APIs
             if api_count > 100:
                 api_limit_note = f"*Note: Showing 100 of {api_count} APIs in this category.*\n\n"
-                updated_categories_content += f"<a id=\"{{category_id}}\"></a>\n### {{category_emoji}} {{category_name}} {{badge}}\n{{category_description}}\n\n{{api_limit_note}}{{api_table}}\n\n{{colorful_divider}}"
+                updated_categories_content += f"<a id=\"{category_id}\"></a>\n### {category_emoji} {category_name} {badge}\n{category_description}\n\n{api_limit_note}{api_table}\n\n{colorful_divider}"
             else:
-                updated_categories_content += f"<a id=\"{{category_id}}\"></a>\n### {{category_emoji}} {{category_name}} {{badge}}\n{{category_description}}\n\n{{api_table}}\n\n{{colorful_divider}}"
-            print(f"Added category section for {{category_name}} with {{len(limited_apis)}} APIs (out of {{api_count}} total)")
+                updated_categories_content += f"<a id=\"{category_id}\"></a>\n### {category_emoji} {category_name} {badge}\n{category_description}\n\n{api_table}\n\n{colorful_divider}"
+            print(f"Added category section for {category_name} with {len(limited_apis)} APIs (out of {api_count} total)")
         
         # Add a 'Last updated' date and update schedules after the API categories section
         today = datetime.datetime.now().strftime('%B %d, %Y')
