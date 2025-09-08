@@ -1,0 +1,52 @@
+name: Update API Data
+
+on:
+  schedule:
+    # Weekly API Status Checks (Every Sunday at 00:00 UTC)
+    - cron: '0 0 * * 0'
+    # Enhanced API Discovery (Every Monday at 00:15 UTC)
+    - cron: '15 0 * * 1'
+    # Monthly API Discovery (1st of each month at 00:30 UTC)
+    - cron: '30 0 1 * *'
+    # Daily Trending Repositories (Every day at 01:00 UTC)
+    - cron: '0 1 * * *'
+    # Daily Trending API Repositories (Every day at 01:30 UTC)
+    - cron: '30 1 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-api-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 pandas markdown
+
+      - name: Update API data
+        run: |
+          python .github/scripts/update-api-data.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Preserve README sections
+        run: |
+          python .github/scripts/preserve-readme-sections.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update API data and preserve custom sections"
+          git push
