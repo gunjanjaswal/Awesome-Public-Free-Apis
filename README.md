@@ -45,7 +45,7 @@ The ultimate, self-updating collection of **free public REST APIs** for develope
 - [:fork_and_knife: Food & Drink](#food--drink)
 - [:video_game: Games & Comics](#games--comics)
 - [:world_map: Geocoding](#geocoding)
-- [:flag_white: Government](#government)
+- [:classical_building: Government](#government)
 - [:syringe: Health](#health)
 - [:briefcase: Jobs](#jobs)
 - [:robot: Machine Learning](#machine-learning)
