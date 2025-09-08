@@ -26,9 +26,6 @@ The ultimate, self-updating collection of **free public REST APIs** for develope
 **Available Categories:**
 
 - [:closed_lock_with_key: Authentication](#authentication)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 - [:link: Blockchain](#blockchain)
 - [:briefcase: Business](#business)
 - [:calendar: Calendar](#calendar)
@@ -3415,55 +3412,6 @@ _API Categories last updated: September 08, 2025_
 - Weekly API Status Checks (Next: September 14, 2025)
 - Enhanced API Discovery (Next: September 15, 2025)
 - Monthly API Discovery (Next: October 01, 2025)
-
-## :card_index: API Categories - Find the Perfect API for Your Project
-
-
-**Available Categories:**
-
-- [:closed_lock_with_key: Authentication](#authentication)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-- [:briefcase: Business](#business)
-- [:calendar: Calendar](#calendar)
-- [:floppy_disk: Cloud Storage](#cloud-storage)
-- [:moneybag: Cryptocurrency](#cryptocurrency)
-- [:currency_exchange: Currency Exchange](#currency-exchange)
-- [:white_check_mark: Data Validation](#data-validation)
-- [:man_technologist: Development](#development)
-- [:email: Email](#email)
-- [:earth_africa: Environment](#environment)
-- [:dollar: Finance](#finance)
-- [:fork_and_knife: Food & Drink](#food--drink)
-- [:video_game: Games & Comics](#games--comics)
-- [:world_map: Geocoding](#geocoding)
-- [:classical_building: Government](#government)
-- [:syringe: Health](#health)
-- [:briefcase: Jobs](#jobs)
-- [:robot: Machine Learning](#machine-learning)
-- [:musical_note: Music](#music)
-- [:newspaper: News](#news)
-- [:notebook: Open Data](#open-data)
-- [:man_technologist: Open Source Projects](#open-source-projects)
-- [:page_facing_up: Patent](#patent)
-- [:sunglasses: Personality](#personality)
-- [:iphone: Phone](#phone)
-- [:camera: Photography](#photography)
-- [:microscope: Science & Math](#science--math)
-- [:lock: Security](#security)
-- [:shopping: Shopping](#shopping)
-- [:busts_in_silhouette: Social](#social)
-- [:soccer: Sports & Fitness](#sports--fitness)
-- [:card_index: Test Data](#test-data)
-- [:mag: Text Analysis](#text-analysis)
-- [:round_pushpin: Tracking](#tracking)
-- [:paperclip: URL Shorteners](#url-shorteners)
-- [:movie_camera: Video](#video)
-- [:partly_sunny: Weather](#weather)
 
 
 <a id="authentication"></a>
