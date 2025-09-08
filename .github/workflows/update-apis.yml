@@ -9,6 +9,10 @@ on:
   workflow_dispatch:
     # Allow manual triggering
 
+# Set permissions for the GITHUB_TOKEN
+permissions:
+  contents: write
+
 jobs:
   update-apis:
     runs-on: ubuntu-latest
