@@ -12,12 +12,9 @@
 
 The ultimate, self-updating collection of **free public REST APIs** for developers to integrate into web applications, mobile apps, and software projects. Automatically discovers and tracks the most popular and reliable free APIs across 40+ categories.
 
-[Browse APIs by Category](#-api-categories---find-the-perfect-api-for-your-project) â€¢ [Trending GitHub Repositories](#-trending-github-repositories) â€¢ [How to Contribute](#-how-to-contribute-to-this-api-collection) â€¢ [Automation Details](#-how-our-automated-api-tracking-works) â€¢ [License](#-license)
+[Browse APIs by Category](#-api-categories---find-the-perfect-api-for-your-project) • [Trending GitHub Repositories](#-trending-github-repositories) • [How to Contribute](#-how-to-contribute-to-this-api-collection) • [Automation Details](#-how-our-automated-api-tracking-works) • [License](#-license)
 
 </div>
-
-
-
 
 
 
@@ -29,6 +26,7 @@ The ultimate, self-updating collection of **free public REST APIs** for develope
 **Available Categories:**
 
 - [:closed_lock_with_key: Authentication](#authentication)
+<<<<<<< Updated upstream
 - [:link: Blockchain](#blockchain)
 - [:briefcase: Business](#business)
 - [:calendar: Calendar](#calendar)
@@ -3424,6 +3422,8 @@ _API Categories last updated: September 08, 2025_
 **Available Categories:**
 
 - [:closed_lock_with_key: Authentication](#authentication)
+=======
+>>>>>>> Stashed changes
 - [:briefcase: Business](#business)
 - [:calendar: Calendar](#calendar)
 - [:floppy_disk: Cloud Storage](#cloud-storage)
@@ -5071,3 +5071,62 @@ _API Categories last updated: September 08, 2025_
 - Enhanced API Discovery (Next: September 15, 2025)
 - Monthly API Discovery (Next: October 01, 2025)
 
+<!-- END API CATEGORIES SECTION - DO NOT REMOVE OR MODIFY THIS COMMENT -->
+
+## :rocket: Trending GitHub API Repositories
+
+Updated daily with trending API-specific repositories from GitHub. These repositories focus specifically on API development, documentation, and tooling.
+
+| Repository | Description | Stars | Language |
+| --- | --- | --- | --- |
+| [SocialSisterYi/bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect) | å“”å“©å“©-APIæ”¶é›†æ•´ç†ã€ä¸æ–­æ›´æ–°ä¸­....ã€‘ | 18.7k | JavaScript |
+| [jhipster/generator-jhipster](https://github.com/jhipster/generator-jhipster) | JHipster is a development platform to quickly generate, develop, & deploy modern web applications... | 22.2k | TypeScript |
+| [gofr-dev/gofr](https://github.com/gofr-dev/gofr) | An opinionated GoLang framework for accelerated microservice development. Built in support for da... | 12.8k | Go |
+| [freeCodeCamp/devdocs](https://github.com/freeCodeCamp/devdocs) | API Documentation Browser | 37.3k | Ruby |
+| [guzzle/guzzle](https://github.com/guzzle/guzzle) | Guzzle, an extensible PHP HTTP client | 23.4k | PHP |
+
+_Last updated: September 08, 2025_
+
+<!-- BEGIN TRENDING REPOSITORIES SECTION - DO NOT REMOVE OR MODIFY THIS COMMENT -->
+## :rocket: Trending GitHub Repositories
+
+Updated daily with trending repositories from GitHub across all categories. These repositories represent the most active and popular projects on GitHub.
+
+| Repository | Description | Stars | Language |
+| --- | --- | --- | --- |
+| [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | Windows system utilities to maximize productivity | 98.5k | C# |
+| [openai/whisper](https://github.com/openai/whisper) | Robust Speech Recognition via Large-Scale Weak Supervision | 54.2k | Python |
+| [vercel/next.js](https://github.com/vercel/next.js) | The React Framework for the Web | 115.3k | JavaScript |
+| [rust-lang/rust](https://github.com/rust-lang/rust) | Empowering everyone to build reliable and efficient software | 89.7k | Rust |
+| [flutter/flutter](https://github.com/flutter/flutter) | Build high-performance, high-fidelity, apps for iOS, Android, web, & desktop | 159.2k | Dart |
+
+_Last updated: September 08, 2025_
+<!-- END TRENDING REPOSITORIES SECTION - DO NOT REMOVE OR MODIFY THIS COMMENT -->
+
+<!-- BEGIN HOW TO CONTRIBUTE SECTION - DO NOT REMOVE OR MODIFY THIS COMMENT -->
+## :handshake: How to Contribute to this API Collection
+
+We welcome contributions from the community! Here's how you can help:
+
+1. **Add a new API**: Submit a pull request with your API addition
+2. **Update existing APIs**: Help us keep the information accurate and up-to-date
+3. **Report issues**: Let us know if you find any broken links or inaccuracies
+4. **Suggest improvements**: Have ideas to make this collection better? We'd love to hear them!
+
+Please see our [Contributing Guidelines](CONTRIBUTING.md) for more details.
+
+## :gear: How Our Automated API Tracking Works
+
+This repository uses automation to keep the API collection fresh and relevant:
+
+1. **Weekly API Status Checks**: Every Sunday at 00:00 UTC, our automation verifies all APIs are operational and updates their status
+2. **Enhanced API Discovery**: Every Monday at 00:15 UTC, our enhanced scrapers collect high-quality free APIs from multiple sources
+3. **Monthly API Discovery**: On the 1st of each month at 00:30 UTC, our system scans sources like RapidAPI, GitHub trending repositories, and ProgrammableWeb to find new popular APIs
+4. **Daily Trending Repositories**: Every day at 01:00 UTC, we update the trending GitHub repositories section
+5. **Daily Trending API Repositories**: Every day at 01:30 UTC, we update the trending GitHub API-specific repositories section
+6. **Data Enrichment**: For each API, we automatically collect and verify information about authentication methods, HTTPS support, and CORS compatibility
+7. **Trend Analysis**: APIs are ranked by popularity based on usage metrics and community adoption
+
+## :page_with_curl: License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
