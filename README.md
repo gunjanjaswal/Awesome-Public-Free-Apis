@@ -1780,10 +1780,7 @@ This section is automatically updated daily with trending API-specific repositor
 | [freeCodeCamp/devdocs](https://github.com/freeCodeCamp/devdocs) | API Documentation Browser | 37.3k | Ruby |
 | [guzzle/guzzle](https://github.com/guzzle/guzzle) | Guzzle, an extensible PHP HTTP client | 23.4k | PHP |
 
-_Last updated: September 08, 2025_
-
-
-## 🔥 Trending GitHub Repositories
+_Last updated: September 08, 2025_## 🔥 Trending GitHub Repositories
 
 This section is automatically updated daily with trending API-related repositories from GitHub. Discover what the community is building and using right now!
 
