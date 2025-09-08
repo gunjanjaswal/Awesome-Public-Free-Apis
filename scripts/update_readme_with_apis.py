@@ -110,12 +110,43 @@ def update_readme_with_apis() -> None:
         
         # Add a 'Last updated' date and update schedules after the API categories section
         today = datetime.datetime.now().strftime('%B %d, %Y')
+        
+        # Calculate the next update dates
+        now = datetime.datetime.now()
+        
+        # Next Sunday for Weekly API Status Checks
+        days_until_sunday = (6 - now.weekday()) % 7
+        if days_until_sunday == 0:
+            days_until_sunday = 7  # If today is Sunday, get next Sunday
+        next_sunday = now + datetime.timedelta(days=days_until_sunday)
+        next_sunday_str = next_sunday.strftime('%B %d, %Y')
+        
+        # Next Monday for Enhanced API Discovery
+        days_until_monday = (0 - now.weekday()) % 7
+        if days_until_monday == 0:
+            days_until_monday = 7  # If today is Monday, get next Monday
+        next_monday = now + datetime.timedelta(days=days_until_monday)
+        next_monday_str = next_monday.strftime('%B %d, %Y')
+        
+        # Next 1st of month for Monthly API Discovery
+        if now.day == 1:
+            # If today is the 1st, get 1st of next month
+            next_month = now.replace(day=28) + datetime.timedelta(days=4)  # Move to next month
+            next_first = next_month.replace(day=1)
+        else:
+            # Get 1st of next month
+            if now.month == 12:
+                next_first = now.replace(year=now.year + 1, month=1, day=1)
+            else:
+                next_first = now.replace(month=now.month + 1, day=1)
+        next_first_str = next_first.strftime('%B %d, %Y')
+        
         update_info = f"""_API Categories last updated: {today}_
 
 **API Update Schedule:**
-- Weekly API Status Checks (Sundays)
-- Enhanced API Discovery (Mondays)
-- Monthly API Discovery (1st of each month)
+- Weekly API Status Checks (Next: {next_sunday_str})
+- Enhanced API Discovery (Next: {next_monday_str})
+- Monthly API Discovery (Next: {next_first_str})
 
 """        
         updated_categories_content += update_info

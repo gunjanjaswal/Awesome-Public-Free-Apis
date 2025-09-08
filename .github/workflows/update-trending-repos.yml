@@ -46,7 +46,10 @@ jobs:
         run: |
           git config --local user.email "gunjanjaswal@gmail.com"
           git config --local user.name "Gunjan Jaswaal"
-          git pull --rebase origin main
+          git add -A
+          git stash
+          git pull origin main
+          git stash pop || true
           git add -A
           git commit -m "Update trending repositories [skip ci]"
         

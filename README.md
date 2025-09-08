@@ -1758,9 +1758,9 @@ APIs for weather data and forecasts
 _API Categories last updated: September 08, 2025_
 
 **API Update Schedule:**
-- Weekly API Status Checks (Sundays)
-- Enhanced API Discovery (Mondays)
-- Monthly API Discovery (1st of each month)
+- Weekly API Status Checks (Next: September 14, 2025)
+- Enhanced API Discovery (Next: September 15, 2025)
+- Monthly API Discovery (Next: October 01, 2025)
 
 ## 🚀 Trending GitHub API Repositories
 
