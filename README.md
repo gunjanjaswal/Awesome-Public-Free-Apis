@@ -3797,6 +3797,13 @@ APIs for weather data and forecasts
 - Enhanced API Discovery (Next: September 15, 2025)
 - Monthly API Discovery (Next: October 01, 2025)
 
+_API Categories last updated: September 08, 2025_
+
+**API Update Schedule:**
+- Weekly API Status Checks (Next: September 14, 2025)
+- Enhanced API Discovery (Next: September 15, 2025)
+- Monthly API Discovery (Next: October 01, 2025)
+
 "https://stormglass.io/" target="_blank">Storm Glass</a> | Global marine weather from multiple sources | `apiKey` | Yes | yes |
 | <a href="https://docs.tomorrow.io" target="_blank">Tomorrow</a> | Weather API Powered by Proprietary Technology | `apiKey` | Yes | unknown |
 | <a href="https://www.weather.gov/documentation/services-web-api" target="_blank">US Weather</a> | US National Weather Service | none | Yes | yes |

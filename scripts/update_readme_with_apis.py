@@ -102,12 +102,9 @@ def update_readme_with_apis() -> None:
                     api_count = len(category['apis'])
                     break
             
-            # Create the anchor link with or without API count
+            # Create the anchor link without API count for simplicity
             clean_category = category_name.lower().replace(' ', '-').replace('&', '').replace('_', '')
-            if api_count > 0:
-                categories_list_content += f"- [{emoji} {category_name}](#{clean_category}-{api_count}-apis)\n"
-            else:
-                categories_list_content += f"- [{emoji} {category_name}](#{clean_category})\n"
+            categories_list_content += f"- [{emoji} {category_name}](#{clean_category})\n"
         
         categories_list_content += "\n\n"
         
@@ -186,7 +183,8 @@ def update_readme_with_apis() -> None:
                 category_emoji = category_emojis.get(category_name, '💯')
                 
                 # Add the category section with explicit HTML ID for reliable anchor links
-                updated_categories_content += f"<a id=\"{category_id}\"></a>\n<a id=\"{category_id}\"></a>\n### {category_emoji} {category_name}\n{category.get('description', f'APIs for {category_name.lower()} related services.')}\n\n{selected_message}\n\n{colorful_divider}"
+                category_id = category_name.lower().replace(' ', '-').replace('&', '').replace('_', '')
+                updated_categories_content += f"<a id='{category_id}'></a>\n### {category_emoji} {category_name}\n{category.get('description', f'APIs for {category_name.lower()} related services.')}\n\n{selected_message}\n\n{colorful_divider}"
                 continue
             
             # Create the API table for this category with enhanced styling
@@ -236,10 +234,9 @@ def update_readme_with_apis() -> None:
             
             # Create a GitHub-compatible ID for the category
             category_id = category_name.lower().replace(' ', '-').replace('&', '').replace('_', '')
-            api_count = len(category['apis'])
             
             # Add the category section with explicit HTML ID for reliable anchor links
-            updated_categories_content += f"<a id=\"{category_id}\"></a>\n<a id=\"{category_id}-{api_count}-apis\"></a>\n### {category_emoji} {category_name} {badge}\n{category.get('description', f'APIs for {category_name.lower()} related services.')}\n\n{api_table}\n\n{colorful_divider}"
+            updated_categories_content += f"<a id=\"{category_id}\"></a>\n### {category_emoji} {category_name} {badge}\n{category.get('description', f'APIs for {category_name.lower()} related services.')}\n\n{api_table}\n\n{colorful_divider}"
             print(f"Added category section for {category_name} with {len(category['apis'])} APIs")
         
         # Add a 'Last updated' date and update schedules after the API categories section
