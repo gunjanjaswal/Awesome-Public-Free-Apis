@@ -35,4 +35,9 @@ jobs:
           git config --local user.name "GitHub Action"
           git add README.md
           git diff --quiet && git diff --staged --quiet || git commit -m "Fix navigation links in README"
-          git push
+        
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
