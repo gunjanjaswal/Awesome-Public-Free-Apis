@@ -1711,12 +1711,6 @@ _Last updated: September 08, 2025_
 <<<<<<< Updated upstream
 
 ## :handshake: How to Contribute to this API Collection
-=======
-## :handshake: How to Contribute to This API Collection
->>>>>>> Stashed changes
-=======
-## :handshake: How to Contribute to this API Collection
->>>>>>> Stashed changes
 
 We welcome contributions from the community! Here's how you can help:
 
