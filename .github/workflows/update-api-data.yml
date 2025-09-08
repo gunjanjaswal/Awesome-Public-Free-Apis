@@ -36,23 +36,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4 pandas markdown
 
-      - name: Fix navigation links
-        run: |
-          python .github/scripts/fix-navigation-links.py
-
       - name: Update API data
         run: |
           python .github/scripts/update-api-data.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Preserve README sections
-        run: |
-          python .github/scripts/preserve-readme-sections.py
-          
-      - name: Fix navigation links again
-        run: |
-          python .github/scripts/fix-navigation-links.py
 
       - name: Commit and push changes
         run: |

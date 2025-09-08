@@ -1,9 +1,0 @@
-#!/bin/sh
-#
-# Pre-commit hook to ensure navigation links in README.md are correct
-
-# Run the navigation-links.js script
-node .github/scripts/navigation-links.js
-
-# Add the modified README.md to the commit
-git add README.md
