@@ -1692,8 +1692,11 @@ _Last updated: _Last updated: _Last updated: September 08, 2025_## _
 
 ## _
 
+<<<<<<< Updated upstream
 ## :rocket: Trending GitHub Repositories
 
+=======
+>>>>>>> Stashed changes
 This section is automatically updated daily with trending API-related repositories from GitHub. Discover what the community is building and using right now!
 
 | Repository | Description | Stars | Language |
