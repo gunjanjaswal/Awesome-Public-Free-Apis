@@ -27,6 +27,7 @@ The ultimate, self-updating collection of **free public REST APIs** for develope
 
 - [:closed_lock_with_key: Authentication](#authentication)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 - [:link: Blockchain](#blockchain)
 - [:briefcase: Business](#business)
 - [:calendar: Calendar](#calendar)
@@ -3422,6 +3423,8 @@ _API Categories last updated: September 08, 2025_
 **Available Categories:**
 
 - [:closed_lock_with_key: Authentication](#authentication)
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 - [:briefcase: Business](#business)
