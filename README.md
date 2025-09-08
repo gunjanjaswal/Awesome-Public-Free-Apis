@@ -1688,10 +1688,7 @@ This section is automatically updated daily with trending API-specific repositor
 | [aldinokemal/go-whatsapp-web-multidevice](https://github.com/aldinokemal/go-whatsapp-web-multidevice) | GOWA - WhatsApp REST API with support for UI, Webhooks, and MCP. Built with Golang for efficient ... | 2.4k | Go |
 | [guzzle/guzzle](https://github.com/guzzle/guzzle) | Guzzle, an extensible PHP HTTP client | 23.4k | PHP |
 
-_Last updated: September 08, 2025_
-
-
-## :rocket: Trending GitHub Repositories
+_Last updated: September 08, 2025_## :rocket: Trending GitHub Repositories
 
 This section is automatically updated daily with trending API-related repositories from GitHub. Discover what the community is building and using right now!
 
@@ -1707,9 +1704,6 @@ This section is automatically updated daily with trending API-related repositori
 | [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) | 30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programmi... | 45.1k | JavaScript |
 
 _Last updated: September 08, 2025_
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-
 ## :handshake: How to Contribute to this API Collection
 
 We welcome contributions from the community! Here's how you can help:
