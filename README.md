@@ -19,80 +19,49 @@ The ultimate, self-updating collection of **free public REST APIs** for develope
 
 ## 📋 API Categories - Find the Perfect API for Your Project
 
-<table>
-<tr>
-  <th align="center">🔐 Authentication & Security</th>
-  <th align="center">🌐 Data & Content</th>
-  <th align="center">💼 Business & Finance</th>
-  <th align="center">🌍 Utilities & Tools</th>
-</tr>
-<tr>
-  <td align="center"><a href="#authentication">🔐 Authentication</a></td>
-  <td align="center"><a href="#entertainment">🎭 Entertainment</a></td>
-  <td align="center"><a href="#news">📰 News</a></td>
-  <td align="center"><a href="#sports-&-fitness">⚽ Sports & Fitness</a></td>
-</tr>
-<tr>
-  <td align="center"><a href="#blockchain">🔗 Blockchain</a></td>
-  <td align="center"><a href="#environment">🌍 Environment</a></td>
-  <td align="center"><a href="#open-data">📓 Open Data</a></td>
-  <td align="center"><a href="#test-data">📋 Test Data</a></td>
-</tr>
-<tr>
-  <td align="center"><a href="#business">💼 Business</a></td>
-  <td align="center"><a href="#finance">💵 Finance</a></td>
-  <td align="center"><a href="#open-source-projects">👨‍💻 Open Source Projects</a></td>
-  <td align="center"><a href="#text-analysis">🔍 Text Analysis</a></td>
-</tr>
-<tr>
-  <td align="center"><a href="#calendar">📅 Calendar</a></td>
-  <td align="center"><a href="#food-&-drink">🍽️ Food & Drink</a></td>
-  <td align="center"><a href="#patent">📄 Patent</a></td>
-  <td align="center"><a href="#tracking">📍 Tracking</a></td>
-</tr>
-<tr>
-  <td align="center"><a href="#cloud-storage">💾 Cloud Storage</a></td>
-  <td align="center"><a href="#games-&-comics">🎮 Games & Comics</a></td>
-  <td align="center"><a href="#personality">😎 Personality</a></td>
-  <td align="center"><a href="#transportation">🚌 Transportation</a></td>
-</tr>
-<tr>
-  <td align="center"><a href="#communication">💬 Communication</a></td>
-  <td align="center"><a href="#geocoding">🗺️ Geocoding</a></td>
-  <td align="center"><a href="#phone">📱 Phone</a></td>
-  <td align="center"><a href="#url-shorteners">🖇️ URL Shorteners</a></td>
-</tr>
-<tr>
-  <td align="center"><a href="#cryptocurrency">💰 Cryptocurrency</a></td>
-  <td align="center"><a href="#government">🏳️ Government</a></td>
-  <td align="center"><a href="#photography">📸 Photography</a></td>
-  <td align="center"><a href="#video">🎥 Video</a></td>
-</tr>
-<tr>
-  <td align="center"><a href="#currency-exchange">💱 Currency Exchange</a></td>
-  <td align="center"><a href="#health">💉 Health</a></td>
-  <td align="center"><a href="#science-&-math">🔬 Science & Math</a></td>
-  <td align="center"><a href="#weather">⛅ Weather</a></td>
-</tr>
-<tr>
-  <td align="center"><a href="#data-validation">✅ Data Validation</a></td>
-  <td align="center"><a href="#jobs">💼 Jobs</a></td>
-  <td align="center"><a href="#security">🔒 Security</a></td>
-  <td></td>
-</tr>
-<tr>
-  <td align="center"><a href="#development">👨‍💻 Development</a></td>
-  <td align="center"><a href="#machine-learning">🤖 Machine Learning</a></td>
-  <td align="center"><a href="#shopping">🛍️ Shopping</a></td>
-  <td></td>
-</tr>
-<tr>
-  <td align="center"><a href="#email">📧 Email</a></td>
-  <td align="center"><a href="#music">🎵 Music</a></td>
-  <td align="center"><a href="#social">👥 Social</a></td>
-  <td></td>
-</tr>
-</table>
+**Available Categories:**
+
+- [🔐 Authentication](#-authentication)
+- [🔗 Blockchain](#-blockchain)
+- [💼 Business](#-business)
+- [📅 Calendar](#-calendar)
+- [💾 Cloud Storage](#-cloud-storage)
+- [💬 Communication](#-communication)
+- [💰 Cryptocurrency](#-cryptocurrency)
+- [💱 Currency Exchange](#-currency-exchange)
+- [✅ Data Validation](#-data-validation)
+- [👨‍💻 Development](#-development)
+- [📧 Email](#-email)
+- [🎭 Entertainment](#-entertainment)
+- [🌍 Environment](#-environment)
+- [💵 Finance](#-finance)
+- [🍽️ Food & Drink](#-food--drink)
+- [🎮 Games & Comics](#-games--comics)
+- [🗺️ Geocoding](#-geocoding)
+- [🏳️ Government](#-government)
+- [💉 Health](#-health)
+- [💼 Jobs](#-jobs)
+- [🤖 Machine Learning](#-machine-learning)
+- [🎵 Music](#-music)
+- [📰 News](#-news)
+- [📓 Open Data](#-open-data)
+- [👨‍💻 Open Source Projects](#-open-source-projects)
+- [📄 Patent](#-patent)
+- [😎 Personality](#-personality)
+- [📱 Phone](#-phone)
+- [📸 Photography](#-photography)
+- [🔬 Science & Math](#-science--math)
+- [🔒 Security](#-security)
+- [🛍️ Shopping](#-shopping)
+- [👥 Social](#-social)
+- [⚽ Sports & Fitness](#-sports--fitness)
+- [📋 Test Data](#-test-data)
+- [🔍 Text Analysis](#-text-analysis)
+- [📍 Tracking](#-tracking)
+- [🚌 Transportation](#-transportation)
+- [🖇️ URL Shorteners](#-url-shorteners)
+- [🎥 Video](#-video)
+- [⛅ Weather](#-weather)
 
 
 
