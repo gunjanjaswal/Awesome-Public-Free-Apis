@@ -19,28 +19,136 @@ The ultimate, self-updating collection of **free public REST APIs** for develope
 
 ## 📋 API Categories - Find the Perfect API for Your Project
 
-| 🔐 Authentication & Security | 🌐 Data & Content | 💼 Business & Finance | 🌍 Utilities & Tools |
-| --- | --- | --- | --- |
-| [🔐 Authentication](#authentication) | [💾 Cloud Storage](#cloud-storage) | [💼 Business](#business) | [👨‍💻 Development](#development) | 
-| [🔗 Blockchain](#blockchain) | [🎭 Entertainment](#entertainment) | [📅 Calendar](#calendar) | [📧 Email](#email) | 
-| [✅ Data Validation](#data-validation) | [🎮 Games & Comics](#games--comics) | [💬 Communication](#communication) | [🌍 Environment](#environment) | 
-| [🔒 Security](#security) | [🎵 Music](#music) | [💰 Cryptocurrency](#cryptocurrency) | [🍽️ Food & Drink](#food--drink) | 
-|  | [📰 News](#news) | [💱 Currency Exchange](#currency-exchange) | [🗺️ Geocoding](#geocoding) | 
-|  | [📓 Open Data](#open-data) | [💵 Finance](#finance) | [🏳️ Government](#government) | 
-|  | [👨‍💻 Open Source Projects](#open-source-projects) | [💼 Jobs](#jobs) | [💉 Health](#health) | 
-|  | [📸 Photography](#photography) | [🛍️ Shopping](#shopping) | [🤖 Machine Learning](#machine-learning) | 
-|  | [🎥 Video](#video) |  | [📄 Patent](#patent) | 
-|  |  |  | [😎 Personality](#personality) | 
-|  |  |  | [📱 Phone](#phone) | 
-|  |  |  | [🔬 Science & Math](#science--math) | 
-|  |  |  | [👥 Social](#social) | 
-|  |  |  | [⚽ Sports & Fitness](#sports--fitness) | 
-|  |  |  | [📋 Test Data](#test-data) | 
-|  |  |  | [🔍 Text Analysis](#text-analysis) | 
-|  |  |  | [📍 Tracking](#tracking) | 
-|  |  |  | [🚌 Transportation](#transportation) | 
-|  |  |  | [🖇️ URL Shorteners](#url-shorteners) | 
-|  |  |  | [⛅ Weather](#weather) | 
+<table>
+<tr>
+  <th align="center">🔐 Authentication & Security</th>
+  <th align="center">🌐 Data & Content</th>
+  <th align="center">💼 Business & Finance</th>
+  <th align="center">🌍 Utilities & Tools</th>
+</tr>
+<tr>
+  <td align="center">🔐 Authentication</td>
+  <td align="center">💾 Cloud Storage</td>
+  <td align="center">💼 Business</td>
+  <td align="center">👨‍💻 Development</td>
+</tr>
+<tr>
+  <td align="center">🔗 Blockchain</td>
+  <td align="center">🎭 Entertainment</td>
+  <td align="center">📅 Calendar</td>
+  <td align="center">📧 Email</td>
+</tr>
+<tr>
+  <td align="center">✅ Data Validation</td>
+  <td align="center">🎮 Games & Comics</td>
+  <td align="center">💬 Communication</td>
+  <td align="center">🌍 Environment</td>
+</tr>
+<tr>
+  <td align="center">🔒 Security</td>
+  <td align="center">🎵 Music</td>
+  <td align="center">💰 Cryptocurrency</td>
+  <td align="center">🍽️ Food & Drink</td>
+</tr>
+<tr>
+  <td></td>
+  <td align="center">📰 News</td>
+  <td align="center">💱 Currency Exchange</td>
+  <td align="center">🗺️ Geocoding</td>
+</tr>
+<tr>
+  <td></td>
+  <td align="center">📓 Open Data</td>
+  <td align="center">💵 Finance</td>
+  <td align="center">🏳️ Government</td>
+</tr>
+<tr>
+  <td></td>
+  <td align="center">👨‍💻 Open Source Projects</td>
+  <td align="center">💼 Jobs</td>
+  <td align="center">💉 Health</td>
+</tr>
+<tr>
+  <td></td>
+  <td align="center">📸 Photography</td>
+  <td align="center">🛍️ Shopping</td>
+  <td align="center">🤖 Machine Learning</td>
+</tr>
+<tr>
+  <td></td>
+  <td align="center">🎥 Video</td>
+  <td></td>
+  <td align="center">📄 Patent</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td align="center">😎 Personality</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td align="center">📱 Phone</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td align="center">🔬 Science & Math</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td align="center">👥 Social</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td align="center">⚽ Sports & Fitness</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td align="center">📋 Test Data</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td align="center">🔍 Text Analysis</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td align="center">📍 Tracking</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td align="center">🚌 Transportation</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td align="center">🖇️ URL Shorteners</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td align="center">⛅ Weather</td>
+</tr>
+</table>
+
+
 
 
 

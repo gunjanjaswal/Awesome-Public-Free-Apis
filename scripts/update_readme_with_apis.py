@@ -199,11 +199,8 @@ def update_readme_with_apis() -> None:
                 # Get emoji for category or use a default
                 category_emoji = category_emojis.get(category_name, '💯')
                 
-                # Create a GitHub-compatible ID for the category
-                category_id = category_name.lower().replace(' ', '-').replace('&', '').replace('_', '')
-                
-                # Add the category section with explicit HTML ID for reliable anchor links
-                updated_categories_content += f"<h3 id=\"{category_id}\">{category_emoji} {category_name}</h3>\n{category.get('description', f'APIs for {category_name.lower()} related services.')}\n\n{selected_message}\n\n{colorful_divider}"
+                # Add the category section with standard Markdown heading
+                updated_categories_content += f"### {category_emoji} {category_name}\n{category.get('description', f'APIs for {category_name.lower()} related services.')}\n\n{selected_message}\n\n{colorful_divider}"
                 continue
             
             # Create the API table for this category with enhanced styling
@@ -251,11 +248,8 @@ def update_readme_with_apis() -> None:
             api_count = len(category['apis'])
             badge = f"![{api_count} APIs](https://img.shields.io/badge/{api_count}-APIs-brightgreen)"
             
-            # Create a GitHub-compatible ID for the category
-            category_id = category_name.lower().replace(' ', '-').replace('&', '').replace('_', '')
-            
-            # Add the category section with explicit HTML ID for reliable anchor links
-            updated_categories_content += f"<h3 id=\"{category_id}\">{category_emoji} {category_name} {badge}</h3>\n{category.get('description', f'APIs for {category_name.lower()} related services.')}\n\n{api_table}\n\n{colorful_divider}"
+            # Add the category section with standard Markdown heading
+            updated_categories_content += f"### {category_emoji} {category_name} {badge}\n{category.get('description', f'APIs for {category_name.lower()} related services.')}\n\n{api_table}\n\n{colorful_divider}"
             print(f"Added category section for {category_name} with {len(category['apis'])} APIs")
         
         # Add a 'Last updated' date and update schedules after the API categories section
