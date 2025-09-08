@@ -1677,6 +1677,7 @@ _API Categories last updated: September 08, 2025_
 
 ## :rocket: Trending GitHub API Repositories
 
+<<<<<<< Updated upstream
 This section is automatically updated daily with trending API-specific repositories from GitHub. These repositories focus specifically on API development, documentation, and tooling.
 
 | Repository | Description | Stars | Language |
@@ -1689,6 +1690,23 @@ This section is automatically updated daily with trending API-specific repositor
 | [guzzle/guzzle](https://github.com/guzzle/guzzle) | Guzzle, an extensible PHP HTTP client | 23.4k | PHP |
 
 _Last updated: September 08, 2025_## :rocket: Trending GitHub Repositories
+=======
+<<<<<<< Updated upstream
+Updated daily with trending API-specific repositories from GitHub. These repositories focus specifically on API development, documentation, and tooling.
+
+| Repository | Description | Stars | Language |
+| --- | --- | --- | --- |
+| [SocialSisterYi/bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect) | å“”å“©å“©-APIæ”¶é›†æ•´ç†ã€ä¸æ–­æ›´æ–°ä¸­....ã€‘ | 18.7k | JavaScript |
+| [jhipster/generator-jhipster](https://github.com/jhipster/generator-jhipster) | JHipster is a development platform to quickly generate, develop, & deploy modern web applications... | 22.2k | TypeScript |
+| [gofr-dev/gofr](https://github.com/gofr-dev/gofr) | An opinionated GoLang framework for accelerated microservice development. Built in support for da... | 12.8k | Go |
+| [freeCodeCamp/devdocs](https://github.com/freeCodeCamp/devdocs) | API Documentation Browser | 37.3k | Ruby |
+| [guzzle/guzzle](https://github.com/guzzle/guzzle) | Guzzle, an extensible PHP HTTP client | 23.4k | PHP |
+
+_Last updated: September 08, 2025_
+
+<!-- BEGIN TRENDING REPOSITORIES SECTION - DO NOT REMOVE OR MODIFY THIS COMMENT -->
+## :rocket: Trending GitHub Repositories
+>>>>>>> Stashed changes
 
 This section is automatically updated daily with trending API-related repositories from GitHub. Discover what the community is building and using right now!
 
@@ -1704,6 +1722,7 @@ This section is automatically updated daily with trending API-related repositori
 | [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) | 30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programmi... | 45.1k | JavaScript |
 
 _Last updated: September 08, 2025_
+<<<<<<< Updated upstream
 ## :rocket: Trending GitHub Repositories
 
 This section is automatically updated daily with trending API-related repositories from GitHub. Discover what the community is building and using right now!
@@ -1720,6 +1739,8 @@ This section is automatically updated daily with trending API-related repositori
 | [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) | 30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programmi... | 45.1k | JavaScript |
 
 _Last updated: September 08, 2025_
+=======
+>>>>>>> Stashed changes
 ## :handshake: How to Contribute to this API Collection
 
 We welcome contributions from the community! Here's how you can help:
