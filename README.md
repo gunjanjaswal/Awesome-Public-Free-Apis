@@ -27,6 +27,7 @@ The ultimate, self-updating collection of **free public REST APIs** for develope
 
 - [:closed_lock_with_key: Authentication](#authentication)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 - [:link: Blockchain](#blockchain)
 - [:briefcase: Business](#business)
@@ -1754,6 +1755,8 @@ _API Categories last updated: September 08, 2025_
 
 - [:closed_lock_with_key: Authentication](#authentication)
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 - [:briefcase: Business](#business)
 - [:calendar: Calendar](#calendar)
 - [:floppy_disk: Cloud Storage](#cloud-storage)
@@ -3407,6 +3410,7 @@ _API Categories last updated: September 08, 2025_
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 This section is automatically updated daily with trending API-specific repositories from GitHub. These repositories focus specifically on API development, documentation, and tooling.
 
 | Repository | Description | Stars | Language |
@@ -3459,6 +3463,8 @@ _Last updated: September 08, 2025_
 
 <!-- BEGIN HOW TO CONTRIBUTE SECTION - DO NOT REMOVE OR MODIFY THIS COMMENT -->
 =======
+=======
+>>>>>>> Stashed changes
 This section is automatically updated daily with trending API-specific repositories from GitHub. These repositories focus specifically on API development, documentation, and tooling.
 
 | Repository | Description | Stars | Language |
@@ -3488,6 +3494,9 @@ This section is automatically updated daily with trending API-related repositori
 
 _Last updated: September 08, 2025_
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 ## :rocket: Trending GitHub Repositories
 
 This section is automatically updated daily with trending API-related repositories from GitHub. Discover what the community is building and using right now!
@@ -3504,6 +3513,9 @@ This section is automatically updated daily with trending API-related repositori
 | [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) | 30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programmi... | 45.1k | JavaScript |
 
 _Last updated: September 08, 2025_
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 ## :handshake: How to Contribute to this API Collection
