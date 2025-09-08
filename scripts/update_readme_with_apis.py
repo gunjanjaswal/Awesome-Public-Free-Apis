@@ -9,6 +9,7 @@ import os
 import json
 import re
 import datetime
+import hashlib
 from typing import Dict, List, Any
 
 def generate_anchor_id(category_name: str) -> str:
@@ -50,102 +51,56 @@ def update_readme_with_apis() -> None:
         with open(README_FILE, 'r', encoding='utf-8') as file:
             readme_content = file.read()
         
-        # Find the API Categories section
-        api_categories_heading = "## 📋 API Categories"
-        api_categories_index = readme_content.find(api_categories_heading)
+        # Find the API categories section
+        api_categories_start = "<!-- BEGIN API CATEGORIES SECTION - DO NOT REMOVE OR MODIFY THIS COMMENT -->"
+        api_categories_end = "<!-- END API CATEGORIES SECTION - DO NOT REMOVE OR MODIFY THIS COMMENT -->"
         
-        # Define colorful divider for sections
-        colorful_divider = "<div align=\"center\"><hr style=\"height:2px;border-width:0;color:rainbow;background-color:rainbow\"></div>\n\n"
-        
-        if api_categories_index == -1:
-            print("Could not find API Categories section in README.md")
-            return
-        
-        # Find the end of the API Categories list
-        categories_list_start = readme_content.find("- [", api_categories_index)
-        categories_list_end = readme_content.find("\n\n", categories_list_start)
-        
-        if categories_list_start == -1 or categories_list_end == -1:
-            print("Could not find API Categories list in README.md")
-            return
-            
-        # Extract all category names from the data
-        category_names = [category['name'] for category in data['categories']]
+        # Split the README content into parts
+        if api_categories_start in readme_content and api_categories_end in readme_content:
+            content_before = readme_content.split(api_categories_start)[0] + api_categories_start + "\n"
+            content_after = api_categories_end + readme_content.split(api_categories_end)[1]
+        else:
+            print("API categories section markers not found in README.md")
+            content_before = readme_content
+            content_after = ""
         
         # Sort categories alphabetically
-        category_names.sort()
+        data['categories'].sort(key=lambda x: x['name'])
         
-        # Create a list for categories
-        categories_list_content = "**Available Categories:**\n\n"
+        # Generate the updated categories content
+        updated_categories_content = "## :card_index: API Categories - Find the Perfect API for Your Project\n\n\n**Available Categories:**\n\n"
         
-        # Define emojis for each category
+        # Add category emojis for the table of contents
         category_emojis = {
-            'Authentication': '🔐', 'Blockchain': '🔗', 'Business': '💼',
-            'Calendar': '📅', 'Cloud Storage': '💾', 'Communication': '💬',
-            'Cryptocurrency': '💰', 'Currency Exchange': '💱', 'Data Validation': '✅',
-            'Development': '👨‍💻', 'Email': '📧', 'Entertainment': '🎭',
-            'Environment': '🌍', 'Finance': '💵', 'Food & Drink': '🍽️',
-            'Games & Comics': '🎮', 'Geocoding': '🗺️', 'Government': '🏳️',
-            'Health': '💉', 'Jobs': '💼', 'Machine Learning': '🤖',
-            'Music': '🎵', 'News': '📰', 'Open Data': '📓',
-            'Open Source Projects': '👨‍💻', 'Patent': '📄', 'Personality': '😎',
-            'Phone': '📱', 'Photography': '📸', 'Science & Math': '🔬',
-            'Security': '🔒', 'Shopping': '🛍️', 'Social': '👥',
-            'Sports & Fitness': '⚽', 'Test Data': '📋', 'Text Analysis': '🔍',
-            'Tracking': '📍', 'Transportation': '🚌', 'URL Shorteners': '🖇️',
-            'Video': '🎥', 'Weather': '⛅'
+            'Authentication': ':closed_lock_with_key:', 'Blockchain': ':link:', 'Business': ':briefcase:',
+            'Calendar': ':calendar:', 'Cloud Storage': ':floppy_disk:', 'Communication': ':speech_balloon:',
+            'Cryptocurrency': ':moneybag:', 'Currency Exchange': ':currency_exchange:', 'Data Validation': ':white_check_mark:',
+            'Development': ':man_technologist:', 'Email': ':email:', 'Entertainment': ':performing_arts:',
+            'Environment': ':earth_africa:', 'Finance': ':dollar:', 'Food & Drink': ':fork_and_knife:',
+            'Games & Comics': ':video_game:', 'Geocoding': ':world_map:', 'Government': ':classical_building:',
+            'Health': ':syringe:', 'Jobs': ':briefcase:', 'Machine Learning': ':robot:',
+            'Music': ':musical_note:', 'News': ':newspaper:', 'Open Data': ':notebook:',
+            'Open Source Projects': ':man_technologist:', 'Patent': ':page_facing_up:', 'Personality': ':sunglasses:',
+            'Phone': ':iphone:', 'Photography': ':camera:', 'Science & Math': ':microscope:',
+            'Security': ':lock:', 'Shopping': ':shopping:', 'Social': ':busts_in_silhouette:',
+            'Sports & Fitness': ':soccer:', 'Test Data': ':card_index:', 'Text Analysis': ':mag:',
+            'Tracking': ':round_pushpin:', 'Transportation': ':bus:', 'URL Shorteners': ':paperclip:',
+            'Video': ':movie_camera:', 'Weather': ':partly_sunny:'
         }
         
-        # Create a list of categories with their API counts
-        for category_name in category_names:
-            emoji = category_emojis.get(category_name, '👍')
-            
-            # Find the category in the categories list to get API count
-            api_count = 0
-            for category in data['categories']:
-                if category['name'] == category_name and 'apis' in category:
-                    api_count = len(category['apis'])
-                    break
-            
-            # Create the anchor link with consistent ID format
-            anchor_id = generate_anchor_id(category_name)
-            categories_list_content += f"- [{emoji} {category_name}](#{anchor_id})\n"
+        # Add categories to the table of contents
+        for category in data['categories']:
+            category_name = category['name']
+            category_id = generate_anchor_id(category_name)
+            emoji = category_emojis.get(category_name, ':100:')
+            updated_categories_content += f"- [{emoji} {category_name}](#{category_id})\n"
         
-        categories_list_content += "\n\n"
+        updated_categories_content += "\n\n"
         
-        # Replace the existing categories list with the new one
-        categories_list = readme_content[categories_list_start:categories_list_end]
-        content_before = readme_content[:categories_list_start]
-        content_after_list = readme_content[categories_list_end:]
+        # Add a colorful divider
+        colorful_divider = '<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>\n\n'
         
-        # Find the start of the next major section after API Categories
-        next_section_index = readme_content.find("## 🚀 Trending GitHub API Repositories", categories_list_end)
-        
-        if next_section_index == -1:
-            print("Could not find next section after API Categories in README.md")
-            return
-        
-        # Update the README content with the new categories list
-        updated_content = content_before + categories_list_content + content_after_list
-        
-        # Find where the API categories content actually starts (after the categories list)
-        api_content_start = categories_list_end + 2  # Skip the newlines after the list
-        
-        # Find the start of the next major section after API Categories
-        next_section_index = updated_content.find("## 🚀 Trending GitHub API Repositories")
-        
-        if next_section_index == -1:
-            print("Could not find next section after API Categories in README.md")
-            return
-            
-        # Extract the content before the API categories content and after the next section
-        content_before = updated_content[:api_content_start]
-        content_after = readme_content[next_section_index:]
-        
-        # Create the updated API categories content
-        updated_categories_content = ""
-        
-        # Process each category
+        # Add each category section with its APIs
         for category in data['categories']:
             category_name = category['name']
             
@@ -185,18 +140,17 @@ def update_readme_with_apis() -> None:
                 ]
                 
                 # Use category name to consistently select the same message for the same category
-                import hashlib
                 hash_value = int(hashlib.md5(category_name.encode()).hexdigest(), 16)
                 selected_message = witty_messages[hash_value % len(witty_messages)]
                 
                 # Add emoji to category name based on category
-                category_emojis = {
+                category_emojis_unicode = {
                     'Authentication': '🔐', 'Blockchain': '🔗', 'Business': '💼',
                     'Calendar': '📅', 'Cloud Storage': '💾', 'Communication': '💬',
                     'Cryptocurrency': '💰', 'Currency Exchange': '💱', 'Data Validation': '✅',
                     'Development': '👨‍💻', 'Email': '📧', 'Entertainment': '🎭',
                     'Environment': '🌍', 'Finance': '💵', 'Food & Drink': '🍽️',
-                    'Games & Comics': '🎮', 'Geocoding': '🗺️', 'Government': '🏳️',
+                    'Games & Comics': '🎮', 'Geocoding': '🗺️', 'Government': '🏛️',
                     'Health': '💉', 'Jobs': '💼', 'Machine Learning': '🤖',
                     'Music': '🎵', 'News': '📰', 'Open Data': '📓',
                     'Open Source Projects': '👨‍💻', 'Patent': '📄', 'Personality': '😎',
@@ -208,7 +162,7 @@ def update_readme_with_apis() -> None:
                 }
                 
                 # Get emoji for category or use a default
-                category_emoji = category_emojis.get(category_name, '💯')
+                category_emoji = category_emojis_unicode.get(category_name, '💯')
                 
                 # Add the category section with explicit HTML ID for reliable anchor links
                 category_id = generate_anchor_id(category_name)
@@ -239,13 +193,13 @@ def update_readme_with_apis() -> None:
                 api_table += f"| {link} | {description} | {auth} | {https} | {cors} |\n"
             
             # Add emoji to category name based on category
-            category_emojis = {
+            category_emojis_unicode = {
                 'Authentication': '🔐', 'Blockchain': '🔗', 'Business': '💼',
                 'Calendar': '📅', 'Cloud Storage': '💾', 'Communication': '💬',
                 'Cryptocurrency': '💰', 'Currency Exchange': '💱', 'Data Validation': '✅',
                 'Development': '👨‍💻', 'Email': '📧', 'Entertainment': '🎭',
                 'Environment': '🌍', 'Finance': '💵', 'Food & Drink': '🍽️',
-                'Games & Comics': '🎮', 'Geocoding': '🗺️', 'Government': '🏳️',
+                'Games & Comics': '🎮', 'Geocoding': '🗺️', 'Government': '🏛️',
                 'Health': '💉', 'Jobs': '💼', 'Machine Learning': '🤖',
                 'Music': '🎵', 'News': '📰', 'Open Data': '📓',
                 'Open Source Projects': '👨‍💻', 'Patent': '📄', 'Personality': '😎',
@@ -257,7 +211,7 @@ def update_readme_with_apis() -> None:
             }
             
             # Get emoji for category or use a default
-            category_emoji = category_emojis.get(category_name, '💯')
+            category_emoji = category_emojis_unicode.get(category_name, '💯')
             
             # Add styled category header with emoji and count badge
             api_count = len(category['apis'])
@@ -326,12 +280,19 @@ def update_readme_with_apis() -> None:
         with open(README_FILE, 'w', encoding='utf-8') as file:
             file.write(updated_readme_content)
         print(f"README.md has been successfully updated with {len(data['categories'])} categories.")
+    except Exception as e:
+        print(f"Error updating README with APIs: {e}")
+        raise
 
 def main():
     """Main function to update README with APIs."""
     print("Starting README update with APIs...")
-    update_readme_with_apis()
-    print("README update completed.")
+    try:
+        update_readme_with_apis()
+        print("README update completed.")
+    except Exception as e:
+        print(f"Error in main function: {e}")
+        exit(1)
 
 if __name__ == "__main__":
     main()
