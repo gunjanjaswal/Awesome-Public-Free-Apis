@@ -113,11 +113,11 @@ def update_readme_with_apis() -> None:
                 if index < num_categories:
                     category = category_names[index]
                     emoji = category_emojis.get(category, '💯')
-                    # Create anchor that matches GitHub's auto-generated header IDs
-                    # GitHub converts headers to lowercase, replaces spaces with hyphens, and removes special characters
-                    # For headers with emojis, GitHub ignores the emoji in the ID
-                    anchor = f"#{category.lower().replace(' ', '-').replace('&', '').replace('_', '')}"
-                    categories_table += f"  <td align=\"center\"><a href=\"{anchor}\">{emoji} {category}</a></td>\n"
+                    # Use standard Markdown links with GitHub-compatible anchors
+                    # GitHub generates anchors by converting to lowercase, replacing spaces with hyphens
+                    # and removing special characters
+                    clean_category = category.lower().replace(' ', '-').replace('&', '').replace('_', '')
+                    categories_table += f"  <td align=\"center\">[{emoji} {category}](#{clean_category})</td>\n"
                 else:
                     categories_table += "  <td></td>\n"
                     

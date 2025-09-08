@@ -19,84 +19,35 @@ The ultimate, self-updating collection of **free public REST APIs** for develope
 
 ## 📋 API Categories - Find the Perfect API for Your Project
 
-<table>
-<tr>
-  <th align="center">🔐 Authentication & Security</th>
-  <th align="center">🌐 Data & Content</th>
-  <th align="center">💼 Business & Finance</th>
-  <th align="center">🌍 Utilities & Tools</th>
-</tr>
-<tr>
-  <td align="center"><a href="#authentication">🔐 Authentication</a></td>
-  <td align="center"><a href="#entertainment">🎭 Entertainment</a></td>
-  <td align="center"><a href="#news">📰 News</a></td>
-  <td align="center"><a href="#sports-&-fitness">⚽ Sports & Fitness</a></td>
-</tr>
-<tr>
-  <td align="center"><a href="#blockchain">🔗 Blockchain</a></td>
-  <td align="center"><a href="#environment">🌍 Environment</a></td>
-  <td align="center"><a href="#open-data">📓 Open Data</a></td>
-  <td align="center"><a href="#test-data">📋 Test Data</a></td>
-</tr>
-<tr>
-  <td align="center"><a href="#business">💼 Business</a></td>
-  <td align="center"><a href="#finance">💵 Finance</a></td>
-  <td align="center"><a href="#open-source-projects">👨‍💻 Open Source Projects</a></td>
-  <td align="center"><a href="#text-analysis">🔍 Text Analysis</a></td>
-</tr>
-<tr>
-  <td align="center"><a href="#calendar">📅 Calendar</a></td>
-  <td align="center"><a href="#food-&-drink">🍽️ Food & Drink</a></td>
-  <td align="center"><a href="#patent">📄 Patent</a></td>
-  <td align="center"><a href="#tracking">📍 Tracking</a></td>
-</tr>
-<tr>
-  <td align="center"><a href="#cloud-storage">💾 Cloud Storage</a></td>
-  <td align="center"><a href="#games-&-comics">🎮 Games & Comics</a></td>
-  <td align="center"><a href="#personality">😎 Personality</a></td>
-  <td align="center"><a href="#transportation">🚌 Transportation</a></td>
-</tr>
-<tr>
-  <td align="center"><a href="#communication">💬 Communication</a></td>
-  <td align="center"><a href="#geocoding">🗺️ Geocoding</a></td>
-  <td align="center"><a href="#phone">📱 Phone</a></td>
-  <td align="center"><a href="#url-shorteners">🖇️ URL Shorteners</a></td>
-</tr>
-<tr>
-  <td align="center"><a href="#cryptocurrency">💰 Cryptocurrency</a></td>
-  <td align="center"><a href="#government">🏳️ Government</a></td>
-  <td align="center"><a href="#photography">📸 Photography</a></td>
-  <td align="center"><a href="#video">🎥 Video</a></td>
-</tr>
-<tr>
-  <td align="center"><a href="#currency-exchange">💱 Currency Exchange</a></td>
-  <td align="center"><a href="#health">💉 Health</a></td>
-  <td align="center"><a href="#science-&-math">🔬 Science & Math</a></td>
-  <td align="center"><a href="#weather">⛅ Weather</a></td>
-</tr>
-<tr>
-  <td align="center"><a href="#data-validation">✅ Data Validation</a></td>
-  <td align="center"><a href="#jobs">💼 Jobs</a></td>
-  <td align="center"><a href="#security">🔒 Security</a></td>
-  <td></td>
-</tr>
-<tr>
-  <td align="center"><a href="#development">👨‍💻 Development</a></td>
-  <td align="center"><a href="#machine-learning">🤖 Machine Learning</a></td>
-  <td align="center"><a href="#shopping">🛍️ Shopping</a></td>
-  <td></td>
-</tr>
-<tr>
-  <td align="center"><a href="#email">📧 Email</a></td>
-  <td align="center"><a href="#music">🎵 Music</a></td>
-  <td align="center"><a href="#social">👥 Social</a></td>
-  <td></td>
-</tr>
-</table>
+| 🔐 Authentication & Security | 🌐 Data & Content | 💼 Business & Finance | 🌍 Utilities & Tools |
+| --- | --- | --- | --- |
+| [🔐 Authentication](#authentication) | [💾 Cloud Storage](#cloud-storage) | [💼 Business](#business) | [👨‍💻 Development](#development) | 
+| [🔗 Blockchain](#blockchain) | [🎭 Entertainment](#entertainment) | [📅 Calendar](#calendar) | [📧 Email](#email) | 
+| [✅ Data Validation](#data-validation) | [🎮 Games & Comics](#games--comics) | [💬 Communication](#communication) | [🌍 Environment](#environment) | 
+| [🔒 Security](#security) | [🎵 Music](#music) | [💰 Cryptocurrency](#cryptocurrency) | [🍽️ Food & Drink](#food--drink) | 
+|  | [📰 News](#news) | [💱 Currency Exchange](#currency-exchange) | [🗺️ Geocoding](#geocoding) | 
+|  | [📓 Open Data](#open-data) | [💵 Finance](#finance) | [🏳️ Government](#government) | 
+|  | [👨‍💻 Open Source Projects](#open-source-projects) | [💼 Jobs](#jobs) | [💉 Health](#health) | 
+|  | [📸 Photography](#photography) | [🛍️ Shopping](#shopping) | [🤖 Machine Learning](#machine-learning) | 
+|  | [🎥 Video](#video) |  | [📄 Patent](#patent) | 
+|  |  |  | [😎 Personality](#personality) | 
+|  |  |  | [📱 Phone](#phone) | 
+|  |  |  | [🔬 Science & Math](#science--math) | 
+|  |  |  | [👥 Social](#social) | 
+|  |  |  | [⚽ Sports & Fitness](#sports--fitness) | 
+|  |  |  | [📋 Test Data](#test-data) | 
+|  |  |  | [🔍 Text Analysis](#text-analysis) | 
+|  |  |  | [📍 Tracking](#tracking) | 
+|  |  |  | [🚌 Transportation](#transportation) | 
+|  |  |  | [🖇️ URL Shorteners](#url-shorteners) | 
+|  |  |  | [⛅ Weather](#weather) | 
 
 
 
-### 🔐 Authentication ![7 APIs](https://img.shields.io/badge/7-APIs-brightgreen)
+
+
+
+<a id="authentication-apis](https://img.shields.io/badge/7-apis-brightgreen)"></a>### 🔐 Authentication ![7 APIs](https://img.shields.io/badge/7-APIs-brightgreen)
 APIs related to authentication, authorization, and identity management
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -112,14 +63,14 @@ APIs related to authentication, authorization, and identity management
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🔗 Blockchain
+<a id="blockchain"></a>### 🔗 Blockchain
 APIs related to blockchain technology and distributed ledgers
 
 🌱 This category is freshly planted. APIs will sprout soon!
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 💼 Business ![22 APIs](https://img.shields.io/badge/22-APIs-brightgreen)
+<a id="business-apis](https://img.shields.io/badge/22-apis-brightgreen)"></a>### 💼 Business ![22 APIs](https://img.shields.io/badge/22-APIs-brightgreen)
 APIs for business operations, CRM, ERP, and other business functions
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -150,7 +101,7 @@ APIs for business operations, CRM, ERP, and other business functions
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 📅 Calendar ![15 APIs](https://img.shields.io/badge/15-APIs-brightgreen)
+<a id="calendar-apis](https://img.shields.io/badge/15-apis-brightgreen)"></a>### 📅 Calendar ![15 APIs](https://img.shields.io/badge/15-APIs-brightgreen)
 APIs for calendar and scheduling functionality
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -174,7 +125,7 @@ APIs for calendar and scheduling functionality
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 💾 Cloud Storage ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)
+<a id="cloud-storage-apis](https://img.shields.io/badge/19-apis-brightgreen)"></a>### 💾 Cloud Storage ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)
 APIs for cloud storage and file management
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -202,14 +153,14 @@ APIs for cloud storage and file management
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 💬 Communication
+<a id="communication"></a>### 💬 Communication
 APIs for messaging, chat, and other communication services
 
 📡 Scanning the digital universe for the best APIs in this category...
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 💰 Cryptocurrency ![64 APIs](https://img.shields.io/badge/64-APIs-brightgreen)
+<a id="cryptocurrency-apis](https://img.shields.io/badge/64-apis-brightgreen)"></a>### 💰 Cryptocurrency ![64 APIs](https://img.shields.io/badge/64-APIs-brightgreen)
 APIs for cryptocurrency data and transactions
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -282,7 +233,7 @@ APIs for cryptocurrency data and transactions
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 💱 Currency Exchange ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)
+<a id="currency-exchange-apis](https://img.shields.io/badge/17-apis-brightgreen)"></a>### 💱 Currency Exchange ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)
 APIs for currency exchange rates and conversions
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -308,7 +259,7 @@ APIs for currency exchange rates and conversions
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### ✅ Data Validation ![7 APIs](https://img.shields.io/badge/7-APIs-brightgreen)
+<a id="data-validation-apis](https://img.shields.io/badge/7-apis-brightgreen)"></a>### ✅ Data Validation ![7 APIs](https://img.shields.io/badge/7-APIs-brightgreen)
 APIs for validating various types of data
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -324,7 +275,7 @@ APIs for validating various types of data
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 👨‍💻 Development ![282 APIs](https://img.shields.io/badge/282-APIs-brightgreen)
+<a id="development-apis](https://img.shields.io/badge/282-apis-brightgreen)"></a>### 👨‍💻 Development ![282 APIs](https://img.shields.io/badge/282-APIs-brightgreen)
 APIs for software development tools and services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -615,7 +566,7 @@ APIs for software development tools and services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 📧 Email ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)
+<a id="email-apis](https://img.shields.io/badge/17-apis-brightgreen)"></a>### 📧 Email ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)
 APIs for email services and functionality
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -641,7 +592,7 @@ APIs for email services and functionality
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🎭 Entertainment ![3 APIs](https://img.shields.io/badge/3-APIs-brightgreen)
+<a id="entertainment-apis](https://img.shields.io/badge/3-apis-brightgreen)"></a>### 🎭 Entertainment ![3 APIs](https://img.shields.io/badge/3-APIs-brightgreen)
 APIs for entertainment content and services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -653,7 +604,7 @@ APIs for entertainment content and services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🌍 Environment ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)
+<a id="environment-apis](https://img.shields.io/badge/17-apis-brightgreen)"></a>### 🌍 Environment ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)
 APIs for environmental data and services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -679,7 +630,7 @@ APIs for environmental data and services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 💵 Finance ![45 APIs](https://img.shields.io/badge/45-APIs-brightgreen)
+<a id="finance-apis](https://img.shields.io/badge/45-apis-brightgreen)"></a>### 💵 Finance ![45 APIs](https://img.shields.io/badge/45-APIs-brightgreen)
 APIs for financial data and services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -733,7 +684,7 @@ APIs for financial data and services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🍽️ Food & Drink ![24 APIs](https://img.shields.io/badge/24-APIs-brightgreen)
+<a id="food--drink-apis](https://img.shields.io/badge/24-apis-brightgreen)"></a>### 🍽️ Food & Drink ![24 APIs](https://img.shields.io/badge/24-APIs-brightgreen)
 APIs for food and drink related data and services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -766,7 +717,7 @@ APIs for food and drink related data and services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🎮 Games & Comics ![95 APIs](https://img.shields.io/badge/95-APIs-brightgreen)
+<a id="games--comics-apis](https://img.shields.io/badge/95-apis-brightgreen)"></a>### 🎮 Games & Comics ![95 APIs](https://img.shields.io/badge/95-APIs-brightgreen)
 APIs for games, comics, and related content
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -870,7 +821,7 @@ APIs for games, comics, and related content
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)
+<a id="geocoding-apis](https://img.shields.io/badge/85-apis-brightgreen)"></a>### 🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)
 APIs for geocoding and geolocation services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -964,7 +915,7 @@ APIs for geocoding and geolocation services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🏳️ Government ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)
+<a id="government-apis](https://img.shields.io/badge/85-apis-brightgreen)"></a>### 🏳️ Government ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)
 APIs provided by government entities
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -1058,7 +1009,7 @@ APIs provided by government entities
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 💉 Health ![30 APIs](https://img.shields.io/badge/30-APIs-brightgreen)
+<a id="health-apis](https://img.shields.io/badge/30-apis-brightgreen)"></a>### 💉 Health ![30 APIs](https://img.shields.io/badge/30-APIs-brightgreen)
 APIs for health and medical data and services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -1097,7 +1048,7 @@ APIs for health and medical data and services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 💼 Jobs ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)
+<a id="jobs-apis](https://img.shields.io/badge/17-apis-brightgreen)"></a>### 💼 Jobs ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)
 APIs for job listings and employment data
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -1123,7 +1074,7 @@ APIs for job listings and employment data
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🤖 Machine Learning ![46 APIs](https://img.shields.io/badge/46-APIs-brightgreen)
+<a id="machine-learning-apis](https://img.shields.io/badge/46-apis-brightgreen)"></a>### 🤖 Machine Learning ![46 APIs](https://img.shields.io/badge/46-APIs-brightgreen)
 APIs for machine learning and AI services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -1178,7 +1129,7 @@ APIs for machine learning and AI services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🎵 Music ![33 APIs](https://img.shields.io/badge/33-APIs-brightgreen)
+<a id="music-apis](https://img.shields.io/badge/33-apis-brightgreen)"></a>### 🎵 Music ![33 APIs](https://img.shields.io/badge/33-APIs-brightgreen)
 APIs for music data and services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -1220,7 +1171,7 @@ APIs for music data and services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 📰 News ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)
+<a id="news-apis](https://img.shields.io/badge/19-apis-brightgreen)"></a>### 📰 News ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)
 APIs for news content and services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -1248,7 +1199,7 @@ APIs for news content and services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 📓 Open Data ![35 APIs](https://img.shields.io/badge/35-APIs-brightgreen)
+<a id="open-data-apis](https://img.shields.io/badge/35-apis-brightgreen)"></a>### 📓 Open Data ![35 APIs](https://img.shields.io/badge/35-APIs-brightgreen)
 APIs for open data sets and services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -1292,7 +1243,7 @@ APIs for open data sets and services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 👨‍💻 Open Source Projects ![9 APIs](https://img.shields.io/badge/9-APIs-brightgreen)
+<a id="open-source-projects-apis](https://img.shields.io/badge/9-apis-brightgreen)"></a>### 👨‍💻 Open Source Projects ![9 APIs](https://img.shields.io/badge/9-APIs-brightgreen)
 APIs for open source project data and services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -1310,7 +1261,7 @@ APIs for open source project data and services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 📄 Patent ![4 APIs](https://img.shields.io/badge/4-APIs-brightgreen)
+<a id="patent-apis](https://img.shields.io/badge/4-apis-brightgreen)"></a>### 📄 Patent ![4 APIs](https://img.shields.io/badge/4-APIs-brightgreen)
 APIs for patent data and services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -1323,7 +1274,7 @@ APIs for patent data and services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 😎 Personality ![23 APIs](https://img.shields.io/badge/23-APIs-brightgreen)
+<a id="personality-apis](https://img.shields.io/badge/23-apis-brightgreen)"></a>### 😎 Personality ![23 APIs](https://img.shields.io/badge/23-APIs-brightgreen)
 APIs for personality and psychology related data
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -1355,7 +1306,7 @@ APIs for personality and psychology related data
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 📱 Phone ![5 APIs](https://img.shields.io/badge/5-APIs-brightgreen)
+<a id="phone-apis](https://img.shields.io/badge/5-apis-brightgreen)"></a>### 📱 Phone ![5 APIs](https://img.shields.io/badge/5-APIs-brightgreen)
 APIs for phone and SMS related services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -1369,7 +1320,7 @@ APIs for phone and SMS related services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 📸 Photography ![29 APIs](https://img.shields.io/badge/29-APIs-brightgreen)
+<a id="photography-apis](https://img.shields.io/badge/29-apis-brightgreen)"></a>### 📸 Photography ![29 APIs](https://img.shields.io/badge/29-APIs-brightgreen)
 APIs for photography and image related services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -1407,7 +1358,7 @@ APIs for photography and image related services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🔬 Science & Math ![31 APIs](https://img.shields.io/badge/31-APIs-brightgreen)
+<a id="science--math-apis](https://img.shields.io/badge/31-apis-brightgreen)"></a>### 🔬 Science & Math ![31 APIs](https://img.shields.io/badge/31-APIs-brightgreen)
 APIs for scientific and mathematical data and services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -1447,7 +1398,7 @@ APIs for scientific and mathematical data and services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🔒 Security ![38 APIs](https://img.shields.io/badge/38-APIs-brightgreen)
+<a id="security-apis](https://img.shields.io/badge/38-apis-brightgreen)"></a>### 🔒 Security ![38 APIs](https://img.shields.io/badge/38-APIs-brightgreen)
 APIs for security related services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -1494,7 +1445,7 @@ APIs for security related services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🛍️ Shopping ![14 APIs](https://img.shields.io/badge/14-APIs-brightgreen)
+<a id="shopping-apis](https://img.shields.io/badge/14-apis-brightgreen)"></a>### 🛍️ Shopping ![14 APIs](https://img.shields.io/badge/14-APIs-brightgreen)
 APIs for e-commerce and shopping related services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -1517,7 +1468,7 @@ APIs for e-commerce and shopping related services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 👥 Social ![40 APIs](https://img.shields.io/badge/40-APIs-brightgreen)
+<a id="social-apis](https://img.shields.io/badge/40-apis-brightgreen)"></a>### 👥 Social ![40 APIs](https://img.shields.io/badge/40-APIs-brightgreen)
 APIs for social media and social networking
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -1566,7 +1517,7 @@ APIs for social media and social networking
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### ⚽ Sports & Fitness ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)
+<a id="sports--fitness-apis](https://img.shields.io/badge/100-apis-brightgreen)"></a>### ⚽ Sports & Fitness ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)
 APIs for sports and fitness data and services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -1675,7 +1626,7 @@ APIs for sports and fitness data and services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 📋 Test Data ![25 APIs](https://img.shields.io/badge/25-APIs-brightgreen)
+<a id="test-data-apis](https://img.shields.io/badge/25-apis-brightgreen)"></a>### 📋 Test Data ![25 APIs](https://img.shields.io/badge/25-APIs-brightgreen)
 APIs for generating test data
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -1709,7 +1660,7 @@ APIs for generating test data
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🔍 Text Analysis ![15 APIs](https://img.shields.io/badge/15-APIs-brightgreen)
+<a id="text-analysis-apis](https://img.shields.io/badge/15-apis-brightgreen)"></a>### 🔍 Text Analysis ![15 APIs](https://img.shields.io/badge/15-APIs-brightgreen)
 APIs for text analysis and natural language processing
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -1733,7 +1684,7 @@ APIs for text analysis and natural language processing
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 📍 Tracking ![9 APIs](https://img.shields.io/badge/9-APIs-brightgreen)
+<a id="tracking-apis](https://img.shields.io/badge/9-apis-brightgreen)"></a>### 📍 Tracking ![9 APIs](https://img.shields.io/badge/9-APIs-brightgreen)
 APIs for tracking various types of data
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -1751,14 +1702,14 @@ APIs for tracking various types of data
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🚌 Transportation
+<a id="transportation"></a>### 🚌 Transportation
 APIs for transportation data and services
 
 🏗️ Under construction! We're building something awesome here.
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🖇️ URL Shorteners ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)
+<a id="url-shorteners-apis](https://img.shields.io/badge/19-apis-brightgreen)"></a>### 🖇️ URL Shorteners ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)
 APIs for URL shortening services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -1786,7 +1737,7 @@ APIs for URL shortening services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🎥 Video ![42 APIs](https://img.shields.io/badge/42-APIs-brightgreen)
+<a id="video-apis](https://img.shields.io/badge/42-apis-brightgreen)"></a>### 🎥 Video ![42 APIs](https://img.shields.io/badge/42-APIs-brightgreen)
 APIs for video content and services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -1837,7 +1788,7 @@ APIs for video content and services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### ⛅ Weather ![32 APIs](https://img.shields.io/badge/32-APIs-brightgreen)
+<a id="weather-apis](https://img.shields.io/badge/32-apis-brightgreen)"></a>### ⛅ Weather ![32 APIs](https://img.shields.io/badge/32-APIs-brightgreen)
 APIs for weather data and forecasts
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -1885,7 +1836,7 @@ _API Categories last updated: September 08, 2025_
 - Enhanced API Discovery (Next: September 15, 2025)
 - Monthly API Discovery (Next: October 01, 2025)
 
-### 🔐 Authentication ![7 APIs](https://img.shields.io/badge/7-APIs-brightgreen)
+<a id="authentication-apis](https://img.shields.io/badge/7-apis-brightgreen)"></a>### 🔐 Authentication ![7 APIs](https://img.shields.io/badge/7-APIs-brightgreen)
 APIs related to authentication, authorization, and identity management
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -1901,14 +1852,14 @@ APIs related to authentication, authorization, and identity management
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🔗 Blockchain
+<a id="blockchain"></a>### 🔗 Blockchain
 APIs related to blockchain technology and distributed ledgers
 
 🌱 This category is freshly planted. APIs will sprout soon!
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 💼 Business ![22 APIs](https://img.shields.io/badge/22-APIs-brightgreen)
+<a id="business-apis](https://img.shields.io/badge/22-apis-brightgreen)"></a>### 💼 Business ![22 APIs](https://img.shields.io/badge/22-APIs-brightgreen)
 APIs for business operations, CRM, ERP, and other business functions
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -1939,7 +1890,7 @@ APIs for business operations, CRM, ERP, and other business functions
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 📅 Calendar ![15 APIs](https://img.shields.io/badge/15-APIs-brightgreen)
+<a id="calendar-apis](https://img.shields.io/badge/15-apis-brightgreen)"></a>### 📅 Calendar ![15 APIs](https://img.shields.io/badge/15-APIs-brightgreen)
 APIs for calendar and scheduling functionality
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -1963,7 +1914,7 @@ APIs for calendar and scheduling functionality
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 💾 Cloud Storage ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)
+<a id="cloud-storage-apis](https://img.shields.io/badge/19-apis-brightgreen)"></a>### 💾 Cloud Storage ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)
 APIs for cloud storage and file management
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -1991,14 +1942,14 @@ APIs for cloud storage and file management
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 💬 Communication
+<a id="communication"></a>### 💬 Communication
 APIs for messaging, chat, and other communication services
 
 📡 Scanning the digital universe for the best APIs in this category...
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 💰 Cryptocurrency ![64 APIs](https://img.shields.io/badge/64-APIs-brightgreen)
+<a id="cryptocurrency-apis](https://img.shields.io/badge/64-apis-brightgreen)"></a>### 💰 Cryptocurrency ![64 APIs](https://img.shields.io/badge/64-APIs-brightgreen)
 APIs for cryptocurrency data and transactions
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -2071,7 +2022,7 @@ APIs for cryptocurrency data and transactions
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 💱 Currency Exchange ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)
+<a id="currency-exchange-apis](https://img.shields.io/badge/17-apis-brightgreen)"></a>### 💱 Currency Exchange ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)
 APIs for currency exchange rates and conversions
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -2097,7 +2048,7 @@ APIs for currency exchange rates and conversions
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### ✅ Data Validation ![7 APIs](https://img.shields.io/badge/7-APIs-brightgreen)
+<a id="data-validation-apis](https://img.shields.io/badge/7-apis-brightgreen)"></a>### ✅ Data Validation ![7 APIs](https://img.shields.io/badge/7-APIs-brightgreen)
 APIs for validating various types of data
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -2113,7 +2064,7 @@ APIs for validating various types of data
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 👨‍💻 Development ![282 APIs](https://img.shields.io/badge/282-APIs-brightgreen)
+<a id="development-apis](https://img.shields.io/badge/282-apis-brightgreen)"></a>### 👨‍💻 Development ![282 APIs](https://img.shields.io/badge/282-APIs-brightgreen)
 APIs for software development tools and services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -2404,7 +2355,7 @@ APIs for software development tools and services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 📧 Email ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)
+<a id="email-apis](https://img.shields.io/badge/17-apis-brightgreen)"></a>### 📧 Email ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)
 APIs for email services and functionality
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -2430,7 +2381,7 @@ APIs for email services and functionality
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🎭 Entertainment ![3 APIs](https://img.shields.io/badge/3-APIs-brightgreen)
+<a id="entertainment-apis](https://img.shields.io/badge/3-apis-brightgreen)"></a>### 🎭 Entertainment ![3 APIs](https://img.shields.io/badge/3-APIs-brightgreen)
 APIs for entertainment content and services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -2442,7 +2393,7 @@ APIs for entertainment content and services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🌍 Environment ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)
+<a id="environment-apis](https://img.shields.io/badge/17-apis-brightgreen)"></a>### 🌍 Environment ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)
 APIs for environmental data and services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -2468,7 +2419,7 @@ APIs for environmental data and services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 💵 Finance ![45 APIs](https://img.shields.io/badge/45-APIs-brightgreen)
+<a id="finance-apis](https://img.shields.io/badge/45-apis-brightgreen)"></a>### 💵 Finance ![45 APIs](https://img.shields.io/badge/45-APIs-brightgreen)
 APIs for financial data and services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -2522,7 +2473,7 @@ APIs for financial data and services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🍽️ Food & Drink ![24 APIs](https://img.shields.io/badge/24-APIs-brightgreen)
+<a id="food--drink-apis](https://img.shields.io/badge/24-apis-brightgreen)"></a>### 🍽️ Food & Drink ![24 APIs](https://img.shields.io/badge/24-APIs-brightgreen)
 APIs for food and drink related data and services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -2555,7 +2506,7 @@ APIs for food and drink related data and services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🎮 Games & Comics ![95 APIs](https://img.shields.io/badge/95-APIs-brightgreen)
+<a id="games--comics-apis](https://img.shields.io/badge/95-apis-brightgreen)"></a>### 🎮 Games & Comics ![95 APIs](https://img.shields.io/badge/95-APIs-brightgreen)
 APIs for games, comics, and related content
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -2659,7 +2610,7 @@ APIs for games, comics, and related content
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)
+<a id="geocoding-apis](https://img.shields.io/badge/85-apis-brightgreen)"></a>### 🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)
 APIs for geocoding and geolocation services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -2753,7 +2704,7 @@ APIs for geocoding and geolocation services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🏳️ Government ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)
+<a id="government-apis](https://img.shields.io/badge/85-apis-brightgreen)"></a>### 🏳️ Government ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)
 APIs provided by government entities
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -2847,7 +2798,7 @@ APIs provided by government entities
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 💉 Health ![30 APIs](https://img.shields.io/badge/30-APIs-brightgreen)
+<a id="health-apis](https://img.shields.io/badge/30-apis-brightgreen)"></a>### 💉 Health ![30 APIs](https://img.shields.io/badge/30-APIs-brightgreen)
 APIs for health and medical data and services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -2886,7 +2837,7 @@ APIs for health and medical data and services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 💼 Jobs ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)
+<a id="jobs-apis](https://img.shields.io/badge/17-apis-brightgreen)"></a>### 💼 Jobs ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)
 APIs for job listings and employment data
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -2912,7 +2863,7 @@ APIs for job listings and employment data
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🤖 Machine Learning ![46 APIs](https://img.shields.io/badge/46-APIs-brightgreen)
+<a id="machine-learning-apis](https://img.shields.io/badge/46-apis-brightgreen)"></a>### 🤖 Machine Learning ![46 APIs](https://img.shields.io/badge/46-APIs-brightgreen)
 APIs for machine learning and AI services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -2967,7 +2918,7 @@ APIs for machine learning and AI services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🎵 Music ![33 APIs](https://img.shields.io/badge/33-APIs-brightgreen)
+<a id="music-apis](https://img.shields.io/badge/33-apis-brightgreen)"></a>### 🎵 Music ![33 APIs](https://img.shields.io/badge/33-APIs-brightgreen)
 APIs for music data and services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -3009,7 +2960,7 @@ APIs for music data and services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 📰 News ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)
+<a id="news-apis](https://img.shields.io/badge/19-apis-brightgreen)"></a>### 📰 News ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)
 APIs for news content and services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -3037,7 +2988,7 @@ APIs for news content and services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 📓 Open Data ![35 APIs](https://img.shields.io/badge/35-APIs-brightgreen)
+<a id="open-data-apis](https://img.shields.io/badge/35-apis-brightgreen)"></a>### 📓 Open Data ![35 APIs](https://img.shields.io/badge/35-APIs-brightgreen)
 APIs for open data sets and services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -3081,7 +3032,7 @@ APIs for open data sets and services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 👨‍💻 Open Source Projects ![9 APIs](https://img.shields.io/badge/9-APIs-brightgreen)
+<a id="open-source-projects-apis](https://img.shields.io/badge/9-apis-brightgreen)"></a>### 👨‍💻 Open Source Projects ![9 APIs](https://img.shields.io/badge/9-APIs-brightgreen)
 APIs for open source project data and services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -3099,7 +3050,7 @@ APIs for open source project data and services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 📄 Patent ![4 APIs](https://img.shields.io/badge/4-APIs-brightgreen)
+<a id="patent-apis](https://img.shields.io/badge/4-apis-brightgreen)"></a>### 📄 Patent ![4 APIs](https://img.shields.io/badge/4-APIs-brightgreen)
 APIs for patent data and services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -3112,7 +3063,7 @@ APIs for patent data and services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 😎 Personality ![23 APIs](https://img.shields.io/badge/23-APIs-brightgreen)
+<a id="personality-apis](https://img.shields.io/badge/23-apis-brightgreen)"></a>### 😎 Personality ![23 APIs](https://img.shields.io/badge/23-APIs-brightgreen)
 APIs for personality and psychology related data
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -3144,7 +3095,7 @@ APIs for personality and psychology related data
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 📱 Phone ![5 APIs](https://img.shields.io/badge/5-APIs-brightgreen)
+<a id="phone-apis](https://img.shields.io/badge/5-apis-brightgreen)"></a>### 📱 Phone ![5 APIs](https://img.shields.io/badge/5-APIs-brightgreen)
 APIs for phone and SMS related services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -3158,7 +3109,7 @@ APIs for phone and SMS related services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 📸 Photography ![29 APIs](https://img.shields.io/badge/29-APIs-brightgreen)
+<a id="photography-apis](https://img.shields.io/badge/29-apis-brightgreen)"></a>### 📸 Photography ![29 APIs](https://img.shields.io/badge/29-APIs-brightgreen)
 APIs for photography and image related services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -3196,7 +3147,7 @@ APIs for photography and image related services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🔬 Science & Math ![31 APIs](https://img.shields.io/badge/31-APIs-brightgreen)
+<a id="science--math-apis](https://img.shields.io/badge/31-apis-brightgreen)"></a>### 🔬 Science & Math ![31 APIs](https://img.shields.io/badge/31-APIs-brightgreen)
 APIs for scientific and mathematical data and services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -3236,7 +3187,7 @@ APIs for scientific and mathematical data and services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🔒 Security ![38 APIs](https://img.shields.io/badge/38-APIs-brightgreen)
+<a id="security-apis](https://img.shields.io/badge/38-apis-brightgreen)"></a>### 🔒 Security ![38 APIs](https://img.shields.io/badge/38-APIs-brightgreen)
 APIs for security related services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -3283,7 +3234,7 @@ APIs for security related services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🛍️ Shopping ![14 APIs](https://img.shields.io/badge/14-APIs-brightgreen)
+<a id="shopping-apis](https://img.shields.io/badge/14-apis-brightgreen)"></a>### 🛍️ Shopping ![14 APIs](https://img.shields.io/badge/14-APIs-brightgreen)
 APIs for e-commerce and shopping related services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -3306,7 +3257,7 @@ APIs for e-commerce and shopping related services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 👥 Social ![40 APIs](https://img.shields.io/badge/40-APIs-brightgreen)
+<a id="social-apis](https://img.shields.io/badge/40-apis-brightgreen)"></a>### 👥 Social ![40 APIs](https://img.shields.io/badge/40-APIs-brightgreen)
 APIs for social media and social networking
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -3355,7 +3306,7 @@ APIs for social media and social networking
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### ⚽ Sports & Fitness ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)
+<a id="sports--fitness-apis](https://img.shields.io/badge/100-apis-brightgreen)"></a>### ⚽ Sports & Fitness ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)
 APIs for sports and fitness data and services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -3464,7 +3415,7 @@ APIs for sports and fitness data and services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 📋 Test Data ![25 APIs](https://img.shields.io/badge/25-APIs-brightgreen)
+<a id="test-data-apis](https://img.shields.io/badge/25-apis-brightgreen)"></a>### 📋 Test Data ![25 APIs](https://img.shields.io/badge/25-APIs-brightgreen)
 APIs for generating test data
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -3498,7 +3449,7 @@ APIs for generating test data
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🔍 Text Analysis ![15 APIs](https://img.shields.io/badge/15-APIs-brightgreen)
+<a id="text-analysis-apis](https://img.shields.io/badge/15-apis-brightgreen)"></a>### 🔍 Text Analysis ![15 APIs](https://img.shields.io/badge/15-APIs-brightgreen)
 APIs for text analysis and natural language processing
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -3522,7 +3473,7 @@ APIs for text analysis and natural language processing
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 📍 Tracking ![9 APIs](https://img.shields.io/badge/9-APIs-brightgreen)
+<a id="tracking-apis](https://img.shields.io/badge/9-apis-brightgreen)"></a>### 📍 Tracking ![9 APIs](https://img.shields.io/badge/9-APIs-brightgreen)
 APIs for tracking various types of data
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -3540,14 +3491,14 @@ APIs for tracking various types of data
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🚌 Transportation
+<a id="transportation"></a>### 🚌 Transportation
 APIs for transportation data and services
 
 🏗️ Under construction! We're building something awesome here.
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🖇️ URL Shorteners ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)
+<a id="url-shorteners-apis](https://img.shields.io/badge/19-apis-brightgreen)"></a>### 🖇️ URL Shorteners ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)
 APIs for URL shortening services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -3575,7 +3526,7 @@ APIs for URL shortening services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### 🎥 Video ![42 APIs](https://img.shields.io/badge/42-APIs-brightgreen)
+<a id="video-apis](https://img.shields.io/badge/42-apis-brightgreen)"></a>### 🎥 Video ![42 APIs](https://img.shields.io/badge/42-APIs-brightgreen)
 APIs for video content and services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -3626,7 +3577,7 @@ APIs for video content and services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-### ⛅ Weather ![32 APIs](https://img.shields.io/badge/32-APIs-brightgreen)
+<a id="weather-apis](https://img.shields.io/badge/32-apis-brightgreen)"></a>### ⛅ Weather ![32 APIs](https://img.shields.io/badge/32-APIs-brightgreen)
 APIs for weather data and forecasts
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -3686,11 +3637,25 @@ This section is automatically updated daily with trending API-specific repositor
 | [freeCodeCamp/devdocs](https://github.com/freeCodeCamp/devdocs) | API Documentation Browser | 37.3k | Ruby |
 | [guzzle/guzzle](https://github.com/guzzle/guzzle) | Guzzle, an extensible PHP HTTP client | 23.4k | PHP |
 
-_Last updated: September 08, 2025_## 🤝 How to Contribute to This API Collection
+_Last updated: September 08, 2025_## 🔥 Trending GitHub Repositories
+
+This section is automatically updated daily with trending API-related repositories from GitHub. Discover what the community is building and using right now!
+
+| Repository | Description | Stars | Language |
+| --- | --- | --- | --- |
+| [openwrt/openwrt](https://github.com/openwrt/openwrt) | This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference on... | 23.7k | C |
+| [pathwaycom/llm-app](https://github.com/pathwaycom/llm-app) | Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker... | 35.7k | Jupyter Notebook |
+| [jellyfin/jellyfin-web](https://github.com/jellyfin/jellyfin-web) | The Free Software Media System - Official Web Client | 3.0k | JavaScript |
+| [jgraph/drawio](https://github.com/jgraph/drawio) | draw.io is a JavaScript, client-side editor for general diagramming. | 2.3k | JavaScript |
+| [SocialSisterYi/bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect) | 哔哩哔哩-API收集整理【不断更新中....】 | 18.7k | JavaScript |
+| [SuperSimpleDev/javascript-course](https://github.com/SuperSimpleDev/javascript-course) | Watch the course: https://youtu.be/EerdGm-ehJQ | 1.1k | JavaScript |
+
+_Last updated: September 08, 2025_
+## 🤝 How to Contribute to This API Collection
 
 This project thrives on community contributions! Whether you've discovered a new API or noticed changes in an existing one, your input helps keep this resource valuable for developers worldwide.
 
-### Ways to Contribute:
+<a id="to-contribute:"></a>### Ways to Contribute:
 
 1. **Add a new free API**: Submit a pull request with complete API details including authentication method, HTTPS support, and CORS compatibility
 2. **Update existing API information**: Help maintain accuracy by updating documentation links, authentication changes, or feature updates
@@ -3704,7 +3669,7 @@ For detailed contribution guidelines, please check our [CONTRIBUTING.md](./CONTR
 
 This repository leverages GitHub Actions to create a self-maintaining API directory that stays current without manual intervention:
 
-### Automated Processes:
+<a id="processes:"></a>### Automated Processes:
 
 1. **Weekly API Status Checks**: Every Sunday at 00:00 UTC, our automation verifies all APIs are operational and updates their status
 2. **Enhanced API Discovery**: Every Monday at 00:15 UTC, our enhanced scrapers collect high-quality free APIs from multiple sources
