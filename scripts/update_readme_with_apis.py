@@ -199,8 +199,11 @@ def update_readme_with_apis() -> None:
             api_table = "| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |\n"
             api_table += "| :--- | :--- | :---: | :---: | :---: |\n"
             
-            # Add each API to the table
-            for api in category['apis']:
+            # Add each API to the table (limit to 100 APIs per category)
+            api_limit = 100
+            limited_apis = category['apis'][:api_limit]
+            
+            for api in limited_apis:
                 name = api.get('name', '')
                 url = api.get('url', '')
                 description = api.get('description', '')
@@ -238,12 +241,20 @@ def update_readme_with_apis() -> None:
             
             # Add styled category header with emoji and count badge
             api_count = len(category['apis'])
-            badge = f"![{api_count} APIs](https://img.shields.io/badge/{api_count}-APIs-brightgreen)"
+            display_count = min(api_count, 100)  # Limit displayed count to 100
+            badge = f"![{display_count} APIs](https://img.shields.io/badge/{display_count}-APIs-brightgreen)"
             category_id = generate_anchor_id(category_name)
             
             # Add the category section with explicit HTML ID for reliable anchor links
-            updated_categories_content += f"<a id=\"{category_id}\"></a>\n### {category_emoji} {category_name} {badge}\n{category.get('description', f'APIs for {category_name.lower()} related services.')}\n\n{api_table}\n\n{colorful_divider}"
-            print(f"Added category section for {category_name} with {len(category['apis'])} APIs")
+            category_description = category.get('description', f'APIs for {category_name.lower()} related services.')
+            
+            # Add a note about API limit when there are more than 100 APIs
+            if api_count > 100:
+                api_limit_note = f"*Note: Showing 100 of {api_count} APIs in this category.*\n\n"
+                updated_categories_content += f"<a id=\"{{category_id}}\"></a>\n### {{category_emoji}} {{category_name}} {{badge}}\n{{category_description}}\n\n{{api_limit_note}}{{api_table}}\n\n{{colorful_divider}}"
+            else:
+                updated_categories_content += f"<a id=\"{{category_id}}\"></a>\n### {{category_emoji}} {{category_name}} {{badge}}\n{{category_description}}\n\n{{api_table}}\n\n{{colorful_divider}}"
+            print(f"Added category section for {{category_name}} with {{len(limited_apis)}} APIs (out of {{api_count}} total)")
         
         # Add a 'Last updated' date and update schedules after the API categories section
         today = datetime.datetime.now().strftime('%B %d, %Y')

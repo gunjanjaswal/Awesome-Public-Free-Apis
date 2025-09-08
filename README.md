@@ -23,10 +23,9 @@ The ultimate, self-updating collection of **free public REST APIs** for develope
 
 
 
+<!-- BEGIN API CATEGORIES SECTION - DO NOT REMOVE OR MODIFY THIS COMMENT -->
 ## 📋 API Categories - Find the Perfect API for Your Project
 
-
-**Available Categories:**
 
 **Available Categories:**
 
@@ -65,297 +64,10 @@ The ultimate, self-updating collection of **free public REST APIs** for develope
 - [🔍 Text Analysis](#text-analysis)
 - [📍 Tracking](#tracking)
 - [🖇️ URL Shorteners](#url-shorteners)
-- [🎥 Video](#video<a id="development"></a>
-### 👨‍💻 Development ![282 APIs](https://img.shields.io/badge/282-APIs-brightgreen)
-APIs for development related services
+- [🎥 Video](#video)
+- [⛅ Weather](#weather)
 
-| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
-| :--- | :--- | :---: | :---: | :---: |
-| <a href="https://www.adoptapet.com/public/apis/pet_list.html" target="_blank">AdoptAPet</a> | Resource to help get pets adopted | `apiKey` | Yes | yes |
-| <a href="https://theaxolotlapi.netlify.app/" target="_blank">Axolotl</a> | Collection of axolotl pictures and facts | none | Yes | no |
-| <a href="https://alexwohlbruck.github.io/cat-facts/" target="_blank">Cat Facts</a> | Daily cat facts | none | Yes | no |
-| <a href="https://cataas.com/" target="_blank">Cataas</a> | Cat as a service (cats pictures and gifs) | none | Yes | no |
-| <a href="https://docs.thecatapi.com/" target="_blank">Cats</a> | Pictures of cats from Tumblr | `apiKey` | Yes | no |
-| <a href="https://dukengn.github.io/Dog-facts-API/" target="_blank">Dog Facts</a> | Random dog facts | none | Yes | yes |
-| <a href="https://dog.ceo/dog-api/" target="_blank">Dogs</a> | Based on the Stanford Dogs Dataset | none | Yes | yes |
-| <a href="https://documenter.getpostman.com/view/664302/S1ENwy59" target="_blank">eBird</a> | Retrieve recent or notable birding observations within a region | `apiKey` | Yes | no |
-| <a href="https://www.fishwatch.gov/developers" target="_blank">FishWatch</a> | Information and pictures about individual fish species | none | Yes | yes |
-| <a href="https://http.cat/" target="_blank">HTTP Cat</a> | Cat for every HTTP Status | none | Yes | yes |
-| <a href="https://http.dog/" target="_blank">HTTP Dog</a> | Dogs for every HTTP response status code | none | Yes | yes |
-| <a href="http://apiv3.iucnredlist.org/api/v3/docs" target="_blank">IUCN</a> | IUCN Red List of Threatened Species | `apiKey` | No | no |
-| <a href="https://github.com/wh-iterabb-it/meowfacts" target="_blank">MeowFacts</a> | Get random cat facts | none | Yes | no |
-| <a href="https://github.com/movebank/movebank-api-doc" target="_blank">Movebank</a> | Movement and Migration data of animals | none | Yes | yes |
-| <a href="https://www.petfinder.com/developers/" target="_blank">Petfinder</a> | Petfinder is dedicated to helping pets find homes, another resource to get pets adopted | `apiKey` | Yes | yes |
-| <a href="https://placebear.com/" target="_blank">PlaceBear</a> | Placeholder bear pictures | none | Yes | yes |
-| <a href="https://place.dog" target="_blank">PlaceDog</a> | Placeholder Dog pictures | none | Yes | yes |
-| <a href="https://placekitten.com/" target="_blank">PlaceKitten</a> | Placeholder Kitten pictures | none | Yes | yes |
-| <a href="https://random.dog/woof.json" target="_blank">RandomDog</a> | Random pictures of dogs | none | Yes | yes |
-| <a href="https://random-d.uk/api" target="_blank">RandomDuck</a> | Random pictures of ducks | none | Yes | no |
-| <a href="https://randomfox.ca/floof/" target="_blank">RandomFox</a> | Random pictures of foxes | none | Yes | no |
-| <a href="https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home" target="_blank">RescueGroups</a> | Adoption | none | Yes | unknown |
-| <a href="http://shibe.online/" target="_blank">Shibe.Online</a> | Random pictures of Shiba Inu, cats or birds | none | Yes | yes |
-| <a href="https://thedogapi.com/" target="_blank">The Dog</a> | A public service all about Dogs, free to use when making your fancy new App, Website or Service | `apiKey` | Yes | no |
-| <a href="https://xeno-canto.org/explore/api" target="_blank">xeno-canto</a> | Bird recordings | none | Yes | unknown |
-| <a href="https://zoo-animal-api.herokuapp.com/" target="_blank">Zoo Animals</a> | Facts and pictures of zoo animals | none | Yes | yes |
-| <a href="https://aniapi.com/docs/" target="_blank">AniAPI</a> | Anime discovery, streaming & syncing with trackers | `OAuth` | Yes | yes |
-| <a href="https://wiki.anidb.net/HTTP_API_Definition" target="_blank">AniDB</a> | Anime Database | `apiKey` | No | unknown |
-| <a href="https://github.com/AniList/ApiV2-GraphQL-Docs" target="_blank">AniList</a> | Anime discovery & tracking | `OAuth` | Yes | unknown |
-| <a href="https://github.com/RocktimSaikia/anime-chan" target="_blank">AnimeChan</a> | Anime quotes (over 10k+) | none | Yes | no |
-| <a href="https://chandan-02.github.io/anime-facts-rest-api/" target="_blank">AnimeFacts</a> | Anime Facts (over 100+) | none | Yes | yes |
-| <a href="https://www.animenewsnetwork.com/encyclopedia/api.php" target="_blank">AnimeNewsNetwork</a> | Anime industry news | none | Yes | yes |
-| <a href="https://catboys.com/api" target="_blank">Catboy</a> | Neko images, funny GIFs & more | none | Yes | yes |
-| <a href="https://danbooru.donmai.us/wiki_pages/help:api" target="_blank">Danbooru Anime</a> | Thousands of anime artist database to find good anime art | `apiKey` | Yes | yes |
-| <a href="https://jikan.moe" target="_blank">Jikan</a> | Unofficial MyAnimeList API | none | Yes | yes |
-| <a href="https://kitsu.docs.apiary.io/" target="_blank">Kitsu</a> | Anime discovery platform | `OAuth` | Yes | yes |
-| <a href="https://api.mangadex.org/docs.html" target="_blank">MangaDex</a> | Manga Database and Community | `apiKey` | Yes | unknown |
-| <a href="https://rapidapi.com/pierre.carcellermeunier/api/mangapi3/" target="_blank">Mangapi</a> | Translate manga pages from one language to another | `apiKey` | Yes | unknown |
-| <a href="https://myanimelist.net/clubs.php?cid=13727" target="_blank">MyAnimeList</a> | Anime and Manga Database and Community | `OAuth` | Yes | unknown |
-| <a href="https://docs.nekos.best" target="_blank">NekosBest</a> | Neko Images & Anime roleplaying GIFs | none | Yes | yes |
-| <a href="https://shikimori.one/api/doc" target="_blank">Shikimori</a> | Anime discovery, tracking, forum, rates | `OAuth` | Yes | unknown |
-| <a href="https://ghibliapi.herokuapp.com" target="_blank">Studio Ghibli</a> | Resources from Studio Ghibli films | none | Yes | yes |
-| <a href="https://soruly.github.io/trace.moe-api/#/" target="_blank">Trace Moe</a> | A useful tool to get the exact scene of an anime from a screenshot | none | Yes | no |
-| <a href="https://waifu.im/docs" target="_blank">Waifu.im</a> | Get waifu pictures from an archive of over 4000 images and multiple tags | none | Yes | yes |
-| <a href="https://waifu.pics/docs" target="_blank">Waifu.pics</a> | Image sharing platform for anime images | none | Yes | no |
-| <a href="https://docs.abuseipdb.com/" target="_blank">AbuseIPDB</a> | IP/domain/URL reputation | `apiKey` | Yes | unknown |
-| <a href="https://otx.alienvault.com/api" target="_blank">AlienVault Open Threat Exchange (OTX)</a> | IP/domain/URL reputation | `apiKey` | Yes | unknown |
-| <a href="https://capev2.readthedocs.io/en/latest/usage/api.html" target="_blank">CAPEsandbox</a> | Malware execution and analysis | `apiKey` | Yes | unknown |
-| <a href="https://developers.google.com/safe-browsing/" target="_blank">Google Safe Browsing</a> | Google Link/Domain Flagging | `apiKey` | Yes | unknown |
-| <a href="https://maldatabase.com/api-doc.html" target="_blank">MalDatabase</a> | Provide malware datasets and threat intelligence feeds | `apiKey` | Yes | unknown |
-| <a href="https://malshare.com/doc.php" target="_blank">MalShare</a> | Malware Archive / file sourcing | `apiKey` | Yes | no |
-| <a href="https://bazaar.abuse.ch/api/" target="_blank">MalwareBazaar</a> | Collect and share malware samples | `apiKey` | Yes | unknown |
-| <a href="https://metacert.com/" target="_blank">Metacert</a> | Metacert Link Flagging | `apiKey` | Yes | unknown |
-| <a href="https://rapidapi.com/Amiichu/api/exerra-phishing-check/" target="_blank">NoPhishy</a> | Check links to see if they're known phishing attempts | `apiKey` | Yes | yes |
-| <a href="https://phisherman.gg/" target="_blank">Phisherman</a> | IP/domain/URL reputation | `apiKey` | Yes | unknown |
-| <a href="https://docs.scanii.com/" target="_blank">Scanii</a> | Simple REST API that can scan submitted documents/files for the presence of threats | `apiKey` | Yes | yes |
-| <a href="https://urlhaus-api.abuse.ch/" target="_blank">URLhaus</a> | Bulk queries and Download Malware Samples | none | Yes | yes |
-| <a href="https://urlscan.io/about-api/" target="_blank">URLScan.io</a> | Scan and Analyse URLs | `apiKey` | Yes | unknown |
-| <a href="https://www.virustotal.com/en/documentation/public-api/" target="_blank">VirusTotal</a> | VirusTotal File/URL Analysis | `apiKey` | Yes | unknown |
-| <a href="https://support.mywot.com/hc/en-us/sections/360004477734-API-" target="_blank">Web of Trust</a> | IP/domain/URL reputation | `apiKey` | Yes | unknown |
-| <a href="https://api.amethyste.moe/" target="_blank">Améthyste</a> | Generate images for Discord users | `apiKey` | Yes | unknown |
-| <a href="https://api.artic.edu/docs/" target="_blank">Art Institute of Chicago</a> | Art | none | Yes | yes |
-| <a href="http://colormind.io/api-access/" target="_blank">Colormind</a> | Color scheme generator | none | No | unknown |
-| <a href="http://www.colourlovers.com/api" target="_blank">ColourLovers</a> | Get various patterns, palettes and images | none | No | unknown |
-| <a href="https://collection.cooperhewitt.org/api" target="_blank">Cooper Hewitt</a> | Smithsonian Design Museum | `apiKey` | Yes | unknown |
-| <a href="https://developer.dribbble.com" target="_blank">Dribbble</a> | Discover the world’s top designers & creatives | `OAuth` | Yes | unknown |
-| <a href="https://github.com/cheatsnake/emojihub" target="_blank">EmojiHub</a> | Get emojis by categories and groups | none | Yes | yes |
-| <a href="https://pro.europeana.eu/resources/apis/search" target="_blank">Europeana</a> | European Museum and Galleries content | `apiKey` | Yes | unknown |
-| <a href="https://github.com/harvardartmuseums/api-docs" target="_blank">Harvard Art Museums</a> | Art | `apiKey` | No | unknown |
-| <a href="https://icon.horse" target="_blank">Icon Horse</a> | Favicons for any website, with fallbacks | none | Yes | yes |
-| <a href="https://developer.iconfinder.com" target="_blank">Iconfinder</a> | Icons | `apiKey` | Yes | unknown |
-| <a href="https://img.icons8.com/" target="_blank">Icons8</a> | Icons (find "search icon" hyperlink in page) | none | Yes | unknown |
-| <a href="https://lordicon.com/" target="_blank">Lordicon</a> | Icons with predone Animations | none | Yes | yes |
-| <a href="https://metmuseum.github.io/" target="_blank">Metropolitan Museum of Art</a> | Met Museum of Art | none | Yes | no |
-| <a href="http://api.thenounproject.com/index.html" target="_blank">Noun Project</a> | Icons | `OAuth` | No | unknown |
-| <a href="https://php-noise.com/" target="_blank">PHP-Noise</a> | Noise Background Image Generator | none | Yes | yes |
-| <a href="https://pixelencounter.com/api" target="_blank">Pixel Encounter</a> | SVG Icon Generator | none | Yes | no |
-| <a href="https://data.rijksmuseum.nl/object-metadata/api/" target="_blank">Rijksmuseum</a> | RijksMuseum Data | `apiKey` | Yes | unknown |
-| <a href="https://wordcloudapi.com/" target="_blank">Word Cloud</a> | Easily create word clouds | `apiKey` | Yes | unknown |
-| <a href="https://x-colors.herokuapp.com/" target="_blank">xColors</a> | Generate & convert colors | none | Yes | yes |
-| <a href="https://www.abibliadigital.com.br/en" target="_blank">A Bíblia Digital</a> | Do not worry about managing the multiple versions of the Bible | `apiKey` | Yes | no |
-| <a href="https://docs.bhagavadgitaapi.in" target="_blank">Bhagavad Gita</a> | Open Source Shrimad Bhagavad Gita API including 21+ authors translation in Sanskrit/English/Hindi | `apiKey` | Yes | yes |
-| <a href="https://gita-api.vercel.app" target="_blank">Bhagavad Gita telugu</a> | Bhagavad Gita API in telugu and odia languages | none | Yes | yes |
-| <a href="https://bible-api.com/" target="_blank">Bible-api</a> | Free Bible API with multiple languages | none | Yes | yes |
-| <a href="http://bnb.data.bl.uk/" target="_blank">British National Bibliography</a> | Books | none | No | unknown |
-| <a href="https://github.com/CrossRef/rest-api-doc" target="_blank">Crossref Metadata Search</a> | Books & Articles Metadata | none | Yes | unknown |
-| <a href="https://api.ganjoor.net" target="_blank">Ganjoor</a> | Classic Persian poetry works including access to related manuscripts, recitations and music tracks | `OAuth` | Yes | yes |
-| <a href="https://developers.google.com/books/" target="_blank">Google Books</a> | Books | `OAuth` | Yes | unknown |
-| <a href="https://github.com/GurbaniNow/api" target="_blank">GurbaniNow</a> | Fast and Accurate Gurbani RESTful API | none | Yes | unknown |
-| <a href="https://gutendex.com/" target="_blank">Gutendex</a> | Web-API for fetching data from Project Gutenberg Books Library | none | Yes | unknown |
-| <a href="https://openlibrary.org/developers/api" target="_blank">Open Library</a> | Books, book covers and related data | none | Yes | no |
-| <a href="http://www.penguinrandomhouse.biz/webservices/rest/" target="_blank">Penguin Publishing</a> | Books, book covers and related data | none | Yes | yes |
-| <a href="https://github.com/thundercomb/poetrydb#readme" target="_blank">PoetryDB</a> | Enables you to get instant data from our vast poetry collection | none | Yes | yes |
-| <a href="https://quran.api-docs.io/" target="_blank">Quran</a> | RESTful Quran API with multiple languages | none | Yes | yes |
-| <a href="https://alquran.cloud/api" target="_blank">Quran Cloud</a> | A RESTful Quran API to retrieve an Ayah, Surah, Juz or the entire Holy Quran | none | Yes | yes |
-| <a href="https://github.com/fawazahmed0/quran-api#readme" target="_blank">Quran-api</a> | Free Quran API Service with 90+ different languages and 400+ translations | none | Yes | yes |
-| <a href="https://aninditabasu.github.io/indica/html/rv.html" target="_blank">Rig Veda</a> | Gods and poets, their categories, and the verse meters, with the mandal and sukta number | none | Yes | unknown |
-| <a href="https://docs.api.bible" target="_blank">The Bible</a> | Everything you need from the Bible in one discoverable place | `apiKey` | Yes | unknown |
-| <a href="https://api-thirukkural.web.app/" target="_blank">Thirukkural</a> | 1330 Thirukkural poems and explanation in Tamil and English | none | Yes | yes |
-| <a href="https://aninditabasu.github.io/indica/html/vs.html" target="_blank">Vedic Society</a> | Descriptions of all nouns (names, places, animals, things) from vedic literature | none | Yes | unknown |
-| <a href="https://wizard-world-api.herokuapp.com/swagger/index.html" target="_blank">Wizard World</a> | Get information from the Harry Potter universe | none | Yes | yes |
-| <a href="https://wolnelektury.pl/api/" target="_blank">Wolne Lektury</a> | API for obtaining information about e-books available on the WolneLektury.pl website | none | Yes | unknown |
-| <a href="https://docs.microsoft.com/en-us/rest/api/resourcehealth" target="_blank">Azure DevOps Health</a> | Resource health helps you diagnose and get support when an Azure issue impacts your resources | `apiKey` | No | no |
-| <a href="https://api-docs.bitrise.io/" target="_blank">Bitrise</a> | Build tool and processes integrations to create efficient development pipelines | `apiKey` | Yes | unknown |
-| <a href="https://buddy.works/docs/api/getting-started/overview" target="_blank">Buddy</a> | The fastest continuous integration and continuous delivery platform | `OAuth` | Yes | unknown |
-| <a href="https://circleci.com/docs/api/v1-reference/" target="_blank">CircleCI</a> | Automate the software development process using continuous integration and continuous delivery | `apiKey` | Yes | unknown |
-| <a href="https://docs.cloudbees.com/docs/cloudbees-codeship/latest/api-overview/" target="_blank">Codeship</a> | Codeship is a Continuous Integration Platform in the cloud | `apiKey` | Yes | unknown |
-| <a href="https://docs.travis-ci.com/api/" target="_blank">Travis CI</a> | Sync your GitHub projects with Travis CI to test your code in minutes | `apiKey` | Yes | unknown |
-| <a href="https://24pullrequests.com/api" target="_blank">24 Pull Requests</a> | Project to promote open source collaboration during December | none | Yes | yes |
-| <a href="https://www.abstractapi.com/website-screenshot-api" target="_blank">Screenshot</a> | Take programmatic screenshots of web pages from any website | `apiKey` | Yes | yes |
-| <a href="https://agify.io" target="_blank">Agify.io</a> | Estimates the age from a first name | none | Yes | yes |
-| <a href="https://apigratis.com.br/" target="_blank">API Grátis</a> | Multiples services and public APIs | none | Yes | unknown |
-| <a href="https://www.apicagent.com" target="_blank">ApicAgent</a> | Extract device details from user-agent string | none | Yes | yes |
-| <a href="https://apiflash.com/" target="_blank">ApiFlash</a> | Chrome based screenshot API for developers | `apiKey` | Yes | unknown |
-| <a href="https://userstack.com/" target="_blank">apilayer userstack</a> | Secure User-Agent String Lookup JSON API | `OAuth` | Yes | unknown |
-| <a href="https://apis.guru/api-doc/" target="_blank">APIs.guru</a> | Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs | none | Yes | unknown |
-| <a href="https://docs.microsoft.com/en-us/rest/api/azure/devops" target="_blank">Azure DevOps</a> | The Azure DevOps basic components of a REST API request/response pair | `apiKey` | Yes | unknown |
-| <a href="https://www.base-api.io/" target="_blank">Base</a> | Building quick backends | `apiKey` | Yes | yes |
-| <a href="https://beeceptor.com/" target="_blank">Beeceptor</a> | Build a mock Rest API endpoint in seconds | none | Yes | yes |
-| <a href="https://developer.atlassian.com/bitbucket/api/2/reference/" target="_blank">Bitbucket</a> | Bitbucket API | `OAuth` | Yes | unknown |
-| <a href="https://blague.xyz/" target="_blank">Blague.xyz</a> | La plus grande API de Blagues FR/The biggest FR jokes API | `apiKey` | Yes | yes |
-| <a href="https://blitapp.com/api/" target="_blank">Blitapp</a> | Schedule screenshots of web pages and sync them to your cloud | `apiKey` | Yes | unknown |
-| <a href="https://blynkapi.docs.apiary.io/#" target="_blank">Blynk-Cloud</a> | Control IoT Devices from Blynk IoT Cloud | `apiKey` | No | unknown |
-| <a href="https://www.boredapi.com/" target="_blank">Bored</a> | Find random activities to fight boredom | none | Yes | unknown |
-| <a href="https://brainshop.ai/" target="_blank">Brainshop.ai</a> | Make A Free A.I Brain | `apiKey` | Yes | yes |
-| <a href="https://browshot.com/api/documentation" target="_blank">Browshot</a> | Easily make screenshots of web pages in any screen size, as any device | `apiKey` | Yes | yes |
-| <a href="https://api.cdnjs.com/libraries/jquery" target="_blank">CDNJS</a> | Library info on CDNJS | none | Yes | unknown |
-| <a href="https://changelogs.md" target="_blank">Changelogs.md</a> | Structured changelog metadata from open source projects | none | Yes | unknown |
-| <a href="https://github.com/polarspetroll/ciprand" target="_blank">Ciprand</a> | Secure random string generator | none | Yes | no |
-| <a href="https://github.com/fawazahmed0/cloudflare-trace-api" target="_blank">Cloudflare Trace</a> | Get IP Address, Timestamp, User Agent, Country Code, IATA, HTTP Version, TLS/SSL Version & More | none | Yes | yes |
-| <a href="https://github.com/Jaagrav/CodeX" target="_blank">Codex</a> | Online Compiler for Various Languages | none | Yes | unknown |
-| <a href="https://www.contentful.com/developers/docs/references/images-api/" target="_blank">Contentful Images</a> | Used to retrieve and apply transformations to images | `apiKey` | Yes | yes |
-| <a href="https://github.com/burhanuday/cors-proxy" target="_blank">CORS Proxy</a> | Get around the dreaded CORS error by using this proxy as a middle man | none | Yes | yes |
-| <a href="https://countapi.xyz" target="_blank">CountAPI</a> | Free and simple counting service. You can use it to track page hits and specific events | none | Yes | yes |
-| <a href="https://docs.databricks.com/dev-tools/api/latest/index.html" target="_blank">Databricks</a> | Service to manage your databricks account,clusters, notebooks, jobs and workspaces | `apiKey` | Yes | yes |
-| <a href="https://status.digitalocean.com/api" target="_blank">DigitalOcean Status</a> | Status of all DigitalOcean services | none | Yes | unknown |
-| <a href="https://docs.docker.com/docker-hub/api/latest/" target="_blank">Docker Hub</a> | Interact with Docker Hub | `apiKey` | Yes | yes |
-| <a href="https://api.domainsdb.info/" target="_blank">DomainDb Info</a> | Domain name search to find all domains containing particular words/phrases/etc | none | Yes | unknown |
-| <a href="https://extendsclass.com/json-storage.html" target="_blank">ExtendsClass JSON Storage</a> | A simple JSON store API | none | Yes | yes |
-| <a href="https://apidocs.geekflare.com/docs/geekflare-api" target="_blank">GeekFlare</a> | Provide numerous capabilities for important testing and monitoring methods for websites | `apiKey` | Yes | unknown |
-| <a href="https://genderize.io" target="_blank">Genderize.io</a> | Estimates a gender from a first name | none | Yes | yes |
-| <a href="https://www.getping.info" target="_blank">GETPing</a> | Trigger an email notification with a simple GET request | `apiKey` | Yes | unknown |
-| <a href="https://ghost.org/" target="_blank">Ghost</a> | Get Published content into your Website, App or other embedded media | `apiKey` | Yes | yes |
-| <a href="https://docs.github.com/en/free-pro-team@latest/rest" target="_blank">GitHub</a> | Make use of GitHub repositories, code and user info programmatically | `OAuth` | Yes | yes |
-| <a href="https://docs.gitlab.com/ee/api/" target="_blank">Gitlab</a> | Automate GitLab interaction programmatically | `OAuth` | Yes | unknown |
-| <a href="https://developer.gitter.im/docs/welcome" target="_blank">Gitter</a> | Chat for Developers | `OAuth` | Yes | unknown |
-| <a href="https://developers.glitterly.app" target="_blank">Glitterly</a> | Image generation API | `apiKey` | Yes | yes |
-| <a href="https://developers.google.com/docs/api/reference/rest" target="_blank">Google Docs</a> | API to read, write, and format Google Docs documents | `OAuth` | Yes | unknown |
-| <a href="https://firebase.google.com/docs" target="_blank">Google Firebase</a> | Google's mobile application development platform that helps build, improve, and grow app | `apiKey` | Yes | yes |
-| <a href="https://developers.google.com/fonts/docs/developer_api" target="_blank">Google Fonts</a> | Metadata for all families served by Google Fonts | `apiKey` | Yes | unknown |
-| <a href="https://developers.google.com/keep/api/reference/rest" target="_blank">Google Keep</a> | API to read, write, and format Google Keep notes | `OAuth` | Yes | unknown |
-| <a href="https://developers.google.com/sheets/api/reference/rest" target="_blank">Google Sheets</a> | API to read, write, and format Google Sheets data | `OAuth` | Yes | unknown |
-| <a href="https://developers.google.com/slides/api/reference/rest" target="_blank">Google Slides</a> | API to read, write, and format Google Slides presentations | `OAuth` | Yes | unknown |
-| <a href="https://gorest.co.in/" target="_blank">Gorest</a> | Online REST API for Testing and Prototyping | `OAuth` | Yes | unknown |
-| <a href="https://hasura.io/opensource/" target="_blank">Hasura</a> | GraphQL and REST API Engine with built in Authorization | `apiKey` | Yes | yes |
-| <a href="https://devcenter.heroku.com/articles/platform-api-reference/" target="_blank">Heroku</a> | REST API to programmatically create apps, provision add-ons and perform other task on Heroku | `OAuth` | Yes | yes |
-| <a href="https://host-t.com" target="_blank">host-t.com</a> | Basic DNS query via HTTP GET request | none | Yes | no |
-| <a href="https://host.io" target="_blank">Host.io</a> | Domains Data API for Developers | `apiKey` | Yes | yes |
-| <a href="https://http2.pro/doc/api" target="_blank">HTTP2.Pro</a> | Test endpoints for client and server HTTP/2 protocol support | none | Yes | unknown |
-| <a href="https://httpbin.org/" target="_blank">Httpbin</a> | A Simple HTTP Request & Response Service | none | Yes | yes |
-| <a href="https://cloudflare-quic.com/b/" target="_blank">Httpbin Cloudflare</a> | A Simple HTTP Request & Response Service with HTTP/3 Support by Cloudflare | none | Yes | yes |
-| <a href="https://hunter.io/api" target="_blank">Hunter</a> | API for domain search, professional email finder, author finder and email verifier | `apiKey` | Yes | unknown |
-| <a href="https://cloud.ibm.com/docs/text-to-speech/getting-started.html" target="_blank">IBM Text to Speech</a> | Convert text to speech | `apiKey` | Yes | yes |
-| <a href="https://icanhazepoch.com" target="_blank">Icanhazepoch</a> | Get Epoch time | none | Yes | yes |
-| <a href="https://major.io/icanhazip-com-faq/" target="_blank">Icanhazip</a> | IP Address API | none | Yes | yes |
-| <a href="https://platform.ifttt.com/docs/connect_api" target="_blank">IFTTT</a> | IFTTT Connect API | none | Yes | unknown |
-| <a href="https://documentation.image-charts.com/" target="_blank">Image-Charts</a> | Generate charts, QR codes and graph images | none | Yes | yes |
-| <a href="http://api.docs.import.io/" target="_blank">import.io</a> | Retrieve structured data from a website or RSS feed | `apiKey` | Yes | unknown |
-| <a href="https://ip-fast.com/docs/" target="_blank">ip-fast.com</a> | IP address, country and city | none | Yes | yes |
-| <a href="https://www.ip2whois.com/" target="_blank">IP2WHOIS Information Lookup</a> | WHOIS domain name lookup | `apiKey` | Yes | unknown |
-| <a href="https://ipfind.io" target="_blank">ipfind.io</a> | Geographic location of an IP address or any domain name along with some other useful information | `apiKey` | Yes | yes |
-| <a href="https://www.ipify.org/" target="_blank">IPify</a> | A simple IP Address API | none | Yes | unknown |
-| <a href="https://ipinfo.io/developers" target="_blank">IPinfo</a> | Another simple IP Address API | none | Yes | unknown |
-| <a href="https://github.com/jsdelivr/data.jsdelivr.com" target="_blank">jsDelivr</a> | Package info and download stats on jsDelivr CDN | none | Yes | yes |
-| <a href="https://json2jsonp.com/" target="_blank">JSON 2 JSONP</a> | Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using client-side JavaScript | none | Yes | unknown |
-| <a href="https://jsonbin.io" target="_blank">JSONbin.io</a> | Free JSON storage service. Ideal for small scale Web apps, Websites and Mobile apps | `apiKey` | Yes | yes |
-| <a href="https://kroki.io" target="_blank">Kroki</a> | Creates diagrams from textual descriptions | none | Yes | yes |
-| <a href="https://github.com/cmccandless/license-api/blob/master/README.md" target="_blank">License-API</a> | Unofficial REST API for choosealicense.com | none | Yes | no |
-| <a href="https://logs.to/" target="_blank">Logs.to</a> | Generate logs | `apiKey` | Yes | unknown |
-| <a href="https://lua-decompiler.ferib.dev/" target="_blank">Lua Decompiler</a> | Online Lua 5.1 Decompiler | none | Yes | yes |
-| <a href="https://macaddress.io/api" target="_blank">MAC address vendor lookup</a> | Retrieve vendor details and other information regarding a given MAC address or an OUI | `apiKey` | Yes | yes |
-| <a href="https://m3o.com/db" target="_blank">Micro DB</a> | Simple database service | `apiKey` | Yes | unknown |
-| <a href="https://microenv.com/" target="_blank">MicroENV</a> | Fake Rest API for developers | none | Yes | unknown |
-| <a href="https://designer.mocky.io/" target="_blank">Mocky</a> | Mock user defined test JSON for REST API endpoints | none | Yes | yes |
-| <a href="https://www.myip.com/api-docs/" target="_blank">MY IP</a> | Get IP address information | none | Yes | unknown |
-| <a href="https://nationalize.io" target="_blank">Nationalize.io</a> | Estimate the nationality of a first name | none | Yes | yes |
-| <a href="https://docs.netlify.com/api/get-started/" target="_blank">Netlify</a> | Netlify is a hosting service for the programmable web | `OAuth` | Yes | unknown |
-| <a href="https://networkcalc.com/api/docs" target="_blank">NetworkCalc</a> | Network calculators, including subnets, DNS, binary, and security tools | none | Yes | yes |
-| <a href="https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md" target="_blank">npm Registry</a> | Query information about your favorite Node.js libraries programatically | none | Yes | unknown |
-| <a href="https://documentation.onesignal.com/docs/onesignal-api" target="_blank">OneSignal</a> | Self-serve customer engagement solution for Push Notifications, Email, SMS & In-App | `apiKey` | Yes | unknown |
-| <a href="https://www.domcop.com/openpagerank/" target="_blank">Open Page Rank</a> | API for calculating and comparing metrics of different websites using Page Rank algorithm | `apiKey` | Yes | unknown |
-| <a href="https://hub.openapihub.com/" target="_blank">OpenAPIHub</a> | The All-in-one API Platform | `X-Mashape-Key` | Yes | unknown |
-| <a href="https://opengraphr.com/docs/1.0/overview" target="_blank">OpenGraphr</a> | Really simple API to retrieve Open Graph data from an URL | `apiKey` | Yes | unknown |
-| <a href="https://oyyi.xyz/docs/1.0" target="_blank">oyyi</a> | API for Fake Data, image/video conversion, optimization, pdf optimization and thumbnail generation | none | Yes | yes |
-| <a href="https://pagecdn.com/docs/public-api" target="_blank">PageCDN</a> | Public API for javascript, css and font libraries on PageCDN | `apiKey` | Yes | yes |
-| <a href="https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a" target="_blank">Postman</a> | Tool for testing APIs | `apiKey` | Yes | unknown |
-| <a href="https://proxycrawl.com" target="_blank">ProxyCrawl</a> | Scraping and crawling anticaptcha service | `apiKey` | Yes | unknown |
-| <a href="https://proxykingdom.com" target="_blank">ProxyKingdom</a> | Rotating Proxy API that produces a working proxy on every request | `apiKey` | Yes | yes |
-| <a href="https://pusher.com/beams" target="_blank">Pusher Beams</a> | Push notifications for Android & iOS | `apiKey` | Yes | unknown |
-| <a href="https://www.qrtag.net/api/" target="_blank">QR code</a> | Create an easy to read QR code and URL shortener | none | Yes | yes |
-| <a href="https://www.qrcode-monkey.com/qr-code-api-with-logo/" target="_blank">Qrcode Monkey</a> | Integrate custom and unique looking QR codes into your system or workflow | none | Yes | unknown |
-| <a href="https://quickchart.io/" target="_blank">QuickChart</a> | Generate chart and graph images | none | Yes | yes |
-| <a href="https://api-docs.pgamerx.com/" target="_blank">Random Stuff</a> | Can be used to get AI Response, jokes, memes, and much more at lightning-fast speed | `apiKey` | Yes | yes |
-| <a href="https://rejax.io/" target="_blank">Rejax</a> | Reverse AJAX service to notify clients | `apiKey` | Yes | no |
-| <a href="https://reqres.in/" target="_blank">ReqRes</a> | A hosted REST-API ready to respond to your AJAX requests | none | Yes | unknown |
-| <a href="https://rss-to-json-serverless-api.vercel.app" target="_blank">RSS feed to JSON</a> | Returns RSS feed in JSON format using feed URL | none | Yes | yes |
-| <a href="https://www.savepage.io" target="_blank">SavePage.io</a> | A free, RESTful API used to screenshot any desktop, or mobile website | `apiKey` | Yes | yes |
-| <a href="https://scrapeninja.net" target="_blank">ScrapeNinja</a> | Scraping API with Chrome fingerprint and residential proxies | `apiKey` | Yes | unknown |
-| <a href="https://www.scraperapi.com" target="_blank">ScraperApi</a> | Easily build scalable web scrapers | `apiKey` | Yes | unknown |
-| <a href="https://scraperbox.com/" target="_blank">scraperBox</a> | Undetectable web scraping API | `apiKey` | Yes | yes |
-| <a href="https://scrapestack.com/" target="_blank">scrapestack</a> | Real-time, Scalable Proxy & Web Scraping REST API | `apiKey` | Yes | unknown |
-| <a href="https://scrapingant.com" target="_blank">ScrapingAnt</a> | Headless Chrome scraping with a simple API | `apiKey` | Yes | unknown |
-| <a href="https://www.scrapingdog.com/" target="_blank">ScrapingDog</a> | Proxy API for Web scraping | `apiKey` | Yes | unknown |
-| <a href="https://screenshotapi.net/" target="_blank">ScreenshotAPI.net</a> | Create pixel-perfect website screenshots | `apiKey` | Yes | yes |
-| <a href="https://color.serialif.com/" target="_blank">Serialif Color</a> | Color conversion, complementary, grayscale and contrasted text | none | Yes | no |
-| <a href="https://serpstack.com/" target="_blank">serpstack</a> | Real-Time & Accurate Google Search Results API | `apiKey` | Yes | yes |
-| <a href="https://sheetsu.com/" target="_blank">Sheetsu</a> | Easy google sheets integration | `apiKey` | Yes | unknown |
-| <a href="http://shoutcloud.io/" target="_blank">SHOUTCLOUD</a> | ALL-CAPS AS A SERVICE | none | No | unknown |
-| <a href="https://github.com/Cgboal/SonarSearch" target="_blank">Sonar</a> | Project Sonar DNS Enumeration API | none | Yes | yes |
-| <a href="https://sonarcloud.io/web_api" target="_blank">SonarQube</a> | SonarQube REST APIs to detect bugs, code smells & security vulnerabilities | `OAuth` | Yes | unknown |
-| <a href="https://api.stackexchange.com/" target="_blank">StackExchange</a> | Q&A forum for developers | `OAuth` | Yes | unknown |
-| <a href="https://statically.io/" target="_blank">Statically</a> | A free CDN for developers | none | Yes | yes |
-| <a href="https://developers.supportivekoala.com/" target="_blank">Supportivekoala</a> | Autogenerate images with template | `apiKey` | Yes | yes |
-| <a href="https://tyk.io/open-source/" target="_blank">Tyk</a> | Api and service management platform | `apiKey` | Yes | yes |
-| <a href="https://github.com/melpon/wandbox/blob/master/kennel2/API.rst" target="_blank">Wandbox</a> | Code compiler supporting 35+ languages mentioned at wandbox.org | none | Yes | unknown |
-| <a href="https://webscraping.ai/" target="_blank">WebScraping.AI</a> | Web Scraping API with built-in proxies and JS rendering | `apiKey` | Yes | yes |
-| <a href="https://www.zenrows.com/" target="_blank">ZenRows</a> | Web Scraping API that bypasses anti-bot solutions while offering JS rendering, and rotating proxies | `apiKey` | Yes | unknown |
-| <a href="http://ccdb.hemiola.com/" target="_blank">Chinese Character Web</a> | Chinese character definitions and pronunciations | none | No | no |
-| <a href="https://ctext.org/tools/api" target="_blank">Chinese Text Project</a> | Online open-access digital library for pre-modern Chinese texts | none | Yes | unknown |
-| <a href="https://api.collinsdictionary.com/api/v1/documentation/html/" target="_blank">Collins</a> | Bilingual Dictionary and Thesaurus Data | `apiKey` | Yes | unknown |
-| <a href="https://dictionaryapi.dev/" target="_blank">Free Dictionary</a> | Definitions, phonetics, pronounciations, parts of speech, examples, synonyms | none | Yes | unknown |
-| <a href="https://new-kbbi-api.herokuapp.com/" target="_blank">Indonesia Dictionary</a> | Indonesia dictionary many words | none | Yes | unknown |
-| <a href="https://www.linguarobot.io" target="_blank">Lingua Robot</a> | Word definitions, pronunciations, synonyms, antonyms and others | `apiKey` | Yes | yes |
-| <a href="https://dictionaryapi.com/" target="_blank">Merriam-Webster</a> | Dictionary and Thesaurus Data | `apiKey` | Yes | unknown |
-| <a href="https://owlbot.info/" target="_blank">OwlBot</a> | Definitions with example sentence and photo if available | `apiKey` | Yes | yes |
-| <a href="https://developer.oxforddictionaries.com/" target="_blank">Oxford</a> | Dictionary Data | `apiKey` | Yes | no |
-| <a href="https://www.synonyms.com/synonyms_api.php" target="_blank">Synonyms</a> | Synonyms, thesaurus and antonyms information for any given word | `apiKey` | Yes | unknown |
-| <a href="https://en.wiktionary.org/w/api.php" target="_blank">Wiktionary</a> | Collaborative dictionary data | none | Yes | yes |
-| <a href="https://developer.wordnik.com" target="_blank">Wordnik</a> | Dictionary Data | `apiKey` | Yes | unknown |
-| <a href="https://www.wordsapi.com/docs/" target="_blank">Words</a> | Definitions and synonyms for more than 150,000 words | `apiKey` | Yes | unknown |
-| <a href="https://airtable.com/api" target="_blank">Airtable</a> | Integrate with Airtable | `apiKey` | Yes | unknown |
-| <a href="https://www.api2convert.com/" target="_blank">Api2Convert</a> | Online File Conversion API | `apiKey` | Yes | unknown |
-| <a href="https://pdflayer.com" target="_blank">apilayer pdflayer</a> | HTML/URL to PDF | `apiKey` | Yes | unknown |
-| <a href="https://developers.asana.com/docs" target="_blank">Asana</a> | Programmatic access to all data in your asana system | `apiKey` | Yes | yes |
-| <a href="https://clickup.com/api" target="_blank">ClickUp</a> | ClickUp is a robust, cloud-based project management tool for boosting productivity | `OAuth` | Yes | unknown |
-| <a href="https://clockify.me/developers-api" target="_blank">Clockify</a> | Clockify's REST-based API can be used to push/pull data to/from it & integrate it with other systems | `apiKey` | Yes | unknown |
-| <a href="https://cloudconvert.com/api/v2" target="_blank">CloudConvert</a> | Online file converter for audio, video, document, ebook, archive, image, spreadsheet, presentation | `apiKey` | Yes | unknown |
-| <a href="https://cloudmersive.com/convert-api" target="_blank">Cloudmersive Document and Data Conversion</a> | HTML/URL to PDF/PNG, Office documents to PDF, image conversion | `apiKey` | Yes | yes |
-| <a href="https://codestats.net/api-docs" target="_blank">Code::Stats</a> | Automatic time tracking for programmers | `apiKey` | Yes | no |
-| <a href="https://craftmypdf.com" target="_blank">CraftMyPDF</a> | Generate PDF documents from templates with a drop-and-drop editor and a simple API | `apiKey` | Yes | no |
-| <a href="https://docs.flowdash.com/docs/api-introduction" target="_blank">Flowdash</a> | Automate business workflows | `apiKey` | Yes | unknown |
-| <a href="https://html2pdf.app/" target="_blank">Html2PDF</a> | HTML/URL to PDF | `apiKey` | Yes | unknown |
-| <a href="https://developer.ilovepdf.com/" target="_blank">iLovePDF</a> | Convert, merge, split, extract text and add page numbers for PDFs. Free for 250 documents/month | `apiKey` | Yes | yes |
-| <a href="https://developer.atlassian.com/server/jira/platform/rest-apis/" target="_blank">JIRA</a> | JIRA is a proprietary issue tracking product that allows bug tracking and agile project management | `OAuth` | Yes | unknown |
-| <a href="https://api.mattermost.com/" target="_blank">Mattermost</a> | An open source platform for developer collaboration | `OAuth` | Yes | unknown |
-| <a href="https://mercury.postlight.com/web-parser/" target="_blank">Mercury</a> | Web parser | `apiKey` | Yes | unknown |
-| <a href="https://api.developer.monday.com/docs" target="_blank">Monday</a> | Programmatically access and update data inside a monday.com account | `apiKey` | Yes | unknown |
-| <a href="https://developers.notion.com/docs/getting-started" target="_blank">Notion</a> | Integrate with Notion | `OAuth` | Yes | unknown |
-| <a href="https://developers.pandadoc.com" target="_blank">PandaDoc</a> | DocGen and eSignatures API | `apiKey` | Yes | no |
-| <a href="https://getpocket.com/developer/" target="_blank">Pocket</a> | Bookmarking service | `OAuth` | Yes | unknown |
-| <a href="https://developers.podio.com" target="_blank">Podio</a> | File sharing and productivity | `OAuth` | Yes | unknown |
-| <a href="https://prexview.com" target="_blank">PrexView</a> | Data from XML or JSON to PDF, HTML or Image | `apiKey` | Yes | unknown |
-| <a href="https://restpack.io/" target="_blank">Restpack</a> | Provides screenshot, HTML to PDF and content extraction APIs | `apiKey` | Yes | unknown |
-| <a href="https://developer.todoist.com" target="_blank">Todoist</a> | Todo Lists | `OAuth` | Yes | unknown |
-| <a href="https://apilayer.com/marketplace/image_enhancement-api" target="_blank">Smart Image Enhancement API</a> | Performs image upscaling by adding detail to images through multiple super-resolution algorithms | `apiKey` | Yes | unknown |
-| <a href="https://vector.express" target="_blank">Vector Express v2.0</a> | Free vector file converting API | none | Yes | no |
-| <a href="https://wakatime.com/developers" target="_blank">WakaTime</a> | Automated time tracking leaderboards for programmers | none | Yes | unknown |
-| <a href="https://zube.io/docs/api" target="_blank">Zube</a> | Full stack project management | `OAuth` | Yes | unknown |
-| <a href="https://www.eventbrite.com/platform/api/" target="_blank">Eventbrite</a> | Find events | `OAuth` | Yes | unknown |
-| <a href="https://platform.seatgeek.com/" target="_blank">SeatGeek</a> | Search events, venues and performers | `apiKey` | Yes | unknown |
-| <a href="http://developer.ticketmaster.com/products-and-docs/apis/getting-started/" target="_blank">Ticketmaster</a> | Search events, attractions, or venues | `apiKey` | Yes | unknown |
-| <a href="https://codeforces.com/apiHelp" target="_blank">Codeforces</a> | Get access to Codeforces data | `apiKey` | Yes | unknown |
-| <a href="https://www.hackerearth.com/docs/wiki/developers/v4/" target="_blank">Hackerearth</a> | For compiling and running code in several languages | `apiKey` | Yes | unknown |
-| <a href="https://ce.judge0.com/" target="_blank">Judge0 CE</a> | Online code execution system | `apiKey` | Yes | unknown |
-| <a href="https://kontests.net/api" target="_blank">KONTESTS</a> | For upcoming and ongoing competitive coding contests | none | Yes | unknown |
-| <a href="https://docs.mintlify.com" target="_blank">Mintlify</a> | For programmatically generating documentation for code | `apiKey` | Yes | yes |
-| <a href="https://deividfortuna.github.io/fipe/" target="_blank">Brazilian Vehicles and Prices</a> | Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe | none | Yes | no |
-| <a href="https://helipaddy.com/api/" target="_blank">Helipaddy sites</a> | Helicopter and passenger drone landing site directory, Helipaddy data and much more | `apiKey` | Yes | unknown |
-| <a href="http://developer.kbb.com/#!/data/1-Default" target="_blank">Kelley Blue Book</a> | Vehicle info, pricing, configuration, plus much more | `apiKey` | Yes | no |
-| <a href="https://developer.mercedes-benz.com/apis" target="_blank">Mercedes-Benz</a> | Telematics data, remotely access vehicle functions, car configurator, locate service dealers | `apiKey` | Yes | no |
-| <a href="https://vpic.nhtsa.dot.gov/api/" target="_blank">NHTSA</a> | NHTSA Product Information Catalog and Vehicle Listing | none | Yes | unknown |
-| <a href="https://smartcar.com/docs/" target="_blank">Smartcar</a> | Lock and unlock vehicles and get data like odometer reading and location. Works on most new cars | `OAuth` | Yes | yes |
-
-
-<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+**Available Categories:**
 
 <a id="authentication"></a>
 ### 🔐 Authentication ![7 APIs](https://img.shields.io/badge/7-APIs-brightgreen)
@@ -620,20 +332,55 @@ APIs for data validation related services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
 | :--- | :--- | :---: | :---: | :---: |
-| <a href="https://lob.com/" target="_blank">Lob.com</a> | US Address Verification | `apiKey` | Yes | unknown |
-| <a href="https://www.postman-echo.com" target="_blank">Postman Echo</a> | Test api server to receive and return value from HTTP method | none | Yes | unknown |
-| <a href="http://www.purgomalum.com" target="_blank">PurgoMalum</a> | Content validator against profanity & obscenity | none | No | unknown |
-| <a href="https://www.smarty.com/docs/cloud/us-autocomplete-pro-api" target="_blank">US Autocomplete</a> | Enter address data quickly with real-time address suggestions | `apiKey` | Yes | yes |
-| <a href="https://www.smarty.com/products/apis/us-extract-api" target="_blank">US Extract</a> | Extract postal addresses from any text including emails | `apiKey` | Yes | yes |
+| <a href="https://www.abstractapi.com/email-verification-validation-api" target="_blank">Abstract Email Validation</a> | Validate email addresses for deliverability and spam | `apiKey` | Yes | yes |
+| <a href="https://www.abstractapi.com/phone-validation-api" target="_blank">Abstract Phone Validation</a> | Validate phone numbers globally | `apiKey` | Yes | yes |
+| <a href="https://www.abstractapi.com/vat-validation-rates-api" target="_blank">Abstract VAT Validation</a> | Validate VAT numbers and calculate VAT rates | `apiKey` | Yes | yes |
+| <a href="https://apilayer.com/marketplace/email_verification-api" target="_blank">apilayer emailvalidation</a> | Verify the deliverability of any email address | `apiKey` | Yes | unknown |
 | <a href="https://www.smarty.com/docs/cloud/us-street-api" target="_blank">US Street Address</a> | Validate and append data for any US postal address | `apiKey` | Yes | yes |
 | <a href="https://vatlayer.com/documentation" target="_blank">vatlayer</a> | VAT number validation | `apiKey` | Yes | unknown |
 
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
+<a id="development"></a>
+### 👨‍💻 Development ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)
+APIs for development related services
+
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
+| <a href="https://www.adoptapet.com/public/apis/pet_list.html" target="_blank">AdoptAPet</a> | Resource to help get pets adopted | `apiKey` | Yes | yes |
+| <a href="https://theaxolotlapi.netlify.app/" target="_blank">Axolotl</a> | Collection of axolotl pictures and facts | none | Yes | no |
+| <a href="https://alexwohlbruck.github.io/cat-facts/" target="_blank">Cat Facts</a> | Daily cat facts | none | Yes | no |
+| <a href="https://cataas.com/" target="_blank">Cataas</a> | Cat as a service (cats pictures and gifs) | none | Yes | no |
+| <a href="https://docs.thecatapi.com/" target="_blank">Cats</a> | Pictures of cats from Tumblr | `apiKey` | Yes | no |
+| <a href="https://dukengn.github.io/Dog-facts-API/" target="_blank">Dog Facts</a> | Random dog facts | none | Yes | yes |
+| <a href="https://dog.ceo/dog-api/" target="_blank">Dogs</a> | Based on the Stanford Dogs Dataset | none | Yes | yes |
+| <a href="https://documenter.getpostman.com/view/664302/S1ENwy59" target="_blank">eBird</a> | Retrieve recent or notable birding observations within a region | `apiKey` | Yes | no |
+| <a href="https://www.fishwatch.gov/developers" target="_blank">FishWatch</a> | Information and pictures about individual fish species | none | Yes | yes |
+| <a href="https://http.cat/" target="_blank">HTTP Cat</a> | Cat for every HTTP Status | none | Yes | yes |
+| <a href="https://http.dog/" target="_blank">HTTP Dog</a> | Dogs for every HTTP response status code | none | Yes | yes |
+| <a href="http://apiv3.iucnredlist.org/api/v3/docs" target="_blank">IUCN</a> | IUCN Red List of Threatened Species | `apiKey` | No | no |
+| <a href="https://github.com/wh-iterabb-it/meowfacts" target="_blank">MeowFacts</a> | Get random cat facts | none | Yes | no |
+| <a href="https://github.com/movebank/movebank-api-doc" target="_blank">Movebank</a> | Movement and Migration data of animals | none | Yes | yes |
+| <a href="https://www.petfinder.com/developers/" target="_blank">Petfinder</a> | Petfinder is dedicated to helping pets find homes, another resource to get pets adopted | `apiKey` | Yes | yes |
+| <a href="https://placebear.com/" target="_blank">PlaceBear</a> | Placeholder bear pictures | none | Yes | yes |
+| <a href="https://place.dog" target="_blank">PlaceDog</a> | Placeholder Dog pictures | none | Yes | yes |
+| <a href="https://placekitten.com/" target="_blank">PlaceKitten</a> | Placeholder Kitten pictures | none | Yes | yes |
+| <a href="https://random.dog/woof.json" target="_blank">RandomDog</a> | Random pictures of dogs | none | Yes | yes |
+| <a href="https://random-d.uk/api" target="_blank">RandomDuck</a> | Random pictures of ducks | none | Yes | no |
+| <a href="https://randomfox.ca/floof/" target="_blank">RandomFox</a> | Random pictures of foxes | none | Yes | no |
+| <a href="https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home" target="_blank">RescueGroups</a> | Adoption | none | Yes | unknown |
+| <a href="http://shibe.online/" target="_blank">Shibe.Online</a> | Random pictures of Shiba Inu, cats or birds | none | Yes | yes |
+| <a href="https://thedogapi.com/" target="_blank">The Dog</a> | A public service all about Dogs, free to use when making your fancy new App, Website or Service | `apiKey` | Yes | no |
+| <a href="https://xeno-canto.org/explore/api" target="_blank">xeno-canto</a> | Bird recordings | none | Yes | unknown |
+| <a href="https://zoo-animal-api.herokuapp.com/" target="_blank">Zoo Animals</a> | Facts and pictures of zoo animals | none | Yes | yes |
+
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
 <a id="email"></a>
 ### 📧 Email ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)
 APIs for email related services
+{{ ... }}
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
 | :--- | :--- | :---: | :---: | :---: |
@@ -1840,13 +1587,6 @@ APIs for weather related services
 | <a href="https://www.weather.gov/documentation/services-web-api" target="_blank">US Weather</a> | US National Weather Service | none | Yes | yes |
 | <a href="https://www.visualcrossing.com/weather-api" target="_blank">Visual Crossing</a> | Global historical and weather forecast data | `apiKey` | Yes | yes |
 | <a href="https://github.com/robertoduessmann/weather-api" target="_blank">weather-api</a> | A RESTful free API to check the weather | none | Yes | no |
-| <a href="https://www.weatherapi.com/" target="_blank">WeatherAPI</a> | Weather API with other stuff like Astronomy and Geolocation API | `apiKey` | Yes | yes |
-| <a href="https://www.weatherbit.io/api" target="_blank">Weatherbit</a> | Weather | `apiKey` | Yes | unknown |
-| <a href="https://yandex.com/dev/weather/" target="_blank">Yandex.Weather</a> | Assesses weather condition in specific locations | `apiKey` | Yes | no |
-
-
-<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
-
 _API Categories last updated: September 08, 2025_
 
 **API Update Schedule:**
@@ -1854,13 +1594,13 @@ _API Categories last updated: September 08, 2025_
 - Enhanced API Discovery (Next: September 15, 2025)
 - Monthly API Discovery (Next: October 01, 2025)
 
-itories
+## 🚀 Trending GitHub API Repositories
 
 Updated daily with trending API-specific repositories from GitHub. These repositories focus specifically on API development, documentation, and tooling.
 
 | Repository | Description | Stars | Language |
 | --- | --- | --- | --- |
-| [SocialSisterYi/bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect) | 哔哩哔哩-API收集整理【不断更新中....】 | 18.7k | JavaScript |
+| [SocialSisterYi/bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect) | 哔哩哩-API收集整理【不断更新中....】 | 18.7k | JavaScript |
 | [jhipster/generator-jhipster](https://github.com/jhipster/generator-jhipster) | JHipster is a development platform to quickly generate, develop, & deploy modern web applications... | 22.2k | TypeScript |
 | [gofr-dev/gofr](https://github.com/gofr-dev/gofr) | An opinionated GoLang framework for accelerated microservice development. Built in support for da... | 12.8k | Go |
 | [freeCodeCamp/devdocs](https://github.com/freeCodeCamp/devdocs) | API Documentation Browser | 37.3k | Ruby |
@@ -1868,6 +1608,7 @@ Updated daily with trending API-specific repositories from GitHub. These reposit
 
 _Last updated: September 08, 2025_
 
+<!-- BEGIN TRENDING REPOSITORIES SECTION - DO NOT REMOVE OR MODIFY THIS COMMENT -->
 ## 🚀 Trending GitHub Repositories
 
 Updated daily with trending repositories from GitHub across all categories. These repositories represent the most active and popular projects on GitHub.
@@ -1881,7 +1622,9 @@ Updated daily with trending repositories from GitHub across all categories. Thes
 | [flutter/flutter](https://github.com/flutter/flutter) | Build high-performance, high-fidelity, apps for iOS, Android, web, & desktop | 159.2k | Dart |
 
 _Last updated: September 08, 2025_
+<!-- END TRENDING REPOSITORIES SECTION - DO NOT REMOVE OR MODIFY THIS COMMENT -->
 
+<!-- BEGIN HOW TO CONTRIBUTE SECTION - DO NOT REMOVE OR MODIFY THIS COMMENT -->
 ## 🤝 How to Contribute to This API Collection
 
 This project thrives on community contributions! Whether you've discovered a new API or noticed changes in an existing one, your input helps keep this resource valuable for developers worldwide.
@@ -1894,8 +1637,9 @@ This project thrives on community contributions! Whether you've discovered a new
 4. **Suggest improvements**: Recommend new categories, features, or enhancements to make this resource more useful
 
 For detailed contribution guidelines, please check our [CONTRIBUTING.md](./CONTRIBUTING.md) file. Every contribution helps make this the best API resource for developers!
+<!-- END HOW TO CONTRIBUTE SECTION - DO NOT REMOVE OR MODIFY THIS COMMENT -->
 
-
+<!-- BEGIN AUTOMATED API TRACKING SECTION - DO NOT REMOVE OR MODIFY THIS COMMENT -->
 ## 🔄 How Our Automated API Tracking Works
 
 This repository leverages GitHub Actions to create a self-maintaining API directory that stays current without manual intervention:
@@ -1913,6 +1657,7 @@ This repository leverages GitHub Actions to create a self-maintaining API direct
 
 
 This automation ensures you always have access to the most current and reliable free API information for your development projects.
+<!-- END AUTOMATED API TRACKING SECTION - DO NOT REMOVE OR MODIFY THIS COMMENT -->
 
 
 ## 📜 License
