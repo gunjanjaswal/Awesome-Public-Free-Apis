@@ -1688,10 +1688,13 @@ This section is automatically updated daily with trending API-specific repositor
 | [aldinokemal/go-whatsapp-web-multidevice](https://github.com/aldinokemal/go-whatsapp-web-multidevice) | GOWA - WhatsApp REST API with support for UI, Webhooks, and MCP. Built with Golang for efficient ... | 2.4k | Go |
 | [guzzle/guzzle](https://github.com/guzzle/guzzle) | Guzzle, an extensible PHP HTTP client | 23.4k | PHP |
 
-_Last updated: September 08, 2025_
+_Last updated: September 08, 2025_## :rocket: Trending GitHub Repositories
 
+<<<<<<< Updated upstream
 ## :rocket: Trending GitHub Repositories
 
+=======
+>>>>>>> Stashed changes
 This section is automatically updated daily with trending API-related repositories from GitHub. Discover what the community is building and using right now!
 
 | Repository | Description | Stars | Language |
