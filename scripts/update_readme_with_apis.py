@@ -49,6 +49,9 @@ def update_readme_with_apis() -> None:
         api_categories_heading = "## 📋 API Categories"
         api_categories_index = readme_content.find(api_categories_heading)
         
+        # Define colorful divider for sections
+        colorful_divider = "<div align=\"center\"><hr style=\"height:2px;border-width:0;color:rainbow;background-color:rainbow\"></div>\n\n"
+        
         if api_categories_index == -1:
             print("Could not find API Categories section in README.md")
             return
@@ -99,12 +102,34 @@ def update_readme_with_apis() -> None:
                 hash_value = int(hashlib.md5(category_name.encode()).hexdigest(), 16)
                 selected_message = witty_messages[hash_value % len(witty_messages)]
                 
-                updated_categories_content += f"### {category_name}\n{category.get('description', f'APIs for {category_name.lower()} related services.')}\n\n{selected_message}\n\n"
+                # Add emoji to category name based on category
+                category_emojis = {
+                    'Authentication': '🔐', 'Blockchain': '🔗', 'Business': '💼',
+                    'Calendar': '📅', 'Cloud Storage': '💾', 'Communication': '💬',
+                    'Cryptocurrency': '💰', 'Currency Exchange': '💱', 'Data Validation': '✅',
+                    'Development': '👨‍💻', 'Email': '📧', 'Entertainment': '🎭',
+                    'Environment': '🌍', 'Finance': '💵', 'Food & Drink': '🍽️',
+                    'Games & Comics': '🎮', 'Geocoding': '🗺️', 'Government': '🏳️',
+                    'Health': '💉', 'Jobs': '💼', 'Machine Learning': '🤖',
+                    'Music': '🎵', 'News': '📰', 'Open Data': '📓',
+                    'Open Source Projects': '👨‍💻', 'Patent': '📄', 'Personality': '😎',
+                    'Phone': '📱', 'Photography': '📸', 'Science & Math': '🔬',
+                    'Security': '🔒', 'Shopping': '🛍️', 'Social': '👥',
+                    'Sports & Fitness': '⚽', 'Test Data': '📋', 'Text Analysis': '🔍',
+                    'Tracking': '📍', 'Transportation': '🚌', 'URL Shorteners': '🖇️',
+                    'Video': '🎥', 'Weather': '⛅'
+                }
+                
+                # Get emoji for category or use a default
+                category_emoji = category_emojis.get(category_name, '💯')
+                
+                # Add styled category header with emoji and divider
+                updated_categories_content += f"### {category_emoji} {category_name}\n{category.get('description', f'APIs for {category_name.lower()} related services.')}\n\n{selected_message}\n\n{colorful_divider}"
                 continue
             
-            # Create the API table for this category
-            api_table = "| API | Description | Auth | HTTPS | CORS |\n"
-            api_table += "| --- | --- | --- | --- | --- |\n"
+            # Create the API table for this category with enhanced styling
+            api_table = "| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |\n"
+            api_table += "| :--- | :--- | :---: | :---: | :---: |\n"
             
             # Add each API to the table
             for api in category['apis']:
@@ -122,8 +147,33 @@ def update_readme_with_apis() -> None:
                     link = name
                 api_table += f"| {link} | {description} | {auth} | {https} | {cors} |\n"
             
-            # Add the category section to the updated content
-            updated_categories_content += f"### {category_name}\n{category.get('description', f'APIs for {category_name.lower()} related services.')}\n\n{api_table}\n\n"
+            # Add emoji to category name based on category
+            category_emojis = {
+                'Authentication': '🔐', 'Blockchain': '🔗', 'Business': '💼',
+                'Calendar': '📅', 'Cloud Storage': '💾', 'Communication': '💬',
+                'Cryptocurrency': '💰', 'Currency Exchange': '💱', 'Data Validation': '✅',
+                'Development': '👨‍💻', 'Email': '📧', 'Entertainment': '🎭',
+                'Environment': '🌍', 'Finance': '💵', 'Food & Drink': '🍽️',
+                'Games & Comics': '🎮', 'Geocoding': '🗺️', 'Government': '🏳️',
+                'Health': '💉', 'Jobs': '💼', 'Machine Learning': '🤖',
+                'Music': '🎵', 'News': '📰', 'Open Data': '📓',
+                'Open Source Projects': '👨‍💻', 'Patent': '📄', 'Personality': '😎',
+                'Phone': '📱', 'Photography': '📸', 'Science & Math': '🔬',
+                'Security': '🔒', 'Shopping': '🛍️', 'Social': '👥',
+                'Sports & Fitness': '⚽', 'Test Data': '📋', 'Text Analysis': '🔍',
+                'Tracking': '📍', 'Transportation': '🚌', 'URL Shorteners': '🖇️',
+                'Video': '🎥', 'Weather': '⛅'
+            }
+            
+            # Get emoji for category or use a default
+            category_emoji = category_emojis.get(category_name, '💯')
+            
+            # Add styled category header with emoji and count badge
+            api_count = len(category['apis'])
+            badge = f"![{api_count} APIs](https://img.shields.io/badge/{api_count}-APIs-brightgreen)"
+            
+            # Add the category section to the updated content with enhanced styling and divider
+            updated_categories_content += f"### {category_emoji} {category_name} {badge}\n{category.get('description', f'APIs for {category_name.lower()} related services.')}\n\n{api_table}\n\n{colorful_divider}"
             print(f"Added category section for {category_name} with {len(category['apis'])} APIs")
         
         # Add a 'Last updated' date and update schedules after the API categories section

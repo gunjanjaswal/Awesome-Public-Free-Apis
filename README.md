@@ -61,11 +61,11 @@ The ultimate, self-updating collection of **free public REST APIs** for develope
 - [Video](#video)
 - [Weather](#weather)
 
-### Authentication
+### 🔐 Authentication ![7 APIs](https://img.shields.io/badge/7-APIs-brightgreen)
 APIs related to authentication, authorization, and identity management
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://auth0.com" target="_blank">Auth0</a> | Easy to implement, adaptable authentication and authorization platform | `apiKey` | Yes | yes |
 | <a href="https://otp.dev/en/docs/" target="_blank">GetOTP</a> | Implement OTP flow quickly | `apiKey` | Yes | no |
 | <a href="https://m3o.com/user" target="_blank">Micro User Service</a> | User management and authentication | `apiKey` | Yes | no |
@@ -75,16 +75,20 @@ APIs related to authentication, authorization, and identity management
 | <a href="https://warrant.dev/" target="_blank">Warrant</a> | APIs for authorization and access control | `apiKey` | Yes | yes |
 
 
-### Blockchain
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 🔗 Blockchain
 APIs related to blockchain technology and distributed ledgers
 
 🌱 This category is freshly planted. APIs will sprout soon!
 
-### Business
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 💼 Business ![22 APIs](https://img.shields.io/badge/22-APIs-brightgreen)
 APIs for business operations, CRM, ERP, and other business functions
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://superset.apache.org/docs/api" target="_blank">Apache Superset</a> | API to manage your BI dashboards and data sources on Superset | `apiKey` | Yes | yes |
 | <a href="https://clearbit.com/docs#logo-api" target="_blank">Clearbit Logo</a> | Search for company logos and embed them in your projects | `apiKey` | Yes | unknown |
 | <a href="https://domainsdb.info/" target="_blank">Domainsdb.info</a> | Registered Domain Names Search | none | Yes | no |
@@ -109,11 +113,13 @@ APIs for business operations, CRM, ERP, and other business functions
 | <a href="https://developers.trello.com/" target="_blank">Trello</a> | Boards, lists and cards to help you organize and prioritize your projects | `OAuth` | Yes | unknown |
 
 
-### Calendar
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 📅 Calendar ![15 APIs](https://img.shields.io/badge/15-APIs-brightgreen)
 APIs for calendar and scheduling functionality
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://www.abstractapi.com/holidays-api" target="_blank">Public Holidays</a> | Data on national, regional, and religious holidays via API | `apiKey` | Yes | yes |
 | <a href="https://calendarific.com/" target="_blank">Calendarific</a> | Worldwide Holidays | `apiKey` | Yes | unknown |
 | <a href="https://apilayer.com/marketplace/checkiday-api" target="_blank">Checkiday - National Holiday API</a> | Industry-leading Holiday API. Over 5,000 holidays and thousands of descriptions. Trusted by the World’s leading companies | `apiKey` | Yes | unknown |
@@ -131,11 +137,13 @@ APIs for calendar and scheduling functionality
 | <a href="https://www.gov.uk/bank-holidays.json" target="_blank">UK Bank Holidays</a> | Bank holidays in England and Wales, Scotland and Northern Ireland | none | Yes | unknown |
 
 
-### Cloud Storage
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 💾 Cloud Storage ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)
 APIs for cloud storage and file management
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://anonfiles.com/docs/api" target="_blank">AnonFiles</a> | Upload and share your files anonymously | none | Yes | unknown |
 | <a href="https://bayfiles.com/docs/api" target="_blank">BayFiles</a> | Upload and share your files | none | Yes | unknown |
 | <a href="https://developer.box.com/" target="_blank">Box</a> | File Sharing and Storage | `OAuth` | Yes | unknown |
@@ -157,16 +165,20 @@ APIs for cloud storage and file management
 | <a href="https://web3.storage/" target="_blank">Web3 Storage</a> | File Sharing and Storage for Free with 1TB Space | `apiKey` | Yes | yes |
 
 
-### Communication
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 💬 Communication
 APIs for messaging, chat, and other communication services
 
 📡 Scanning the digital universe for the best APIs in this category...
 
-### Cryptocurrency
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 💰 Cryptocurrency ![64 APIs](https://img.shields.io/badge/64-APIs-brightgreen)
 APIs for cryptocurrency data and transactions
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://0x.org/api" target="_blank">0x</a> | API for querying token and pool stats across various liquidity pools | none | Yes | yes |
 | <a href="https://1inch.io/api/" target="_blank">1inch</a> | API for querying decentralize exchange | none | Yes | unknown |
 | <a href="https://docs.alchemy.com/alchemy/" target="_blank">Alchemy Ethereum</a> | Ethereum Node-as-a-Service Provider | `apiKey` | Yes | yes |
@@ -233,11 +245,13 @@ APIs for cryptocurrency data and transactions
 | <a href="https://zmok.io" target="_blank">ZMOK</a> | Ethereum JSON RPC API and Web3 provider | none | Yes | unknown |
 
 
-### Currency Exchange
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 💱 Currency Exchange ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)
 APIs for currency exchange rates and conversions
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://1forge.com/forex-data-api/api-documentation" target="_blank">1Forge</a> | Forex currency market data | `apiKey` | Yes | unknown |
 | <a href="https://www.amdoren.com/currency-api/" target="_blank">Amdoren</a> | Free currency API with over 150 currencies | `apiKey` | Yes | unknown |
 | <a href="https://fixer.io" target="_blank">apilayer fixer.io</a> | Exchange rates and currency conversion | `apiKey` | No | unknown |
@@ -257,11 +271,13 @@ APIs for currency exchange rates and conversions
 | <a href="https://www.vatcomply.com/documentation" target="_blank">VATComply.com</a> | Exchange rates, geolocation and VAT number validation | none | Yes | yes |
 
 
-### Data Validation
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### ✅ Data Validation ![7 APIs](https://img.shields.io/badge/7-APIs-brightgreen)
 APIs for validating various types of data
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://lob.com/" target="_blank">Lob.com</a> | US Address Verification | `apiKey` | Yes | unknown |
 | <a href="https://www.postman-echo.com" target="_blank">Postman Echo</a> | Test api server to receive and return value from HTTP method | none | Yes | unknown |
 | <a href="http://www.purgomalum.com" target="_blank">PurgoMalum</a> | Content validator against profanity & obscenity | none | No | unknown |
@@ -271,11 +287,13 @@ APIs for validating various types of data
 | <a href="https://vatlayer.com/documentation" target="_blank">vatlayer</a> | VAT number validation | `apiKey` | Yes | unknown |
 
 
-### Development
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 👨‍💻 Development ![282 APIs](https://img.shields.io/badge/282-APIs-brightgreen)
 APIs for software development tools and services
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://docs.github.com/en/rest" target="_blank">GitHub</a> | Make use of GitHub's APIs to fetch repository information, user data, and more | OAuth | Yes | yes |
 | <a href="https://docs.gitlab.com/ee/api/" target="_blank">GitLab</a> | Access GitLab's API to interact with repositories, issues, and more | OAuth | Yes | yes |
 | <a href="https://api.stackexchange.com/" target="_blank">Stack Exchange</a> | Access to Stack Exchange API | OAuth | Yes | yes |
@@ -560,11 +578,13 @@ APIs for software development tools and services
 | <a href="https://smartcar.com/docs/" target="_blank">Smartcar</a> | Lock and unlock vehicles and get data like odometer reading and location. Works on most new cars | `OAuth` | Yes | yes |
 
 
-### Email
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 📧 Email ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)
 APIs for email services and functionality
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://mailboxlayer.com" target="_blank">apilayer mailboxlayer</a> | Email address validation | `apiKey` | Yes | unknown |
 | <a href="https://www.abstractapi.com/email-verification-validation-api" target="_blank">Email Validation</a> | Validate email addresses for deliverability and spam | `apiKey` | Yes | yes |
 | <a href="https://cloudmersive.com/validate-api" target="_blank">Cloudmersive Validate</a> | Validate email addresses, phone numbers, VAT numbers and domain names | `apiKey` | Yes | yes |
@@ -584,21 +604,25 @@ APIs for email services and functionality
 | <a href="https://verifier.meetchopra.com/docs#/" target="_blank">Verifier</a> | Verifies that a given email is real | `apiKey` | Yes | yes |
 
 
-### Entertainment
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 🎭 Entertainment ![3 APIs](https://img.shields.io/badge/3-APIs-brightgreen)
 APIs for entertainment content and services
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://developers.themoviedb.org/3/getting-started/introduction" target="_blank">TMDB</a> | The Movie Database API with movie and TV show data | apiKey | Yes | yes |
 | <a href="https://developer.marvel.com/" target="_blank">Marvel</a> | Marvel Comics API | apiKey | Yes | yes |
 | <a href="https://developer.spotify.com/documentation/web-api/" target="_blank">Spotify</a> | Music search, playlist manipulation, and playback control | OAuth | Yes | yes |
 
 
-### Environment
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 🌍 Environment ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)
 APIs for environmental data and services
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://docs.breezometer.com/api-documentation/pollen-api/v2/" target="_blank">BreezoMeter Pollen</a> | Daily Forecast pollen conditions data for a specific location | `apiKey` | Yes | unknown |
 | <a href="https://docs.carboninterface.com/" target="_blank">Carbon Interface</a> | API to calculate carbon (C02) emissions estimates for common C02 emitting activities | `apiKey` | Yes | yes |
 | <a href="https://docs.climatiq.io" target="_blank">Climatiq</a> | Calculate the environmental footprint created by a broad range of emission-generating activities | `apiKey` | Yes | yes |
@@ -618,11 +642,13 @@ APIs for environmental data and services
 | <a href="https://api.websitecarbon.com/" target="_blank">Website Carbon</a> | API to estimate the carbon footprint of loading web pages | none | Yes | unknown |
 
 
-### Finance
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 💵 Finance ![45 APIs](https://img.shields.io/badge/45-APIs-brightgreen)
 APIs for financial data and services
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://www.abstractapi.com/vat-validation-rates-api" target="_blank">VAT Validation</a> | Validate VAT numbers and calculate VAT rates | `apiKey` | Yes | yes |
 | <a href="https://aletheiaapi.com/" target="_blank">Aletheia</a> | Insider trading data, earnings call analysis, financial statements, and more | `apiKey` | Yes | yes |
 | <a href="https://alpaca.markets/docs/api-documentation/api-v2/market-data/alpaca-data-api-v2/" target="_blank">Alpaca</a> | Realtime and historical market data on all US equities and ETFs | `apiKey` | Yes | yes |
@@ -670,11 +696,13 @@ APIs for financial data and services
 | <a href="https://www.zoho.com/books/api/v3/" target="_blank">Zoho Books</a> | Online accounting software, built for your business | `OAuth` | Yes | unknown |
 
 
-### Food & Drink
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 🍽️ Food & Drink ![24 APIs](https://img.shields.io/badge/24-APIs-brightgreen)
 APIs for food and drink related data and services
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://baconmockup.com/" target="_blank">BaconMockup</a> | Resizable bacon placeholder images | none | Yes | yes |
 | <a href="https://chompthis.com/api/" target="_blank">Chomp</a> | Data about various grocery products and foods | `apiKey` | Yes | unknown |
 | <a href="https://coffee.alexflipnote.dev/" target="_blank">Coffee</a> | Random pictures of coffee | none | Yes | unknown |
@@ -701,11 +729,13 @@ APIs for food and drink related data and services
 | <a href="https://zestfuldata.com/" target="_blank">Zestful</a> | Parse recipe ingredients | `apiKey` | Yes | yes |
 
 
-### Games & Comics
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 🎮 Games & Comics ![95 APIs](https://img.shields.io/badge/95-APIs-brightgreen)
 APIs for games, comics, and related content
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://age-of-empires-2-api.herokuapp.com" target="_blank">Age of Empires II</a> | Get information about Age of Empires II resources | none | Yes | no |
 | <a href="https://amiiboapi.com/" target="_blank">AmiiboAPI</a> | Nintendo Amiibo Information | none | Yes | yes |
 | <a href="http://acnhapi.com/" target="_blank">Animal Crossing: New Horizons</a> | API for critters, fossils, art, music, furniture and villagers | none | Yes | unknown |
@@ -803,11 +833,13 @@ APIs for games, comics, and related content
 | <a href="https://db.ygoprodeck.com/api-guide/" target="_blank">Yu-Gi-Oh!</a> | Yu-Gi-Oh! TCG Information | none | Yes | unknown |
 
 
-### Geocoding
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 🗺️ Geocoding ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)
 APIs for geocoding and geolocation services
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://www.abstractapi.com/ip-geolocation-api" target="_blank">IP Geolocation</a> | Geolocate website visitors from their IPs | `apiKey` | Yes | yes |
 | <a href="https://actinia.mundialis.de/api_docs/" target="_blank">Actinia Grass GIS</a> | Actinia is an open source REST API for geographical data that uses GRASS GIS | `apiKey` | Yes | unknown |
 | <a href="https://github.com/kamikazechaser/administrative-divisions-db" target="_blank">administrative-divisons-db</a> | Get all administrative divisions of a country | none | Yes | yes |
@@ -895,11 +927,13 @@ APIs for geocoding and geolocation services
 | <a href="https://ziptasticapi.com/" target="_blank">Ziptastic</a> | Get the country, state, and city of any US zip-code | none | Yes | unknown |
 
 
-### Government
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 🏳️ Government ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)
 APIs provided by government entities
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://apikijangportal.bnm.gov.my/" target="_blank">Bank Negara Malaysia Open Data</a> | Malaysia Central Bank Open Data | none | Yes | unknown |
 | <a href="https://www.bclaws.gov.bc.ca/civix/template/complete/api/index.html" target="_blank">BCLaws</a> | Access to the laws of British Columbia | none | No | unknown |
 | <a href="https://brasilapi.com.br/" target="_blank">Brazil</a> | Community driven API for Brazil Public Data | none | Yes | yes |
@@ -987,11 +1021,13 @@ APIs provided by government entities
 | <a href="https://api.usaspending.gov/" target="_blank">USAspending.gov</a> | US federal spending data | none | Yes | unknown |
 
 
-### Health
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 💉 Health ![30 APIs](https://img.shields.io/badge/30-APIs-brightgreen)
 APIs for health and medical data and services
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://data.cms.gov/provider-data/" target="_blank">CMS.gov</a> | Access to the data from the CMS - medicare.gov | `apiKey` | Yes | unknown |
 | <a href="https://pipedream.com/@pravin/http-api-for-latest-wuhan-coronavirus-data-2019-ncov-p_G6CLVM/readme" target="_blank">Coronavirus</a> | HTTP API for Latest Covid-19 Data | none | Yes | unknown |
 | <a href="https://coronavirus.data.gov.uk/details/developers-guide" target="_blank">Coronavirus in the UK</a> | UK Government coronavirus data, including deaths and cases by region | none | Yes | unknown |
@@ -1024,11 +1060,13 @@ APIs for health and medical data and services
 | <a href="https://quarantine.country/coronavirus/api/" target="_blank">Quarantine</a> | Coronavirus API with free COVID-19 live updates | none | Yes | yes |
 
 
-### Jobs
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 💼 Jobs ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)
 APIs for job listings and employment data
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://developer.adzuna.com/overview" target="_blank">Adzuna</a> | Job board aggregator | `apiKey` | Yes | unknown |
 | <a href="https://documenter.getpostman.com/view/18545278/UVJbJdKh" target="_blank">Arbeitnow</a> | API for Job board aggregator in Europe / Remote | none | Yes | yes |
 | <a href="https://jobsuche.api.bund.dev/" target="_blank">Arbeitsamt</a> | API for the "Arbeitsamt", which is a german Job board aggregator | `OAuth` | Yes | unknown |
@@ -1048,11 +1086,13 @@ APIs for job listings and employment data
 | <a href="https://www.ziprecruiter.com/publishers" target="_blank">ZipRecruiter</a> | Job search app and website | `apiKey` | Yes | unknown |
 
 
-### Machine Learning
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 🤖 Machine Learning ![46 APIs](https://img.shields.io/badge/46-APIs-brightgreen)
 APIs for machine learning and AI services
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://platform.openai.com/docs/api-reference" target="_blank">OpenAI</a> | Create AI models and integrate AI capabilities into applications | apiKey | Yes | yes |
 | <a href="https://huggingface.co/docs/api-inference/index" target="_blank">Hugging Face</a> | Access to state-of-the-art machine learning models | apiKey | Yes | yes |
 | <a href="https://cloud.google.com/vision/docs" target="_blank">Google Cloud Vision</a> | Image recognition and classification | apiKey | Yes | yes |
@@ -1101,11 +1141,13 @@ APIs for machine learning and AI services
 | <a href="https://products.wolframalpha.com/api/" target="_blank">WolframAlpha</a> | Provides specific answers to questions using data and algorithms | `apiKey` | Yes | unknown |
 
 
-### Music
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 🎵 Music ![33 APIs](https://img.shields.io/badge/33-APIs-brightgreen)
 APIs for music data and services
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://docs.7digital.com/reference" target="_blank">7digital</a> | Api of Music store 7digital | `OAuth` | Yes | unknown |
 | <a href="https://aimastering.com/api_docs/" target="_blank">AI Mastering</a> | Automated Music Mastering | `apiKey` | Yes | yes |
 | <a href="https://www.audiomack.com/data-api/docs" target="_blank">Audiomack</a> | Api of the streaming music hub Audiomack | `OAuth` | Yes | unknown |
@@ -1141,11 +1183,13 @@ APIs for music data and services
 | <a href="https://api.vagalume.com.br/docs/" target="_blank">Vagalume</a> | Crowdsourced lyrics and music knowledge | `apiKey` | Yes | unknown |
 
 
-### News
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 📰 News ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)
 APIs for news content and services
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://mediastack.com/" target="_blank">apilayer mediastack</a> | Free, Simple REST API for Live News & Blog Articles | `apiKey` | Yes | unknown |
 | <a href="https://developer.ap.org/" target="_blank">Associated Press</a> | Search for news and metadata from Associated Press | `apiKey` | Yes | unknown |
 | <a href="http://chroniclingamerica.loc.gov/about/api/" target="_blank">Chronicling America</a> | Provides access to millions of pages of historic US newspapers from the Library of Congress | none | No | unknown |
@@ -1167,11 +1211,13 @@ APIs for news content and services
 | <a href="https://trove.nla.gov.au/about/create-something/using-api" target="_blank">Trove</a> | Search through the National Library of Australia collection of 1000s of digitised newspapers | `apiKey` | Yes | unknown |
 
 
-### Open Data
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 📓 Open Data ![35 APIs](https://img.shields.io/badge/35-APIs-brightgreen)
 APIs for open data sets and services
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="http://18f.github.io/API-All-the-X/" target="_blank">18F</a> | Unofficial US Federal Government API Development | none | No | unknown |
 | <a href="https://www.apisetu.gov.in/" target="_blank">API Setu</a> | An Indian Government platform that provides a lot of APIS for KYC, business, education & employment | none | Yes | yes |
 | <a href="https://archive.readme.io/docs" target="_blank">Archive.org</a> | The Internet Archive | none | Yes | no |
@@ -1209,11 +1255,13 @@ APIs for open data sets and services
 | <a href="https://www.yelp.com/developers/documentation/v3" target="_blank">Yelp</a> | Find Local Business | `OAuth` | Yes | unknown |
 
 
-### Open Source Projects
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 👨‍💻 Open Source Projects ![9 APIs](https://img.shields.io/badge/9-APIs-brightgreen)
 APIs for open source project data and services
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://api.count.ly/reference" target="_blank">Countly</a> | Countly web analytics | none | No | unknown |
 | <a href="https://api.creativecommons.engineering/" target="_blank">Creative Commons Catalog</a> | Search among openly licensed and public domain works | `OAuth` | Yes | yes |
 | <a href="https://www.datamuse.com/api/" target="_blank">Datamuse</a> | Word-finding query engine | none | Yes | unknown |
@@ -1225,22 +1273,26 @@ APIs for open source project data and services
 | <a href="https://shields.io/" target="_blank">Shields</a> | Concise, consistent, and legible badges in SVG and raster format | none | Yes | unknown |
 
 
-### Patent
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 📄 Patent ![4 APIs](https://img.shields.io/badge/4-APIs-brightgreen)
 APIs for patent data and services
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://developers.epo.org/" target="_blank">EPO</a> | European patent search system api | `OAuth` | Yes | unknown |
 | <a href="https://patentsview.org/apis/purpose" target="_blank">PatentsView</a> | API is intended to explore and visualize trends/patterns across the US innovation landscape | none | Yes | unknown |
 | <a href="https://tiponet.tipo.gov.tw/Gazette/OpenData/OD/OD05.aspx?QryDS=API00" target="_blank">TIPO</a> | Taiwan patent search system api | `apiKey` | Yes | unknown |
 | <a href="https://www.uspto.gov/learning-and-resources/open-data-and-mobility" target="_blank">USPTO</a> | USA patent api services | none | Yes | unknown |
 
 
-### Personality
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 😎 Personality ![23 APIs](https://img.shields.io/badge/23-APIs-brightgreen)
 APIs for personality and psychology related data
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="http://api.adviceslip.com/" target="_blank">Advice Slip</a> | Generate random advice slips | none | Yes | unknown |
 | <a href="https://biriyani.anoram.com/" target="_blank">Biriyani As A Service</a> | Biriyani images placeholder | none | Yes | no |
 | <a href="https://developers.forem.com/api" target="_blank">Dev.to</a> | Access Forem articles, users and other resources via API | `apiKey` | Yes | unknown |
@@ -1266,11 +1318,13 @@ APIs for personality and psychology related data
 | <a href="https://zenquotes.io/" target="_blank">Zen Quotes</a> | Large collection of Zen quotes for inspiration | none | Yes | yes |
 
 
-### Phone
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 📱 Phone ![5 APIs](https://img.shields.io/badge/5-APIs-brightgreen)
 APIs for phone and SMS related services
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://www.abstractapi.com/phone-validation-api" target="_blank">Phone Validation</a> | Validate phone numbers globally | `apiKey` | Yes | yes |
 | <a href="https://numverify.com" target="_blank">apilayer numverify</a> | Phone number validation | `apiKey` | Yes | unknown |
 | <a href="https://cloudmersive.com/phone-number-validation-API" target="_blank">Cloudmersive Validate</a> | Validate international phone numbers | `apiKey` | Yes | yes |
@@ -1278,11 +1332,13 @@ APIs for phone and SMS related services
 | <a href="https://veriphone.io" target="_blank">Veriphone</a> | Phone number validation & carrier lookup | `apiKey` | Yes | yes |
 
 
-### Photography
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 📸 Photography ![29 APIs](https://img.shields.io/badge/29-APIs-brightgreen)
 APIs for photography and image related services
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://unsplash.com/developers" target="_blank">Unsplash</a> | Free high-resolution photos API | OAuth | Yes | yes |
 | <a href="https://www.pexels.com/api/" target="_blank">Pexels</a> | Free stock photos and videos API | apiKey | Yes | yes |
 | <a href="https://pixabay.com/api/docs/" target="_blank">Pixabay</a> | Free images and videos API | apiKey | Yes | yes |
@@ -1314,11 +1370,13 @@ APIs for photography and image related services
 | <a href="https://www.damsuccess.com/hc/en-us/articles/202134055-REST-API" target="_blank">Webdam</a> | Images | `OAuth` | Yes | unknown |
 
 
-### Science & Math
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 🔬 Science & Math ![31 APIs](https://img.shields.io/badge/31-APIs-brightgreen)
 APIs for scientific and mathematical data and services
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://api.arcsecond.io/" target="_blank">arcsecond.io</a> | Multiple astronomy data sources | none | Yes | unknown |
 | <a href="https://arxiv.org/help/api/user-manual" target="_blank">arXiv</a> | Curated research-sharing platform: physics, mathematics, quantitative finance, and economics | none | Yes | unknown |
 | <a href="https://core.ac.uk/services#api" target="_blank">CORE</a> | Access the world's Open Access research papers | `apiKey` | Yes | unknown |
@@ -1352,11 +1410,13 @@ APIs for scientific and mathematical data and services
 | <a href="https://x-math.herokuapp.com/" target="_blank">xMath</a> | Random mathematical expressions | none | Yes | yes |
 
 
-### Security
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 🔒 Security ![38 APIs](https://img.shields.io/badge/38-APIs-brightgreen)
 APIs for security related services
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://github.com/fingerprintjs/aev" target="_blank">Application Environment Verification</a> | Android library and API to verify the safety of user devices, detect rooted devices and other risks | `apiKey` | Yes | yes |
 | <a href="https://docs.binaryedge.io/api-v2.html" target="_blank">BinaryEdge</a> | Provide access to BinaryEdge 40fy scanning platform | `apiKey` | Yes | yes |
 | <a href="https://bitwarden.com/help/api/" target="_blank">BitWarden</a> | Best open-source password manager | `OAuth` | Yes | unknown |
@@ -1397,11 +1457,13 @@ APIs for security related services
 | <a href="https://vuldb.com/?doc.api" target="_blank">VulDB</a> | VulDB API allows to initiate queries for one or more items along with transactional bots | `apiKey` | Yes | unknown |
 
 
-### Shopping
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 🛍️ Shopping ![14 APIs](https://img.shields.io/badge/14-APIs-brightgreen)
 APIs for e-commerce and shopping related services
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://bestbuyapis.github.io/api-documentation/#overview" target="_blank">Best Buy</a> | Products, Buying Options, Categories, Recommendations, Stores and Commerce | `apiKey` | Yes | unknown |
 | <a href="https://www.digikey.com/en/resources/api-solutions" target="_blank">Digi-Key</a> | Retrieve price and inventory of electronic components as well as place orders | `OAuth` | Yes | unknown |
 | <a href="https://dummyproducts-api.herokuapp.com/" target="_blank">Dummy Products</a> | An api to fetch dummy e-commerce products JSON data with placeholder images | `apiKey` | Yes | yes |
@@ -1418,11 +1480,13 @@ APIs for e-commerce and shopping related services
 | <a href="https://woocommerce.github.io/woocommerce-rest-api-docs/" target="_blank">WooCommerce</a> | WooCommerce REST APIS to create, read, update, and delete data on wordpress website in JSON format | `apiKey` | Yes | yes |
 
 
-### Social
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 👥 Social ![40 APIs](https://img.shields.io/badge/40-APIs-brightgreen)
 APIs for social media and social networking
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://github.com/4chan/4chan-API" target="_blank">4chan</a> | Simple image-based bulletin board dedicated to a variety of topics | none | Yes | yes |
 | <a href="https://www.ayrshare.com" target="_blank">Ayrshare</a> | Social media APIs to post, get analytics, and manage multiple users social media accounts | `apiKey` | Yes | yes |
 | <a href="https://aztro.sameerkumar.website/" target="_blank">aztro</a> | Daily horoscope info for yesterday, today, and tomorrow | none | Yes | unknown |
@@ -1465,11 +1529,13 @@ APIs for social media and social networking
 | <a href="https://vk.com/dev/sites" target="_blank">vk</a> | Read and write vk data | `OAuth` | Yes | unknown |
 
 
-### Sports & Fitness
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### ⚽ Sports & Fitness ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)
 APIs for sports and fitness data and services
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://www.api-football.com/documentation-v3" target="_blank">API-FOOTBALL</a> | Get information about Football Leagues & Cups | `apiKey` | Yes | yes |
 | <a href="https://apimedic.com/" target="_blank">ApiMedic</a> | ApiMedic offers a medical symptom checker API primarily for patients | `apiKey` | Yes | unknown |
 | <a href="https://www.balldontlie.io" target="_blank">balldontlie</a> | Balldontlie provides access to stats data from the NBA | none | Yes | yes |
@@ -1572,11 +1638,13 @@ APIs for sports and fitness data and services
 | <a href="https://www.velib-metropole.fr/donnees-open-data-gbfs-du-service-velib-metropole" target="_blank">Velib metropolis, Paris, France</a> | Velib Open Data API | none | Yes | no |
 
 
-### Test Data
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 📋 Test Data ![25 APIs](https://img.shields.io/badge/25-APIs-brightgreen)
 APIs for generating test data
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://baconipsum.com/json-api/" target="_blank">Bacon Ipsum</a> | A Meatier Lorem Ipsum Generator | none | Yes | unknown |
 | <a href="https://avatars.dicebear.com/" target="_blank">Dicebear Avatars</a> | Generate random pixel-art avatars | none | Yes | no |
 | <a href="https://random-words-api.vercel.app/word" target="_blank">English Random Words</a> | Generate English Random Words with Pronunciation | none | Yes | no |
@@ -1604,11 +1672,13 @@ APIs for generating test data
 | <a href="https://yesno.wtf/api" target="_blank">Yes No</a> | Generate yes or no randomly | none | Yes | unknown |
 
 
-### Text Analysis
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 🔍 Text Analysis ![15 APIs](https://img.shields.io/badge/15-APIs-brightgreen)
 APIs for text analysis and natural language processing
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://codedetectionapi.runtime.dev" target="_blank">Code Detection API</a> | Detect, label, format and enrich the code in your app or in your data pipeline | `OAuth` | Yes | unknown |
 | <a href="https://languagelayer.com/" target="_blank">apilayer languagelayer</a> | Language Detection JSON API supporting 173 languages | `OAuth` | Yes | unknown |
 | <a href="https://docs.aylien.com/textapi/#getting-started" target="_blank">Aylien Text Analysis</a> | A collection of information retrieval and natural language APIs | `apiKey` | Yes | unknown |
@@ -1626,11 +1696,13 @@ APIs for text analysis and natural language processing
 | <a href="https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding" target="_blank">Watson Natural Language Understanding</a> | Natural language processing for advanced text analysis | `OAuth` | Yes | unknown |
 
 
-### Tracking
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 📍 Tracking ![9 APIs](https://img.shields.io/badge/9-APIs-brightgreen)
 APIs for tracking various types of data
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://developers.aftership.com/reference/quick-start" target="_blank">Aftership</a> | API to update, manage and track shipment efficiently | `apiKey` | Yes | yes |
 | <a href="https://cws.correios.com.br/ajuda" target="_blank">Correios</a> | Integration to provide information and prepare shipments using Correio's services | `apiKey` | Yes | unknown |
 | <a href="https://pixe.la" target="_blank">Pixela</a> | API for recording and tracking habits or effort, routines | `X-Mashape-Key` | Yes | yes |
@@ -1642,16 +1714,20 @@ APIs for tracking various types of data
 | <a href="https://developer.whatpulse.org/#web-api" target="_blank">WhatPulse</a> | Small application that measures your keyboard/mouse usage | none | Yes | unknown |
 
 
-### Transportation
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 🚌 Transportation
 APIs for transportation data and services
 
 🏗️ Under construction! We're building something awesome here.
 
-### URL Shorteners
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 🖇️ URL Shorteners ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)
 APIs for URL shortening services
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://github.com/1pt-co/api/blob/main/README.md" target="_blank">1pt</a> | A simple URL shortener | none | Yes | yes |
 | <a href="http://dev.bitly.com/get_started.html" target="_blank">Bitly</a> | URL shortener and link management | `OAuth` | Yes | unknown |
 | <a href="https://cleanuri.com/docs" target="_blank">CleanURI</a> | URL shortener service | none | Yes | yes |
@@ -1673,11 +1749,13 @@ APIs for URL shortening services
 | <a href="https://urlbae.com/developers" target="_blank">UrlBae</a> | Simple and efficient short link creation | `apiKey` | Yes | yes |
 
 
-### Video
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### 🎥 Video ![42 APIs](https://img.shields.io/badge/42-APIs-brightgreen)
 APIs for video content and services
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://anapioficeandfire.com/" target="_blank">An API of Ice And Fire</a> | Game Of Thrones API | none | Yes | unknown |
 | <a href="https://bobs-burgers-api-ui.herokuapp.com" target="_blank">Bob's Burgers</a> | Bob's Burgers API | none | Yes | yes |
 | <a href="https://breakingbadapi.com/documentation" target="_blank">Breaking Bad</a> | Breaking Bad API | none | Yes | unknown |
@@ -1722,11 +1800,13 @@ APIs for video content and services
 | <a href="https://developers.google.com/youtube/" target="_blank">YouTube</a> | Add YouTube functionality to your sites and apps | `OAuth` | Yes | unknown |
 
 
-### Weather
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
+### ⛅ Weather ![32 APIs](https://img.shields.io/badge/32-APIs-brightgreen)
 APIs for weather data and forecasts
 
-| API | Description | Auth | HTTPS | CORS |
-| --- | --- | --- | --- | --- |
+| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
+| :--- | :--- | :---: | :---: | :---: |
 | <a href="https://openweathermap.org/api" target="_blank">OpenWeatherMap</a> | Weather forecasts, nowcasts and history in a fast and elegant way | apiKey | Yes | yes |
 | <a href="https://www.weatherapi.com/" target="_blank">WeatherAPI</a> | Weather API with forecasts, history, and more | apiKey | Yes | yes |
 | <a href="https://www.tomorrow.io/weather-api/" target="_blank">Tomorrow.io</a> | Weather API powered by proprietary technology | apiKey | Yes | yes |
@@ -1761,6 +1841,8 @@ APIs for weather data and forecasts
 | <a href="https://yandex.com/dev/weather/" target="_blank">Yandex.Weather</a> | Assesses weather condition in specific locations | `apiKey` | Yes | no |
 
 
+<div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
+
 _API Categories last updated: September 08, 2025_
 
 **API Update Schedule:**
@@ -1780,20 +1862,28 @@ This section is automatically updated daily with trending API-specific repositor
 | [freeCodeCamp/devdocs](https://github.com/freeCodeCamp/devdocs) | API Documentation Browser | 37.3k | Ruby |
 | [guzzle/guzzle](https://github.com/guzzle/guzzle) | Guzzle, an extensible PHP HTTP client | 23.4k | PHP |
 
-_Last updated: September 08, 2025_## 🔥 Trending GitHub Repositories
+_Last updated: September 08, 2025_
+
+
+## 🔥 Trending GitHub Repositories
 
 This section is automatically updated daily with trending API-related repositories from GitHub. Discover what the community is building and using right now!
 
 | Repository | Description | Stars | Language |
 | --- | --- | --- | --- |
-| [openwrt/openwrt](https://github.com/openwrt/openwrt) | This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference on... | 23.7k | C |
-| [pathwaycom/llm-app](https://github.com/pathwaycom/llm-app) | Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker... | 35.7k | Jupyter Notebook |
-| [jellyfin/jellyfin-web](https://github.com/jellyfin/jellyfin-web) | The Free Software Media System - Official Web Client | 3.0k | JavaScript |
-| [jgraph/drawio](https://github.com/jgraph/drawio) | draw.io is a JavaScript, client-side editor for general diagramming. | 2.3k | JavaScript |
-| [SocialSisterYi/bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect) | 哔哩哔哩-API收集整理【不断更新中....】 | 18.7k | JavaScript |
-| [SuperSimpleDev/javascript-course](https://github.com/SuperSimpleDev/javascript-course) | Watch the course: https://youtu.be/EerdGm-ehJQ | 1.1k | JavaScript |
+| [facebookresearch/llama](https://github.com/facebookresearch/llama) | Inference code for LLaMA models with comprehensive API access | 47.2k | Python |
+| [Kong/insomnia](https://github.com/Kong/insomnia) | The open-source, cross-platform API client for GraphQL, REST, and gRPC | 31.5k | JavaScript |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs for use in software and web development | 269k | Python |
+| [postmanlabs/postman-app-support](https://github.com/postmanlabs/postman-app-support) | API development environment and testing platform | 4.8k | N/A |
+| [swagger-api/swagger-ui](https://github.com/swagger-api/swagger-ui) | API documentation and exploration UI based on OpenAPI | 24.6k | JavaScript |
+| [fastapi/fastapi](https://github.com/tiangolo/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 68.3k | Python |
+| [axios/axios](https://github.com/axios/axios) | Promise based HTTP client for the browser and node.js | 102k | JavaScript |
+| [graphql/graphql-js](https://github.com/graphql/graphql-js) | A reference implementation of GraphQL for JavaScript | 19.8k | TypeScript |
+| [go-resty/resty](https://github.com/go-resty/resty) | Simple HTTP and REST client library for Go | 8.5k | Go |
+| [microsoft/restler-fuzzer](https://github.com/microsoft/restler-fuzzer) | RESTler is the first stateful REST API fuzzing tool for automatically testing cloud services | 2.3k | C# |
 
-_Last updated: September 08, 2025_
+_Last updated: September 8, 2025_
+
 ## 🤝 How to Contribute to This API Collection
 
 This project thrives on community contributions! Whether you've discovered a new API or noticed changes in an existing one, your input helps keep this resource valuable for developers worldwide.
