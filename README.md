@@ -21,22 +21,22 @@ The ultimate, self-updating collection of **free public REST APIs** for develope
 
 **Available Categories:**
 
-- [🔐 Authentication](#authentication-7-apis)
+- [🔐 Authentication](#authentication)
 - [🔗 Blockchain](#blockchain)
-- [💼 Business](#business-22-apis)
-- [📅 Calendar](#calendar-15-apis)
-- [💾 Cloud Storage](#cloud-storage-19-apis)
+- [💼 Business](#business)
+- [📅 Calendar](#calendar)
+- [💾 Cloud Storage](#cloud-storage)
 - [💬 Communication](#communication)
-- [💰 Cryptocurrency](#cryptocurrency-64-apis)
-- [💱 Currency Exchange](#currency-exchange-17-apis)
-- [✅ Data Validation](#data-validation-7-apis)
-- [👨‍💻 Development](#development-282-apis)
-- [📧 Email](#email-17-apis)
-- [🎭 Entertainment](#entertainment-3-apis)
-- [🌍 Environment](#environment-17-apis)
-- [💵 Finance](#finance-45-apis)
-- [🍽️ Food & Drink](#food--drink-24-apis)
-- [🎮 Games & Comics](#games--comics-95-apis)
+- [💰 Cryptocurrency](#cryptocurrency)
+- [💱 Currency Exchange](#currency-exchange)
+- [✅ Data Validation](#data-validation)
+- [👨‍💻 Development](#development)
+- [📧 Email](#email)
+- [🎭 Entertainment](#entertainment)
+- [🌍 Environment](#environment)
+- [💵 Finance](#finance)
+- [🍽️ Food & Drink](#food--drink)
+- [🎮 Games & Comics](#games--comics)
 - [🗺️ Geocoding](#geocoding)
 - [🏳️ Government](#government)
 - [💉 Health](#health)
@@ -66,8 +66,6 @@ The ultimate, self-updating collection of **free public REST APIs** for develope
 
 
 <a id="authentication"></a>
-<a id="authentication-7-apis"></a>
-<a id="🔐"></a>
 ### 🔐 Authentication ![7 APIs](https://img.shields.io/badge/7-APIs-brightgreen)
 APIs related to authentication, authorization, and identity management
 
@@ -84,8 +82,7 @@ APIs related to authentication, authorization, and identity management
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-<a id="🔗"></a>
-<a id="🔗"></a>
+<a id="blockchain"></a>
 ### 🔗 Blockchain
 APIs related to blockchain technology and distributed ledgers
 
@@ -93,8 +90,7 @@ APIs related to blockchain technology and distributed ledgers
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-<a id="💼"></a>
-<a id="💼"></a>
+<a id="business"></a>
 ### 💼 Business ![22 APIs](https://img.shields.io/badge/22-APIs-brightgreen)
 APIs for business operations, CRM, ERP, and other business functions
 
@@ -126,8 +122,7 @@ APIs for business operations, CRM, ERP, and other business functions
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-<a id="📅"></a>
-<a id="📅"></a>
+<a id="calendar"></a>
 ### 📅 Calendar ![15 APIs](https://img.shields.io/badge/15-APIs-brightgreen)
 APIs for calendar and scheduling functionality
 
@@ -152,8 +147,7 @@ APIs for calendar and scheduling functionality
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-<a id="💾"></a>
-<a id="💾"></a>
+<a id="cloud-storage"></a>
 ### 💾 Cloud Storage ![19 APIs](https://img.shields.io/badge/19-APIs-brightgreen)
 APIs for cloud storage and file management
 
@@ -182,8 +176,7 @@ APIs for cloud storage and file management
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-<a id="💬"></a>
-<a id="💬"></a>
+<a id="communication"></a>
 ### 💬 Communication
 APIs for messaging, chat, and other communication services
 
@@ -191,8 +184,7 @@ APIs for messaging, chat, and other communication services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-<a id="💰"></a>
-<a id="💰"></a>
+<a id="cryptocurrency"></a>
 ### 💰 Cryptocurrency ![64 APIs](https://img.shields.io/badge/64-APIs-brightgreen)
 APIs for cryptocurrency data and transactions
 
@@ -3790,21 +3782,7 @@ APIs for weather data and forecasts
 | <a href="https://www.openuv.io" target="_blank">OpenUV</a> | Real-time UV Index Forecast | `apiKey` | Yes | unknown |
 | <a href="https://dev.qweather.com/en/" target="_blank">QWeather</a> | Location-based weather data | `apiKey` | Yes | yes |
 | <a href="https://www.rainviewer.com/api.html" target="_blank">RainViewer</a> | Radar data collected from different websites across the Internet | none | Yes | unknown |
-| <a href=_API Categories last updated: September 08, 2025_
-
-**API Update Schedule:**
-- Weekly API Status Checks (Next: September 14, 2025)
-- Enhanced API Discovery (Next: September 15, 2025)
-- Monthly API Discovery (Next: October 01, 2025)
-
-_API Categories last updated: September 08, 2025_
-
-**API Update Schedule:**
-- Weekly API Status Checks (Next: September 14, 2025)
-- Enhanced API Discovery (Next: September 15, 2025)
-- Monthly API Discovery (Next: October 01, 2025)
-
-"https://stormglass.io/" target="_blank">Storm Glass</a> | Global marine weather from multiple sources | `apiKey` | Yes | yes |
+| <a href="https://stormglass.io/" target="_blank">Storm Glass</a> | Global marine weather from multiple sources | `apiKey` | Yes | yes |
 | <a href="https://docs.tomorrow.io" target="_blank">Tomorrow</a> | Weather API Powered by Proprietary Technology | `apiKey` | Yes | unknown |
 | <a href="https://www.weather.gov/documentation/services-web-api" target="_blank">US Weather</a> | US National Weather Service | none | Yes | yes |
 | <a href="https://www.visualcrossing.com/weather-api" target="_blank">Visual Crossing</a> | Global historical and weather forecast data | `apiKey` | Yes | yes |
@@ -3815,39 +3793,12 @@ _API Categories last updated: September 08, 2025_
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-_API Categor<a id="development"></a>
-### 👨‍💻 Development ![282 APIs](https://img.shields.io/badge/282-APIs-brightgreen)
-APIs for development related services
+_API Categories last updated: September 08, 2025_
 
-| 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
-| :--- | :--- | :---: | :---: | :---: |
-| <a href="https://www.adoptapet.com/public/apis/pet_list.html" target="_blank">AdoptAPet</a> | Resource to help get pets adopted | `apiKey` | Yes | yes |
-| <a href="https://theaxolotlapi.netlify.app/" target="_blank">Axolotl</a> | Collection of axolotl pictures and facts | none | Yes | no |
-| <a href="https://alexwohlbruck.github.io/cat-facts/" target="_blank">Cat Facts</a> | Daily cat facts | none | Yes | no |
-| <a href="https://cataas.com/" target="_blank">Cataas</a> | Cat as a service (cats pictures and gifs) | none | Yes | no |
-| <a href="https://docs.thecatapi.com/" target="_blank">Cats</a> | Pictures of cats from Tumblr | `apiKey` | Yes | no |
-| <a href="https://dukengn.github.io/Dog-facts-API/" target="_blank">Dog Facts</a> | Random dog facts | none | Yes | yes |
-| <a href="https://dog.ceo/dog-api/" target="_blank">Dogs</a> | Based on the Stanford Dogs Dataset | none | Yes | yes |
-| <a href="https://documenter.getpostman.com/view/664302/S1ENwy59" target="_blank">eBird</a> | Retrieve recent or notable birding observations within a region | `apiKey` | Yes | no |
-| <a href="https://www.fishwatch.gov/developers" target="_blank">FishWatch</a> | Information and pictures about individual fish species | none | Yes | yes |
-| <a href="https://http.cat/" target="_blank">HTTP Cat</a> | Cat for every HTTP Status | none | Yes | yes |
-| <a href="https://http.dog/" target="_blank">HTTP Dog</a> | Dogs for every HTTP response status code | none | Yes | yes |
-| <a href="http://apiv3.iucnredlist.org/api/v3/docs" target="_blank">IUCN</a> | IUCN Red List of Threatened Species | `apiKey` | No | no |
-| <a href="https://github.com/wh-iterabb-it/meowfacts" target="_blank">MeowFacts</a> | Get random cat facts | none | Yes | no |
-| <a href="https://github.com/movebank/movebank-api-doc" target="_blank">Movebank</a> | Movement and Migration data of animals | none | Yes | yes |
-| <a href="https://www.petfinder.com/developers/" target="_blank">Petfinder</a> | Petfinder is dedicated to helping pets find homes, another resource to get pets adopted | `apiKey` | Yes | yes |
-| <a href="https://placebear.com/" target="_blank">PlaceBear</a> | Placeholder bear pictures | none | Yes | yes |
-| <a href="https://place.dog" target="_blank">PlaceDog</a> | Placeholder Dog pictures | none | Yes | yes |
-| <a href="https://placekitten.com/" target="_blank">PlaceKitten</a> | Placeholder Kitten pictures | none | Yes | yes |
-| <a href="https://random.dog/woof.json" target="_blank">RandomDog</a> | Random pictures of dogs | none | Yes | yes |
-| <a href="https://random-d.uk/api" target="_blank">RandomDuck</a> | Random pictures of ducks | none | Yes | no |
-| <a href="https://randomfox.ca/floof/" target="_blank">RandomFox</a> | Random pictures of foxes | none | Yes | no |
-| <a href="https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home" target="_blank">RescueGroups</a> | Adoption | none | Yes | unknown |
-| <a href="http://shibe.online/" target="_blank">Shibe.Online</a> | Random pictures of Shiba Inu, cats or birds | none | Yes | yes |
-| <a href="https://thedogapi.com/" target="_blank">The Dog</a> | A public service all about Dogs, free to use when making your fancy new App, Website or Service | `apiKey` | Yes | no |
-| <a href="https://xeno-canto.org/explore/api" target="_blank">xeno-canto</a> | Bird recordings | none | Yes | unknown |
-| <a href="https://zoo-animal-api.herokuapp.com/" target="_blank">Zoo Animals</a> | Facts and pictures of zoo animals | none | Yes | yes |
-| <a href="https://aniapi.com/docs/" target="_blank">AniAPI</a> | Anime discovery, streaming & syncing with trackers | `OAuth` | Yes | yes |
+**API Update Schedule:**
+- Weekly API Status Checks (Next: September 14, 2025)
+- Enhanced API Discovery (Next: September 15, 2025)
+- Monthly API Discovery (Next: October 01, 2025)
 | <a href="https://wiki.anidb.net/HTTP_API_Definition" target="_blank">AniDB</a> | Anime Database | `apiKey` | No | unknown |
 | <a href="https://github.com/AniList/ApiV2-GraphQL-Docs" target="_blank">AniList</a> | Anime discovery & tracking | `OAuth` | Yes | unknown |
 | <a href="https://github.com/RocktimSaikia/anime-chan" target="_blank">AnimeChan</a> | Anime quotes (over 10k+) | none | Yes | no |

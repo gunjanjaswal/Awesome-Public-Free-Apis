@@ -184,7 +184,7 @@ def update_readme_with_apis() -> None:
                 
                 # Add the category section with explicit HTML ID for reliable anchor links
                 category_id = category_name.lower().replace(' ', '-').replace('&', '').replace('_', '')
-                updated_categories_content += f"<a id='{category_id}'></a>\n### {category_emoji} {category_name}\n{category.get('description', f'APIs for {category_name.lower()} related services.')}\n\n{selected_message}\n\n{colorful_divider}"
+                updated_categories_content += f"<a id=\"{category_id}\"></a>\n### {category_emoji} {category_name}\n{category.get('description', f'APIs for {category_name.lower()} related services.')}\n\n{selected_message}\n\n{colorful_divider}"
                 continue
             
             # Create the API table for this category with enhanced styling
@@ -231,8 +231,6 @@ def update_readme_with_apis() -> None:
             # Add styled category header with emoji and count badge
             api_count = len(category['apis'])
             badge = f"![{api_count} APIs](https://img.shields.io/badge/{api_count}-APIs-brightgreen)"
-            
-            # Create a GitHub-compatible ID for the category
             category_id = category_name.lower().replace(' ', '-').replace('&', '').replace('_', '')
             
             # Add the category section with explicit HTML ID for reliable anchor links
