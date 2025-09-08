@@ -169,8 +169,15 @@ def update_readme_trending_section(trending_repos: List[Dict[str, Any]]) -> bool
             readme_content = file.read()
         
         # Find the trending repositories section
-        trending_section_pattern = r'(## 🔥 Trending GitHub Repositories.*?)(?=^## |\Z)'
+        trending_section_pattern = r'(## :rocket: Trending GitHub Repositories.*?)(?=^## |\Z)'
         trending_section_match = re.search(trending_section_pattern, readme_content, re.DOTALL | re.MULTILINE)
+        
+        # Find the API categories section markers
+        api_categories_start = "<!-- BEGIN API CATEGORIES SECTION - DO NOT REMOVE OR MODIFY THIS COMMENT -->"
+        api_categories_end = "<!-- END API CATEGORIES SECTION - DO NOT REMOVE OR MODIFY THIS COMMENT -->"
+        
+        # Check if API categories section exists
+        api_categories_exists = api_categories_start in readme_content and api_categories_end in readme_content
         
         if not trending_section_match:
             print("Trending repositories section not found in README")
@@ -179,7 +186,7 @@ def update_readme_trending_section(trending_repos: List[Dict[str, Any]]) -> bool
         # Create the new trending repositories section
         today = datetime.datetime.now().strftime('%B %d, %Y')
         
-        new_trending_section = f"## 🔥 Trending GitHub Repositories\n\n"
+        new_trending_section = f"## :rocket: Trending GitHub Repositories\n\n"
         new_trending_section += "This section is automatically updated daily with trending API-related repositories from GitHub. Discover what the community is building and using right now!\n\n"
         new_trending_section += "| Repository | Description | Stars | Language |\n"
         new_trending_section += "| --- | --- | --- | --- |\n"
