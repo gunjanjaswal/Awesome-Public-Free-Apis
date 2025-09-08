@@ -1,18 +1,15 @@
-name: Preserve Navigation Links
+name: Manual Update
 
 on:
-  push:
-    branches: [ '**' ]  # Run on all branches
-  schedule:
-    # Run every hour
-    - cron: '0 * * * *'
   workflow_dispatch:
-
-permissions:
-  contents: write
+    inputs:
+      message:
+        description: 'Commit message'
+        required: true
+        default: 'Update README.md'
 
 jobs:
-  preserve-navigation:
+  update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -31,14 +28,14 @@ jobs:
       - name: Fix navigation links
         run: |
           python .github/scripts/fix-navigation-links.py
-        
-      - name: Commit and push if changed
+
+      - name: Create local changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          git diff --quiet && git diff --staged --quiet || git commit -m "Fix navigation links in README"
-        
+          git diff --quiet && git diff --staged --quiet || git commit -m "${{ github.event.inputs.message }}"
+
       - name: Push changes
         uses: actions-js/push@master
         with:

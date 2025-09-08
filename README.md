@@ -12,7 +12,7 @@
 
 The ultimate, self-updating collection of **free public REST APIs** for developers to integrate into web applications, mobile apps, and software projects. Automatically discovers and tracks the most popular and reliable free APIs across 40+ categories.
 
-[Browse APIs by Category](#-api-categories---find-the-perfect-api-for-your-project) • [Trending GitHub Repositories](#-trending-github-repositories) • [How to Contribute](#-how-to-contribute-to-this-api-collection) • [Automation Details](#-how-our-automated-api-tracking-works) • [License](#-license)
+[Browse APIs by Category](#card_index-api-categories---find-the-perfect-api-for-your-project) • [Trending GitHub Repositories](#rocket-trending-github-repositories) • [How to Contribute](#handshake-how-to-contribute-to-this-api-collection) • [Automation Details](#gear-how-our-automated-api-tracking-works) • [License](#page_with_curl-license) • [<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="20" width="70">](https://buymeacoffee.com/gunjanjaswal)
 
 </div>
 
@@ -1688,24 +1688,9 @@ This section is automatically updated daily with trending API-specific repositor
 | [aldinokemal/go-whatsapp-web-multidevice](https://github.com/aldinokemal/go-whatsapp-web-multidevice) | GOWA - WhatsApp REST API with support for UI, Webhooks, and MCP. Built with Golang for efficient ... | 2.4k | Go |
 | [guzzle/guzzle](https://github.com/guzzle/guzzle) | Guzzle, an extensible PHP HTTP client | 23.4k | PHP |
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-_Last updated: _Last updated: _Last updated: September 08, 2025_## _
+_Last updated: September 08, 2025_
 
-## _
-
-<<<<<<< Updated upstream
 ## :rocket: Trending GitHub Repositories
-=======
-_Last updated: September 08, 2025_## :rocket: Trending GitHub Repositories
->>>>>>> Stashed changes
-
-=======
->>>>>>> Stashed changes
-=======
-_Last updated: September 08, 2025_## :rocket: Trending GitHub Repositories
-
->>>>>>> Stashed changes
 This section is automatically updated daily with trending API-related repositories from GitHub. Discover what the community is building and using right now!
 
 | Repository | Description | Stars | Language |
@@ -1720,7 +1705,8 @@ This section is automatically updated daily with trending API-related repositori
 | [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) | 30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programmi... | 45.1k | JavaScript |
 
 _Last updated: September 08, 2025_
-## :handshake: How to Contribute to this API Collection
+
+## :handshake: How to Contribute to This API Collection
 
 We welcome contributions from the community! Here's how you can help:
 
