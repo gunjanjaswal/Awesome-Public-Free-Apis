@@ -1705,6 +1705,7 @@ This section is automatically updated daily with trending API-related repositori
 
 _Last updated: September 08, 2025_
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <!-- END TRENDING REPOSITORIES SECTION - DO NOT REMOVE OR MODIFY THIS COMMENT -->
 
 <!-- BEGIN HOW TO CONTRIBUTE SECTION - DO NOT REMOVE OR MODIFY THIS COMMENT -->
@@ -1724,6 +1725,21 @@ Please see our [Contributing Guidelines](CONTRIBUTING.md) for more details.
 
 ## :gear: How Our Automated API Tracking Works
 
+=======
+## :handshake: How to Contribute to this API Collection
+
+We welcome contributions from the community! Here's how you can help:
+
+1. **Add a new API**: Submit a pull request with your API addition
+2. **Update existing APIs**: Help us keep the information accurate and up-to-date
+3. **Report issues**: Let us know if you find any broken links or inaccuracies
+4. **Suggest improvements**: Have ideas to make this collection better? We'd love to hear them!
+
+Please see our [Contributing Guidelines](CONTRIBUTING.md) for more details.
+
+## :gear: How Our Automated API Tracking Works
+
+>>>>>>> Stashed changes
 This repository uses automation to keep the API collection fresh and relevant:
 
 1. **Weekly API Status Checks**: Every Sunday at 00:00 UTC, our automation verifies all APIs are operational and updates their status
