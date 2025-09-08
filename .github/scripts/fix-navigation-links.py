@@ -28,27 +28,27 @@ def fix_navigation_links():
     # Read the current README content
     readme_content = read_file(readme_path)
     
-    # Define the correct navigation bar with proper anchor links
-    correct_nav_bar = "[Browse APIs by Category](#card_index-api-categories---find-the-perfect-api-for-your-project) • [Trending GitHub Repositories](#rocket-trending-github-repositories) • [How to Contribute](#handshake-how-to-contribute-to-this-api-collection) • [Automation Details](#gear-how-our-automated-api-tracking-works) • [License](#page_with_curl-license) • [☕ Buy Me a Coffee](https://buymeacoffee.com/gunjanjaswal)"
+    # Define the correct navigation bar with proper anchor links and Buy Me a Coffee logo
+    correct_nav_bar = "[Browse APIs by Category](#card_index-api-categories---find-the-perfect-api-for-your-project) • [Trending GitHub Repositories](#rocket-trending-github-repositories) • [How to Contribute](#handshake-how-to-contribute-to-this-api-collection) • [Automation Details](#gear-how-our-automated-api-tracking-works) • [License](#page_with_curl-license) • [<img src=\"https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png\" alt=\"Buy Me A Coffee\" height=\"20\" width=\"70\">](https://buymeacoffee.com/gunjanjaswal)"
     
-    # Find the navigation bar in the README
-    nav_pattern = r'\[Browse APIs by Category\].*?\[License\]'
-    nav_match = re.search(nav_pattern, readme_content, re.DOTALL)
-    
-    if not nav_match:
-        print("Warning: Navigation bar not found in README.")
-        return
-    
-    # Replace the navigation bar with the correct one
-    updated_content = re.sub(
-        r'\[Browse APIs by Category\].*?\[License\]\([^)]+\)(?:\s•\s\[☕\sBuy\sMe\sa\sCoffee\]\(https://buymeacoffee\.com/gunjanjaswal\))?',
-        correct_nav_bar,
-        readme_content,
-        flags=re.DOTALL
-    )
+    # Replace any navigation bar with the correct one
+    nav_pattern = r'\[Browse APIs by Category\].*?\[License\]\([^)]+\)(?:\s•\s\[[^]]+\]\(https://buymeacoffee\.com/gunjanjaswal\))?'
+    updated_content = re.sub(nav_pattern, correct_nav_bar, readme_content, flags=re.DOTALL)
     
     # Fix formatting issues with section headings
     updated_content = re.sub(r'_Last updated: .*?_## ', r'_Last updated: \g<0>_\n\n## ', updated_content)
+    
+    # Fix anchor links in the README content
+    updated_content = updated_content.replace('#-api-categories---find-the-perfect-api-for-your-project', '#card_index-api-categories---find-the-perfect-api-for-your-project')
+    updated_content = updated_content.replace('#-trending-github-repositories', '#rocket-trending-github-repositories')
+    updated_content = updated_content.replace('#-how-to-contribute-to-this-api-collection', '#handshake-how-to-contribute-to-this-api-collection')
+    updated_content = updated_content.replace('#-how-our-automated-api-tracking-works', '#gear-how-our-automated-api-tracking-works')
+    updated_content = updated_content.replace('#-license', '#page_with_curl-license')
+    
+    # Remove any merge conflict markers
+    updated_content = re.sub(r'<<<<<<< .*?\n', '', updated_content)
+    updated_content = re.sub(r'=======\n', '', updated_content)
+    updated_content = re.sub(r'>>>>>>> .*?\n', '', updated_content)
     
     # Write the updated content back to the README
     write_file(readme_path, updated_content)

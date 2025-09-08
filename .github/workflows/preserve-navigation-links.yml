@@ -2,7 +2,7 @@ name: Preserve Navigation Links
 
 on:
   push:
-    branches: [ main ]
+    branches: [ '**' ]  # Run on all branches
   schedule:
     # Run every hour
     - cron: '0 * * * *'
