@@ -3686,7 +3686,21 @@ This section is automatically updated daily with trending API-specific repositor
 | [freeCodeCamp/devdocs](https://github.com/freeCodeCamp/devdocs) | API Documentation Browser | 37.3k | Ruby |
 | [guzzle/guzzle](https://github.com/guzzle/guzzle) | Guzzle, an extensible PHP HTTP client | 23.4k | PHP |
 
-_Last updated: September 08, 2025_## 🤝 How to Contribute to This API Collection
+_Last updated: September 08, 2025_## 🔥 Trending GitHub Repositories
+
+This section is automatically updated daily with trending API-related repositories from GitHub. Discover what the community is building and using right now!
+
+| Repository | Description | Stars | Language |
+| --- | --- | --- | --- |
+| [openwrt/openwrt](https://github.com/openwrt/openwrt) | This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference on... | 23.7k | C |
+| [pathwaycom/llm-app](https://github.com/pathwaycom/llm-app) | Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker... | 35.7k | Jupyter Notebook |
+| [jellyfin/jellyfin-web](https://github.com/jellyfin/jellyfin-web) | The Free Software Media System - Official Web Client | 3.0k | JavaScript |
+| [jgraph/drawio](https://github.com/jgraph/drawio) | draw.io is a JavaScript, client-side editor for general diagramming. | 2.3k | JavaScript |
+| [SocialSisterYi/bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect) | 哔哩哔哩-API收集整理【不断更新中....】 | 18.7k | JavaScript |
+| [SuperSimpleDev/javascript-course](https://github.com/SuperSimpleDev/javascript-course) | Watch the course: https://youtu.be/EerdGm-ehJQ | 1.1k | JavaScript |
+
+_Last updated: September 08, 2025_
+## 🤝 How to Contribute to This API Collection
 
 This project thrives on community contributions! Whether you've discovered a new API or noticed changes in an existing one, your input helps keep this resource valuable for developers worldwide.
 
