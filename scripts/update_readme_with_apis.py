@@ -63,6 +63,68 @@ def update_readme_with_apis() -> None:
         if categories_list_start == -1 or categories_list_end == -1:
             print("Could not find API Categories list in README.md")
             return
+            
+        # Extract all category names from the data
+        category_names = [category['name'] for category in data['categories']]
+        
+        # Sort categories alphabetically
+        category_names.sort()
+        
+        # Create a table layout with 4 columns
+        num_categories = len(category_names)
+        rows = (num_categories + 3) // 4  # Ceiling division to ensure all categories fit
+        
+        # Create the categories table
+        categories_table = "<table>\n"
+        
+        # Add table header with emojis
+        categories_table += "<tr>\n"
+        categories_table += "  <th align=\"center\">🔐 Authentication & Security</th>\n"
+        categories_table += "  <th align=\"center\">🌐 Data & Content</th>\n"
+        categories_table += "  <th align=\"center\">💼 Business & Finance</th>\n"
+        categories_table += "  <th align=\"center\">🌍 Utilities & Tools</th>\n"
+        categories_table += "</tr>\n"
+        
+        # Add category emojis mapping
+        category_emojis = {
+            'Authentication': '🔐', 'Blockchain': '🔗', 'Business': '💼',
+            'Calendar': '📅', 'Cloud Storage': '💾', 'Communication': '💬',
+            'Cryptocurrency': '💰', 'Currency Exchange': '💱', 'Data Validation': '✅',
+            'Development': '👨‍💻', 'Email': '📧', 'Entertainment': '🎭',
+            'Environment': '🌍', 'Finance': '💵', 'Food & Drink': '🍽️',
+            'Games & Comics': '🎮', 'Geocoding': '🗺️', 'Government': '🏳️',
+            'Health': '💉', 'Jobs': '💼', 'Machine Learning': '🤖',
+            'Music': '🎵', 'News': '📰', 'Open Data': '📓',
+            'Open Source Projects': '👨‍💻', 'Patent': '📄', 'Personality': '😎',
+            'Phone': '📱', 'Photography': '📸', 'Science & Math': '🔬',
+            'Security': '🔒', 'Shopping': '🛍️', 'Social': '👥',
+            'Sports & Fitness': '⚽', 'Test Data': '📋', 'Text Analysis': '🔍',
+            'Tracking': '📍', 'Transportation': '🚌', 'URL Shorteners': '🖇️',
+            'Video': '🎥', 'Weather': '⛅'
+        }
+        
+        # Fill the table with categories
+        for row in range(rows):
+            categories_table += "<tr>\n"
+            
+            # Add up to 4 categories per row
+            for col in range(4):
+                index = row + col * rows
+                if index < num_categories:
+                    category = category_names[index]
+                    emoji = category_emojis.get(category, '💯')
+                    categories_table += f"  <td align=\"center\"><a href=\"#{category.lower().replace(' ', '-')}\">{emoji} {category}</a></td>\n"
+                else:
+                    categories_table += "  <td></td>\n"
+                    
+            categories_table += "</tr>\n"
+            
+        categories_table += "</table>\n\n"
+        
+        # Replace the bullet list with the table
+        categories_list = readme_content[categories_list_start:categories_list_end]
+        content_before = readme_content[:categories_list_start]
+        content_after_list = readme_content[categories_list_end:]
         
         # Find the start of the next major section after API Categories
         next_section_index = readme_content.find("## 🚀 Trending GitHub API Repositories", categories_list_end)
@@ -71,9 +133,19 @@ def update_readme_with_apis() -> None:
             print("Could not find next section after API Categories in README.md")
             return
         
+        # Create the new README content with the table replacing the bullet list
+        readme_content = content_before + categories_table + content_after_list
+        
+        # Find the start of the next major section after API Categories
+        next_section_index = readme_content.find("## 🚀 Trending GitHub API Repositories")
+        
+        if next_section_index == -1:
+            print("Could not find next section after API Categories in README.md")
+            return
+            
         # Extract the content before and after the API categories section
-        content_before = readme_content[:categories_list_end + 2]  # Include the newlines after the categories list
-        content_after = readme_content[next_section_index:]  # Everything from the next section onwards
+        content_before = readme_content[:next_section_index]
+        content_after = readme_content[next_section_index:]
         
         # Create the updated API categories content
         updated_categories_content = ""
