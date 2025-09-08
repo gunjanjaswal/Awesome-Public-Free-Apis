@@ -1,0 +1,32 @@
+CLEANUP INSTRUCTIONS
+
+To fix the GitHub Actions workflow issues, please follow these steps:
+
+1. Keep only the following workflow file:
+   - update-api-data.yml
+
+2. Delete these unnecessary workflow files:
+   - enhanced-api-discovery.yml
+   - preserve-navigation-links.yml
+   - preserve-readme-sections.yml
+   - update-all-on-push.yml
+   - update-apis.yml
+   - update-trending-api-repos.yml
+   - update-trending-repos.yml
+
+3. Delete these script files if they still exist:
+   - .github/scripts/fix-navigation-links.py
+   - .github/scripts/navigation-links.js
+   - .github/scripts/preserve-readme-sections.py
+
+4. Delete these other files if they still exist:
+   - .github/hooks/pre-commit
+   - setup-hooks.bat
+   - setup-hooks.sh
+   - keywords.md
+
+After deleting these files, the GitHub Actions workflow should work correctly and only perform the tasks you specified:
+- Weekly API Status Checks
+- Enhanced API Discovery
+- Monthly API Discovery
+- Daily updates of Trending GitHub API Repositories and Trending GitHub Repositories
