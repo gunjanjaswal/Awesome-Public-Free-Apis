@@ -1689,12 +1689,17 @@ This section is automatically updated daily with trending API-specific repositor
 | [guzzle/guzzle](https://github.com/guzzle/guzzle) | Guzzle, an extensible PHP HTTP client | 23.4k | PHP |
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 _Last updated: September 08, 2025_
 
 ## :rocket: Trending GitHub Repositories
 
 =======
 _Last updated: September 08, 2025_## :rocket: Trending GitHub Repositories
+>>>>>>> Stashed changes
+=======
+_Last updated: September 08, 2025_## :rocket: Trending GitHub Repositories
+
 >>>>>>> Stashed changes
 This section is automatically updated daily with trending API-related repositories from GitHub. Discover what the community is building and using right now!
 
@@ -1711,9 +1716,13 @@ This section is automatically updated daily with trending API-related repositori
 
 _Last updated: September 08, 2025_
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ## :handshake: How to Contribute to This API Collection
 =======
 
+## :handshake: How to Contribute to this API Collection
+>>>>>>> Stashed changes
+=======
 ## :handshake: How to Contribute to this API Collection
 >>>>>>> Stashed changes
 
