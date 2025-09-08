@@ -295,8 +295,6 @@ APIs for data validation related services
 ### 👨‍💻 Development ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)
 APIs for development related services
 
-*Note: Showing 100 of 282 APIs in this category.*
-
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
 | :--- | :--- | :---: | :---: | :---: |
 | <a href="https://www.adoptapet.com/public/apis/pet_list.html" target="_blank">AdoptAPet</a> | Resource to help get pets adopted | `apiKey` | Yes | yes |
