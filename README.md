@@ -1707,7 +1707,7 @@ This section is automatically updated daily with trending API-related repositori
 
 _Last updated: September 08, 2025_
 
-## :handshake: How to Contribute to This API Collection
+## :handshake: How to Contribute to this API Collection
 
 We welcome contributions from the community! Here's how you can help:
 
