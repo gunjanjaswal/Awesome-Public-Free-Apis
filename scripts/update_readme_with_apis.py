@@ -114,7 +114,7 @@ def update_readme_with_apis() -> None:
                     category = category_names[index]
                     emoji = category_emojis.get(category, '💯')
                     # Create anchor that matches GitHub's auto-generated header IDs
-                    # GitHub strips emojis and converts spaces to hyphens for header IDs
+                    # For GitHub, we need to use standard markdown headers and let GitHub generate the IDs
                     anchor = f"#{category.lower().replace(' ', '-').replace('&', '')}"
                     categories_table += f"  <td align=\"center\"><a href=\"{anchor}\">{emoji} {category}</a></td>\n"
                 else:
@@ -198,9 +198,8 @@ def update_readme_with_apis() -> None:
                 # Get emoji for category or use a default
                 category_emoji = category_emojis.get(category_name, '💯')
                 
-                # Add styled category header with emoji, HTML ID for anchor links, and divider
-                category_id = category_name.lower().replace(' ', '-').replace('&', '')
-                updated_categories_content += f"<h3 id=\"{category_id}\">{category_emoji} {category_name}</h3>\n{category.get('description', f'APIs for {category_name.lower()} related services.')}\n\n{selected_message}\n\n{colorful_divider}"
+                # Add styled category header with emoji using standard Markdown
+                updated_categories_content += f"### {category_emoji} {category_name}\n{category.get('description', f'APIs for {category_name.lower()} related services.')}\n\n{selected_message}\n\n{colorful_divider}"
                 continue
             
             # Create the API table for this category with enhanced styling
@@ -248,9 +247,8 @@ def update_readme_with_apis() -> None:
             api_count = len(category['apis'])
             badge = f"![{api_count} APIs](https://img.shields.io/badge/{api_count}-APIs-brightgreen)"
             
-            # Add the category section to the updated content with enhanced styling, HTML ID for anchor links, and divider
-            category_id = category_name.lower().replace(' ', '-').replace('&', '')
-            updated_categories_content += f"<h3 id=\"{category_id}\">{category_emoji} {category_name} {badge}</h3>\n{category.get('description', f'APIs for {category_name.lower()} related services.')}\n\n{api_table}\n\n{colorful_divider}"
+            # Add the category section to the updated content with enhanced styling using standard Markdown
+            updated_categories_content += f"### {category_emoji} {category_name} {badge}\n{category.get('description', f'APIs for {category_name.lower()} related services.')}\n\n{api_table}\n\n{colorful_divider}"
             print(f"Added category section for {category_name} with {len(category['apis'])} APIs")
         
         # Add a 'Last updated' date and update schedules after the API categories section
