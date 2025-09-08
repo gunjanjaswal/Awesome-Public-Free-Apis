@@ -34,6 +34,9 @@ jobs:
       - name: Run Enhanced API Scrapers
         run: python scripts/enhanced_api_scrapers.py
         
+      - name: Update README with APIs
+        run: python scripts/update_readme_with_apis.py
+        
       - name: Check for changes
         id: git-check
         run: |

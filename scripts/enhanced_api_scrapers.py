@@ -607,10 +607,6 @@ def add_new_apis(data: Dict[str, Any], new_apis: List[Dict[str, Any]]) -> Dict[s
     updated_data['metadata']['total_apis'] = total_apis
     updated_data['metadata']['last_updated'] = datetime.datetime.now().isoformat()
     
-    # Update README.md with the new APIs
-    if added_count > 0:
-        update_readme_with_apis(updated_data, list(updated_categories))
-    
     print(f"Added {added_count} new APIs")
     return updated_data
 
