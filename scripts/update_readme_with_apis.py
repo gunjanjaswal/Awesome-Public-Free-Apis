@@ -11,6 +11,11 @@ import re
 import datetime
 from typing import Dict, List, Any
 
+def generate_anchor_id(category_name: str) -> str:
+    """Generate a consistent anchor ID from a category name."""
+    # Convert to lowercase and replace spaces, ampersands, and underscores
+    return category_name.lower().replace(' ', '-').replace('&', '').replace('_', '')
+
 # Constants
 README_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'README.md')
 DATA_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'apis.json')
@@ -102,9 +107,9 @@ def update_readme_with_apis() -> None:
                     api_count = len(category['apis'])
                     break
             
-            # Create the anchor link without API count for simplicity
-            clean_category = category_name.lower().replace(' ', '-').replace('&', '').replace('_', '')
-            categories_list_content += f"- [{emoji} {category_name}](#{clean_category})\n"
+            # Create the anchor link with consistent ID format
+            anchor_id = generate_anchor_id(category_name)
+            categories_list_content += f"- [{emoji} {category_name}](#{anchor_id})\n"
         
         categories_list_content += "\n\n"
         
@@ -123,6 +128,9 @@ def update_readme_with_apis() -> None:
         # Update the README content with the new categories list
         updated_content = content_before + categories_list_content + content_after_list
         
+        # Find where the API categories content actually starts (after the categories list)
+        api_content_start = categories_list_end + 2  # Skip the newlines after the list
+        
         # Find the start of the next major section after API Categories
         next_section_index = updated_content.find("## 🚀 Trending GitHub API Repositories")
         
@@ -130,8 +138,8 @@ def update_readme_with_apis() -> None:
             print("Could not find next section after API Categories in README.md")
             return
             
-        # Extract the content before and after the API categories section
-        content_before = readme_content[:next_section_index]
+        # Extract the content before the API categories content and after the next section
+        content_before = updated_content[:api_content_start]
         content_after = readme_content[next_section_index:]
         
         # Create the updated API categories content
@@ -183,7 +191,7 @@ def update_readme_with_apis() -> None:
                 category_emoji = category_emojis.get(category_name, '💯')
                 
                 # Add the category section with explicit HTML ID for reliable anchor links
-                category_id = category_name.lower().replace(' ', '-').replace('&', '').replace('_', '')
+                category_id = generate_anchor_id(category_name)
                 updated_categories_content += f"<a id=\"{category_id}\"></a>\n### {category_emoji} {category_name}\n{category.get('description', f'APIs for {category_name.lower()} related services.')}\n\n{selected_message}\n\n{colorful_divider}"
                 continue
             
@@ -231,7 +239,7 @@ def update_readme_with_apis() -> None:
             # Add styled category header with emoji and count badge
             api_count = len(category['apis'])
             badge = f"![{api_count} APIs](https://img.shields.io/badge/{api_count}-APIs-brightgreen)"
-            category_id = category_name.lower().replace(' ', '-').replace('&', '').replace('_', '')
+            category_id = generate_anchor_id(category_name)
             
             # Add the category section with explicit HTML ID for reliable anchor links
             updated_categories_content += f"<a id=\"{category_id}\"></a>\n### {category_emoji} {category_name} {badge}\n{category.get('description', f'APIs for {category_name.lower()} related services.')}\n\n{api_table}\n\n{colorful_divider}"
