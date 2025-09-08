@@ -1692,21 +1692,28 @@ _Last updated: September 08, 2025_
 <!-- BEGIN TRENDING REPOSITORIES SECTION - DO NOT REMOVE OR MODIFY THIS COMMENT -->
 ## :rocket: Trending GitHub Repositories
 
-Updated daily with trending repositories from GitHub across all categories. These repositories represent the most active and popular projects on GitHub.
+This section is automatically updated daily with trending API-related repositories from GitHub. Discover what the community is building and using right now!
 
 | Repository | Description | Stars | Language |
 | --- | --- | --- | --- |
-| [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | Windows system utilities to maximize productivity | 98.5k | C# |
-| [openai/whisper](https://github.com/openai/whisper) | Robust Speech Recognition via Large-Scale Weak Supervision | 54.2k | Python |
-| [vercel/next.js](https://github.com/vercel/next.js) | The React Framework for the Web | 115.3k | JavaScript |
-| [rust-lang/rust](https://github.com/rust-lang/rust) | Empowering everyone to build reliable and efficient software | 89.7k | Rust |
-| [flutter/flutter](https://github.com/flutter/flutter) | Build high-performance, high-fidelity, apps for iOS, Android, web, & desktop | 159.2k | Dart |
+| [openwrt/openwrt](https://github.com/openwrt/openwrt) | This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference on... | 23.7k | C |
+| [PrismarineJS/mineflayer](https://github.com/PrismarineJS/mineflayer) | Create Minecraft bots with a powerful, stable, and high level JavaScript API. | 6.1k | JavaScript |
+| [jellyfin/jellyfin-web](https://github.com/jellyfin/jellyfin-web) | The Free Software Media System - Official Web Client | 3.0k | JavaScript |
+| [openwrt/luci](https://github.com/openwrt/luci) | LuCI - OpenWrt Configuration Interface | 7.1k | JavaScript |
+| [SocialSisterYi/bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect) | 哔哩哔哩-API收集整理【不断更新中....】 | 18.7k | JavaScript |
+| [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server) | 🔥 Official Firecrawl MCP Server - Adds powerful web scraping to Cursor, Claude and any other LLM ... | 4.4k | JavaScript |
+| [SuperSimpleDev/javascript-course](https://github.com/SuperSimpleDev/javascript-course) | Watch the course: https://youtu.be/EerdGm-ehJQ | 1.2k | JavaScript |
+| [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) | 30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programmi... | 45.1k | JavaScript |
 
 _Last updated: September 08, 2025_
+<<<<<<< Updated upstream
 <!-- END TRENDING REPOSITORIES SECTION - DO NOT REMOVE OR MODIFY THIS COMMENT -->
 
 <!-- BEGIN HOW TO CONTRIBUTE SECTION - DO NOT REMOVE OR MODIFY THIS COMMENT -->
 ## :handshake: How to Contribute to this API Collection
+=======
+## :handshake: How to Contribute to This API Collection
+>>>>>>> Stashed changes
 
 We welcome contributions from the community! Here's how you can help:
 
