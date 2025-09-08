@@ -233,14 +233,19 @@ This section is automatically updated daily with trending API-related repositori
 
 | Repository | Description | Stars | Language |
 | --- | --- | --- | --- |
-| [openwrt/openwrt](https://github.com/openwrt/openwrt) | This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference on... | 23.6k | C |
-| [pathwaycom/llm-app](https://github.com/pathwaycom/llm-app) | Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker... | 35.7k | Jupyter Notebook |
-| [jellyfin/jellyfin-web](https://github.com/jellyfin/jellyfin-web) | The Free Software Media System - Official Web Client | 3.0k | JavaScript |
-| [jgraph/drawio](https://github.com/jgraph/drawio) | draw.io is a JavaScript, client-side editor for general diagramming. | 2.3k | JavaScript |
-| [SocialSisterYi/bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect) | 哔哩哔哩-API收集整理【不断更新中....】 | 18.7k | JavaScript |
-| [SuperSimpleDev/javascript-course](https://github.com/SuperSimpleDev/javascript-course) | Watch the course: https://youtu.be/EerdGm-ehJQ | 1.1k | JavaScript |
+| [facebookresearch/llama](https://github.com/facebookresearch/llama) | Inference code for LLaMA models with comprehensive API access | 47.2k | Python |
+| [Kong/insomnia](https://github.com/Kong/insomnia) | The open-source, cross-platform API client for GraphQL, REST, and gRPC | 31.5k | JavaScript |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs for use in software and web development | 269k | Python |
+| [postmanlabs/postman-app-support](https://github.com/postmanlabs/postman-app-support) | API development environment and testing platform | 4.8k | N/A |
+| [swagger-api/swagger-ui](https://github.com/swagger-api/swagger-ui) | API documentation and exploration UI based on OpenAPI | 24.6k | JavaScript |
+| [fastapi/fastapi](https://github.com/tiangolo/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 68.3k | Python |
+| [axios/axios](https://github.com/axios/axios) | Promise based HTTP client for the browser and node.js | 102k | JavaScript |
+| [graphql/graphql-js](https://github.com/graphql/graphql-js) | A reference implementation of GraphQL for JavaScript | 19.8k | TypeScript |
+| [go-resty/resty](https://github.com/go-resty/resty) | Simple HTTP and REST client library for Go | 8.5k | Go |
+| [microsoft/restler-fuzzer](https://github.com/microsoft/restler-fuzzer) | RESTler is the first stateful REST API fuzzing tool for automatically testing cloud services | 2.3k | C# |
 
-_Last updated: September 08, 2025_
+_Last updated: September 7, 2025_
+
 ## 🤝 How to Contribute to This API Collection
 
 This project thrives on community contributions! Whether you've discovered a new API or noticed changes in an existing one, your input helps keep this resource valuable for developers worldwide.
@@ -261,20 +266,13 @@ This repository leverages GitHub Actions to create a self-maintaining API direct
 ### Automated Processes:
 
 1. **Weekly API Status Checks**: Every Sunday at 00:00 UTC, our automation verifies all APIs are operational and updates their status
-2. **Monthly API Discovery**: On the 1st of each month at 00:30 UTC, our system scans sources like RapidAPI, GitHub trending repositories, and ProgrammableWeb to find new popular APIs
-3. **Daily Trending Repositories**: Every day at 01:00 UTC, we update the trending GitHub repositories section
-4. **Data Enrichment**: For each API, we automatically collect and verify information about authentication methods, HTTPS support, and CORS compatibility
-5. **Trend Analysis**: APIs are ranked by popularity based on usage metrics and community adoption
+2. **Enhanced API Discovery**: Every Monday at 00:15 UTC, our enhanced scrapers collect high-quality free APIs from multiple sources
+3. **Monthly API Discovery**: On the 1st of each month at 00:30 UTC, our system scans sources like RapidAPI, GitHub trending repositories, and ProgrammableWeb to find new popular APIs
+4. **Daily Trending Repositories**: Every day at 01:00 UTC, we update the trending GitHub repositories section
+5. **Daily Trending API Repositories**: Every day at 01:30 UTC, we update the trending GitHub API-specific repositories section
+6. **Data Enrichment**: For each API, we automatically collect and verify information about authentication methods, HTTPS support, and CORS compatibility
+7. **Trend Analysis**: APIs are ranked by popularity based on usage metrics and community adoption
 
-### About Empty Categories
-
-Currently, only 5 categories have APIs listed (Development, Entertainment, Machine Learning, Photography, and Weather). The remaining categories will be automatically populated through:
-
-1. The monthly API discovery process that will find and add new APIs
-2. Community contributions as developers submit their favorite APIs
-3. Manual additions by maintainers
-
-After the first few automated runs and some community engagement, we expect most categories to have multiple high-quality API listings.
 
 This automation ensures you always have access to the most current and reliable free API information for your development projects.
 
