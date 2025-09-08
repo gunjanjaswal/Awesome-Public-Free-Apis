@@ -383,7 +383,6 @@ APIs for data validation related services
 ### 👨‍💻 Development ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)
 APIs for development related services
 
-*Note: Showing 100 of 282 APIs in this category.*
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
 | :--- | :--- | :---: | :---: | :---: |
@@ -2036,7 +2035,6 @@ APIs for data validation related services
 ### 👨‍💻 Development ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)
 APIs for development related services
 
-*Note: Showing 100 of 282 APIs in this category.*
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
 | :--- | :--- | :---: | :---: | :---: |
