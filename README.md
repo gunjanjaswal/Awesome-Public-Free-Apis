@@ -105,11 +105,6 @@ This section is automatically updated daily with trending API-related repositori
 | [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) | 30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programmi... | 45.1k | JavaScript |
 
 _Last updated: September 08, 2025_
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<!-- END TRENDING REPOSITORIES SECTION - DO NOT REMOVE OR MODIFY THIS COMMENT -->
-
-<!-- BEGIN HOW TO CONTRIBUTE SECTION - DO NOT REMOVE OR MODIFY THIS COMMENT -->
 ## :handshake: How to Contribute to this API Collection
 =======
 ## :handshake: How to Contribute to This API Collection
