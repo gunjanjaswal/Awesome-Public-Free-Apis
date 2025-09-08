@@ -12,7 +12,7 @@
 
 The ultimate, self-updating collection of **free public REST APIs** for developers to integrate into web applications, mobile apps, and software projects. Automatically discovers and tracks the most popular and reliable free APIs across 40+ categories.
 
-[Browse APIs by Category](#card_index-api-categories---find-the-perfect-api-for-your-project) • [Trending API Repositories](#rocket-trending-github-api-repositories) • [Trending GitHub Repositories](#rocket-trending-github-repositories) • [How to Contribute](#handshake-how-to-contribute-to-this-api-collection) • [Automation Details](#gear-how-our-automated-api-tracking-works) • [License](#page_with_curl-license) • [☕ Buy Me a Coffee](https://buymeacoffee.com/gunjanjaswal)
+[Browse APIs by Category](#-api-categories---find-the-perfect-api-for-your-project) • [Trending GitHub Repositories](#-trending-github-repositories) • [How to Contribute](#-how-to-contribute-to-this-api-collection) • [Automation Details](#-how-our-automated-api-tracking-works) • [License](#-license)
 
 </div>
 
@@ -1706,7 +1706,7 @@ This section is automatically updated daily with trending API-related repositori
 | [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) | 30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programmi... | 45.1k | JavaScript |
 
 _Last updated: September 08, 2025_
-## :handshake: How to Contribute to This API Collection
+## :handshake: How to Contribute to this API Collection
 
 We welcome contributions from the community! Here's how you can help:
 
@@ -1732,13 +1732,3 @@ This repository uses automation to keep the API collection fresh and relevant:
 ## :page_with_curl: License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-<!-- SEO KEYWORDS - DO NOT REMOVE OR MODIFY THIS SECTION -->
-<div align="center">
-<details>
-<summary>Keywords for Better Discovery</summary>
-
-free apis, public apis, rest apis, api collection, developer tools, web development, api documentation, programming resources, json apis, http apis, api integration, backend development, frontend development, software development, api testing, api reference, open source apis, no authentication apis, free data sources, api directory, api catalog, api list, developer resources, coding resources, api hub, api repository, api database, api endpoints, api services, api toolkit, web services, data apis, third-party apis, external apis, api documentation, api examples, api tutorials, api guides, api implementation, api usage, api consumption, api providers, api registry, api index, api search, api discovery, api marketplace, api ecosystem, api community, api standards, api protocols, api specifications, api best practices, api security, api authentication, api rate limits, api versioning, api monitoring, api analytics, api performance, api reliability, api availability, api scalability
-
-</details>
-</div>
