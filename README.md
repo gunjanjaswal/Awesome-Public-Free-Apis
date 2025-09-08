@@ -78,6 +78,8 @@ APIs related to authentication, authorization, and identity management
 ### Blockchain
 APIs related to blockchain technology and distributed ledgers
 
+🌱 This category is freshly planted. APIs will sprout soon!
+
 ### Business
 APIs for business operations, CRM, ERP, and other business functions
 
@@ -157,6 +159,8 @@ APIs for cloud storage and file management
 
 ### Communication
 APIs for messaging, chat, and other communication services
+
+📡 Scanning the digital universe for the best APIs in this category...
 
 ### Cryptocurrency
 APIs for cryptocurrency data and transactions
@@ -1641,6 +1645,8 @@ APIs for tracking various types of data
 ### Transportation
 APIs for transportation data and services
 
+🏗️ Under construction! We're building something awesome here.
+
 ### URL Shorteners
 APIs for URL shortening services
 
@@ -1774,20 +1780,28 @@ This section is automatically updated daily with trending API-specific repositor
 | [freeCodeCamp/devdocs](https://github.com/freeCodeCamp/devdocs) | API Documentation Browser | 37.3k | Ruby |
 | [guzzle/guzzle](https://github.com/guzzle/guzzle) | Guzzle, an extensible PHP HTTP client | 23.4k | PHP |
 
-_Last updated: September 08, 2025_## 🔥 Trending GitHub Repositories
+_Last updated: September 08, 2025_
+
+
+## 🔥 Trending GitHub Repositories
 
 This section is automatically updated daily with trending API-related repositories from GitHub. Discover what the community is building and using right now!
 
 | Repository | Description | Stars | Language |
 | --- | --- | --- | --- |
-| [openwrt/openwrt](https://github.com/openwrt/openwrt) | This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference on... | 23.7k | C |
-| [pathwaycom/llm-app](https://github.com/pathwaycom/llm-app) | Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker... | 35.7k | Jupyter Notebook |
-| [jellyfin/jellyfin-web](https://github.com/jellyfin/jellyfin-web) | The Free Software Media System - Official Web Client | 3.0k | JavaScript |
-| [jgraph/drawio](https://github.com/jgraph/drawio) | draw.io is a JavaScript, client-side editor for general diagramming. | 2.3k | JavaScript |
-| [SocialSisterYi/bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect) | 哔哩哔哩-API收集整理【不断更新中....】 | 18.7k | JavaScript |
-| [SuperSimpleDev/javascript-course](https://github.com/SuperSimpleDev/javascript-course) | Watch the course: https://youtu.be/EerdGm-ehJQ | 1.1k | JavaScript |
+| [facebookresearch/llama](https://github.com/facebookresearch/llama) | Inference code for LLaMA models with comprehensive API access | 47.2k | Python |
+| [Kong/insomnia](https://github.com/Kong/insomnia) | The open-source, cross-platform API client for GraphQL, REST, and gRPC | 31.5k | JavaScript |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs for use in software and web development | 269k | Python |
+| [postmanlabs/postman-app-support](https://github.com/postmanlabs/postman-app-support) | API development environment and testing platform | 4.8k | N/A |
+| [swagger-api/swagger-ui](https://github.com/swagger-api/swagger-ui) | API documentation and exploration UI based on OpenAPI | 24.6k | JavaScript |
+| [fastapi/fastapi](https://github.com/tiangolo/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 68.3k | Python |
+| [axios/axios](https://github.com/axios/axios) | Promise based HTTP client for the browser and node.js | 102k | JavaScript |
+| [graphql/graphql-js](https://github.com/graphql/graphql-js) | A reference implementation of GraphQL for JavaScript | 19.8k | TypeScript |
+| [go-resty/resty](https://github.com/go-resty/resty) | Simple HTTP and REST client library for Go | 8.5k | Go |
+| [microsoft/restler-fuzzer](https://github.com/microsoft/restler-fuzzer) | RESTler is the first stateful REST API fuzzing tool for automatically testing cloud services | 2.3k | C# |
 
-_Last updated: September 08, 2025_
+_Last updated: September 8, 2025_
+
 ## 🤝 How to Contribute to This API Collection
 
 This project thrives on community contributions! Whether you've discovered a new API or noticed changes in an existing one, your input helps keep this resource valuable for developers worldwide.

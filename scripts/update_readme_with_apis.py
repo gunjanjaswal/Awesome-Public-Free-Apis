@@ -80,8 +80,26 @@ def update_readme_with_apis() -> None:
             category_name = category['name']
             
             if not category['apis']:
-                # Add empty category placeholder
-                updated_categories_content += f"### {category_name}\n{category.get('description', f'APIs for {category_name.lower()} related services.')}\n\n"
+                # Add witty placeholder for empty categories
+                witty_messages = [
+                    "🔍 APIs for this category are playing hide and seek. Check back soon!",
+                    "⏳ APIs loading... Estimated time of arrival: sooner than you think!",
+                    "🧙‍♂️ Our API wizards are brewing something special for this category.",
+                    "🚀 APIs for this section are currently in orbit. Landing soon!",
+                    "🔮 The crystal ball says APIs will appear here in the near future.",
+                    "🏗️ Under construction! We're building something awesome here.",
+                    "🌱 This category is freshly planted. APIs will sprout soon!",
+                    "📡 Scanning the digital universe for the best APIs in this category...",
+                    "🎁 APIs for this category are being wrapped. Surprise coming soon!",
+                    "🧩 The final pieces of this API puzzle are being assembled."
+                ]
+                
+                # Use category name to consistently select the same message for the same category
+                import hashlib
+                hash_value = int(hashlib.md5(category_name.encode()).hexdigest(), 16)
+                selected_message = witty_messages[hash_value % len(witty_messages)]
+                
+                updated_categories_content += f"### {category_name}\n{category.get('description', f'APIs for {category_name.lower()} related services.')}\n\n{selected_message}\n\n"
                 continue
             
             # Create the API table for this category
