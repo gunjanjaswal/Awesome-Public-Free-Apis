@@ -2,12 +2,14 @@
 """
 This script updates API data in the README.md file.
 It fetches trending repositories, API status, and other information.
+It also updates all date references in the README.md file.
 """
 
 import os
 import re
 import json
 import datetime
+from datetime import timedelta
 import requests
 from bs4 import BeautifulSoup
 
@@ -101,6 +103,46 @@ _Last updated: {current_date}_
     
     return readme_content
 
+def update_schedule_dates(readme_content):
+    """
+    Update the API Categories last updated date and the next scheduled dates.
+    """
+    current_date = datetime.datetime.now()
+    current_date_str = current_date.strftime("%B %d, %Y")
+    
+    # Update API Categories last updated date
+    api_categories_pattern = r"_API Categories last updated: .*?_"
+    readme_content = re.sub(api_categories_pattern, f"_API Categories last updated: {current_date_str}_", readme_content)
+    
+    # Calculate next scheduled dates
+    # Weekly API Status Checks (every Sunday)
+    next_sunday = current_date + timedelta((6 - current_date.weekday()) % 7)
+    next_sunday_str = next_sunday.strftime("%B %d, %Y")
+    
+    # Enhanced API Discovery (every Monday)
+    next_monday = current_date + timedelta((7 - current_date.weekday()) % 7)
+    next_monday_str = next_monday.strftime("%B %d, %Y")
+    
+    # Monthly API Discovery (1st of each month)
+    if current_date.day == 1:
+        next_month = current_date.replace(day=1) + timedelta(days=32)
+        next_month = next_month.replace(day=1)
+    else:
+        next_month = current_date.replace(day=1) + timedelta(days=32)
+        next_month = next_month.replace(day=1)
+    next_month_str = next_month.strftime("%B %d, %Y")
+    
+    # Update schedule dates
+    weekly_check_pattern = r"Weekly API Status Checks \(Next: .*?\)"
+    enhanced_discovery_pattern = r"Enhanced API Discovery \(Next: .*?\)"
+    monthly_discovery_pattern = r"Monthly API Discovery \(Next: .*?\)"
+    
+    readme_content = re.sub(weekly_check_pattern, f"Weekly API Status Checks (Next: {next_sunday_str})", readme_content)
+    readme_content = re.sub(enhanced_discovery_pattern, f"Enhanced API Discovery (Next: {next_monday_str})", readme_content)
+    readme_content = re.sub(monthly_discovery_pattern, f"Monthly API Discovery (Next: {next_month_str})", readme_content)
+    
+    return readme_content
+
 def main():
     """Main function to update the README."""
     readme_path = "README.md"
@@ -111,6 +153,9 @@ def main():
     
     # Update trending repositories sections
     updated_content = update_trending_repositories_section(readme_content)
+    
+    # Update schedule dates
+    updated_content = update_schedule_dates(updated_content)
     
     # Write the updated content back to the README
     with open(readme_path, "w", encoding="utf-8") as f:
