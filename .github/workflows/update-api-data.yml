@@ -41,6 +41,7 @@ jobs:
       - name: Update API data
         run: |
           python .github/scripts/update-api-data.py
+          echo "Script execution completed"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -49,10 +50,20 @@ jobs:
           git config --local user.email "gunjanjaswal@gmail.com"
           git config --local user.name "Gunjan Jaswaal"
           git add README.md
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update API data and preserve custom sections"
+          git status
+          echo "Checking for changes to commit..."
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            echo "Committing changes..."
+            git commit -m "Update API data and date references"
+            echo "Changes committed"
+          fi
         
       - name: Push changes
-        uses: actions-js/push@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+        run: |
+          echo "Pushing changes..."
+          git push origin HEAD:${GITHUB_REF#refs/heads/}
+          echo "Changes pushed"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

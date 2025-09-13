@@ -147,21 +147,49 @@ def main():
     """Main function to update the README."""
     readme_path = "README.md"
     
-    # Read the current README content
-    with open(readme_path, "r", encoding="utf-8") as f:
-        readme_content = f.read()
-    
-    # Update trending repositories sections
-    updated_content = update_trending_repositories_section(readme_content)
-    
-    # Update schedule dates
-    updated_content = update_schedule_dates(updated_content)
-    
-    # Write the updated content back to the README
-    with open(readme_path, "w", encoding="utf-8") as f:
-        f.write(updated_content)
-    
-    print("README updated successfully.")
+    try:
+        print(f"[{datetime.datetime.now()}] Starting README update process...")
+        
+        # Read the current README content
+        print(f"[{datetime.datetime.now()}] Reading README content...")
+        with open(readme_path, "r", encoding="utf-8") as f:
+            readme_content = f.read()
+        
+        # Update trending repositories sections
+        print(f"[{datetime.datetime.now()}] Updating trending repositories sections...")
+        updated_content = update_trending_repositories_section(readme_content)
+        
+        # Update schedule dates
+        print(f"[{datetime.datetime.now()}] Updating schedule dates...")
+        updated_content = update_schedule_dates(updated_content)
+        
+        # Write the updated content back to the README
+        print(f"[{datetime.datetime.now()}] Writing updated content back to README...")
+        with open(readme_path, "w", encoding="utf-8") as f:
+            f.write(updated_content)
+        
+        # Verify the updates were written correctly
+        print(f"[{datetime.datetime.now()}] Verifying updates...")
+        with open(readme_path, "r", encoding="utf-8") as f:
+            verification_content = f.read()
+        
+        # Check if the dates were updated properly
+        current_date_str = datetime.datetime.now().strftime("%B %d, %Y")
+        if f"_API Categories last updated: {current_date_str}_" in verification_content:
+            print(f"[{datetime.datetime.now()}] API Categories date updated successfully.")
+        else:
+            print(f"[{datetime.datetime.now()}] WARNING: API Categories date may not have been updated properly.")
+            
+        if f"_Last updated: {current_date_str}_" in verification_content:
+            print(f"[{datetime.datetime.now()}] Trending repositories dates updated successfully.")
+        else:
+            print(f"[{datetime.datetime.now()}] WARNING: Trending repositories dates may not have been updated properly.")
+        
+        print(f"[{datetime.datetime.now()}] README updated successfully.")
+        
+    except Exception as e:
+        print(f"[{datetime.datetime.now()}] ERROR: An error occurred while updating the README: {str(e)}")
+        raise
 
 if __name__ == "__main__":
     main()
