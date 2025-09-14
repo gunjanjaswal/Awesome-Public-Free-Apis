@@ -1700,6 +1700,7 @@ _Last updated: September 14, 2025_
 
 
 
+
 ## :rocket: Trending GitHub Repositories
 
 This section is automatically updated daily with trending API-related repositories from GitHub. Discover what the community is building and using right now!
@@ -1716,6 +1717,7 @@ This section is automatically updated daily with trending API-related repositori
 | [encode/django-rest-framework](https://github.com/encode/django-rest-framework) | Web APIs for Django. 🎸 | 29.5k | Python |
 
 _Last updated: September 14, 2025_
+
 
 
 
