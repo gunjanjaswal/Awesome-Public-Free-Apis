@@ -1685,7 +1685,7 @@ This section is automatically updated daily with trending API-specific repositor
 
 | Repository | Description | Stars | Language |
 | --- | --- | --- | --- |
-| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | 365.0k | Python |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | 365.1k | Python |
 | [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 109.9k | JavaScript |
 | [neovim/neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 92.8k | Vim Script |
 | [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | JavaScript API for Chrome and Firefox | 92.3k | TypeScript |
@@ -1693,6 +1693,7 @@ This section is automatically updated daily with trending API-specific repositor
 | [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | 88.4k | Python |
 
 _Last updated: September 15, 2025_
+
 
 
 
@@ -1720,6 +1721,7 @@ This section is automatically updated daily with trending API-related repositori
 | [encode/django-rest-framework](https://github.com/encode/django-rest-framework) | Web APIs for Django. 🎸 | 29.5k | Python |
 
 _Last updated: September 15, 2025_
+
 
 
 
