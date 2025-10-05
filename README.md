@@ -1670,7 +1670,7 @@ APIs for weather related services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-_API Categories last updated: October 04, 2025_
+_API Categories last updated: October 05, 2025_
 
 **API Update Schedule:**
 - Weekly API Status Checks (Next: October 05, 2025)
@@ -1692,7 +1692,8 @@ This section is automatically updated daily with trending API-specific repositor
 | [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 90.4k | Python |
 | [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | 90.0k | Python |
 
-_Last updated: October 04, 2025_
+_Last updated: October 05, 2025_
+
 
 
 
@@ -1763,7 +1764,8 @@ This section is automatically updated daily with trending API-related repositori
 | [httpie/cli](https://github.com/httpie/cli) | 🥧 HTTPie CLI  — modern, user-friendly command-line HTTP client for the API era. JSON support, colors... | 36.7k | Python |
 | [OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification) | The OpenAPI Specification Repository | 30.4k | Markdown |
 
-_Last updated: October 04, 2025_
+_Last updated: October 05, 2025_
+
 
 
 
