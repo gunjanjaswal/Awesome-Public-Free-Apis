@@ -1768,6 +1768,7 @@ _Last updated: October 13, 2025_
 
 
 
+
 ## :rocket: Trending GitHub Repositories
 
 This section is automatically updated daily with trending API-related repositories from GitHub. Discover what the community is building and using right now!
@@ -1777,13 +1778,14 @@ This section is automatically updated daily with trending API-related repositori
 | [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 90.7k | Python |
 | [gin-gonic/gin](https://github.com/gin-gonic/gin) | Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with ... | 86.4k | Go |
 | [typicode/json-server](https://github.com/typicode/json-server) | Get a full fake REST API with zero coding in less than 30 seconds (seriously) | 75.2k | JavaScript |
-| [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) | Open source API development ecosystem - https://hoppscotch.io (open-source alternative to Postman, I... | 74.9k | TypeScript |
+| [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) | Open source API development ecosystem - https://hoppscotch.io (open-source alternative to Postman, I... | 75.0k | TypeScript |
 | [strapi/strapi](https://github.com/strapi/strapi) | 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizabl... | 69.9k | TypeScript |
 | [Kong/insomnia](https://github.com/Kong/insomnia) | The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, ... | 37.3k | TypeScript |
 | [httpie/cli](https://github.com/httpie/cli) | 🥧 HTTPie CLI  — modern, user-friendly command-line HTTP client for the API era. JSON support, colors... | 36.7k | Python |
 | [OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification) | The OpenAPI Specification Repository | 30.4k | Markdown |
 
 _Last updated: October 13, 2025_
+
 
 
 
