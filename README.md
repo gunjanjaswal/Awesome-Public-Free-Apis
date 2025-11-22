@@ -1670,7 +1670,7 @@ APIs for weather related services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-_API Categories last updated: November 21, 2025_
+_API Categories last updated: November 22, 2025_
 
 **API Update Schedule:**
 - Weekly API Status Checks (Next: November 23, 2025)
@@ -1685,14 +1685,15 @@ This section is automatically updated daily with trending API-specific repositor
 
 | Repository | Description | Stars | Language |
 | --- | --- | --- | --- |
-| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | 379.8k | Python |
-| [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 115.8k | JavaScript |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | 380.0k | Python |
+| [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 115.9k | JavaScript |
 | [neovim/neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 94.4k | Vim Script |
-| [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | 94.1k | Python |
+| [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | 94.2k | Python |
 | [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | JavaScript API for Chrome and Firefox | 92.9k | TypeScript |
 | [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 92.1k | Python |
 
-_Last updated: November 21, 2025_
+_Last updated: November 22, 2025_
+
 
 
 
@@ -1871,10 +1872,11 @@ This section is automatically updated daily with trending API-related repositori
 | [typicode/json-server](https://github.com/typicode/json-server) | Get a full fake REST API with zero coding in less than 30 seconds (seriously) | 75.4k | JavaScript |
 | [strapi/strapi](https://github.com/strapi/strapi) | 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizabl... | 70.4k | TypeScript |
 | [Kong/insomnia](https://github.com/Kong/insomnia) | The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, ... | 37.6k | TypeScript |
-| [httpie/cli](https://github.com/httpie/cli) | 🥧 HTTPie CLI  — modern, user-friendly command-line HTTP client for the API era. JSON support, colors... | 37.0k | Python |
+| [httpie/cli](https://github.com/httpie/cli) | 🥧 HTTPie CLI  — modern, user-friendly command-line HTTP client for the API era. JSON support, colors... | 37.1k | Python |
 | [OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification) | The OpenAPI Specification Repository | 30.6k | Markdown |
 
-_Last updated: November 21, 2025_
+_Last updated: November 22, 2025_
+
 
 
 
