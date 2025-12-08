@@ -1687,12 +1687,13 @@ This section is automatically updated daily with trending API-specific repositor
 | --- | --- | --- | --- |
 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | 383.1k | Python |
 | [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 117.2k | Svelte |
-| [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | 96.0k | Python |
+| [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | 96.1k | Python |
 | [neovim/neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 94.8k | Vim Script |
 | [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | JavaScript API for Chrome and Firefox | 93.0k | TypeScript |
 | [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 92.8k | Python |
 
 _Last updated: December 08, 2025_
+
 
 
 
@@ -1914,6 +1915,7 @@ This section is automatically updated daily with trending API-related repositori
 | [OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification) | The OpenAPI Specification Repository | 30.7k | Markdown |
 
 _Last updated: December 08, 2025_
+
 
 
 
