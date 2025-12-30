@@ -1670,11 +1670,11 @@ APIs for weather related services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-_API Categories last updated: December 29, 2025_
+_API Categories last updated: December 30, 2025_
 
 **API Update Schedule:**
 - Weekly API Status Checks (Next: January 04, 2026)
-- Enhanced API Discovery (Next: December 29, 2025)
+- Enhanced API Discovery (Next: January 05, 2026)
 - Monthly API Discovery (Next: January 01, 2026)
 
 <!-- END API CATEGORIES SECTION - DO NOT REMOVE OR MODIFY THIS COMMENT -->
@@ -1685,14 +1685,15 @@ This section is automatically updated daily with trending API-specific repositor
 
 | Repository | Description | Stars | Language |
 | --- | --- | --- | --- |
-| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | 388.3k | Python |
-| [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 119.2k | Svelte |
-| [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | 98.4k | Python |
-| [neovim/neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 95.2k | Vim Script |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | 388.5k | Python |
+| [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 119.3k | Svelte |
+| [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | 98.5k | Python |
+| [neovim/neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 95.3k | Vim Script |
 | [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 93.5k | Python |
 | [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | JavaScript API for Chrome and Firefox | 93.2k | TypeScript |
 
-_Last updated: December 29, 2025_
+_Last updated: December 30, 2025_
+
 
 
 
@@ -1963,7 +1964,8 @@ This section is automatically updated daily with trending API-related repositori
 | [httpie/cli](https://github.com/httpie/cli) | 🥧 HTTPie CLI  — modern, user-friendly command-line HTTP client for the API era. JSON support, colors... | 37.3k | Python |
 | [OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification) | The OpenAPI Specification Repository | 30.8k | Markdown |
 
-_Last updated: December 29, 2025_
+_Last updated: December 30, 2025_
+
 
 
 
