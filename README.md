@@ -1670,11 +1670,11 @@ APIs for weather related services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-_API Categories last updated: January 12, 2026_
+_API Categories last updated: January 13, 2026_
 
 **API Update Schedule:**
 - Weekly API Status Checks (Next: January 18, 2026)
-- Enhanced API Discovery (Next: January 12, 2026)
+- Enhanced API Discovery (Next: January 19, 2026)
 - Monthly API Discovery (Next: February 01, 2026)
 
 <!-- END API CATEGORIES SECTION - DO NOT REMOVE OR MODIFY THIS COMMENT -->
@@ -1685,14 +1685,15 @@ This section is automatically updated daily with trending API-specific repositor
 
 | Repository | Description | Stars | Language |
 | --- | --- | --- | --- |
-| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | 390.6k | Python |
-| [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 120.3k | Python |
-| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | 99.9k | Python |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | 390.8k | Python |
+| [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 120.4k | Python |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | 100.0k | Python |
 | [neovim/neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 95.6k | Vim Script |
 | [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 94.0k | Python |
 | [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | JavaScript API for Chrome and Firefox | 93.3k | TypeScript |
 
-_Last updated: January 12, 2026_
+_Last updated: January 13, 2026_
+
 
 
 
@@ -1996,7 +1997,8 @@ This section is automatically updated daily with trending API-related repositori
 | [httpie/cli](https://github.com/httpie/cli) | 🥧 HTTPie CLI  — modern, user-friendly command-line HTTP client for the API era. JSON support, colors... | 37.3k | Python |
 | [OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification) | The OpenAPI Specification Repository | 30.8k | Markdown |
 
-_Last updated: January 12, 2026_
+_Last updated: January 13, 2026_
+
 
 
 
