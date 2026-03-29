@@ -1688,11 +1688,12 @@ This section is automatically updated daily with trending API-specific repositor
 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | 417.1k | Python |
 | [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 129.1k | Python |
 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | 107.2k | Python |
-| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data | 100.0k | TypeScript |
+| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data | 100.1k | TypeScript |
 | [neovim/neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 97.5k | Vim Script |
-| [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 96.6k | Python |
+| [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 96.7k | Python |
 
 _Last updated: March 29, 2026_
+
 
 
 
@@ -2160,7 +2161,7 @@ This section is automatically updated daily with trending API-related repositori
 
 | Repository | Description | Stars | Language |
 | --- | --- | --- | --- |
-| [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 96.6k | Python |
+| [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 96.7k | Python |
 | [gin-gonic/gin](https://github.com/gin-gonic/gin) | Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with ... | 88.3k | Go |
 | [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) | Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desk... | 78.7k | TypeScript |
 | [typicode/json-server](https://github.com/typicode/json-server) | Get a full fake REST API with zero coding in less than 30 seconds (seriously) | 75.7k | JavaScript |
@@ -2170,6 +2171,7 @@ This section is automatically updated daily with trending API-related repositori
 | [OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification) | The OpenAPI Specification Repository | 31.0k | Markdown |
 
 _Last updated: March 29, 2026_
+
 
 
 
