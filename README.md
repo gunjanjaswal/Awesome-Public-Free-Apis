@@ -1688,11 +1688,12 @@ This section is automatically updated daily with trending API-specific repositor
 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | 417.3k | Python |
 | [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 129.2k | Python |
 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | 107.3k | Python |
-| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data | 100.6k | TypeScript |
+| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data | 100.7k | TypeScript |
 | [neovim/neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 97.6k | Vim Script |
 | [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 96.7k | Python |
 
 _Last updated: March 30, 2026_
+
 
 
 
@@ -2173,6 +2174,7 @@ This section is automatically updated daily with trending API-related repositori
 | [OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification) | The OpenAPI Specification Repository | 31.0k | Markdown |
 
 _Last updated: March 30, 2026_
+
 
 
 
