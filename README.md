@@ -397,6 +397,7 @@ APIs for development related services
 | <a href="https://docs.api.bible" target="_blank">The Bible</a> | Everything you need from the Bible in one discoverable place | `apiKey` | Yes | unknown |
 | <a href="https://api-thirukkural.web.app/" target="_blank">Thirukkural</a> | 1330 Thirukkural poems and explanation in Tamil and English | none | Yes | yes |
 | <a href="https://aninditabasu.github.io/indica/html/vs.html" target="_blank">Vedic Society</a> | Descriptions of all nouns (names, places, animals, things) from vedic literature | none | Yes | unknown |
+| <a href="https://rapidapi.com/darkoclothing/api/haunt-web-extractor" target="_blank">Haunt Web Extractor</a> | Extract structured data from any website with plain English | `apiKey` | Yes | no |
 
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
