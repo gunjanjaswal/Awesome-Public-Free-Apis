@@ -292,7 +292,7 @@ APIs for data validation related services
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
 <a id="development"></a>
-### 👨‍💻 Development ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)
+### 👨‍💻 Development ![101 APIs](https://img.shields.io/badge/100-APIs-brightgreen)
 APIs for development related services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -308,6 +308,7 @@ APIs for development related services
 | <a href="https://www.fishwatch.gov/developers" target="_blank">FishWatch</a> | Information and pictures about individual fish species | none | Yes | yes |
 | <a href="https://http.cat/" target="_blank">HTTP Cat</a> | Cat for every HTTP Status | none | Yes | yes |
 | <a href="https://http.dog/" target="_blank">HTTP Dog</a> | Dogs for every HTTP response status code | none | Yes | yes |
+| <a href="https://hauntapi.com" target="_blank">Haunt</a> | AI-powered web extraction with natural language prompts and Cloudflare bypass | `apiKey` | Yes | yes |
 | <a href="http://apiv3.iucnredlist.org/api/v3/docs" target="_blank">IUCN</a> | IUCN Red List of Threatened Species | `apiKey` | No | no |
 | <a href="https://github.com/wh-iterabb-it/meowfacts" target="_blank">MeowFacts</a> | Get random cat facts | none | Yes | no |
 | <a href="https://github.com/movebank/movebank-api-doc" target="_blank">Movebank</a> | Movement and Migration data of animals | none | Yes | yes |
