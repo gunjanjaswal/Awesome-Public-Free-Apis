@@ -1687,12 +1687,13 @@ This section is automatically updated daily with trending API-specific repositor
 | --- | --- | --- | --- |
 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | 426.5k | Python |
 | [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 134.1k | Python |
-| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 🔥 The API to search, scrape, and interact with the web for AI | 112.2k | TypeScript |
+| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 🔥 The API to search, scrape, and interact with the web for AI | 112.3k | TypeScript |
 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | 110.1k | Python |
 | [neovim/neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 99.1k | Vim Script |
 | [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 97.6k | Python |
 
 _Last updated: April 26, 2026_
+
 
 
 
@@ -2230,11 +2231,12 @@ This section is automatically updated daily with trending API-related repositori
 | [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) | Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desk... | 79.0k | TypeScript |
 | [typicode/json-server](https://github.com/typicode/json-server) | Get a full fake REST API with zero coding in less than 30 seconds (seriously) | 75.6k | JavaScript |
 | [strapi/strapi](https://github.com/strapi/strapi) | 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizabl... | 72.0k | TypeScript |
-| [Kong/insomnia](https://github.com/Kong/insomnia) | The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, ... | 38.3k | TypeScript |
+| [Kong/insomnia](https://github.com/Kong/insomnia) | The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, ... | 38.4k | TypeScript |
 | [httpie/cli](https://github.com/httpie/cli) | 🥧 HTTPie CLI  — modern, user-friendly command-line HTTP client for the API era. JSON support, colors... | 38.0k | Python |
 | [OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification) | The OpenAPI Specification Repository | 30.9k | Markdown |
 
 _Last updated: April 26, 2026_
+
 
 
 
