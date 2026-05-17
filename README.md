@@ -1069,6 +1069,7 @@ APIs for open data related services
 | <a href="https://data.uio.no/" target="_blank">University of Oslo</a> | Courses, lecture videos, detailed information for courses etc. for the University of Oslo (Norway) | none | Yes | unknown |
 | <a href="https://upcdatabase.org/api" target="_blank">UPC database</a> | More than 1.5 million barcode numbers from all around the world | `apiKey` | Yes | unknown |
 | <a href="https://urbanobservatory.ac.uk" target="_blank">Urban Observatory</a> | The largest set of publicly available real time urban data in the UK | none | No | no |
+| <a href="https://warnely.com/developers" target="_blank">Warnely</a> | Composite travel-safety scores for 180 countries combining FCDO, US State, GPI, WGI, and live incidents (CC BY 4.0, OpenAPI 3.1) | none | Yes | yes |
 | <a href="https://www.wikidata.org/w/api.php?action=help" target="_blank">Wikidata</a> | Collaboratively edited knowledge base operated by the Wikimedia Foundation | `OAuth` | Yes | unknown |
 | <a href="https://www.mediawiki.org/wiki/API:Main_page" target="_blank">Wikipedia</a> | Mediawiki Encyclopedia | none | Yes | unknown |
 | <a href="https://www.yelp.com/developers/documentation/v3" target="_blank">Yelp</a> | Find Local Business | `OAuth` | Yes | unknown |
