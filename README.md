@@ -1670,7 +1670,7 @@ APIs for weather related services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-_API Categories last updated: June 02, 2026_
+_API Categories last updated: June 03, 2026_
 
 **API Update Schedule:**
 - Weekly API Status Checks (Next: June 07, 2026)
@@ -1685,14 +1685,15 @@ This section is automatically updated daily with trending API-specific repositor
 
 | Repository | Description | Stars | Language |
 | --- | --- | --- | --- |
-| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | 438.6k | Python |
-| [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 139.6k | Python |
-| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | The API to search, scrape, and interact with the web at scale. 🔥 | 127.4k | TypeScript |
-| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | 115.3k | Python |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | 438.9k | Python |
+| [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 139.8k | Python |
+| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | The API to search, scrape, and interact with the web at scale. 🔥 | 127.9k | TypeScript |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | 115.5k | Python |
 | [neovim/neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 100.1k | Vim Script |
-| [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 98.8k | Python |
+| [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 98.9k | Python |
 
-_Last updated: June 02, 2026_
+_Last updated: June 03, 2026_
+
 
 
 
@@ -2314,7 +2315,7 @@ This section is automatically updated daily with trending API-related repositori
 
 | Repository | Description | Stars | Language |
 | --- | --- | --- | --- |
-| [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 98.8k | Python |
+| [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 98.9k | Python |
 | [gin-gonic/gin](https://github.com/gin-gonic/gin) | Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with ... | 88.6k | Go |
 | [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) | Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desk... | 79.4k | TypeScript |
 | [typicode/json-server](https://github.com/typicode/json-server) | Get a full fake REST API with zero coding in less than 30 seconds (seriously) | 75.6k | JavaScript |
@@ -2323,7 +2324,8 @@ This section is automatically updated daily with trending API-related repositori
 | [httpie/cli](https://github.com/httpie/cli) | 🥧 HTTPie CLI  — modern, user-friendly command-line HTTP client for the API era. JSON support, colors... | 38.2k | Python |
 | [OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification) | The OpenAPI Specification Repository | 31.0k | Markdown |
 
-_Last updated: June 02, 2026_
+_Last updated: June 03, 2026_
+
 
 
 
