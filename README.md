@@ -2337,6 +2337,7 @@ _Last updated: June 15, 2026_
 
 
 
+
 ## :rocket: Trending GitHub Repositories
 
 This section is automatically updated daily with trending API-related repositories from GitHub. Discover what the community is building and using right now!
@@ -2353,6 +2354,7 @@ This section is automatically updated daily with trending API-related repositori
 | [OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification) | The OpenAPI Specification Repository | 31.0k | Markdown |
 
 _Last updated: June 15, 2026_
+
 
 
 
