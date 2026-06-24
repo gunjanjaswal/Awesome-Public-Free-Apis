@@ -1670,7 +1670,7 @@ APIs for weather related services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-_API Categories last updated: June 23, 2026_
+_API Categories last updated: June 24, 2026_
 
 **API Update Schedule:**
 - Weekly API Status Checks (Next: June 28, 2026)
@@ -1685,14 +1685,15 @@ This section is automatically updated daily with trending API-specific repositor
 
 | Repository | Description | Stars | Language |
 | --- | --- | --- | --- |
-| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | 443.6k | Python |
-| [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 142.7k | Python |
-| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | The API to search, scrape, and interact with the web at scale. 🔥 | 137.6k | TypeScript |
-| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | 118.0k | Python |
-| [neovim/neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 100.6k | Vim Script |
-| [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 99.5k | Python |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | 443.8k | Python |
+| [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 142.8k | Python |
+| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | The API to search, scrape, and interact with the web at scale. 🔥 | 138.3k | TypeScript |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | 118.1k | Python |
+| [neovim/neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 100.7k | Vim Script |
+| [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 99.6k | Python |
 
-_Last updated: June 23, 2026_
+_Last updated: June 24, 2026_
+
 
 
 
@@ -2362,16 +2363,17 @@ This section is automatically updated daily with trending API-related repositori
 
 | Repository | Description | Stars | Language |
 | --- | --- | --- | --- |
-| [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 99.5k | Python |
+| [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 99.6k | Python |
 | [gin-gonic/gin](https://github.com/gin-gonic/gin) | Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with ... | 88.7k | Go |
 | [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) | Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desk... | 79.6k | TypeScript |
 | [typicode/json-server](https://github.com/typicode/json-server) | Get a full fake REST API with zero coding in less than 30 seconds (seriously) | 75.6k | JavaScript |
 | [strapi/strapi](https://github.com/strapi/strapi) | 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizabl... | 72.4k | TypeScript |
 | [Kong/insomnia](https://github.com/Kong/insomnia) | The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, ... | 39.6k | TypeScript |
 | [httpie/cli](https://github.com/httpie/cli) | 🥧 HTTPie CLI  — modern, user-friendly command-line HTTP client for the API era. JSON support, colors... | 38.2k | Python |
-| [OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification) | The OpenAPI Specification Repository | 31.0k | Markdown |
+| [OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification) | The OpenAPI Specification Repository | 31.1k | Markdown |
 
-_Last updated: June 23, 2026_
+_Last updated: June 24, 2026_
+
 
 
 
