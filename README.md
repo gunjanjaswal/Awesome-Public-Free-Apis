@@ -12,11 +12,11 @@
 
 The ultimate, self-updating collection of **free public REST APIs** for developers to integrate into web applications, mobile apps, and software projects. Automatically discovers and tracks the most popular and reliable free APIs across 40+ categories.
 
-[Browse APIs by Category](#card_index-api-categories---find-the-perfect-api-for-your-project) • [Trending GitHub API Repositories](#rocket-trending-github-api-repositories) • [Trending GitHub Repositories](#rocket-trending-github-repositories) • [How to Contribute](#handshake-how-to-contribute-to-this-api-collection) • [Automation Details](#gear-how-our-automated-api-tracking-works) • [License](#page_with_curl-license)
+[Browse APIs by Category](#card_index-api-categories---find-the-perfect-api-for-your-project) • [Trending GitHub API Repositories](#rocket-trending-github-api-repositories) • [Trending GitHub Repositories](#rocket-trending-github-repositories) • [How to Contribute](#handshake-how-to-contribute-to-this-api-collection) • [Contributors](#sparkles-contributors) • [Automation Details](#gear-how-our-automated-api-tracking-works) • [License](#page_with_curl-license)
 
 <p align="center">
-  <a href="https://buymeacoffee.com/gunjanjaswal">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="217" height="60">
+  <a href="https://ko-fi.com/gunjanjaswal">
+    <img src="https://storage.ko-fi.com/cdn/kofi5.png?v=6" alt="Support me on Ko-fi" height="60">
   </a>
 </p>
 
@@ -1032,7 +1032,7 @@ APIs for news related services
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
 <a id="open-data"></a>
-### 📓 Open Data ![35 APIs](https://img.shields.io/badge/35-APIs-brightgreen)
+### 📓 Open Data ![36 APIs](https://img.shields.io/badge/36-APIs-brightgreen)
 APIs for open data related services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -1198,13 +1198,14 @@ APIs for photography related services
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
 <a id="science--math"></a>
-### 🔬 Science & Math ![31 APIs](https://img.shields.io/badge/31-APIs-brightgreen)
+### 🔬 Science & Math ![32 APIs](https://img.shields.io/badge/32-APIs-brightgreen)
 APIs for science & math related services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
 | :--- | :--- | :---: | :---: | :---: |
 | <a href="https://api.arcsecond.io/" target="_blank">arcsecond.io</a> | Multiple astronomy data sources | none | Yes | unknown |
 | <a href="https://arxiv.org/help/api/user-manual" target="_blank">arXiv</a> | Curated research-sharing platform: physics, mathematics, quantitative finance, and economics | none | Yes | unknown |
+| <a href="https://bgpt.pro" target="_blank">BGPT</a> | Scientific paper search with structured full-text evidence (methods, limitations, COI, quality scores) | none | Yes | yes |
 | <a href="https://core.ac.uk/services#api" target="_blank">CORE</a> | Access the world's Open Access research papers | `apiKey` | Yes | unknown |
 | <a href="https://www.gbif.org/developer/summary" target="_blank">GBIF</a> | Global Biodiversity Information Facility | none | Yes | yes |
 | <a href="https://github.com/idigbio/idigbio-search-api/wiki" target="_blank">iDigBio</a> | Access millions of museum specimens from organizations around the world | none | Yes | unknown |
@@ -3059,6 +3060,15 @@ We welcome contributions from the community! Here's how you can help:
 4. **Suggest improvements**: Have ideas to make this collection better? We'd love to hear them!
 
 Please see our [Contributing Guidelines](CONTRIBUTING.md) for more details.
+
+## :sparkles: Contributors
+
+Thanks to everyone who has contributed APIs and improvements to this collection:
+
+- [@sn-lui](https://github.com/sn-lui) — added Warnely (Open Data)
+- [@connerlambden](https://github.com/connerlambden) — added BGPT (Science & Math)
+
+Want to see your name here? [Open a pull request](https://github.com/gunjanjaswal/awesome-public-free-apis/pulls) or [submit an issue](https://github.com/gunjanjaswal/awesome-public-free-apis/issues).
 
 ## :gear: How Our Automated API Tracking Works
 

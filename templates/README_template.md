@@ -12,7 +12,7 @@
 
 The ultimate, self-updating collection of **free public REST APIs** for developers to integrate into web applications, mobile apps, and software projects. Automatically discovers and tracks the most popular and reliable free APIs across 40+ categories.
 
-[Browse APIs by Category](#-api-categories---find-the-perfect-api-for-your-project) • [Trending GitHub Repositories](#-trending-github-repositories) • [How to Contribute](#-how-to-contribute-to-this-api-collection) • [Automation Details](#-how-our-automated-api-tracking-works) • [License](#-license)
+[Browse APIs by Category](#-api-categories---find-the-perfect-api-for-your-project) • [Trending GitHub Repositories](#-trending-github-repositories) • [How to Contribute](#-how-to-contribute-to-this-api-collection) • [Contributors](#-contributors) • [Automation Details](#-how-our-automated-api-tracking-works) • [License](#-license)
 
 </div>
 
@@ -61,6 +61,15 @@ We welcome contributions from the community! Here's how you can help:
 4. **Suggest improvements**: Have ideas to make this collection better? We'd love to hear them!
 
 Please see our [Contributing Guidelines](CONTRIBUTING.md) for more details.
+
+## :sparkles: Contributors
+
+Thanks to everyone who has contributed APIs and improvements to this collection:
+
+- [@sn-lui](https://github.com/sn-lui) — added Warnely (Open Data)
+- [@connerlambden](https://github.com/connerlambden) — added BGPT (Science & Math)
+
+Want to see your name here? [Open a pull request](https://github.com/gunjanjaswal/awesome-public-free-apis/pulls) or [submit an issue](https://github.com/gunjanjaswal/awesome-public-free-apis/issues).
 
 ## :gear: How Our Automated API Tracking Works
 

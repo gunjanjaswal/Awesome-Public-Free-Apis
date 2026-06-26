@@ -45,6 +45,14 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Guard against merge-conflict markers
+        run: |
+          if grep -rnE '^(<<<<<<<|>>>>>>>) ' README.md data/apis.json templates/README_template.md; then
+            echo "::error::Merge-conflict markers detected. Aborting before commit."
+            exit 1
+          fi
+          echo "No conflict markers found."
+
       - name: Commit and push changes
         run: |
           git config --local user.email "gunjanjaswal@gmail.com"
