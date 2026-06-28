@@ -1691,10 +1691,11 @@ This section is automatically updated daily with trending API-specific repositor
 | [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 143.3k | Python |
 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | The API to search, scrape, and interact with the web at scale. 🔥 | 140.1k | TypeScript |
 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | 118.6k | Python |
-| [neovim/neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 100.7k | Vim Script |
+| [neovim/neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 100.8k | Vim Script |
 | [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 99.7k | Python |
 
 _Last updated: June 28, 2026_
+
 
 
 
@@ -2386,6 +2387,7 @@ This section is automatically updated daily with trending API-related repositori
 | [OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification) | The OpenAPI Specification Repository | 31.1k | Markdown |
 
 _Last updated: June 28, 2026_
+
 
 
 
