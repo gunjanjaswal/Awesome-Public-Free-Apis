@@ -1687,7 +1687,7 @@ This section is automatically updated daily with trending API-specific repositor
 
 | Repository | Description | Stars | Language |
 | --- | --- | --- | --- |
-| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | 449.4k | Python |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | 449.5k | Python |
 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | The API to search, scrape, and interact with the web at scale. 🔥 | 150.0k | TypeScript |
 | [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 145.2k | Python |
 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | 120.5k | Python |
@@ -1695,6 +1695,7 @@ This section is automatically updated daily with trending API-specific repositor
 | [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 100.4k | Python |
 
 _Last updated: July 13, 2026_
+
 
 
 
@@ -2422,6 +2423,7 @@ This section is automatically updated daily with trending API-related repositori
 | [OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification) | The OpenAPI Specification Repository | 31.1k | Markdown |
 
 _Last updated: July 13, 2026_
+
 
 
 
