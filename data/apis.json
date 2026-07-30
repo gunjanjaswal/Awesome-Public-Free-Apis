@@ -725,7 +725,7 @@
           "last_checked": "2025-09-08T16:47:43.514986"
         },
         {
-          "name": "Am\u00e9thyste",
+          "name": "Améthyste",
           "description": "Generate images for Discord users",
           "url": "https://api.amethyste.moe/",
           "category": "Development",
@@ -786,7 +786,7 @@
         },
         {
           "name": "Dribbble",
-          "description": "Discover the world\u2019s top designers & creatives",
+          "description": "Discover the world’s top designers & creatives",
           "url": "https://developer.dribbble.com",
           "category": "Development",
           "auth": "`OAuth`",
@@ -965,7 +965,7 @@
           "last_checked": "2025-09-08T16:47:43.515322"
         },
         {
-          "name": "A B\u00edblia Digital",
+          "name": "A Bíblia Digital",
           "description": "Do not worry about managing the multiple versions of the Bible",
           "url": "https://www.abibliadigital.com.br/en",
           "category": "Development",
@@ -1337,7 +1337,7 @@
           "last_checked": "2025-09-08T16:47:43.518090"
         },
         {
-          "name": "API Gr\u00e1tis",
+          "name": "API Grátis",
           "description": "Multiples services and public APIs",
           "url": "https://apigratis.com.br/",
           "category": "Development",
@@ -3318,7 +3318,7 @@
         },
         {
           "name": "Brazilian Vehicles and Prices",
-          "description": "Vehicles information from Funda\u00e7\u00e3o Instituto de Pesquisas Econ\u00f4micas - Fipe",
+          "description": "Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe",
           "url": "https://deividfortuna.github.io/fipe/",
           "category": "Development",
           "auth": "none",
@@ -4302,7 +4302,7 @@
         },
         {
           "name": "Checkiday - National Holiday API",
-          "description": "Industry-leading Holiday API. Over 5,000 holidays and thousands of descriptions. Trusted by the World\u2019s leading companies",
+          "description": "Industry-leading Holiday API. Over 5,000 holidays and thousands of descriptions. Trusted by the World’s leading companies",
           "url": "https://apilayer.com/marketplace/checkiday-api",
           "category": "Calendar",
           "auth": "`apiKey`",
@@ -6053,8 +6053,8 @@
           "last_checked": "2025-09-08T16:47:43.520740"
         },
         {
-          "name": "Gr\u00fcnstromIndex",
-          "description": "Green Power Index for Germany (Gr\u00fcnstromindex/GSI)",
+          "name": "GrünstromIndex",
+          "description": "Green Power Index for Germany (Grünstromindex/GSI)",
           "url": "https://gruenstromindex.de/",
           "category": "Environment",
           "auth": "none",
@@ -6090,7 +6090,7 @@
         },
         {
           "name": "National Grid ESO",
-          "description": "Open data from Great Britain\u2019s Electricity System Operator",
+          "description": "Open data from Great Britain’s Electricity System Operator",
           "url": "https://data.nationalgrideso.com/",
           "category": "Environment",
           "auth": "none",
@@ -6492,7 +6492,7 @@
         },
         {
           "name": "Mono",
-          "description": "Connect with users\u2019 bank accounts and access transaction data in Africa",
+          "description": "Connect with users’ bank accounts and access transaction data in Africa",
           "url": "https://mono.co/",
           "category": "Finance",
           "auth": "`apiKey`",
@@ -6729,6 +6729,15 @@
           "popularity": 85,
           "status": "active",
           "last_checked": "2025-09-08T16:47:43.521476"
+        },
+        {
+          "name": "Svensk Skatte-API",
+          "description": "Swedish tax calculations — ISK, VAT, income tax, social contributions. Free tier 30 req/min.",
+          "url": "https://skatteapi.gracestack.se",
+          "category": "Finance",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes"
         }
       ]
     },
@@ -7823,8 +7832,8 @@
           "last_checked": "2025-09-08T16:47:43.522688"
         },
         {
-          "name": "Pok\u00e9api",
-          "description": "Pok\u00e9mon Information",
+          "name": "Pokéapi",
+          "description": "Pokémon Information",
           "url": "https://pokeapi.co",
           "category": "Games & Comics",
           "auth": "none",
@@ -7835,7 +7844,7 @@
           "last_checked": "2025-09-08T16:47:43.522701"
         },
         {
-          "name": "Pok\u00e9API (GraphQL)",
+          "name": "PokéAPI (GraphQL)",
           "description": "The Unofficial GraphQL for PokeAPI",
           "url": "https://github.com/mazipan/graphql-pokeapi",
           "category": "Games & Comics",
@@ -7847,8 +7856,8 @@
           "last_checked": "2025-09-08T16:47:43.522715"
         },
         {
-          "name": "Pok\u00e9mon TCG",
-          "description": "Pok\u00e9mon TCG Information",
+          "name": "Pokémon TCG",
+          "description": "Pokémon TCG Information",
           "url": "https://pokemontcg.io",
           "category": "Games & Comics",
           "auth": "none",
@@ -8040,7 +8049,7 @@
         },
         {
           "name": "TCGdex",
-          "description": "Multi languages Pok\u00e9mon TCG Information",
+          "description": "Multi languages Pokémon TCG Information",
           "url": "https://www.tcgdex.net/docs",
           "category": "Games & Comics",
           "auth": "none",
@@ -9299,8 +9308,8 @@
           "last_checked": "2025-09-08T16:47:43.524183"
         },
         {
-          "name": "City, Gda\u0144sk",
-          "description": "Gda\u0144sk (PL) City Open Data",
+          "name": "City, Gdańsk",
+          "description": "Gdańsk (PL) City Open Data",
           "url": "https://ckan.multimediagdansk.pl/en",
           "category": "Government",
           "auth": "none",
@@ -9587,8 +9596,8 @@
           "last_checked": "2025-09-08T16:47:43.524503"
         },
         {
-          "name": "Istanbul (\u0130BB) Open Data",
-          "description": "Data sets from the \u0130stanbul Metropolitan Municipality (\u0130BB)",
+          "name": "Istanbul (İBB) Open Data",
+          "description": "Data sets from the İstanbul Metropolitan Municipality (İBB)",
           "url": "https://data.ibb.gov.tr",
           "category": "Government",
           "auth": "none",
@@ -11352,7 +11361,7 @@
         },
         {
           "name": "NewsX",
-          "description": "Get or Search Latest Breaking News with ML Powered Summaries \ud83e\udd16",
+          "description": "Get or Search Latest Breaking News with ML Powered Summaries 🤖",
           "url": "https://rapidapi.com/machaao-inc-machaao-inc-default/api/newsx/",
           "category": "News",
           "auth": "`apiKey`",
@@ -11376,7 +11385,7 @@
         },
         {
           "name": "Spaceflight News",
-          "description": "Spaceflight related news \ud83d\ude80",
+          "description": "Spaceflight related news 🚀",
           "url": "https://spaceflightnewsapi.net",
           "category": "News",
           "auth": "none",
@@ -11765,8 +11774,8 @@
           "last_checked": "2025-09-08T16:47:43.527134"
         },
         {
-          "name": "Ume\u00e5 Open Data",
-          "description": "Open data of the city Ume\u00e5 in northen Sweden",
+          "name": "Umeå Open Data",
+          "description": "Open data of the city Umeå in northen Sweden",
           "url": "https://opendata.umea.se/api/",
           "category": "Open Data",
           "auth": "none",
@@ -12168,7 +12177,7 @@
         },
         {
           "name": "kimiquotes",
-          "description": "Team radio and interview quotes by Finnish F1 legend Kimi R\u00e4ikk\u00f6nen",
+          "description": "Team radio and interview quotes by Finnish F1 legend Kimi Räikkönen",
           "url": "https://kimiquotes.herokuapp.com/doc",
           "category": "Personality",
           "auth": "none",
@@ -13356,7 +13365,7 @@
         },
         {
           "name": "HackerOne",
-          "description": "The industry\u2019s first hacker API that helps increase productivity towards creative bug bounty hunting",
+          "description": "The industry’s first hacker API that helps increase productivity towards creative bug bounty hunting",
           "url": "https://api.hackerone.com/",
           "category": "Security",
           "auth": "`apiKey`",
@@ -14370,7 +14379,7 @@
         },
         {
           "name": "Football",
-          "description": "A simple Open Source Football API to get squads\u2019 stats, best scorers and more",
+          "description": "A simple Open Source Football API to get squads’ stats, best scorers and more",
           "url": "https://rapidapi.com/GiulianoCrescimbeni/api/football98/",
           "category": "Sports & Fitness",
           "auth": "`X-Mashape-Key`",
@@ -15078,7 +15087,7 @@
         },
         {
           "name": "Transport for Bordeaux, France",
-          "description": "Bordeaux M\u00e9tropole public transport and more (France)",
+          "description": "Bordeaux Métropole public transport and more (France)",
           "url": "https://opendata.bordeaux-metropole.fr/explore/",
           "category": "Sports & Fitness",
           "auth": "`apiKey`",
