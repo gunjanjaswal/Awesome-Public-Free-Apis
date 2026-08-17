@@ -14429,6 +14429,17 @@
           "last_checked": "2025-09-08T16:47:43.530005"
         },
         {
+          "name": "Live Tennis API",
+          "description": "Live tennis scores, fixtures and player data for ATP, WTA, Challenger and ITF (free tier: 100 requests/day)",
+          "url": "https://docs.livetennisapi.com",
+          "category": "Sports & Fitness",
+          "auth": "`apiKey`",
+          "https": true,
+          "cors": "yes",
+          "popularity": 75,
+          "status": "active"
+        },
+        {
           "name": "MLB Records and Stats",
           "description": "Current and historical MLB statistics",
           "url": "https://appac.github.io/mlb-data-api-docs/",
