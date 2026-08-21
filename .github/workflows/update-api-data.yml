@@ -45,6 +45,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Sync README API tables from apis.json
+        run: |
+          python scripts/update_readme_with_apis.py
+          echo "README API tables synced from data/apis.json"
+
       - name: Guard against merge-conflict markers
         run: |
           if grep -rnE '^(<<<<<<<|>>>>>>>) ' README.md data/apis.json templates/README_template.md; then
