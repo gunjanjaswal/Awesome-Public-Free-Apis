@@ -295,6 +295,8 @@ APIs for data validation related services
 ### 👨‍💻 Development ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)
 APIs for development related services
 
+*Note: Showing 100 of 282 APIs in this category.*
+
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
 | :--- | :--- | :---: | :---: | :---: |
 | <a href="https://www.adoptapet.com/public/apis/pet_list.html" target="_blank">AdoptAPet</a> | Resource to help get pets adopted | `apiKey` | Yes | yes |
@@ -1365,6 +1367,8 @@ APIs for social related services
 ### ⚽ Sports & Fitness ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)
 APIs for sports & fitness related services
 
+*Note: Showing 100 of 101 APIs in this category.*
+
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
 | :--- | :--- | :---: | :---: | :---: |
 | <a href="https://www.api-football.com/documentation-v3" target="_blank">API-FOOTBALL</a> | Get information about Football Leagues & Cups | `apiKey` | Yes | yes |
@@ -1467,7 +1471,6 @@ APIs for sports & fitness related services
 | <a href="https://transport.rest" target="_blank">transport.rest</a> | Community maintained, developer-friendly public transport API | none | Yes | yes |
 | <a href="https://developer-tripadvisor.com/home/" target="_blank">Tripadvisor</a> | Rating content for a hotel, restaurant, attraction or destination | `apiKey` | Yes | unknown |
 | <a href="https://developer.uber.com/products" target="_blank">Uber</a> | Uber ride requests and price estimation | `OAuth` | Yes | yes |
-| <a href="https://www.velib-metropole.fr/donnees-open-data-gbfs-du-service-velib-metropole" target="_blank">Velib metropolis, Paris, France</a> | Velib Open Data API | none | Yes | no |
 
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>

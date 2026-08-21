@@ -47,61 +47,30 @@ def update_readme_with_apis() -> None:
         # Load API data
         data = load_api_data()
         
-        # Load README template to ensure proper section ordering
-        template_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'templates', 'README_template.md')
-        
-        # Check if template exists, if not, use current README as template
-        if os.path.exists(template_path):
-            with open(template_path, 'r', encoding='utf-8') as file:
-                template_content = file.read()
-            print("Using README template for structured section ordering")
-        else:
-            # If template doesn't exist, use current README but ensure proper section ordering
-            with open(README_FILE, 'r', encoding='utf-8') as file:
-                template_content = file.read()
-            print("Template not found, using current README as template")
-        
-        # Find the API categories section markers in the template
+        # Regenerate ONLY the category tables between the markers, and keep everything
+        # else (the header incl. the Ko-fi support badge, the nav, the Contributors
+        # section, the trending sections and the footer) verbatim from the LIVE README.
+        #
+        # This deliberately does NOT read templates/README_template.md. That copy drifts
+        # out of date, and using it as the source silently reverted manual header edits
+        # (it dropped the Ko-fi badge) and would revert Contributors edits too. Sourcing
+        # from the current README makes the script safe to run on every apis.json change.
         api_categories_start = "<!-- BEGIN API CATEGORIES SECTION - DO NOT REMOVE OR MODIFY THIS COMMENT -->"
         api_categories_end = "<!-- END API CATEGORIES SECTION - DO NOT REMOVE OR MODIFY THIS COMMENT -->"
-        
-        # Check if the template has the API categories section markers
-        if api_categories_start not in template_content or api_categories_end not in template_content:
-            print("API categories section markers not found in template")
-            # Load current README as fallback
-            with open(README_FILE, 'r', encoding='utf-8') as file:
-                readme_content = file.read()
-                
-            # Extract parts before and after API categories section
-            if api_categories_start in readme_content and api_categories_end in readme_content:
-                content_before = readme_content.split(api_categories_start)[0] + api_categories_start + "\n"
-                content_after = api_categories_end + readme_content.split(api_categories_end)[1]
-            else:
-                print("API categories section markers not found in README.md")
-                content_before = readme_content
-                content_after = ""
-        else:
-            # Extract parts from template to ensure proper section ordering
-            content_before = template_content.split(api_categories_start)[0] + api_categories_start + "\n"
-            content_after = api_categories_end + template_content.split(api_categories_end)[1]
-            
-            # Preserve existing trending repositories content from current README
-            with open(README_FILE, 'r', encoding='utf-8') as file:
-                current_readme = file.read()
-                
-            # Find trending repositories sections in current README
-            trending_repos_pattern = r'(## :rocket: Trending GitHub Repositories.*?)(?=^## |\Z)'
-            trending_api_repos_pattern = r'(## :rocket: Trending GitHub API Repositories.*?)(?=^## |\Z)'
-            
-            trending_repos_match = re.search(trending_repos_pattern, current_readme, re.DOTALL | re.MULTILINE)
-            trending_api_repos_match = re.search(trending_api_repos_pattern, current_readme, re.DOTALL | re.MULTILINE)
-            
-            # Replace placeholder content in template with actual content from current README
-            if trending_repos_match:
-                content_after = re.sub(trending_repos_pattern, trending_repos_match.group(0), content_after, flags=re.DOTALL | re.MULTILINE)
-                
-            if trending_api_repos_match:
-                content_after = re.sub(trending_api_repos_pattern, trending_api_repos_match.group(0), content_after, flags=re.DOTALL | re.MULTILINE)
+
+        with open(README_FILE, 'r', encoding='utf-8') as file:
+            readme_content = file.read()
+
+        # Fail safe rather than destructive: if the markers are missing, refuse to
+        # rewrite the file instead of blowing away everything after the header.
+        if api_categories_start not in readme_content or api_categories_end not in readme_content:
+            raise ValueError(
+                "API categories markers not found in README.md; refusing to rewrite the "
+                "file. Restore the BEGIN/END API CATEGORIES SECTION comments first."
+            )
+
+        content_before = readme_content.split(api_categories_start)[0] + api_categories_start + "\n"
+        content_after = api_categories_end + readme_content.split(api_categories_end)[1]
         
         # Sort categories alphabetically
         data['categories'].sort(key=lambda x: x['name'])
