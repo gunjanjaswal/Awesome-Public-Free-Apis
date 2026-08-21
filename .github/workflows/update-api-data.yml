@@ -19,6 +19,13 @@ on:
 permissions:
   contents: write
 
+# Serialize runs on a branch so two overlapping runs (e.g. a push and a schedule
+# firing close together) can't race on the final `git push` and fail with
+# "fetch first". A newer run supersedes an in-progress one.
+concurrency:
+  group: update-api-data-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   update-api-data:
     runs-on: ubuntu-latest
