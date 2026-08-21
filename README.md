@@ -1381,6 +1381,7 @@ APIs for sports & fitness related services
 | <a href="https://github.com/azharimm/football-standings-api" target="_blank">Football Standings</a> | Display football standings e.g epl, la liga, serie a etc. The data is based on espn site | none | Yes | yes |
 | <a href="https://www.football-data.org" target="_blank">Football-Data</a> | Football data with matches info, players, teams, and competitions | `X-Mashape-Key` | Yes | unknown |
 | <a href="https://developer.jcdecaux.com/" target="_blank">JCDecaux Bike</a> | JCDecaux's self-service bicycles | `apiKey` | Yes | unknown |
+| <a href="https://docs.livetennisapi.com" target="_blank">Live Tennis API</a> | Live tennis scores, fixtures and player data for ATP, WTA, Challenger and ITF (free tier: 100 requests/day) | `apiKey` | Yes | yes |
 | <a href="https://appac.github.io/mlb-data-api-docs/" target="_blank">MLB Records and Stats</a> | Current and historical MLB statistics | none | No | unknown |
 | <a href="https://rapidapi.com/api-sports/api/api-nba/" target="_blank">NBA Data</a> | All NBA Stats DATA, Games, Livescore, Standings, Statistics | `apiKey` | Yes | unknown |
 | <a href="https://any-api.com/nba_com/nba_com/docs/API_Description" target="_blank">NBA Stats</a> | Current and historical NBA Statistics | none | Yes | unknown |
@@ -3331,6 +3332,7 @@ Thanks to everyone who has contributed APIs and improvements to this collection:
 
 - [@sn-lui](https://github.com/sn-lui) — added Warnely (Open Data)
 - [@connerlambden](https://github.com/connerlambden) — added BGPT (Science & Math)
+- [@bensynapse](https://github.com/bensynapse) — added Live Tennis API (Sports & Fitness)
 
 Want to see your name here? [Open a pull request](https://github.com/gunjanjaswal/awesome-public-free-apis/pulls) or [submit an issue](https://github.com/gunjanjaswal/awesome-public-free-apis/issues).
 
