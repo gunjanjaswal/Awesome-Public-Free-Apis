@@ -547,7 +547,7 @@ APIs for food & drink related services
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
 <a id="games--comics"></a>
-### 🎮 Games & Comics ![95 APIs](https://img.shields.io/badge/95-APIs-brightgreen)
+### 🎮 Games & Comics ![96 APIs](https://img.shields.io/badge/96-APIs-brightgreen)
 APIs for games & comics related services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -594,6 +594,7 @@ APIs for games & comics related services
 | <a href="https://github.com/favware/graphql-pokemon" target="_blank">GraphQL Pokemon</a> | GraphQL powered Pokemon API. Supports generations 1 through 8 | none | Yes | yes |
 | <a href="https://wiki.guildwars2.com/wiki/API:Main" target="_blank">Guild Wars 2</a> | Guild Wars 2 Game Information | `apiKey` | Yes | unknown |
 | <a href="https://github.com/rubensayshi/gw2spidy/wiki" target="_blank">GW2Spidy</a> | GW2Spidy API, Items data on the Guild Wars 2 Trade Market | none | Yes | unknown |
+| <a href="https://gzw-data.vercel.app/docs/" target="_blank">GZW Data</a> | Free Gray Zone Warfare API for weapons, missions, loot, armor and game data | none | Yes | yes |
 | <a href="https://developer.haloapi.com/" target="_blank">Halo</a> | Halo 5 and Halo Wars 2 Information | `apiKey` | Yes | unknown |
 | <a href="http://hearthstoneapi.com/" target="_blank">Hearthstone</a> | Hearthstone Cards Information | `X-Mashape-Key` | Yes | unknown |
 | <a href="https://rapidapi.com/Ziggoto/api/humble-bundle" target="_blank">Humble Bundle</a> | Humble Bundle's current bundles | `apiKey` | Yes | unknown |
@@ -1691,14 +1692,15 @@ This section is automatically updated daily with trending API-specific repositor
 
 | Repository | Description | Stars | Language |
 | --- | --- | --- | --- |
-| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | 470.5k | Python |
-| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | The context API to search, scrape, and interact with the web at scale. 🔥 | 172.4k | TypeScript |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | 470.6k | Python |
+| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | The context API to search, scrape, and interact with the web at scale. 🔥 | 172.5k | TypeScript |
 | [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 149.9k | Python |
 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | 130.0k | Python |
 | [neovim/neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 102.0k | Vim Script |
 | [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 101.9k | Python |
 
 _Last updated: August 26, 2026_
+
 
 
 
@@ -2533,6 +2535,7 @@ This section is automatically updated daily with trending API-related repositori
 | [OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification) | The OpenAPI Specification Repository | 31.2k | Markdown |
 
 _Last updated: August 26, 2026_
+
 
 
 
