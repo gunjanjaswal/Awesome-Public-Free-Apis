@@ -3368,6 +3368,7 @@ Please see our [Contributing Guidelines](CONTRIBUTING.md) for more details.
 
 Thanks to everyone who has contributed APIs and improvements to this collection:
 
+- [@ZoniBoy00](https://github.com/ZoniBoy00) — added GZW Data (Games & Comics)
 - [@sn-lui](https://github.com/sn-lui) — added Warnely (Open Data)
 - [@connerlambden](https://github.com/connerlambden) — added BGPT (Science & Math)
 - [@bensynapse](https://github.com/bensynapse) — added Live Tennis API (Sports & Fitness)
