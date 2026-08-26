@@ -7535,6 +7535,18 @@
           "last_checked": "2025-09-08T16:47:43.522370"
         },
         {
+          "name": "GZW Data",
+          "description": "Free Gray Zone Warfare API for weapons, missions, loot, armor and game data",
+          "url": "https://gzw-data.vercel.app/docs/",
+          "category": "Games & Comics",
+          "auth": "none",
+          "https": true,
+          "cors": "yes",
+          "popularity": 1,
+          "status": "active",
+          "last_checked": "2026-08-25T00:00:00Z"
+        },
+        {
           "name": "Halo",
           "description": "Halo 5 and Halo Wars 2 Information",
           "url": "https://developer.haloapi.com/",
