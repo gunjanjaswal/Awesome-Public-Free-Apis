@@ -1696,10 +1696,11 @@ This section is automatically updated daily with trending API-specific repositor
 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | The context API to search, scrape, and interact with the web at scale. 🔥 | 179.6k | TypeScript |
 | [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 151.8k | Python |
 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | 132.8k | Python |
-| [earendil-works/pi](https://github.com/earendil-works/pi) | AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI | 104.4k | TypeScript |
+| [earendil-works/pi](https://github.com/earendil-works/pi) | AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI | 104.5k | TypeScript |
 | [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 102.3k | Python |
 
 _Last updated: September 13, 2026_
+
 
 
 
@@ -2576,6 +2577,7 @@ This section is automatically updated daily with trending API-related repositori
 | [OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification) | The OpenAPI Specification Repository | 31.2k | Markdown |
 
 _Last updated: September 13, 2026_
+
 
 
 
