@@ -748,7 +748,7 @@ APIs for geocoding related services
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
 <a id="government"></a>
-### 🏛️ Government ![85 APIs](https://img.shields.io/badge/85-APIs-brightgreen)
+### 🏛️ Government ![86 APIs](https://img.shields.io/badge/86-APIs-brightgreen)
 APIs for government related services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -783,6 +783,7 @@ APIs for government related services
 | <a href="http://ratings.food.gov.uk/open-data/en-GB" target="_blank">Food Standards Agency</a> | UK food hygiene rating data API | none | No | unknown |
 | <a href="https://www.thegazette.co.uk/data" target="_blank">Gazette Data, UK</a> | UK official public record API | `OAuth` | Yes | unknown |
 | <a href="https://www.gunpolicy.org/api" target="_blank">Gun Policy</a> | International firearm injury prevention and policy | `apiKey` | Yes | unknown |
+| <a href="https://www.huduser.gov/portal/dataset/fmr-api.html" target="_blank">HUD Fair Market Rents & Income Limits</a> | Official US HUD Fair Market Rents and Income Limits by county and metro area | `apiKey` | Yes | unknown |
 | <a href="http://iinei.inei.gob.pe/microdatos/" target="_blank">INEI</a> | Peruvian Statistical Government Open Data | none | No | unknown |
 | <a href="https://interpol.api.bund.dev/" target="_blank">Interpol Red Notices</a> | Access and search Interpol Red Notices | none | Yes | unknown |
 | <a href="https://data.ibb.gov.tr" target="_blank">Istanbul (İBB) Open Data</a> | Data sets from the İstanbul Metropolitan Municipality (İBB) | none | Yes | unknown |
@@ -3518,6 +3519,7 @@ Thanks to everyone who has contributed APIs and improvements to this collection:
 - [@sn-lui](https://github.com/sn-lui) — added Warnely (Open Data)
 - [@connerlambden](https://github.com/connerlambden) — added BGPT (Science & Math)
 - [@bensynapse](https://github.com/bensynapse) — added Live Tennis API (Sports & Fitness)
+- [@farhannk17](https://github.com/farhannk17) — added HUD Fair Market Rents & Income Limits (Government)
 
 Want to see your name here? [Open a pull request](https://github.com/gunjanjaswal/awesome-public-free-apis/pulls) or [submit an issue](https://github.com/gunjanjaswal/awesome-public-free-apis/issues).
 
