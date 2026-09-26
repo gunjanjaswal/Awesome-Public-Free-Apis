@@ -783,7 +783,7 @@ APIs for government related services
 | <a href="http://ratings.food.gov.uk/open-data/en-GB" target="_blank">Food Standards Agency</a> | UK food hygiene rating data API | none | No | unknown |
 | <a href="https://www.thegazette.co.uk/data" target="_blank">Gazette Data, UK</a> | UK official public record API | `OAuth` | Yes | unknown |
 | <a href="https://www.gunpolicy.org/api" target="_blank">Gun Policy</a> | International firearm injury prevention and policy | `apiKey` | Yes | unknown |
-| <a href="https://www.huduser.gov/portal/dataset/fmr-api.html" target="_blank">HUD Fair Market Rents & Income Limits</a> | Official US HUD Fair Market Rents and Income Limits by county and metro area | `apiKey` | Yes | unknown |
+| <a href="https://www.huduser.gov/portal/dataset/fmr-api.html" target="_blank">HUD Fair Market Rents & Income Limits</a> | Official US HUD Fair Market Rents and Income Limits by county and metro area | apiKey | Yes | unknown |
 | <a href="http://iinei.inei.gob.pe/microdatos/" target="_blank">INEI</a> | Peruvian Statistical Government Open Data | none | No | unknown |
 | <a href="https://interpol.api.bund.dev/" target="_blank">Interpol Red Notices</a> | Access and search Interpol Red Notices | none | Yes | unknown |
 | <a href="https://data.ibb.gov.tr" target="_blank">Istanbul (İBB) Open Data</a> | Data sets from the İstanbul Metropolitan Municipality (İBB) | none | Yes | unknown |
@@ -1693,14 +1693,15 @@ This section is automatically updated daily with trending API-specific repositor
 
 | Repository | Description | Stars | Language |
 | --- | --- | --- | --- |
-| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | 483.3k | Python |
-| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | The web data API to search, scrape, and interact at scale. 🔥 | 184.8k | TypeScript |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | 483.4k | Python |
+| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | The web data API to search, scrape, and interact at scale. 🔥 | 184.9k | TypeScript |
 | [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 153.2k | Python |
 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The... | 135.0k | Python |
 | [earendil-works/pi](https://github.com/earendil-works/pi) | AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI | 109.4k | TypeScript |
 | [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 102.6k | Python |
 
 _Last updated: September 26, 2026_
+
 
 
 
@@ -2609,6 +2610,7 @@ This section is automatically updated daily with trending API-related repositori
 | [OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification) | The OpenAPI Specification Repository | 31.2k | Markdown |
 
 _Last updated: September 26, 2026_
+
 
 
 
