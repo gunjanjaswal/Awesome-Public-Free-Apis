@@ -9575,6 +9575,18 @@
           "last_checked": "2025-09-08T16:47:43.524477"
         },
         {
+          "name": "HUD Fair Market Rents & Income Limits",
+          "description": "Official US HUD Fair Market Rents and Income Limits by county and metro area",
+          "url": "https://www.huduser.gov/portal/dataset/fmr-api.html",
+          "category": "Government",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "unknown",
+          "popularity": 50,
+          "status": "active",
+          "last_checked": "2026-09-26T00:00:00.000000"
+        },
+        {
           "name": "INEI",
           "description": "Peruvian Statistical Government Open Data",
           "url": "http://iinei.inei.gob.pe/microdatos/",
@@ -17215,7 +17227,7 @@
     }
   ],
   "metadata": {
-    "total_apis": 1412,
+    "total_apis": 1413,
     "last_updated": "2025-09-08T16:47:43.714978"
   }
 }
