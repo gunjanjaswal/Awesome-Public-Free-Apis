@@ -2612,6 +2612,7 @@ _Last updated: October 04, 2026_
 
 
 
+
 ## :rocket: Trending GitHub Repositories
 
 This section is automatically updated daily with trending API-related repositories from GitHub. Discover what the community is building and using right now!
@@ -2624,10 +2625,11 @@ This section is automatically updated daily with trending API-related repositori
 | [typicode/json-server](https://github.com/typicode/json-server) | Get a full fake REST API with zero coding in less than 30 seconds (seriously) | 75.7k | JavaScript |
 | [strapi/strapi](https://github.com/strapi/strapi) | 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizabl... | 73.3k | TypeScript |
 | [Kong/insomnia](https://github.com/Kong/insomnia) | The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, ... | 40.0k | TypeScript |
-| [httpie/cli](https://github.com/httpie/cli) | 🥧 HTTPie CLI  — modern, user-friendly command-line HTTP client for the API era. JSON support, colors... | 38.6k | Python |
+| [httpie/cli](https://github.com/httpie/cli) | 🥧 HTTPie CLI  — modern, user-friendly command-line HTTP client for the API era. JSON support, colors... | 38.7k | Python |
 | [OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification) | The OpenAPI Specification Repository | 31.2k | Markdown |
 
 _Last updated: October 04, 2026_
+
 
 
 
