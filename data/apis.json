@@ -9611,6 +9611,18 @@
           "last_checked": "2025-09-08T16:47:43.524503"
         },
         {
+          "name": "Invokely",
+          "description": "Query official statistics by indicator and place; each value includes its period, unit, and source citation",
+          "url": "https://invokely.ai/docs",
+          "category": "Government",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "popularity": 50,
+          "status": "active",
+          "last_checked": "2026-10-11T21:44:50.000000"
+        },
+        {
           "name": "Istanbul (\u0130BB) Open Data",
           "description": "Data sets from the \u0130stanbul Metropolitan Municipality (\u0130BB)",
           "url": "https://data.ibb.gov.tr",
@@ -17227,7 +17239,7 @@
     }
   ],
   "metadata": {
-    "total_apis": 1413,
+    "total_apis": 1418,
     "last_updated": "2025-09-08T16:47:43.714978"
   }
 }

@@ -748,7 +748,7 @@ APIs for geocoding related services
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
 <a id="government"></a>
-### 🏛️ Government ![86 APIs](https://img.shields.io/badge/86-APIs-brightgreen)
+### 🏛️ Government ![87 APIs](https://img.shields.io/badge/87-APIs-brightgreen)
 APIs for government related services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -786,6 +786,7 @@ APIs for government related services
 | <a href="https://www.huduser.gov/portal/dataset/fmr-api.html" target="_blank">HUD Fair Market Rents & Income Limits</a> | Official US HUD Fair Market Rents and Income Limits by county and metro area | apiKey | Yes | unknown |
 | <a href="http://iinei.inei.gob.pe/microdatos/" target="_blank">INEI</a> | Peruvian Statistical Government Open Data | none | No | unknown |
 | <a href="https://interpol.api.bund.dev/" target="_blank">Interpol Red Notices</a> | Access and search Interpol Red Notices | none | Yes | unknown |
+| <a href="https://invokely.ai/docs" target="_blank">Invokely</a> | Query official statistics by indicator and place; each value includes its period, unit, and source citation | apiKey | Yes | yes |
 | <a href="https://data.ibb.gov.tr" target="_blank">Istanbul (İBB) Open Data</a> | Data sets from the İstanbul Metropolitan Municipality (İBB) | none | Yes | unknown |
 | <a href="https://www.nps.gov/subjects/developer/" target="_blank">National Park Service, US</a> | Data from the US National Park Service | `apiKey` | Yes | yes |
 | <a href="https://www.data.act.gov.au/" target="_blank">Open Government, ACT</a> | Australian Capital Territory Open Data | none | Yes | unknown |
@@ -3594,6 +3595,7 @@ Thanks to everyone who has contributed APIs and improvements to this collection:
 - [@connerlambden](https://github.com/connerlambden) — added BGPT (Science & Math)
 - [@bensynapse](https://github.com/bensynapse) — added Live Tennis API (Sports & Fitness)
 - [@farhannk17](https://github.com/farhannk17) — added HUD Fair Market Rents & Income Limits (Government)
+- [@estevecastells](https://github.com/estevecastells) — added Invokely (Government)
 
 Want to see your name here? [Open a pull request](https://github.com/gunjanjaswal/awesome-public-free-apis/pulls) or [submit an issue](https://github.com/gunjanjaswal/awesome-public-free-apis/issues).
 
