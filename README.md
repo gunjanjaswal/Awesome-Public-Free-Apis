@@ -1694,13 +1694,14 @@ This section is automatically updated daily with trending API-specific repositor
 | Repository | Description | Stars | Language |
 | --- | --- | --- | --- |
 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | 488.1k | Python |
-| [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 155.3k | Python |
+| [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 155.4k | Python |
 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The... | 137.2k | Python |
 | [earendil-works/pi](https://github.com/earendil-works/pi) | AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI | 114.7k | TypeScript |
 | [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 103.1k | Python |
 | [neovim/neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 103.0k | Vim Script |
 
 _Last updated: October 13, 2026_
+
 
 
 
@@ -2650,6 +2651,7 @@ This section is automatically updated daily with trending API-related repositori
 | [OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification) | The OpenAPI Specification Repository | 31.2k | Markdown |
 
 _Last updated: October 13, 2026_
+
 
 
 
