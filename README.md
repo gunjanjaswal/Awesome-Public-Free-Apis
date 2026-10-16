@@ -884,7 +884,7 @@ APIs for health related services
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
 <a id="jobs"></a>
-### 💼 Jobs ![17 APIs](https://img.shields.io/badge/17-APIs-brightgreen)
+### 💼 Jobs ![17 APIs](https://img.shields.io/badge/18-APIs-brightgreen)
 APIs for jobs related services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -906,6 +906,7 @@ APIs for jobs related services
 | <a href="https://developer.usajobs.gov/" target="_blank">USAJOBS</a> | US government job board | `apiKey` | Yes | unknown |
 | <a href="https://www.whatjobs.com/affiliates" target="_blank">WhatJobs</a> | Job search engine | `apiKey` | Yes | unknown |
 | <a href="https://www.ziprecruiter.com/publishers" target="_blank">ZipRecruiter</a> | Job search app and website | `apiKey` | Yes | unknown |
+| <a href="https://carejobs.now/data" target="_blank">CareJobs.Now</a> | Free US healthcare job board: open jobs and posted pay | none | Yes | yes |
 
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>

@@ -10821,6 +10821,18 @@
           "popularity": 85,
           "status": "active",
           "last_checked": "2025-09-08T16:47:43.525827"
+        },
+        {
+          "name": "CareJobs.Now",
+          "description": "Free US healthcare job board: open jobs and posted pay from 270 hospital and health-system career sites",
+          "url": "https://carejobs.now/data",
+          "category": "Jobs",
+          "auth": "none",
+          "https": true,
+          "cors": "yes",
+          "popularity": 50,
+          "status": "active",
+          "last_checked": "2026-10-16T11:30:00"
         }
       ]
     },
