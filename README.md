@@ -884,7 +884,7 @@ APIs for health related services
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
 <a id="jobs"></a>
-### 💼 Jobs ![17 APIs](https://img.shields.io/badge/18-APIs-brightgreen)
+### 💼 Jobs ![18 APIs](https://img.shields.io/badge/18-APIs-brightgreen)
 APIs for jobs related services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -906,7 +906,7 @@ APIs for jobs related services
 | <a href="https://developer.usajobs.gov/" target="_blank">USAJOBS</a> | US government job board | `apiKey` | Yes | unknown |
 | <a href="https://www.whatjobs.com/affiliates" target="_blank">WhatJobs</a> | Job search engine | `apiKey` | Yes | unknown |
 | <a href="https://www.ziprecruiter.com/publishers" target="_blank">ZipRecruiter</a> | Job search app and website | `apiKey` | Yes | unknown |
-| <a href="https://carejobs.now/data" target="_blank">CareJobs.Now</a> | Free US healthcare job board: open jobs and posted pay | none | Yes | yes |
+| <a href="https://carejobs.now/data" target="_blank">CareJobs.Now</a> | Free US healthcare job board: open jobs and posted pay from 270 hospital and health-system career sites | none | Yes | yes |
 
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
@@ -1694,14 +1694,15 @@ This section is automatically updated daily with trending API-specific repositor
 
 | Repository | Description | Stars | Language |
 | --- | --- | --- | --- |
-| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | 489.2k | Python |
-| [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 155.8k | Python |
-| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The... | 137.8k | Python |
-| [browser-use/browser-use](https://github.com/browser-use/browser-use) | Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hos... | 118.1k | Python |
-| [earendil-works/pi](https://github.com/earendil-works/pi) | AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI | 115.5k | TypeScript |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | 489.4k | Python |
+| [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 155.9k | Python |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The... | 137.9k | Python |
+| [browser-use/browser-use](https://github.com/browser-use/browser-use) | Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hos... | 118.2k | Python |
+| [earendil-works/pi](https://github.com/earendil-works/pi) | AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI | 115.7k | TypeScript |
 | [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 103.1k | Python |
 
 _Last updated: October 16, 2026_
+
 
 
 
@@ -2658,6 +2659,7 @@ This section is automatically updated daily with trending API-related repositori
 | [OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification) | The OpenAPI Specification Repository | 31.3k | Markdown |
 
 _Last updated: October 16, 2026_
+
 
 
 
