@@ -3619,6 +3619,7 @@ Thanks to everyone who has contributed APIs and improvements to this collection:
 - [@connerlambden](https://github.com/connerlambden) — added BGPT (Science & Math)
 - [@bensynapse](https://github.com/bensynapse) — added Live Tennis API (Sports & Fitness)
 - [@farhannk17](https://github.com/farhannk17) — added HUD Fair Market Rents & Income Limits (Government)
+- [@yumaheymans](https://github.com/yumaheymans) — added CareJobs.Now (Jobs)
 
 Want to see your name here? [Open a pull request](https://github.com/gunjanjaswal/awesome-public-free-apis/pulls) or [submit an issue](https://github.com/gunjanjaswal/awesome-public-free-apis/issues).
 
