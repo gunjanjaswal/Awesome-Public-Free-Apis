@@ -1613,6 +1613,17 @@
           "last_checked": "2025-09-08T16:47:43.518396"
         },
         {
+          "name": "CurlShot",
+          "description": "Screenshot API: render any URL as PNG, JPEG, WebP or PDF, free plan of 100 screenshots/month",
+          "url": "https://curlshot.com/docs",
+          "category": "Development",
+          "auth": "`apiKey`",
+          "https": true,
+          "cors": "yes",
+          "popularity": 85,
+          "status": "active"
+        },
+        {
           "name": "Databricks",
           "description": "Service to manage your databricks account,clusters, notebooks, jobs and workspaces",
           "url": "https://docs.databricks.com/dev-tools/api/latest/index.html",
