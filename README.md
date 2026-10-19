@@ -458,7 +458,7 @@ APIs for environment related services
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
 <a id="finance"></a>
-### 💵 Finance ![45 APIs](https://img.shields.io/badge/45-APIs-brightgreen)
+### 💵 Finance ![45 APIs](https://img.shields.io/badge/46-APIs-brightgreen)
 APIs for finance related services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -508,6 +508,7 @@ APIs for finance related services
 | <a href="https://www.yahoofinanceapi.com/" target="_blank">Yahoo Finance</a> | Real time low latency Yahoo Finance API for stock market, crypto currencies, and currency exchange | `apiKey` | Yes | yes |
 | <a href="https://api.youneedabudget.com/" target="_blank">YNAB</a> | Budgeting & Planning | `OAuth` | Yes | yes |
 | <a href="https://www.zoho.com/books/api/v3/" target="_blank">Zoho Books</a> | Online accounting software, built for your business | `OAuth` | Yes | unknown |
+| <a href="https://equibles.com/docs/api" target="_blank">Equibles</a> | Hosted MCP server and REST API for US stock data: SEC filings, financial statements, earnings call transcripts, insider and congressional trades, 13F holdings | `apiKey` | Yes | yes |
 
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
