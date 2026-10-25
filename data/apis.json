@@ -13649,6 +13649,18 @@
           "last_checked": "2025-09-08T16:47:43.529197"
         },
         {
+          "name": "BirkinBagStock",
+          "description": "Independent Hermès resale prices and inventory",
+          "url": "https://birkinbagstock.com/.well-known/openapi.json",
+          "category": "Shopping",
+          "auth": "none",
+          "https": true,
+          "cors": "yes",
+          "popularity": 0,
+          "status": "active",
+          "last_checked": "2026-10-25T05:33:54.302073+00:00"
+        },
+        {
           "name": "Digi-Key",
           "description": "Retrieve price and inventory of electronic components as well as place orders",
           "url": "https://www.digikey.com/en/resources/api-solutions",

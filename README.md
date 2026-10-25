@@ -1293,12 +1293,13 @@ APIs for security related services
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
 <a id="shopping"></a>
-### 🛍️ Shopping ![14 APIs](https://img.shields.io/badge/14-APIs-brightgreen)
+### 🛍️ Shopping ![15 APIs](https://img.shields.io/badge/15-APIs-brightgreen)
 APIs for shopping related services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
 | :--- | :--- | :---: | :---: | :---: |
 | <a href="https://bestbuyapis.github.io/api-documentation/#overview" target="_blank">Best Buy</a> | Products, Buying Options, Categories, Recommendations, Stores and Commerce | `apiKey` | Yes | unknown |
+| <a href="https://birkinbagstock.com/.well-known/openapi.json" target="_blank">BirkinBagStock</a> | Independent Hermès resale prices and inventory | none | Yes | yes |
 | <a href="https://www.digikey.com/en/resources/api-solutions" target="_blank">Digi-Key</a> | Retrieve price and inventory of electronic components as well as place orders | `OAuth` | Yes | unknown |
 | <a href="https://dummyproducts-api.herokuapp.com/" target="_blank">Dummy Products</a> | An api to fetch dummy e-commerce products JSON data with placeholder images | `apiKey` | Yes | yes |
 | <a href="https://developer.ebay.com/" target="_blank">eBay</a> | Sell and Buy on eBay | `OAuth` | Yes | unknown |
