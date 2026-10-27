@@ -1116,13 +1116,14 @@ APIs for patent related services
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
 <a id="personality"></a>
-### 😎 Personality ![23 APIs](https://img.shields.io/badge/23-APIs-brightgreen)
+### 😎 Personality ![24 APIs](https://img.shields.io/badge/24-APIs-brightgreen)
 APIs for personality related services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
 | :--- | :--- | :---: | :---: | :---: |
 | <a href="http://api.adviceslip.com/" target="_blank">Advice Slip</a> | Generate random advice slips | none | Yes | unknown |
 | <a href="https://biriyani.anoram.com/" target="_blank">Biriyani As A Service</a> | Biriyani images placeholder | none | Yes | no |
+| <a href="https://bucketlist.nl/brand/droom-van-de-dag.openapi.json" target="_blank">Bucketlist.nl Dream of the Day</a> | Daily bucket-list experience ideas in five languages, with source URLs and no API key | none | Yes | yes |
 | <a href="https://developers.forem.com/api" target="_blank">Dev.to</a> | Access Forem articles, users and other resources via API | `apiKey` | Yes | unknown |
 | <a href="https://github.com/fisenkodv/dictum" target="_blank">Dictum</a> | API to get access to the collection of the most inspiring expressions of mankind | none | Yes | unknown |
 | <a href="https://favqs.com/api" target="_blank">FavQs.com</a> | FavQs allows you to collect, discover and share your favorite quotes | `apiKey` | Yes | unknown |

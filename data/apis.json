@@ -12107,6 +12107,17 @@
           "last_checked": "2025-09-08T16:47:43.527478"
         },
         {
+          "name": "Bucketlist.nl Dream of the Day",
+          "description": "Daily bucket-list experience ideas in five languages, with source URLs and no API key",
+          "url": "https://bucketlist.nl/brand/droom-van-de-dag.openapi.json",
+          "category": "Personality",
+          "auth": "none",
+          "https": true,
+          "cors": "yes",
+          "status": "active",
+          "last_checked": "2026-10-27T17:52:20.802Z"
+        },
+        {
           "name": "Dev.to",
           "description": "Access Forem articles, users and other resources via API",
           "url": "https://developers.forem.com/api",
@@ -17239,7 +17250,7 @@
     }
   ],
   "metadata": {
-    "total_apis": 1418,
-    "last_updated": "2025-09-08T16:47:43.714978"
+    "total_apis": 1419,
+    "last_updated": "2026-10-27T18:01:32.563Z"
   }
 }
