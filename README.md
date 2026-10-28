@@ -1679,7 +1679,7 @@ APIs for weather related services
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
-_API Categories last updated: October 27, 2026_
+_API Categories last updated: October 28, 2026_
 
 **API Update Schedule:**
 - Weekly API Status Checks (Next: November 01, 2026)
@@ -1694,14 +1694,15 @@ This section is automatically updated daily with trending API-specific repositor
 
 | Repository | Description | Stars | Language |
 | --- | --- | --- | --- |
-| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | 492.5k | Python |
-| [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 156.9k | Python |
-| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The... | 143.4k | Python |
-| [browser-use/browser-use](https://github.com/browser-use/browser-use) | Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hos... | 119.2k | Python |
-| [earendil-works/pi](https://github.com/earendil-works/pi) | AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI | 118.1k | TypeScript |
-| [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI framework, high performance, easy to learn, fast to code, ready for production | 104.2k | Python |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | 492.8k | Python |
+| [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 157.0k | Python |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The... | 143.6k | Python |
+| [browser-use/browser-use](https://github.com/browser-use/browser-use) | Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hos... | 119.3k | Python |
+| [earendil-works/pi](https://github.com/earendil-works/pi) | AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI | 118.4k | TypeScript |
+| [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, ... | 105.1k | Python |
 
-_Last updated: October 27, 2026_
+_Last updated: October 28, 2026_
+
 
 
 
@@ -2685,7 +2686,8 @@ This section is automatically updated daily with trending API-related repositori
 | [httpie/cli](https://github.com/httpie/cli) | 🥧 HTTPie CLI  — modern, user-friendly command-line HTTP client for the API era. JSON support, colors... | 38.7k | Python |
 | [OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification) | The OpenAPI Specification Repository | 31.3k | Markdown |
 
-_Last updated: October 27, 2026_
+_Last updated: October 28, 2026_
+
 
 
 
