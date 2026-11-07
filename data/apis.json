@@ -4269,6 +4269,18 @@
           "popularity": 85,
           "status": "active",
           "last_checked": "2025-09-08T16:47:43.516271"
+        },
+        {
+          "name": "Datacircle",
+          "description": "Find the best GTM APIs. We benchmark all the GTM APIs and we put the results on our website.",
+          "url": "https://api.datacircle.dev/v1",
+          "category": "Business",
+          "auth": "none",
+          "https": true,
+          "cors": "yes",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2026-11-07T00:50:00"
         }
       ]
     },
