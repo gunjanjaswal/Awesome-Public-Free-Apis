@@ -4269,6 +4269,18 @@
           "popularity": 85,
           "status": "active",
           "last_checked": "2025-09-08T16:47:43.516271"
+        },
+        {
+          "name": "LeadMerlin",
+          "description": "Local business leads from Google Maps with owner names, checked emails and website tech stack; 100 free credits",
+          "url": "https://leadmerlin.com/docs/",
+          "category": "Business",
+          "auth": "`apiKey`",
+          "https": true,
+          "cors": "yes",
+          "popularity": 50,
+          "status": "active",
+          "last_checked": "2026-11-10T09:00:00"
         }
       ]
     },

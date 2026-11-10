@@ -88,7 +88,7 @@ APIs for authentication related services
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>
 
 <a id="business"></a>
-### 💼 Business ![22 APIs](https://img.shields.io/badge/22-APIs-brightgreen)
+### 💼 Business ![22 APIs](https://img.shields.io/badge/23-APIs-brightgreen)
 APIs for business related services
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
@@ -100,6 +100,7 @@ APIs for business related services
 | <a href="https://developers.google.com/gmail/api/" target="_blank">Gmail</a> | Flexible, RESTful access to the user's inbox | `OAuth` | Yes | unknown |
 | <a href="https://developers.google.com/analytics/" target="_blank">Google Analytics</a> | Collect, configure and analyze your data to reach the right audience | `OAuth` | Yes | unknown |
 | <a href="https://instatus.com/help/api" target="_blank">Instatus</a> | Post to and update maintenance and incidents on your status page through an HTTP REST API | `apiKey` | Yes | unknown |
+| <a href="https://leadmerlin.com/docs/" target="_blank">LeadMerlin</a> | Local business leads from Google Maps with owner names, checked emails and website tech stack; 100 free credits | `apiKey` | Yes | yes |
 | <a href="https://mailchimp.com/developer/" target="_blank">Mailchimp</a> | Send marketing campaigns and transactional mails | `apiKey` | Yes | unknown |
 | <a href="https://www.mailjet.com/" target="_blank">mailjet</a> | Marketing email can be sent and mail templates made in MJML or HTML can be sent using API | `apiKey` | Yes | unknown |
 | <a href="https://markerapi.com" target="_blank">markerapi</a> | Trademark Search | none | No | unknown |
