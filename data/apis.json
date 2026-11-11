@@ -845,6 +845,18 @@
           "last_checked": "2025-09-08T16:47:43.515178"
         },
         {
+          "name": "FaviconDL",
+          "description": "Extract a website's favicon as JSON or PNG/ICO (16-512px), no key",
+          "url": "https://favicondl.com/documentation.html",
+          "category": "Development",
+          "auth": "none",
+          "https": true,
+          "cors": "yes",
+          "popularity": 60,
+          "status": "active",
+          "last_checked": "2026-11-11T10:40:00"
+        },
+        {
           "name": "Iconfinder",
           "description": "Icons",
           "url": "https://developer.iconfinder.com",
