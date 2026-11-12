@@ -1370,7 +1370,7 @@ APIs for social related services
 ### ⚽ Sports & Fitness ![100 APIs](https://img.shields.io/badge/100-APIs-brightgreen)
 APIs for sports & fitness related services
 
-*Note: Showing 100 of 101 APIs in this category.*
+*Note: Showing 100 of 102 APIs in this category.*
 
 | 🔌 API | 📝 Description | 🔑 Auth | 🔒 HTTPS | 🌐 CORS |
 | :--- | :--- | :---: | :---: | :---: |
@@ -1433,6 +1433,7 @@ APIs for sports & fitness related services
 | <a href="https://doc.navitia.io/" target="_blank">Navitia</a> | The open API for building cool stuff with transport data | `apiKey` | Yes | unknown |
 | <a href="https://openchargemap.org/site/develop/api" target="_blank">Open Charge Map</a> | Global public registry of electric vehicle charging locations | `apiKey` | Yes | yes |
 | <a href="https://opensky-network.org/apidoc/index.html" target="_blank">OpenSky Network</a> | Free real-time ADS-B aviation data | none | Yes | unknown |
+| <a href="https://pinnfeed.io/docs" target="_blank">PinnFeed</a> | Real-time Pinnacle odds over WebSocket and REST, with no-vig fair odds and closing lines | `apiKey` | Yes | yes |
 | <a href="https://www.digital.sncf.com/startup/api" target="_blank">Railway Transport for France</a> | SNCF public API | `apiKey` | Yes | unknown |
 | <a href="https://www.refugerestrooms.org/api/docs/#!/restrooms" target="_blank">REFUGE Restrooms</a> | Provides safe restroom access for transgender, intersex and gender nonconforming individuals | none | Yes | unknown |
 | <a href="https://developer.sabre.com/guides/travel-agency/quickstart/getting-started-in-travel" target="_blank">Sabre for Developers</a> | Travel Search - Limited usage | `apiKey` | Yes | unknown |
@@ -1473,7 +1474,6 @@ APIs for sports & fitness related services
 | <a href="https://developer.wmata.com/" target="_blank">Transport for Washington, US</a> | Washington Metro transport API | `OAuth` | Yes | unknown |
 | <a href="https://transport.rest" target="_blank">transport.rest</a> | Community maintained, developer-friendly public transport API | none | Yes | yes |
 | <a href="https://developer-tripadvisor.com/home/" target="_blank">Tripadvisor</a> | Rating content for a hotel, restaurant, attraction or destination | `apiKey` | Yes | unknown |
-| <a href="https://developer.uber.com/products" target="_blank">Uber</a> | Uber ride requests and price estimation | `OAuth` | Yes | yes |
 
 
 <div align="center"><hr style="height:2px;border-width:0;color:rainbow;background-color:rainbow"></div>

@@ -15004,6 +15004,18 @@
           "last_checked": "2025-09-08T16:47:43.531272"
         },
         {
+          "name": "PinnFeed",
+          "description": "Real-time Pinnacle odds over WebSocket and REST, with no-vig fair odds and closing lines",
+          "url": "https://pinnfeed.io/docs",
+          "category": "Sports & Fitness",
+          "auth": "`apiKey`",
+          "https": true,
+          "cors": "yes",
+          "popularity": 85,
+          "status": "active",
+          "last_checked": "2026-11-12T09:23:39.000000"
+        },
+        {
           "name": "Railway Transport for France",
           "description": "SNCF public API",
           "url": "https://www.digital.sncf.com/startup/api",
@@ -17239,7 +17251,7 @@
     }
   ],
   "metadata": {
-    "total_apis": 1418,
+    "total_apis": 1419,
     "last_updated": "2025-09-08T16:47:43.714978"
   }
 }
