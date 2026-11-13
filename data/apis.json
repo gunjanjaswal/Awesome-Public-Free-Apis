@@ -852,7 +852,7 @@
           "auth": "none",
           "https": true,
           "cors": "yes",
-          "popularity": 60,
+          "popularity": 0,
           "status": "active",
           "last_checked": "2026-11-11T10:40:00"
         },
