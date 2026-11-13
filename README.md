@@ -369,6 +369,7 @@ APIs for development related services
 | <a href="https://pro.europeana.eu/resources/apis/search" target="_blank">Europeana</a> | European Museum and Galleries content | `apiKey` | Yes | unknown |
 | <a href="https://github.com/harvardartmuseums/api-docs" target="_blank">Harvard Art Museums</a> | Art | `apiKey` | No | unknown |
 | <a href="https://icon.horse" target="_blank">Icon Horse</a> | Favicons for any website, with fallbacks | none | Yes | yes |
+| <a href="https://favicondl.com/documentation.html" target="_blank">FaviconDL</a> | Extract a website's favicon as JSON or PNG/ICO (16-512px), no key | none | Yes | yes |
 | <a href="https://developer.iconfinder.com" target="_blank">Iconfinder</a> | Icons | `apiKey` | Yes | unknown |
 | <a href="https://img.icons8.com/" target="_blank">Icons8</a> | Icons (find "search icon" hyperlink in page) | none | Yes | unknown |
 | <a href="https://lordicon.com/" target="_blank">Lordicon</a> | Icons with predone Animations | none | Yes | yes |
