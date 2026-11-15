@@ -16868,6 +16868,18 @@
           "popularity": 85,
           "status": "active",
           "last_checked": "2025-09-08T16:47:43.532681"
+        },
+        {
+          "name": "GetYouTubeTranscript",
+          "description": "YouTube video transcripts with timestamps, video search and channel or playlist video lists",
+          "url": "https://getyoutubetranscript.com/docs",
+          "category": "Video",
+          "auth": "`apiKey`",
+          "https": true,
+          "cors": "no",
+          "popularity": 70,
+          "status": "active",
+          "last_checked": "2026-11-15T12:00:00.000000"
         }
       ]
     },
