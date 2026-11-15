@@ -976,6 +976,7 @@ APIs for music related services
 | <a href="https://bandcamp.com/developer" target="_blank">Bandcamp</a> | API of Music store Bandcamp | `OAuth` | Yes | unknown |
 | <a href="https://app.swaggerhub.com/apis/Bandsintown/PublicAPI/3.0.0" target="_blank">Bandsintown</a> | Music Events | none | Yes | unknown |
 | <a href="https://developers.deezer.com/api" target="_blank">Deezer</a> | Music | `OAuth` | Yes | unknown |
+| <a href="https://nostairsplease.com/mcp" target="_blank">No Stairs Please</a> | US live music venue directory & remote MCP server (38,000+ rooms) | `OAuth` | Yes | yes |
 | <a href="https://www.discogs.com/developers/" target="_blank">Discogs</a> | Music | `OAuth` | Yes | unknown |
 | <a href="https://freesound.org/docs/api/" target="_blank">Freesound</a> | Music Samples | `apiKey` | Yes | unknown |
 | <a href="https://github.com/cyberboysumanjay/GaanaAPI" target="_blank">Gaana</a> | API to retrieve song information from Gaana | none | Yes | unknown |
