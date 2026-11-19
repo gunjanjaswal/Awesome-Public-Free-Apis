@@ -591,6 +591,7 @@ APIs for games & comics related services
 | <a href="https://github.com/sameerkumar18/geek-joke-api" target="_blank">Geek-Jokes</a> | Fetch a random geeky/programming related joke for use in all sorts of applications | none | Yes | yes |
 | <a href="https://genshin.dev" target="_blank">Genshin Impact</a> | Genshin Impact game data | none | Yes | yes |
 | <a href="https://www.giantbomb.com/api/documentation" target="_blank">Giant Bomb</a> | Video Games | `apiKey` | Yes | unknown |
+| <a href="https://gocdkey.nl/data" target="_blank">Gocdkey</a> | Dutch PC and console game offers, prices, and recent discounts in EUR | none | Yes | yes |
 | <a href="https://github.com/favware/graphql-pokemon" target="_blank">GraphQL Pokemon</a> | GraphQL powered Pokemon API. Supports generations 1 through 8 | none | Yes | yes |
 | <a href="https://wiki.guildwars2.com/wiki/API:Main" target="_blank">Guild Wars 2</a> | Guild Wars 2 Game Information | `apiKey` | Yes | unknown |
 | <a href="https://github.com/rubensayshi/gw2spidy/wiki" target="_blank">GW2Spidy</a> | GW2Spidy API, Items data on the Guild Wars 2 Trade Market | none | Yes | unknown |
