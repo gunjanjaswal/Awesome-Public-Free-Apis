@@ -14195,6 +14195,28 @@
           "last_checked": "2025-09-08T16:47:43.529721"
         },
         {
+          "name": "Social Fetch",
+          "description": "Pay as you go API for public posts, profiles, comments and transcripts from TikTok, Instagram, YouTube, X, Reddit and LinkedIn.",
+          "url": "https://www.socialfetch.dev/docs",
+          "category": "Social",
+          "auth": "`apiKey`",
+          "https": true,
+          "cors": "yes",
+          "popularity": 85,
+          "status": "active"
+        },
+
+
+
+
+
+
+
+
+
+
+
+        {
           "name": "TamTam",
           "description": "Bot API to interact with TamTam",
           "url": "https://dev.tamtam.chat/",
